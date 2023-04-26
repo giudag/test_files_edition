@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+
+   <!-- IN QUESTO FILE TUTTE LE CATEGORIE RAGGRUPPATE IN SPAN, PROVA CON VERSI NUMERATI E ID -->
+
+   <standOff>
+
+      <!-- QUI I MACRO EPISODI -->
+
+      <spanGrp xml:id="episode_macro">
+
+
+         <!-- V -->
+
+         <span from="#V_Darius_letter_gifts_start" to="#V_Darius_letter_gifts_end"
+            xml:id="V_Darius_letter_gifts" corresp="#S_Darius_letter_gifts #B_Darius_letter_gifts"
+            >Darius sends Alexander a letter and three mocking gifts</span>
+
+         <span from="#V_Alexander_reaction_start" to="#V_Alexander_reaction_end"
+            xml:id="V_Alexander_reaction" corresp="#S_Alexander_reaction #B_Alexander_reaction"
+            >Alexander reacts to Darius's letters and gifts</span>
+
+         <span from="#V_Bucephalus_start" to="#V_Bucephalus_end" xml:id="V_Bucephalus"
+            corresp="#S_Bucephalus #B_Bucephalus">Alexander tames the horse Bucephalus</span>
+
+         <!-- S -->
+
+         <span from="#S_Darius_letter_gifts_start" to="#S_Darius_letter_gifts_end"
+            xml:id="S_Darius_letter_gifts" corresp="#V_Darius_letter_gifts #B_Darius_letter_gifts"
+            >Darius sends Alexander a letter and three mocking gifts</span>
+
+         <span from="#S_Alexander_reaction_start" to="#S_Alexander_reaction_end"
+            xml:id="S_Alexander_reaction" corresp="#V_Alexander_reaction #B_Alexander_reaction"
+            >Alexander reacts to Darius's letters and gifts</span>
+
+         <span from="#S_Bucephalus_start" to="#S_Bucephalus_end" xml:id="S_Bucephalus"
+            corresp="#V_Bucephalus #B_Bucephalus">Alexander tames the horse Bucephalus</span>
+
+         <!-- B -->
+
+
+         <span from="#B_Darius_letter_gifts_start" to="#B_Darius_letter_gifts_end"
+            xml:id="B_Darius_letter_gifts" corresp="#V_Darius_letter_gifts #S_Darius_letter_gifts"
+            >Darius sends Alexander a letter and three mocking gifts</span>
+
+         <span from="#B_Alexander_reaction_start" to="#B_Alexander_reaction_end"
+            xml:id="B_Alexander_reaction" corresp="#V_Alexander_reaction #S_Alexander_reaction"
+            >Alexander reacts to Darius's letters and gifts</span>
+
+         <span from="#B_Bucephalus_start" to="#B_Bucephalus_end" xml:id="B_Bucephalus"
+            corresp="#V_Bucephalus #S_Bucephalus">Alexander tames the horse Bucephalus</span>
+
+
+      </spanGrp>
+
+      <!-- QUI I DISCORSI DIRETTI -->
+
+      <spanGrp xml:id="direct_speeches">
+
+         <!-- V -->
+
+
+         <span from="#V_messengerDarius_Alexander_start" to="#V_messengerDarius_Alexander_end"
+            xml:id="V_messengerDarius_Alexander"
+            corresp="#S_messengerDarius_Alexander #B_messengerDarius_Alexander">One of Darius's
+            messengers tries to tone down Alexander's rage</span>
+
+
+         <span from="#V_Alexander_messengersDarius_start" to="#V_Alexander_messengersDarius_end"
+            xml:id="V_Alexander_messengersDarius"
+            corresp="#S_Alexander_messengersDarius #B_Alexander_messengersDarius">Alexander
+            interprets the three gifts</span>
+
+
+         <span from="#V_messenger_Bucephalus_start" to="#V_messenger_Bucephalus_end"
+            xml:id="V_messenger_Bucephalus"
+            corresp="#?">Bucephalus's messenger tells
+            the profecy concerning the horse</span>
+
+         <span from="#V_Alexander_stableBoys_start" to="#V_Alexander_stableBoys_end"
+            xml:id="V_Alexander_stableBoys"
+            corresp="#S_Alexander_stableBoys #B_Alexander_stableBoys">Alexander hears noises from
+            the stable and wonders</span>
+
+         <span from="#V_Ptolemy_Alexander_start" to="#V_Ptolemy_Alexander_end"
+            xml:id="V_Ptolemy_Alexander" corresp="#S_Ptolemy_Alexander #B_Ptolemy_Alexander">Ptolemy
+            explains that the noise comes from the new horse Bucephalus</span>
+
+
+
+         <!-- S -->
+
+         <span from="#S_Darius_monologue_start" to="#S_Darius_monologue_end"
+            xml:id="S_Darius_monologue" corresp="NIENTE">Darius badmouths Alexander and wishes him
+            dead</span>
+
+         <span from="#S_messengerDarius_Alexander_start" to="#S_messengerDarius_Alexander_end"
+            xml:id="S_messengerDarius_Alexander"
+            corresp="#V_messengerDarius_Alexander #B_messengerDarius_Alexander">One of Darius's
+            messengers tries to tone down Alexander's rage</span>
+
+         <span from="#S_Alexander_messengersDarius_start" to="#S_Alexander_messengersDarius_end"
+            xml:id="S_Alexander_messengersDarius"
+            corresp="#V_Alexander_messengersDarius #B_Alexander_messengersDarius">Alexander
+            interprets the three gifts</span>
+
+
+         <!-- B -->
+
+         <span from="#B_messengerDarius_Alexander_start" to="#B_messengerDarius_Alexander_end"
+            xml:id="B_messengerDarius_Alexander"
+            corresp="#V_messengerDarius_Alexander #S_messengerDarius_Alexander">One of Darius's
+            messengers tries to tone down Alexander's rage</span>
+
+
+         <span from="#B_Alexander_messengersDarius_start" to="#B_Alexander_messengersDarius_end"
+            xml:id="B_Alexander_messengersDarius"
+            corresp="#V_Alexander_messengersDarius #S_Alexander_messengersDarius">Alexander
+            interprets the three gifts</span>
+
+         <span from="#B_Philip_Bucephalus_start" to="#B_Philip_Bucephalus_end"
+            xml:id="B_Philip_Bucephalus" corresp="NIENTE">King Philip names the horse
+            Bucephalus</span>
+         
+         <span from="#B_Alexander_stableBoys_start" to="#B_Alexander_stableBoys_end"
+            xml:id="B_Alexander_stableBoys"
+            corresp="#V_Alexander_stableBoys #S_Alexander_stableBoys">Alexander hears noises from
+            the stable and wonders</span>
+         
+         <span from="#B_Ptolemy_Alexander_start" to="#B_Ptolemy_Alexander_end"
+            xml:id="B_Ptolemy_Alexander" corresp="#V_Ptolemy_Alexander #S_Ptolemy_Alexander">Ptolemy
+            explains that the noise comes from the new horse Bucephalus</span>
+         
+         <span from="#B_stableBoys_Alexander_start" to="#B_stableBoys_Alexander_end"
+            xml:id="B_stableBoys_Alexander"
+            corresp="NIENTE">Alexander hears noises from
+            the stable and wonders</span>
+
+      </spanGrp>
+
+
+
+
+
+   </standOff>
+
+</TEI>

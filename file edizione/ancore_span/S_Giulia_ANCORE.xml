@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+
+
+
+   <!-- ##############################   S   #################################### -->
+
+   <text xml:id="S">
+      <body>
+         <anchor xml:id="S_Darius_letter_gifts_start"/>
+         <div>
+            <lg>
+               <l>Der rîche kuninc Darius</l>
+               <l>der antworte im alsus:</l>
+               <anchor xml:id="S_Darius_monologue_start"/>
+               <l><said who="#Darius"/>"Der kûne Alexander</l>
+               <l>der tût als ein tumber</l>
+               <l>unde alse ein kindischer man,</l>
+               <l>der sih versinnen nit ne kan.</l>
+               <l>Daz wirt vil lîhte sîn val,</l>
+               <l>wander dar umbe sal</l>
+               <l>sîne êre verliesen</l>
+               <l>oder den bitteren tôt kiesen,</l>
+               <l>er ne vare schiere wider heim."</l>
+               <anchor xml:id="S_Darius_monologue_end"/>
+               <l>Doh wart er des inein,</l>
+               <l>dô er gienc ze râte,</l>
+               <l>daz er ime sante drâte</l>
+               <l>einen guldînen bal</l>
+               <l>scône unde sinewal.</l>
+               <l>Ouh santer ime zehant</l>
+               <l>zwêne hêrlîche scûchbant</l>
+               <l>und ein lutzil goldis in einer laden.</l>
+               <l>Er wânde, daz er ime gescaden</l>
+               <l>mit nihte ne mohte,</l>
+               <l>biz daz erz besûhte.</l>
+               <l>Und hîz von disen drîn sachen</l>
+               <l>einen brief machen,</l>
+               <l>der ime rehte bescheinte,</l>
+               <l>waz dise gâbe meinte.</l>
+            </lg>
+            <lg>
+               <l>Mit dem balle meinter daz,</l>
+               <l>daz ime gezême michilis baz,</l>
+               <l>daz er mit anderen kinden</l>
+               <l>des balles spilen gienge,</l>
+               <l>dan er sîne lûte vienge</l>
+               <l>und di slûge oder hienge.</l>
+               <l>Dar zô meinten die scûchbant,</l>
+               <l>di er ime ouh hete gesant,</l>
+               <l>daz ime Alexander</l>
+               <l>und dar zô manic ander</l>
+               <l>tagelîch dienen solde,</l>
+               <l>alsô vil sô er wolde.</l>
+               <l>ouh meinte daz golt,</l>
+               <l>daz ir vil rehte merken sult,</l>
+               <l>daz sîn vater wêre</l>
+               <l>sîn rehter cinsêre,</l>
+               <l>und daz er ouh solde</l>
+               <l>leben mit dem golde,</l>
+               <l>biz daz er heim quême,</l>
+               <l>und niemanne niht ne nême</l>
+               <l>und ouh schiere heim rite,</l>
+               <l>und ob er iwit lange bite</l>
+               <l>oder tâte wider sînen willen,</l>
+               <l>er hieze in mit besemen villen.</l>
+            </lg>
+         </div>
+         <anchor xml:id="S_Darius_letter_gifts_end"/>
+
+         <anchor xml:id="S_Alexander_reaction_start"/>
+         <div>
+            <lg>
+               <l>Dô Alexander den brieb gelas,</l>
+               <l>vil harte ummêre ime was,</l>
+               <l>daz er in mit besemen wolde slân.</l>
+               <l>sîne boten hiez er alle hân.</l>
+               <l>Der boten einer zô ime sprah:</l>
+               <anchor xml:id="S_messengerDarius_Alexander_start"/>
+               <l><said who="#messengerDarius" toWhom="#Alexander"/>"Hêre, ne tût uns nehein
+                  ungemach;</l>
+               <l>wande daz ne wâre niwit reht,</l>
+               <l>swâ sihein uher kneht</l>
+               <l>uher botescaft tribe,</l>
+               <l>daz er dar umbe tôt blibe.</l>
+               <l>Ne schendet niwit uheren namen.</l>
+               <l>Wir jehen û alle samen,</l>
+               <l>daz under disen kuningen allen</l>
+               <l>neheiner mach zô û gevallen,</l>
+               <l>der mit sulher frumicheite</l>
+               <l>sîn here ubir lant leite,</l>
+               <l>alsir, hêre kuninc, tût.</l>
+               <l>Nû bedwingit uheren mût</l>
+               <l>unde habit unsir mâze.</l>
+               <l>Wî torste wir lâzen,</l>
+               <l>daz unser hêre uns gebôt,</l>
+               <l>durh siheiner slahte nôt!"</l>
+               <anchor xml:id="S_messengerDarius_Alexander_end"/>
+            </lg>
+            <lg>
+               <l>Alexander bedâhte sih,</l>
+               <l>den boten wart er gnêdich.</l>
+               <l>Er ne weiz in niwit durh di scult,</l>
+               <l>er gab in wider daz selbe golt,</l>
+               <l>daz ime von Dario quam.</l>
+               <anchor xml:id="S_Alexander_messengersDarius_start"/>
+               <l>Er sprah:<said who="#Alexander" toWhom="#messengersDarius"/>"Vil ubile daz
+                  gezam,</l>
+               <l>daz mih drowete ze slân</l>
+               <l>Darius uher hêre,</l>
+               <l>waz sol der rede mêre:</l>
+               <l>er ist ein unversunnen man.</l>
+               <l>Er hât glîche getân</l>
+               <l>alse der blôde hovewart.</l>
+               <l>Sulih ist sîn art:</l>
+               <l>swenner nahtes iht vernemet,</l>
+               <l>durh sîne blôdicheit wirt er irgremet,</l>
+               <l>er ne tar dar nâher comen niet,</l>
+               <l>al bellender flîhet.</l>
+               <l>Alsô hât Darius getân.</l>
+               <l>Er ne tar mir niemer bestân,</l>
+               <l>wander ist ein tumber.</l>
+               <l>Er zuckit sih in einen cumber,</l>
+               <l>dâ er nit ûz ne mac comen.</l>
+               <l>Sînen brieb hân ih wol vernomen.</l>
+               <l>Diu gâbe ein ander meinet,</l>
+               <l>dan mir der brief bescheinet.</l>
+            </lg>
+            <lg>
+               <l>Den bal hât er mir gesant,</l>
+               <l>dâ mite hât er mir bekant,</l>
+               <l>daz iz alliz an mir sol stân,</l>
+               <l>daz der himel hât umbevân;</l>
+               <l>und ih hêre sule werden</l>
+               <l>noh an diser erden</l>
+               <l>ubir alle di rîche,</l>
+               <l>di sint in ertrîche,</l>
+               <l>unde ubir alle di lant,</l>
+               <l>di ie wurden genant.</l>
+            </lg>
+            <lg>
+               <l>Er sante mir ouh zwê schûhbant.</l>
+               <l>Dâ mite hât er mir becant</l>
+               <l>daz er sih mir ze eigene wil geben</l>
+               <l>und mit mînen gnâden leben</l>
+               <l>und mîn dienist wille sîn</l>
+               <l>zallen herverten mîn.</l>
+               <l>Mit dem golde, daz ir mir habet brâht,</l>
+               <l>dâ mite hât er gedâht,</l>
+               <l>daz mir eineme daz gezeme,</l>
+               <l>daz ih den zins von ime neme</l>
+               <l>und ouh alle erdische lant</l>
+               <l>bedwinge zô mîner hant."</l><anchor xml:id="S_Alexander_messengersDarius_end"/>
+            </lg>
+         </div>
+         <anchor xml:id="S_Alexander_reaction_end"/>
+
+
+
+         <!-- BUCEPHALUS -->
+         <anchor xml:id="S_Bucephalus_start"/>
+         <div>
+            <lg>
+               <l/>
+            </lg>
+         </div>
+         <anchor xml:id="S_Bucephalus_end"/>
+
+
+
+      </body>
+   </text>
+
+
+
+</TEI>

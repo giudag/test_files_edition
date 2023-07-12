@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+          <p></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+
+   <!-- #####################  QUI LISTA EVENTI  ######################### -->
+
+   <!-- usare rs + puntatore che rimandi agli eventi specifici come battaglie -->
+
+
+   <standOff type="episodes">
+      
+      <listEvent xml:id="episode_macro">
+         
+         <event xml:id="Bucephalus">
+            <label>Alexander tames the horse Bucephalus</label>
+            <desc><!-- HERE WIDER DESCRIPTION OF NARRATIVE UNIT --></desc>
+         </event>
+
+         <event xml:id="Darius_letter_gifts">
+            <label>Darius sends Alexander a letter and three mocking gifts</label>
+            <desc><!-- HERE WIDER DESCRIPTION OF NARRATIVE UNIT --></desc>
+         </event>
+
+         <event xml:id="Alexander_reaction">
+            <label>Alexander reacts to Darius's insulting message</label>
+            <desc><!-- HERE WIDER DESCRIPTION OF NARRATIVE UNIT --></desc>
+         </event>
+
+      </listEvent>
+      
+      
+      <listEvent xml:id="episode_subsection">
+         
+         <event xml:id="Darius_badmouths_Alexander">
+            <label>Darius badmouths Alexander and wishes him dead</label>
+            <desc><!-- HERE WIDER DESCRIPTION OF NARRATIVE UNIT --></desc>
+         </event>
+    
+         
+      </listEvent>
+      
+      
+      
+      <!-- #####################  QUI LISTA PERSONAGGI  ######################### -->
+      
+      
+      <listPerson>
+         <person xml:id="Alexander">
+            <persName ref="http://viaf.org/viaf/88742742">Alexander the Great</persName>
+         </person>
+         
+         <person xml:id="Darius">
+            <persName ref="http://viaf.org/viaf/231805730">Darius III</persName>
+         </person>
+         
+         <person xml:id="messengerBucephalus">
+            <persName>Messenger</persName>
+         </person>
+         
+         <person xml:id="messengerDarius">
+            <persName>Darius's messenger</persName>
+         </person>
+         
+         <person xml:id="messengersDarius">
+            <persName>Darius's messengers</persName>
+         </person>
+         
+         <person xml:id="stableBoys">
+            <persName>Alexander's stable boys</persName>
+         </person>
+         
+         <person xml:id="Philip">
+            <persName>Philip II</persName>
+         </person>
+         
+         <person xml:id="Ptolemy">
+            <persName>Ptolemy</persName>
+         </person>
+         
+      </listPerson>
+      
+      
+      
+   </standOff>
+
+
+
+   <!-- ########################  TESTI   ############################# -->
+
+   <!-- ##############   V   ################# -->
+
+   <text xml:id="V">
+      <body>
+         
+     
+         <div type="episode_macro" xml:id="V_Darius_letter_gifts" corresp="#Darius_letter_gifts">
+            <head>Darius sends Alexander a letter and three mocking gifts</head>
+            <lg>
+               <l>Ain rîcher chunich was Darios.</l> <!-- A in Ain rosso?-->
+               <l>Derwider dâhter alsus:</l>
+               <l>Alexander dûhte in lutzel.</l>
+               <l>Er sante im eines chindes stuzel</l>
+               <l>unde dar zû ein scûhpant,</l>
+               <l>alsô erz in sînem herzen vant,</l>
+               <l>unde ein wênich choldes in einer lade.</l>
+               <l>Er wânde er ime iemer mohte gescaden.</l> <!--secondo er rosso?-->
+               <l>Unt sante im dise drîe sache</l>
+               <l>unt tet des einen brîf machen,</l>
+               <l>daz ez der brîf benante,</l>
+               <l>umbe waz er ime die drîe gebe sante.</l>
+            </lg>
+            <lg>
+               <l>Ain stuzel sante er im umbe daz,</l> <!-- A in Ain rosso?-->
+               <l>daz ime daz stunde michel baz,</l>
+               <l>daz er mit den chinden spilen gienge,</l> <!--daz rosso?-->
+               <l>danner sîne liute cholte oder hienge.</l>
+               <l>Daz bezêchinôt daz scûchpant,</l>
+               <l>daz Alexander wart kesant,</l>
+               <l>daz er ime tagelîchen dienen solte,</l>
+               <l>ob Darios wolte,</l>
+               <l>wanten scûchpant nuzet man tagelîch;</l>
+               <l>daz er dar an bedâchte sich</l>
+               <l>unde lieze sîn irreheit stân</l>
+               <l>unt wâre sîneme hêren undertân,</l>
+               <l>alsô ander sîne forderen teten,</l>
+               <l>die sich nie wider ime gesazten.</l>
+               <l>Daz bezeichnôt daz cholt:</l> <!-- d in daz rosso?-->
+               <l>daz er rehte merchen solt,</l>
+               <l>daz daz ter zins wâre, den ime sîn vater chulte</l>
+               <l>aller jârilîch turch sîne hulde,</l>
+               <l>daz er in des prâcht innin</l>
+               <l>unt fûr im den zins gewinnen;</l>
+               <l>unt daz er des choldes solde leben</l>
+               <l>unde er niemen niuht solte nemen,</l>
+               <l>unz er wider haim chôme;</l>
+               <l>daz er niemen sînes niuht nâme,</l>
+               <l>unde daz er schiere dannen rithe</l>
+               <l>unde niuht langer bite.</l>
+               <l>Unt dêter iwiht mêre wider sînen willen,</l>
+               <l>er hiez in mit dem besemen villen.</l>
+            </lg>
+         </div>
+        
+
+         <div type="episode_macro" xml:id="V_Alexander_reaction" corresp="#Alexander_reaction">
+            <head>Alexander reacts to Darius's insulting message</head>
+            <lg>
+               <l>Unde alsô Alexander den brîf gelas,</l> <!-- U rosso?-->
+               <l>owî wie smâhe ime was,</l>
+               <l>daz man ime trôte ze slahen.</l>
+               <l>Die boten hiez er alle ûfhâhen.</l>
+               <l>Der boten ainer zim sprach:</l>
+               <l><said who="#messengerDarius" toWhom="#Alexander"/>"Hêre, tût uns nehain ungemach;</l>
+               <l>wande ez ne dûcht iuch gnâde noch reht,</l>
+               <l>swâ sô iwer chneht</l>
+               <l>iwer botescaf tribe,</l>
+               <l>daz er drumbe tôt belibe;</l>
+               <l>unde niene scentet iweren namen.</l>
+               <l>Wir jehen des, hêre, alle samt,</l>
+               <l>daz under disen chunigen allen</l>
+               <l>neheiner ziu mach gevallen,</l>
+               <l>der mit alsô grôzer frumicheit</l>
+               <l>sîn here uber lant leit,</l>
+               <l>sô ir, hêre chunich, tût.</l>
+               <l>Nû bedwinget iweren mût</l>
+               <l>unde habet unser mâze.</l>
+               <l>Wande wir getorsten die botscaf nieht lâzen."</l>
+           </lg>
+            
+            
+           <lg>
+               <l>Alexander bedâhte sich,</l> <!-- A in Alex rosso?-->
+               <l>er wart den boten genâdich.</l>
+               <l>Er ne waiz in nieht umbe die scult,</l>
+               <l>er gab in wider daz selbe golt,</l>
+               <l>daz ime von ir hêren bechom.</l>
+               <l>Er sprach:<said who="#Alexander" toWhom="#messengersDarius"/>"Awî wie ubele ich ime des gan,</l>
+               <l>daz mir iwer hêre drowet ze slahen.</l>
+               <l>Er hât gelîche getân</l>
+               <l>alsô der bôse rude toet:</l>
+               <l>des nahtes alsô er iwiht verstêt,</l>
+               <l>sô ne getar er sich dar nâher niuht geziehen,</l>
+               <l>er beginnet ûzwerd flîhen</l>
+               <l>unde wîzet iz alles mit sîner cheln</l> <!--mit rosso?-->
+               <l>und beginnet darwert belen."</l>
+               <l>Er sprach: "Iwers hêren brief mir niuht gevellet,</l>
+               <l>wande er zer gebe niene gehillet.</l>
+               <l>Diu gâbe diu ist lobelîch</l>
+               <l>unt der brief der ist redelîch.</l>
+               <l>Er bezeichenet alle ein ander",</l>
+               <l>sprah der chunig Alexander.</l>
+            </lg>
+            <lg>
+               <l>"Der stuzel, den mir iwer hêre hât gesant,</l> <!-- Der rosso?-->
+               <l>dâmit hât er mir rechte bechant,</l> <!-- te bech rosso?-->
+               <l>daiz allez ane mir sul bestân,</l>
+               <l>swaz sô unter deme himele is betân,</l>
+               <l>unt ich is alles hêre sul werden</l>
+               <l>ûf der scîbligen erde.</l>
+            </lg>
+            <lg> 
+               <l>Den riemen, den er mir sante,</l> <!-- D in Den rosso?-->
+               <l>dâ mite er mir bechante,</l> <!-- mite rosso?-->
+               <l>daz er sich mir zeigen welle geben</l>
+               <l>unt iht in mînen genâden iemer welle leben,</l>
+               <l>daz er mîn dienest welle sîn</l>
+               <l>ze allen herverten mîn.</l>
+               <l>Daz golt, daz ir mir habet prâht,</l>
+               <l>dâ mit habet er mir gesaget,</l>
+               <l>daz iz mir al einem wol gezeme,</l>
+               <l>daz ich den zins von ime neme</l>
+               <l>unde dar zû von allen landen,</l>
+               <l>unde bedwinge die ze mînen handen."</l>
+            </lg>
+           
+            
+         </div>
+         
+         
+         <!-- BUCEPHALUS: INIZIO NUCLEO COMUNE -->
+         
+         
+  
+         
+         
+         <div type="episode_macro" xml:id="V_Bucephalus" corresp="#Bucephalus">
+            <head>Alexander tames the horse Bucephalus</head>
+            <lg>
+               <l><supplied resp="prof">V</supplied>on Philipp<ex>us</ex> stu<ex>o</ex>de wil ich iu sagen:</l>			 
+               <l>dar under wart ein ros getragen, </l>
+               <l>daz was wunderlîch.</l>
+               <l>Iz was irre unt strîtich,</l> 					
+               <l>snel unt ernisthaft</l>
+               <l>fon sîner ges<supplied>c</supplied>ephte joch von sîner chraft.</l>
+               <l>Der munt was im als einem esele getân.</l>
+               <l><gap></gap></l>
+               <l>Sîn ôren wârin im vil lanc,</l>							
+               <l>daz houbet mager unt swanc.</l>
+               <l>Sîn ougen wâri<supplied>n</supplied><supplied>i</supplied>m al der vâre,</l> 
+               <l>alseim flîgenten arn.</l> 							
+               <l>Sîn hals was im lochot</l> 
+               <l>(ich wâne ez wêre lewengeslaehte),</l>					
+               <l>ûf den goffen habtiz rinder hâr,</l> 
+               <l>an sînen sîten liebar<supplied>s</supplied>tes mâl:</l> 
+               <l>sô Sarrizîn noch <supplied>noh</supplied> Christen man</l>					 
+               <l>nichein pezzer ros gewan.</l>
+            </lg>
+            <lg>
+               <l>Daz ros wart mit îseren gebunten,</l>
+               <l>alsô daz dâ tobet zeallen stunden,</l>
+               <l>unt wart fur den chunich Philipp<ex>us</ex> geleit.</l> <!-- geleit? -->
+               <l>Unt als er verna<ex>m</ex> sîn gelegenhait,</l>
+               <l>Buzival hiez erz namen:</l>
+               <l>daz tûhte sie gu<ex>o</ex>t alle samt.</l>
+            </lg>
+            <lg>
+               <l>Man hiez daz ros in einen marstat tu<ex>o</ex>n,</l>
+               <l>daz si dâ fu<ex>o</ex>r maehten geru<ex>o</ex><supplied>u</supplied>n.</l>
+               <l>Zu<supplied>o</supplied> dem ros getorste niemen gên,</l>
+               <l>wan umbe den ez also was getân,</l>
+               <l>dem verteilet was daz leben,</l>
+               <l>den mu<supplied>o</supplied>se man den rosse geben.</l>
+            </lg>
+            <lg>
+               <l>Dem chunige wart ein bote gesant,</l>
+               <l>von dem, dem daz ros was chunt,</l>
+               <l>unt hiez ez paz pewaren.</l>
+               <l>Er sprach, man solte ez noch an im ervaren,</l>
+               <l>wem des chuniges gewalt</l>
+               <l>nach sînem lîbe wurt fersalt.</l>
+               <l>Er sprach:<said who="#messengerBucephalus" toWhom="#Philip"/>"Daz sol dem, derz alrêst bescrîde,</l>
+               <l>wan diz nie chein man ne gerite."</l>
+               <l>Unt als Alexander haim chom,</l>
+               <l>algerihte er daz vernam.</l>
+               <l>Wîs was er zummâzen.</l>
+               <l>Tu<ex>o</ex> alrêst heter sînen meister verlâzen.</l>
+               <l>Des umbe daz ros was gescît,</l>
+               <l>des inhabt er noh tu<ex>o</ex> vernomen nieht.</l>
+            </lg>
+            
+ 
+            <lg>
+               <l>Eines tages, alser ûffen der palenze gêt,</l>
+               <l><sic>Vestian</sic> habt in dar gelait,</l>
+               <l>dô hôrderz ros waien,</l>
+               <l>daz stunt in sîner tobeheit scrîen.</l>
+               <l>Alexander sprach zen chinden,</l>
+               <l>die mit ime uber die palize gîngen:</l>
+               <l><said who="#Alexander" toWhom="#stableBoys"/>"Ich ne weiz, waz mir scillet inz ôre,</l>
+               <l>ez ne lât mich nieht gehôren.</l>
+               <l>Ich ne weiz wederz ein ros oder ein lewe de<ex>o</ex>t,</l>
+               <l>wan ez dâ in beslozzen stêt."</l>
+            </lg>
+   
+            <lg>
+               <l>Btholome<ex>us</ex> sprach zu<ex>o</ex> dem chinde:</l> 
+               <l><said who="#Ptolemy" toWhom="#Alexander"/>"Herre, ist Buzival, ein ros vil swinde,</l> 
+               <l>Under der stu<ex>o</ex>t ne mohte nechein bezzer gegên."</l>
+               <l>Er sprach:"Herre, ez ne hât nehein marscalch in hu<ex>o</ex>te.</l>
+               <l>wande ez erbîzet ubele unt gu<ex>o</ex>te."</l>
+            </lg>
+   
+            <lg>
+               <l>Unt diz Alexander vernam,</l>
+               <l>niw<supplied>i</supplied>ht er ne beite, ê er zû dem rosse chom.</l>
+               <l>Er  rief den chinden</l>
+               <l>unt hiez im den sluzel gewinnen.</l>
+               <l>Ir neheiner getorste daz ros dâ fur ziehen,</l>
+               <l>want sie alle vil ungerne dar în gî<supplied>n</supplied>gen.</l>
+               <l>Alexander erzurnet daz,</l>
+               <l>die tur er nieder brach.</l>
+               <l>Er hîz sie alle abestân,</l>
+               <l>er wolte aleine dar în gân.</l>
+            </lg>
+            <lg>
+               <l>Alsô Buzival gegen im ûz wolte varn</l>
+               <l>unt ez Alexander ane begunde starn,</l>
+               <l>ez erblu<ex>o</ex><supplied>c</supplied>te sich aller sîner maht</l>
+               <l>unt wolte im wesen dienesthaft.</l>
+               <l>Ez chnîte fu<ex>o</ex>r im dar nider,</l>
+               <l>ez ne geru<ex>o</ex>rte sich ouch nimer sider.</l>
+               <l>Alsô chundeclîch was dem rosse al sîn gebâr,</l>
+               <l>als ez des chindes wol gewone wâre.</l>
+            </lg>
+            <lg>
+               <l>Alexander begunde dô streihen</l>
+               <l>ein ros, daz nie nichein man begunde weichen,</l>
+               <l>sô der nie seil noch zôm ane chom.</l>
+               <l>Mit der mane erz nam.</l>
+               <l>Er habet ellenthaften gedanc:</l>
+               <l>ûfen sînen rucke er ime spranc,</l>
+               <l>ûzer deme gademe erz reit.</l>
+               <l>Daz was ein michel paltheit.</l>
+            </lg>
+         </div>
+         
+      </body>
+   </text>
+
+
+   <!-- ##############################   S   #################################### -->
+
+   <text xml:id="S">
+      <body>
+         <div type="episode_macro" xml:id="S_Darius_letter_gifts" corresp="#Darius_letter_gifts">
+            <head>Darius sends Alexander a letter and three mocking gifts</head>
+            <div type="interrupted_stanza"> 
+               <lg xml:id="ab_1" next="#ab_2"> 
+                  <l>Der rîche kuninc Darius</l>
+                  <l>der antworte im alsus:</l>
+               </lg>
+            </div>
+
+            <div type="episode_subsection" xml:id="S_Darius_badmouths_Alexander"
+               corresp="#Darius_badmouths_Alexander">
+               <lg xml:id="ab_2" next="#ab_3" prev="#ab_1">
+                  <l><said who="#Darius"/>"Der kûne Alexander </l>
+                  <l>der tût als ein tumber</l>
+                  <l>unde alse ein kindischer man,></l>
+                  <l>der sih versinnen nit ne kan.</l>
+                  <l>Daz wirt vil lîhte sîn val,</l>
+                  <l>wander dar umbe sal</l>
+                  <l>sîne êre verliesen</l>
+                  <l>oder den bitteren tôt kiesen,</l>
+                  <l>er ne vare schiere wider heim."</l>
+               </lg>
+            </div>
+
+            <div type="interrupted_stanza">
+               <lg xml:id="ab_3" prev="#ab_2">
+                  <l>Doh wart er des inein,</l>
+                  <l>dô er gienc ze râte,</l>
+                  <l>daz er ime sante drâte</l>
+                  <l>einen guldînen bal</l>
+                  <l>scône unde sinewal.</l>
+                  <l>Ouh santer ime zehant</l>
+                  <l>zwêne hêrlîche scûchbant</l>
+                  <l>und ein lutzil goldis in einer laden.</l>
+                  <l>Er wânde, daz er ime gescaden</l>
+                  <l>mit nihte ne mohte,</l>
+                  <l>biz daz erz besûhte.</l>
+                  <l>Und hîz von disen drîn sachen</l>
+                  <l>einen brief machen,</l>
+                  <l>der ime rehte bescheinte,</l>
+                  <l>waz dise gâbe meinte.</l>
+               </lg>
+               
+               <lg>
+                  <l>Mit dem balle meinter daz,</l>
+                  <l>daz ime gezême michilis baz,</l>
+                  <l>daz er mit anderen kinden</l>
+                  <l>des balles spilen gienge,</l>
+                  <l>dan er sîne lûte vienge</l>
+                  <l>und di slûge oder hienge.</l>
+                  <l>Dar zô meinten die scûchbant,</l>
+                  <l>di er ime ouh hete gesant,</l>
+                  <l>daz ime Alexander</l>
+                  <l>und dar zô manic ander</l>
+                  <l>tagelîch dienen solde,</l>
+                  <l>alsô vil sô er wolde.</l>
+                  <l>ouh meinte daz golt,</l>
+                  <l>daz ir vil rehte merken sult,</l>
+                  <l>daz sîn vater wêre</l>
+                  <l>sîn rehter cinsêre,</l>
+                  <l>und daz er ouh solde</l>
+                  <l>leben mit dem golde,</l>
+                  <l>biz daz er heim quême,</l>
+                  <l>und niemanne niht ne nême</l>
+                  <l>und ouh schiere heim rite,</l>
+                  <l>und ob er iwit lange bite</l>
+                  <l>oder tâte wider sînen willen,</l>
+                  <l>er hieze in mit besemen villen.</l>
+               </lg>
+            </div>
+         </div>
+
+
+         <div type="episode_macro" xml:id="S_Alexander_reaction" corresp="#Alexander_reaction">
+            <head>Alexander reacts to Darius's insulting message</head>
+            <lg>
+               <l>Dô Alexander den brieb gelas,</l>
+               <l>vil harte ummêre ime was,</l>
+               <l>daz er in mit besemen wolde slân.</l>
+               <l>sîne boten hiez er alle hân.</l>
+               <l>Der boten einer zô ime sprah:</l> 
+               <l><said who="#messengersDarius"/>"Hêre, ne tût uns nehein ungemach;</l>
+               <l>wande daz ne wâre niwit reht,</l>
+               <l>swâ sihein uher kneht</l>
+               <l>uher botescaft tribe,</l>
+               <l>daz er dar umbe tôt blibe.></l>
+               <l>Ne schendet niwit uheren namen.</l>
+               <l>Wir jehen û alle samen,</l>
+               <l>daz under disen kuningen allen</l>
+               <l>neheiner mach zô û gevallen</l>
+               <l>der mit sulher frumicheite</l>
+               <l>sîn here ubir lant leite,</l>
+               <l>alsir, hêre kuninc, tût.</l>
+               <l>Nû bedwingit uheren mût</l>
+               <l>unde habit unsir mâze.</l>
+               <l>Wî torste wir lâzen</l>
+               <l>daz unser hêre uns gebôt,</l>
+               <l>durh siheiner slahte nôt!"</l>
+            </lg>
+            <lg>
+               <l>Alexander bedâhte sih,</l>
+               <l>den boten wart er gnêdich.</l>
+               <l>Er ne weiz in niwit durh di scult,</l>
+               <l>er gab in wider daz selbe golt,</l>
+               <l>daz ime von Dario quam.</l>
+               <l>Er sprah:<said who="#Alexander"/>"Vil ubile daz gezam, </l>
+               <l>daz mih drowete ze slân</l>
+               <l>Darius uher hêre,</l>
+               <l>waz sol der rede mêre:</l>
+               <l>er ist ein unversunnen man.</l>
+               <l>>Er hât glîche getân </l>
+               <l>alse der blôde hovewart.</l>
+               <l><said who="#Alexander" xml:id="a8" next="#a9" prev="#a7">Sulih ist sîn art: </l>
+               <l><said who="#Alexander" xml:id="a9" next="#a10" prev="#a8">swenner nahtes iht vernemet, </l>
+               <l><said who="#Alexander" xml:id="a10" next="#a11" prev="#a9">durh sîne blôdicheit wirt er irgremet, </l>
+               <l><said who="#Alexander" xml:id="a11" next="#a12" prev="#a10">er ne tar dar nâher comen niet, </l>
+               <l><said who="#Alexander" xml:id="a12" next="#a13" prev="#a11">al bellender flîhet. </l>
+               <l><said who="#Alexander" xml:id="a13" next="#a14" prev="#a12">Alsô hât Darius getân. </l>
+               <l><said who="#Alexander" xml:id="a14" next="#a15" prev="#a13">Er ne tar mir niemer bestân, </l>
+               <l><said who="#Alexander" xml:id="a15" next="#a16" prev="#a14">wander ist ein tumber. </l>
+               <l><said who="#Alexander" xml:id="a16" next="#a17" prev="#a15">Er zuckit sih in einen cumber, </l>
+               <l><said who="#Alexander" xml:id="a17" next="#a18" prev="#a16">dâ er nit ûz ne mac comen. </l>
+               <l><said who="#Alexander" xml:id="a18" next="#a19" prev="#a17">Sînen brieb hân ih wol vernomen. </l>
+               <l><said who="#Alexander" xml:id="a19" next="#a20" prev="#a18">Diu gâbe ein ander meinet, </l>
+               <l><said who="#Alexander" xml:id="a20" next="#a21" prev="#a19">dan mir der brief bescheinet. </l>
+            </lg>
+            <lg>
+               <l><said who="#Alexander" xml:id="a21" next="#a22" prev="#a20">Den bal hât er mir gesant, </l>
+               <l><said who="#Alexander" xml:id="a22" next="#a23" prev="#a21">dâ mite hât er mir bekant, </l>
+               <l><said who="#Alexander" xml:id="a23" next="#a24" prev="#a22">daz iz alliz an mir sol stân, </l>
+               <l><said who="#Alexander" xml:id="a24" next="#a25" prev="#a23">daz der himel hât umbevân; </l>
+               <l><said who="#Alexander" xml:id="a25" next="#a26" prev="#a24">und ih hêre sule werden </l>
+               <l><said who="#Alexander" xml:id="a26" next="#a27" prev="#a25">noh an diser erden </l>
+               <l><said who="#Alexander" xml:id="a27" next="#a28" prev="#a26">ubir alle di rîche, </l>
+               <l><said who="#Alexander" xml:id="a28" next="#a29" prev="#a27">di sint in ertrîche, </l>
+               <l><said who="#Alexander" xml:id="a29" next="#a30" prev="#a28">unde ubir alle di lant, </l>
+               <l><said who="#Alexander" xml:id="a30" next="#a31" prev="#a29">di ie wurden genant. </l>
+            </lg>
+            <lg>
+               <l><said who="#Alexander" xml:id="a31" next="#a32" prev="#a30">Er sante mir ouh zwê </l>
+               <l><said who="#Alexander" xml:id="a32" next="#a33" prev="#a31">schûhbant. </l>
+               <l><said who="#Alexander" xml:id="a33" next="#a34" prev="#a32">Dâ mite hât er mir becant </l>
+               <l><said who="#Alexander" xml:id="a34" next="#a35" prev="#a33">daz er sih mir ze eigene wil geben </l>
+               <l><said who="#Alexander" xml:id="a35" next="#a36" prev="#a34">und mit mînen gnâden leben </l>
+               <l><said who="#Alexander" xml:id="a36" next="#a37" prev="#a35">und mîn dienist wille sîn </l>
+               <l><said who="#Alexander" xml:id="a37" next="#a38" prev="#a36">zallen herverten mîn. </l>
+               <l><said who="#Alexander" xml:id="a38" next="#a39" prev="#a37">Mit dem golde, daz ir mir habet brâht, </l>
+               <l><said who="#Alexander" xml:id="a39" next="#a40" prev="#a38">dâ mite hât er gedâht, </l>
+               <l><said who="#Alexander" xml:id="a40" next="#a41" prev="#a39">daz mir eineme daz gezeme, </l>
+               <l><said who="#Alexander" xml:id="a41" next="#a42" prev="#a40">daz ih den zins von ime neme </l>
+               <l><said who="#Alexander" xml:id="a42" next="#a43" prev="#a41">und ouh alle erdische lant </l>
+               <l><said who="#Alexander" xml:id="a43" prev="#a42">bedwinge zô mîner hant." </l>
+            </lg>
+         </div>
+         
+         
+         
+         <!-- BUCEPHALUS -->
+         
+         <div type="episode_macro" xml:id="S_Bucephalus" corresp="#Bucephalus">
+            <head>Alexander tames the horse Bucephalus</head>
+            <lg>
+             <l></l>
+            </lg>
+         </div>
+         
+         
+         
+         
+      </body>
+   </text>
+
+
+   <!-- ##############################   B   #################################### -->
+
+   <!-- non codificare lacune tra apici (rigo) -->
+
+
+   <text xml:id="B">
+      <body>
+         <div type="episode_macro" xml:id="B_Darius_letter_gifts" corresp="#Darius_letter_gifts">
+            <head>Darius sends Alexander a letter and three mocking gifts</head>
+            <lg xml:id="b1" next="#b2">
+               <l>Der riche küng Darius</l>
+               <l>gedacht nach diser rede sus,</l>
+               <l>wie er Allexander spotlich</l>
+               <l>ein botschaft sant und kleinet da mit,</l>
+               <l>in spot und hoffarttigen sit.</l>
+               <l>Er forchtte in danach lüczel,</l>
+               <l><gap></gap>eins kindes stüczel</l> 
+               <l>und dar zuo ein schuochbant,</l>
+               <l>in einer laden ein klein gold.</l>
+               <l>Die kleinot sin botschaft sold</l>
+               <l>Allexander füre<supplied>n</supplied> dan</l>
+               <l>mit einem breiff, da er an</l>
+               <l><supplied resp="prof">im</supplied> det bekant,</l>
+               <l>wor umb er im die kleinet sant:</l>
+               <l><supplied>das</supplied> stüczel in wissen lies,</l>
+               <l><supplied>das</supplied> er in ein kint hies:</l>
+               <l>in solt des niut beviln,</l>
+               <l>er solt mit den kinden spiln;</l>
+               <l>mit dem reimen er im kunt,</l>
+               <l>den man nüczet alle stund,</l>
+               <l><supplied>das</supplied> er im deglich diene<supplied>n</supplied> solt</l>
+               <l>mit alle<supplied>m</supplied> sinem rich; das gold</l>
+               <l>solt im wisse<supplied>n</supplied> | lan,</l>
+               <l><supplied>das</supplied> er wolte sinen zins han,</l>
+               <l>als lieb im wer lib und land.</l>
+            </lg>
+         </div>
+         <!-- finisce episodio ma non strofa -->
+         <!-- decidere se aggiungere cb o no -->
+
+         <div type="episode_macro" xml:id="B_Alexander_reaction" corresp="#Alexander_reaction">
+            <head>Alexander reacts to Darius's insulting message</head>
+            <lg xml:id="b2" prev="#b1">
+               <l>Do Allexander den brieff gelas,</l>
+               <l>vil smech er im was:</l>
+               <l>die botten hies er vachen</l>
+               <l>do und sy alle hachen.</l>
+               <l>Der botten einer sprach:</l>
+               <l><said who="#messengerDarius" xml:id="m1" next="#m2">"Here, dis ungemach </l>
+               <l><said who="#messengerDarius" xml:id="m2" next="#m3" prev="#m1">bedenk dich recht, </l>
+               <l><said who="#messengerDarius" xml:id="m3" next="#m4" prev="#m2">wand es diuchte dich widerzem <supplied>das</supplied> recht, </l>
+               <l><said who="#messengerDarius" xml:id="m4" next="#m5" prev="#m3"><supplied>das</supplied> din botten und din knecht, </l>
+               <l><said who="#messengerDarius" xml:id="m5" next="#m6" prev="#m4">die din botschafft wurbe<supplied>n</supplied>, </l>
+               <l><said who="#messengerDarius" xml:id="m6" next="#m7" prev="#m5"><supplied>das</supplied> si dar umb sturben. </l>
+               <l><said who="#messengerDarius" xml:id="m7" next="#m8" prev="#m6">Nun senft gen uns dine<supplied>n</supplied> muot, </l>
+               <l><said who="#messengerDarius" xml:id="m8" prev="#m7">die botschaft torsten wir niut lan." </l>
+               <l>Allexander bedachte sich</l>
+               <l>gen den botten gnedekleich,</l>
+               <l>wand sy niut hatte<supplied>n</supplied> schulde.</l>
+               <l>Des gab er in sin hulde.</l>
+               <l>Er sprach: <said who="#Alexander" xml:id="aa1" next="#aa2">"Iuwers heren botschaft </l>
+               <l><said who="#Alexander" xml:id="aa2" next="#aa3" prev="#aa1">hat weder zucht noch krafft. </l>
+               <l><said who="#Alexander" xml:id="aa3" next="#aa4" prev="#aa2">Er duot einem bœssen rüden gelich, </l>
+               <l><said who="#Alexander" xml:id="aa4" next="#aa5" prev="#aa3">der da billet an den man </l>
+               <l><said who="#Alexander" xml:id="aa5" next="#aa6" prev="#aa4">und in doch niut dar bestan. </l>
+               <l><said who="#Alexander" xml:id="aa6" next="#aa7" prev="#aa5">Sicht er in <supplied>in</supplied> die land uf in ziehe<supplied>n</supplied>, </l>
+               <l><said who="#Alexander" xml:id="aa7" next="#aa8" prev="#aa6">ze hant beginet er fliechen, </l>
+               <l><said who="#Alexander" xml:id="aa8" next="#aa9" prev="#aa7">niut wan grinen er da duot: </l>
+               <l><said who="#Alexander" xml:id="aa9" next="#aa10" prev="#aa8">| also ist iuwers heren muot. </l>
+               <l><said who="#Alexander" xml:id="aa10" next="#aa11" prev="#aa9">Ich sag iuch, was iuwers here<supplied>n</supplied> breiff meint, </l> 
+               <l><said who="#Alexander" xml:id="aa11" next="#aa12" prev="#aa10">ein ander betiutung er bescheind: </l>
+               <l><said who="#Alexander" xml:id="aa12" next="#aa13" prev="#aa11">der stüczel duot uns bekant, </l>
+               <l><said who="#Alexander" xml:id="aa13" next="#aa14" prev="#aa12"><supplied>das</supplied> <supplied>das</supplied> alles an mir stat, </l>
+               <l><said who="#Alexander" xml:id="aa14" next="#aa15" prev="#aa13">was himel und erd bedeket hat, </l>
+               <l><said who="#Alexander" xml:id="aa15" next="#aa16" prev="#aa14">des herre ich sol werden. </l>
+               <l><said who="#Alexander" xml:id="aa16" next="#aa17" prev="#aa15">Mit dem reimen ist bedach<supplied>t</supplied>, </l>
+               <l><said who="#Alexander" xml:id="aa17" next="#aa18" prev="#aa16">er welle sich <supplied>mir</supplied> ze eigen geben. </l>
+               <l><said who="#Alexander" xml:id="aa18" next="#aa19" prev="#aa17">Mit dem gold duot er mir bekant, </l>
+               <l><said who="#Alexander" xml:id="aa19" next="#aa20" prev="#aa18"><supplied>das</supplied> mir zinssen sol sin hant. </l>
+               <l><said who="#Alexander" xml:id="aa20" next="#aa21" prev="#aa19">Dis schreib er an den brief san, </l>
+               <l><said who="#Alexander" xml:id="aa21" next="#aa22" prev="#aa20">den sant er mit den botten dan: </l>
+               <l><said who="#Alexander" xml:id="aa22" next="#aa23" prev="#aa21">er inbot da mit, </l>
+               <l><said who="#Alexander" xml:id="aa23" next="#aa24" prev="#aa22"><supplied>das</supplied> er sin einen monat beitte, </l>
+               <l><said who="#Alexander" xml:id="aa24" next="#aa25" prev="#aa23">er kem in sin land </l>
+               <l><said who="#Alexander" xml:id="aa25" next="#aa26" prev="#aa24">mit <supplied>vierzig</supplied> tusing wigant, </l>
+               <l><said who="#Alexander" xml:id="aa26" next="#aa27" prev="#aa25">über das was<supplied>er</supplied> Eufrattes, </l>
+               <l><said who="#Alexander" xml:id="aa27" next="#aa28" prev="#aa26">mit gewalt fuor für die stat Babilony </l>
+               <l><said who="#Alexander" xml:id="aa28" next="#aa29" prev="#aa27">und muost im sine<supplied>n</supplied> zins <supplied resp="prof">geben</supplied>, </l>
+               <l><said who="#Alexander" xml:id="aa29" prev="#aa28">wolt er behaben <supplied>das</supplied> leben." </l>
+            </lg>
+         </div>
+         
+         
+         
+         <!-- BUCEPHALUS -->
+         
+         <div type="episode_macro" xml:id="B_Bucephalus" corresp="#Bucephalus">
+            <head>Alexander tames the horse Bucephalus</head>
+            <lg>
+               <l>In der selben zit,</l> 
+               <l>des mir die gescrift urkunde git,</l>
+               <l>ein fürst us Kabadocyenlant</l>
+               <l>Pilipo ein ros sant.</l>
+            </lg>
+            <lg>
+               <l><supplied>Das</supplied> was ungezamt freislich,</l>
+               <l>wild und <supplied>das</supplied> geschæfte wund<supplied>er</supplied>lich:</l>
+               <l>es bies die liut und sluog,</l>
+               <l>es was tuobhaft genuog.</l>
+            </lg>
+            <lg>
+               <l>Sin mul als ein essel was,</l>
+               <l>vast uf geslagen sin nas;</l>
+               <l>sin ore<supplied>n</supplied> woren im lang,</l>
+               <l>sin huobt mager und <supplied>swanc</supplied>,</l>
+               <l>sin oug<supplied>en</supplied> waren als ein bluot,</l> 
+               <l>vor bescheidenheit wol behuot;</l>
+               <l>es mocht l<supplied>œ</supplied>wen geschlechtte sin</l>
+               <l>sin hals, als ein lœwin.</l>
+               <l>Uf dem ruken hat es rindes har,</l>
+               <l>an den sitten sunderbar</l>
+               <l>geschaffen als ein lechbart</l>
+               <l>Es was mit issen gebunden:</l> 
+               <l>es dobt zuo allen stunden.</l>
+               <l>Für künig Pilipo ward es geleit:</l>
+               <l>als er sach sin gelegenheit,</l>
+               <l>er | sprach: <said who="#Philip">“Burzival es heissen sol.” </l>
+               <l>Der name geviel in allen wol.</l> 
+            </lg>
+            <lg>
+               <l>Zuo im getorste nieman gan,</l>
+               <l>wand wer die schulde hat getan,</l>
+               <l><supplied>das</supplied> im verteilet was <supplied>das</supplied> leben:</l>
+               <l>der ward dem ros denne gegeben,</l>
+               <l>wond es sin niut enspart,</l>
+               <l>er wart von im zerzart.</l>
+               <l>Es woltte <supplied>nur</supplied> essen liut:</l> 
+               <l>wer im kam so nache iut,</l>
+               <l><supplied>das </supplied>es in mocht gevache<supplied>n</supplied>,</l>
+               <l>des dot muost sich do nachen.</l>
+            </lg>
+            <lg>
+               <l>Da nach in kurzen tage<supplied>n</supplied>,</l>
+               <l>Pilipo begonde<supplied>n</supplied> wissage<supplied>n</supplied></l> 
+               <l>die gœtter all gemein,</l>
+               <l><supplied>das</supplied> in der weltte mœnschs dehein</l>
+               <l><supplied>das </supplied>selb ros soltte ritten</l>
+               <l>und überschritten,</l>
+               <l>denne der <supplied>das</supplied> künkerich</l>
+               <l>nach im besiczen soltte gewalttenklich</l>
+               <l>und nach sinem dote</l> 
+               <l>solt wessen her.</l>
+               <l>Do der küng <supplied>das</supplied> vernam,</l>
+               <l>vil ser er sin erkam:</l>
+               <l>ich enweis, ob es im lieb wer,</l>
+               <l>oder ob es im brechtte swer.</l>
+            </lg>
+            <lg>
+               <l>Alexand<supplied>er</supplied> was us gewessen</l>
+               <l>und was | ein küng userlesen</l>
+               <l>und an kreftte<supplied>n</supplied> niut las.</l>
+               <l>Uf zwenzig jor alt er was,</l>
+               <l>do kam er wider hein</l>
+               <l>und bedorf<supplied>te</supplied> meisterschaft enkein.</l>
+               <l>Er hat noch niut v<supplied>er</supplied>nome<supplied>n</supplied>,</l>
+               <l>wie das ros dar was kome<supplied>n</supplied>.</l>
+            </lg>
+            <lg>
+               <l>Eins tages fuogt sich <supplied>das</supplied>,</l>
+               <l><supplied>das</supplied> er uf dem palas sas,</l>
+               <l>do hort er winhellen <supplied>das</supplied> ros.</l>
+               <l>Zuo den sine<supplied>n</supplied> sprach er: <said who="#Alexander">“Losa, los: </l>
+               <l><said who="#Alexander">was schalles mag <supplied>das</supplied> sin, </l>
+               <l><said who="#Alexander"><supplied>das</supplied> so lut hilt in die ore<supplied>n</supplied> min? </l>
+               <l><said who="#Alexander">Ob es ros oder leow tuot, </l>
+               <l><said who="#Alexander">des ist veriret mir min muot.” </l>
+            </lg>
+            <lg>
+               <l>Do sprach Potolomeus zuo dem kint:</l>
+               <l><said who="#Ptolemy"/>“Her, es ist ein ros geswind, </l>
+               <l> <supplied>das</supplied> mit unsitte lebet alle moll </l>
+               <l> und ist geheissen Bucival: </l>
+               <l> <supplied>das</supplied> hat iuwer vatter in getan. </l>
+               <l> Kein stuot mag sœlichs niut gehan, </l>
+               <l> kein marschalk hat es in siner huot, </l>
+               <l> wand es bisset übel und guot. </l>
+               <l> Here, ich dir | niut vertagen, </l>
+               <l> ein teil siner wis sagen: </l>
+               <l> wer im kunt so nache, </l>
+               <l> <supplied>das</supplied> es in mag gevahen, </l>
+               <l> der wirt niut lenger gespart, </l>
+               <l> er wirt vil klein zerzart.” </l>
+            </lg>
+            <lg>
+               <l>Do Allexander <supplied>das</supplied> vernan,</l>
+               <l>vil balde er zuo dem stalle kan.</l>
+               <l>Er hies die knechte springen,</l>
+               <l>die slüssel balde bringen.</l>
+               <l>Si begonden alle fliech<supplied>en</supplied>:</l>
+               <l>sy forchten, <supplied>das</supplied> er si hies her us ziehen:</l>
+               <l>des er sy wol erlies! Sy sprachen: <said who="#stableBoys">“Her zürnen niut, </l>
+               <l><said who="#stableBoys">wir kene<supplied>n</supplied> wol des ros sit: </l>
+               <l>es lept niut als küen ein man,</l>
+               <l>der zuo dem ros türe gan.”</l>
+            </lg>
+            <lg>
+               <l>Do er ir zagheit ersach,</l>
+               <l>vor zorne die tür er brach,</l>
+               <l>er det ir mit dem fuos ein stos,</l>
+               <l><supplied>das</supplied> die türe in den stal schos.</l>
+               <l>Er hies sy alle hœcher stan,</l>
+               <l>er wolt allein hin in gan.</l>
+               <l><supplied>Das</supplied> ros woltte gegen im varn:</l>
+               <l>als es in begunde an|starn,</l>
+               <l>von siner gesicht es erschrak,</l>
+               <l><supplied>das</supplied> alle sin freidikeit gelag.</l>
+               <l>Es erzittret an der stund</l>
+               <l>und wadlet mit dem swancz als ein hunt:</l>
+               <l>es kniuwete vor im nider</l>
+               <l>und det kein frediket sider.</l>
+               <l><supplied>Das</supplied> ros begond er streichen,</l>
+               <l><supplied>das</supplied> nie man mocht erweichen</l>
+               <l>und nie zoum an is kam.</l>
+               <l>Gar kuntlich ward sin gedank:</l>
+               <l><supplied>uf</supplied> <supplied>das</supplied> ros er sprang,</l>
+               <l>er reit es us dem stal:</l>
+               <l>das duchtte sy wunder all.</l>
+            </lg>
+         </div>
+         
+    
+      </body>
+   </text>
+</TEI>

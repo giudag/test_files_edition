@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+
+
+   <standOff>
+
+      <!-- QUI I MACRO EPISODI -->
+
+      <linkGrp xml:id="macroEps" type="narrativeUnits">
+
+         <link target="#Ep1_V #Ep1_S #Ep1_B" ana="#Darius_gifts"/> <!-- EPISODIO = DIV è ok, ma non va bene gap quando non possiamo filologicamente scegliere un testo di riferimento, gap ha significato filologico che non può essere adattato ai bisogni tecnici: USARE OPZIONE PIÙ GENERICA -->
+
+      </linkGrp>
+
+      <!-- QUI I DISCORSI DIRETTI -->
+
+      <linkGrp xml:id="directSpeech" type="speech">
+
+         <link target="#DS1_S #V_gap_ #B_gap_" ana="#S_Darius_monologue"/> <!-- PROBLEMA DI GAP PER VERSI NON PRESENTI NELLE ALTRE DUE RECENSIONI -->
+
+      </linkGrp>
+      
+      
+      <!-- QUI IL COMMENTO SULLE UNITÀ NARRATIVE -->
+
+      <interpGrp xml:id="criticalCommentary" type="notes">
+         <interp xml:id="Darius_gifts">Darius send Alexander a letter and three mocking gifts, in order too...</interp>
+         <interp xml:id="S_Darius_monologue">Darius talks to himself and insults Alexander. These lines are only present in S.</interp>
+      </interpGrp>
+
+
+   </standOff>
+
+</TEI>

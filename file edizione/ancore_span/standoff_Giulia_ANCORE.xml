@@ -80,7 +80,7 @@
          <span from="#V_messengerDarius_Alexander_start" to="#V_messengerDarius_Alexander_end"
             xml:id="V_messengerDarius_Alexander"
             corresp="#S_messengerDarius_Alexander #B_messengerDarius_Alexander">One of Darius's
-            messengers tries to tone down Alexander's rage</span>
+            messengers tries to tone down Alexander's rage</span> <!-- posso usare ref per puntare a sezione con descrizione più ampia e note critiche -->
 
 
          <span from="#V_Alexander_messengersDarius_start" to="#V_Alexander_messengersDarius_end"
@@ -108,8 +108,8 @@
          <!-- S -->
 
          <span from="#S_Darius_monologue_start" to="#S_Darius_monologue_end"
-            xml:id="S_Darius_monologue" corresp="NIENTE">Darius badmouths Alexander and wishes him
-            dead</span>
+            xml:id="S_Darius_monologue" corresp="NIENTE"><ref target="#S_Darius_letter_gifts"/>Darius badmouths Alexander and wishes him
+            dead</span> <!-- OPPURE @SOURCE, OPPURE ELEMENTO PTR CON @TARGET -->
 
          <span from="#S_messengerDarius_Alexander_start" to="#S_messengerDarius_Alexander_end"
             xml:id="S_messengerDarius_Alexander"

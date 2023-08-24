@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+
+   <!-- QUI APPLICO IL METODO STANDOFF CON SPAN E ANCORE USANDO I PRIMI QUATTRO EPISODI -->
+   
+   
+
+   <standOff>
+
+      <!-- ################# QUI GLI EPISODI ################## -->
+
+      <spanGrp xml:id="episodes">
+
+         <!-- V -->
+
+         <span from="#V_Bucephalus_start" to="#V_Bucephalus_end" xml:id="V_Bucephalus"
+            corresp="#S_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/>Alexander tames the horse Bucephalus</span> <!-- con ref target rimando alla nota critica sotto -->
+         
+         <span from="#V_Alexander_firstBattle_start" to="#V_Alexander_firstBattle_end" xml:id="V_Alexander_firstBattle"
+            corresp="#S_Alexander_firstBattle #B_Alexander_firstBattle"><ref target="#Alexander_firstBattle"/>Alexander takes up arms for the first time</span>
+
+         <!-- S -->
+
+         <span from="#S_Bucephalus_start" to="#S_Bucephalus_end" xml:id="S_Bucephalus"
+            corresp="#V_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/>Alexander tames the horse Bucephalus</span>
+         
+         <span from="#S_Alexander_firstBattle_start" to="#S_Alexander_firstBattle_end" xml:id="S_Alexander_firstBattle"
+            corresp="#V_Alexander_firstBattle #B_Alexander_firstBattle"><ref target="#Alexander_firstBattle"/>Alexander takes up arms for the first time</span>
+
+         <!-- B -->
+
+         <span from="#B_Bucephalus_start" to="#B_Bucephalus_end" xml:id="B_Bucephalus"
+            corresp="#V_Bucephalus #S_Bucephalus"><ref target="#Bucephalus"/>Alexander tames the horse Bucephalus</span>
+         
+         <span from="#B_Alexander_firstBattle_start" to="#B_Alexander_firstBattle_end" xml:id="B_Alexander_firstBattle"
+            corresp="#V_Alexander_firstBattle #S_Alexander_firstBattle"><ref target="#Alexander_firstBattle"/>Alexander takes up arms for the first time</span>
+
+      </spanGrp>
+      
+      
+      
+      <!-- ############## QUI I DISCORSI DIRETTI ################ -->
+
+      <spanGrp xml:id="direct_speeches">
+
+         <!-- V -->
+         
+         <span from="#V_messenger_Bucephalus_start" to="#V_messenger_Bucephalus_end" xml:id="V_messenger_Bucephalus"><ref target="#messenger_Bucephalus"/>A messenger introduces Bucephalus to king Philip</span>
+         <!-- no @corresp perché negli altri non c'è -->
+
+         <!-- S -->
+
+         
+         <!-- B -->
+
+       
+
+
+      </spanGrp>
+
+
+
+      <!-- ############ QUI IL COMMENTO SULLE UNITÀ NARRATIVE ############### -->
+      
+      <interpGrp xml:id="criticalCommentary" type="notes">
+         <interp xml:id="Bucephalus">Bucephalus, whose name literally means "ox-headed", is named by King Philip because of its wondrous features. According to the prophecy, the indomitable horse can be tamed only by the one who is destined to become king after Philip. In the German corpus, Alexander manages to submit it just with his glare. The name Vestian corresponds to Hephaestion, Alexander's companion and lover, but the medieval tradition doesn't mention the love between the two.</interp>
+         <interp xml:id="Alexander_firstBattle"></interp>
+         <interp xml:id="Alexander_Cleopatra"></interp>
+         <interp xml:id="Alexander_retakes_city"></interp>
+         <interp xml:id="messenger_Bucephalus">This direct speech is only present in V. The messenger, sent from the man who was familiar with the horse, states that the horse belongs to the person who will be able to mount it, as it had never happend before.</interp>
+      </interpGrp>
+      
+      
+
+
+   </standOff>
+
+</TEI>

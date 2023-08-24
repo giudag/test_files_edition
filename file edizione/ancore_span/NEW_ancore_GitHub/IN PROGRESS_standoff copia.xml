@@ -31,7 +31,7 @@
          <!-- V -->
 
          <span from="#V_Bucephalus_start" to="#V_Bucephalus_end" xml:id="V_Bucephalus"
-            corresp="#S_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/>Alexander tames the horse Bucephalus</span> <!-- con ref target rimando alla nota critica sotto -->
+            corresp="#S_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/>Alexander tames the horse Bucephalus</span> <!-- con ref target rimando alla nota critica sotto, come da esempio su cross-references della TEI -->
          
          <span from="#V_Alexander_firstBattle_start" to="#V_Alexander_firstBattle_end" xml:id="V_Alexander_firstBattle"
             corresp="#S_Alexander_firstBattle #B_Alexander_firstBattle"><ref target="#Alexander_firstBattle"/>Alexander takes up arms for the first time</span>
@@ -62,8 +62,9 @@
 
          <!-- V -->
          
-         <span from="#V_messenger_Bucephalus_start" to="#V_messenger_Bucephalus_end" xml:id="V_messenger_Bucephalus"><ref target="#messenger_Bucephalus"/>A messenger introduces Bucephalus to king Philip</span>
-         <!-- no @corresp perché negli altri non c'è -->
+         <span from="#V_messenger_Bucephalus_start" to="#V_messenger_Bucephalus_end" xml:id="V_messenger_Bucephalus"><ptr target="#V_Bucephalus"/><ref target="#messenger_Bucephalus"/>A messenger introduces Bucephalus to king Philip</span>
+         <!-- no @corresp perché negli altri testimoni non c'è -->
+         <!-- con ptr target rimando all'episodio in cui è contenuto: mi piace perché è un "pure pointer", generico, "its primary function is simply to point...to another location" -->
 
          <!-- S -->
 

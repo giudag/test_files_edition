@@ -420,7 +420,7 @@
             <l n="551" xml:id="V_l_551">Philippus dâ tôt lach.</l>
          </lg>
          
-         <!-- EPISODIO 8: ALESSANDRO DIVENTA RE-->
+         <!-- EPISODIO 8: ALESSANDRO DIVENTA RE -->
          
          <lg n="25" xml:id="V_lg_25">
             <l n="552" xml:id="V_l_552">Unde alsô Philippus was begraben,</l>
@@ -449,7 +449,7 @@
             <l n="575" xml:id="V_l_575">des tuon ich ime alles guoten rât</l>
             <l n="576" xml:id="V_l_576">ân alle sîne arbeit.</l>
             <l n="577" xml:id="V_l_577">Swer noch mit mir bestêt,</l>
-            <l n="578" xml:id="V_l_578">deme te‹i›lich lîb unde guot</l>
+            <l n="578" xml:id="V_l_578">deme teilich lîb unde guot</l>
             <l n="579" xml:id="V_l_579">unde trage ime imer willigen muot."</l>
             <l n="580" xml:id="V_l_580">Unde als er diz gesagete,</l>
             <l n="581" xml:id="V_l_581">ir niehein langer dagete,</l>
@@ -457,6 +457,133 @@
             <l n="583" xml:id="V_l_583">"Got behuote uns disen chunich jungen,</l>
             <l n="584" xml:id="V_l_584">daz er mit genâden vil lange mûze leben in sînem rîche:</l>
             <l n="585" xml:id="V_l_585">sô wê dem der ime geswîche!".</l>
+         </lg>
+         
+         <!-- EPISODIO 9: LE SPEDIZIONI DI ALESSANDRO  -->
+         
+         <lg n="26" xml:id="V_lg_26">
+            <l n="586" xml:id="V_l_586">Er hiez dô gebieten herrevart,</l>
+            <l n="587" xml:id="V_l_587">alsim dâ gerâten wart,</l>
+            <l n="588" xml:id="V_l_588">dar zuo was ime vil liebe.</l>
+            <l n="589" xml:id="V_l_589">Er sante boten unde briefe</l>
+            <l n="590" xml:id="V_l_590">ze Chriechen unde ze Mazedôn,</l>
+            <l n="591" xml:id="V_l_591">den bôt er den starchen lôn.</l>
+            <l n="592" xml:id="V_l_592">Ze Kalabre er enpôt,</l>
+            <l n="593" xml:id="V_l_593">daz sim hulfen zuo der nôt.</l>
+            <l n="594" xml:id="V_l_594">Ein stat heizet Nicomedias,</l>
+            <l n="595" xml:id="V_l_595">dâ sancte Pantaleon gemarteret was,</l>
+            <l n="596" xml:id="V_l_596">die fuorin sîne hervart mit manegem helide:</l>
+            <l n="597" xml:id="V_l_597">tûsent brahten sie ime ze helfe.</l>
+            <l n="598" xml:id="V_l_598">Dô hiz er uber lant gebieten</l>
+            <l n="599" xml:id="V_l_599">mit trô joch mit miete,</l>
+            <l n="600" xml:id="V_l_600">daz sime zehelfen chômen,</l>
+            <l n="601" xml:id="V_l_601">alsô si sîne nôte vernâmen,</l>
+            <l n="602" xml:id="V_l_602">unde swem daz versmâhte,</l>
+            <l n="603" xml:id="V_l_603">daz er sîn houbet verlorn hête.</l>
+         </lg>
+         <lg n="27" xml:id="V_lg_27">
+            <l n="604" xml:id="V_l_604">Vil êrhaft er sîn gerete scuoph</l>
+            <l n="605" xml:id="V_l_605">des tages, dô er sich ûz huob.</l>
+            <l n="606" xml:id="V_l_606">Sibenzech tûsent was sînes hers,</l>
+            <l n="607" xml:id="V_l_607">daz schiphet er uber ain ende des mers</l>
+            <l n="608" xml:id="V_l_608">unde hiez den zins dâ enphâen.</l>
+            <l n="609" xml:id="V_l_609">Daz was wider Dario getân.</l>
+            <l n="610" xml:id="V_l_610">Er fuor dannen in Sicilienlant</l>
+            <l n="611" xml:id="V_l_611">unde ferweltigôt alle, die er dâ vant,</l>
+            <l n="612" xml:id="V_l_612">unde tete sie swergen herrevart,</l>
+            <l n="613" xml:id="V_l_613">daz sîn vater nie erwarp.</l>
+            <l n="614" xml:id="V_l_614">Alsus mêret er sîn her</l>
+            <l n="615" xml:id="V_l_615">unde schiphte sich dâ uber mere</l>
+            <l n="616" xml:id="V_l_616">unt fuor ze Itale wart</l>
+            <l n="617" xml:id="V_l_617">unde verlie sich an die scarphen swert.</l>
+         </lg>
+         <lg n="28" xml:id="V_lg_28">
+            <l n="618" xml:id="V_l_618">Unde alsô die Rômêre daz fernâmen,</l>
+            <l n="619" xml:id="V_l_619">â, wie êrhapte sie im zegegene chômen!</l>
+            <l n="620" xml:id="V_l_620">Sie brâhten im ze der stund</l>
+            <l n="621" xml:id="V_l_621">silbers hundert tûsint funt</l>
+            <l n="622" xml:id="V_l_622">unde einen mantel alsô edele,</l>
+            <l n="623" xml:id="V_l_623">sô chunich under diseme himele,</l>
+            <l n="624" xml:id="V_l_624">von phelel noch von gimme,</l>
+            <l n="625" xml:id="V_l_625">nie neheinen mohte gewinnen,</l>
+            <l n="626" xml:id="V_l_626">unde eine chorône diu was al rôt golt:</l>
+            <l n="627" xml:id="V_l_627">alsus macheten si in den chunich holt.</l>
+            <l n="628" xml:id="V_l_628">Diu gâbe was ime dancnâme,</l>
+            <l n="629" xml:id="V_l_629">des lobet er die guoten Rômâre.</l>
+         </lg>
+         <lg n="29" xml:id="V_lg_29">
+            <l n="630" xml:id="V_l_630">Zehen hundert er mit ime nam,</l>
+            <l n="631" xml:id="V_l_631">der von Rôme dar chom,</l>
+            <l n="632" xml:id="V_l_632">unde fûr zen Africânen,</l>
+            <l n="633" xml:id="V_l_633">der Darios undertânen.</l>
+            <l n="634" xml:id="V_l_634">Mit gewalte reit er dâ durch,</l>
+            <l n="635" xml:id="V_l_635">ze Kartagine in die burch.</l>
+            <l n="636" xml:id="V_l_636">Die burgâre tâten ime die sichereit.</l>
+            <l n="637" xml:id="V_l_637">Vil luzel ir mit reit,</l>
+            <l n="638" xml:id="V_l_638">wande si in ummuot wâren.</l>
+            <l n="639" xml:id="V_l_639">wider Rômâre die mâren.</l>
+         </lg>
+         <lg n="30" xml:id="V_lg_30">
+            <l n="640" xml:id="V_l_640">Dannen wurden sîne boten gesant</l>
+            <l n="641" xml:id="V_l_641">uber al Meridienlant,</l>
+            <l n="642" xml:id="V_l_642">dannen in Bethaniam</l>
+            <l n="643" xml:id="V_l_643">unde dannen in Galatiam.</l>
+            <l n="644" xml:id="V_l_644">Kartanensen er enbôt,</l>
+            <gap/>
+            <l n="645" xml:id="V_l_645">sie ne chômen unde wurden undertân,</l>
+            <l n="646" xml:id="V_l_646">er hiez si alle an daz crûce slahen.</l>
+         </lg>
+         <lg n="31" xml:id="V_lg_31">
+            <l n="647" xml:id="V_l_647">Unde als si daz vernâmen,</l>
+            <l n="648" xml:id="V_l_648">newiht langer si ne wâren,</l>
+            <l n="649" xml:id="V_l_649">sie chômen al gerihte</l>
+            <l n="650" xml:id="V_l_650">zuo des chuniges gesihte:</l>
+            <l n="651" xml:id="V_l_651">si brâhten silber unde golt</l>
+            <l n="652" xml:id="V_l_652">unde macheten in den chunich holt.</l>
+            <l n="653" xml:id="V_l_653">Er ne wolte ir goldes newiht enphâhen,</l>
+            <l n="654" xml:id="V_l_654">er bestunt sie mit genâden,</l>
+            <l n="655" xml:id="V_l_655">wande sie dûhten in frumich unde balt.</l>
+            <l n="656" xml:id="V_l_656">Er namer ein tûsint in sîne gewalt</l>
+            <l n="657" xml:id="V_l_657">unde fuorti sie in Egypto allesamt</l>
+            <l n="658" xml:id="V_l_658">unde stifte dâ zêren sînes namen</l>
+            <l n="659" xml:id="V_l_659">eine burch, diu wart nâh im genant.</l>
+            <l n="660" xml:id="V_l_660">Der erfuore al diu lant,</l>
+            <l n="661" xml:id="V_l_661">er ne gesâhe niemer neheine,</l>
+            <l n="662" xml:id="V_l_662">diu zuo ir mohte werden gezalt.</l>
+         </lg>
+         <lg n="32" xml:id="V_lg_32">
+            <l n="663" xml:id="V_l_663">Babilonia newart nie sô wît,</l>
+            <l n="664" xml:id="V_l_664">sô man sie noch ane siht.</l>
+            <l n="665" xml:id="V_l_665">Troia ne mohte sich zir niht gemâzen.</l>
+            <gap/>
+            <l n="666" xml:id="V_l_666">Â was Gapadotia gæbrach,</l>
+            <l n="667" xml:id="V_l_667">daz si wâre alsô vast.</l>
+            <l n="668" xml:id="V_l_668">Pede noch Kartago,</l>
+            <l n="669" xml:id="V_l_669">ir newedere was sô.</l>
+            <l n="670" xml:id="V_l_670">Rîcher was disiu burch noch</l>
+            <l n="671" xml:id="V_l_671">danne Rôme oder Antioch.</l>
+            <l n="672" xml:id="V_l_672">Alexandria si hiez:</l>
+            <l n="673" xml:id="V_l_673">sînen namen er drinne liez.</l>
+            <l n="674" xml:id="V_l_674">Dannen er durch daz lant brach,</l>
+            <l n="675" xml:id="V_l_675">er tede ein michel ungemach:</l>
+            <l n="676" xml:id="V_l_676">er was Dario gram.</l>
+            <l n="677" xml:id="V_l_677">Er stôrte Galileam;</l>
+            <l n="678" xml:id="V_l_678">dâ wart in Neptalimlant</l>
+            <l n="679" xml:id="V_l_679">al ferhert unde ferbrant;</l>
+            <l n="680" xml:id="V_l_680">alsô tet er Zabulon,</l>
+            <l n="681" xml:id="V_l_681">die rîchen burch Naason.</l>
+            <l n="682" xml:id="V_l_682">Er zestôrte Samariam;</l>
+            <l n="683" xml:id="V_l_683">alsô tet er Syriam:</l>
+            <l n="684" xml:id="V_l_684">diz was dâ Naaman inne was</l>
+            <l n="685" xml:id="V_l_685">von der miselsuhte genas.</l>
+            <l n="686" xml:id="V_l_686">Er zestôrte ouch Bethuliam,</l>
+            <l n="687" xml:id="V_l_687">dâ Judith Holofern sîn houbet nam.</l>
+            <l n="688" xml:id="V_l_688">Unde zestôrte ouch judeisc lant:</l>
+            <l n="689" xml:id="V_l_689">dar nâch wart Jerusalem ferbrant</l>
+            <l n="690" xml:id="V_l_690">unde Bethlehem da bî stêt.</l>
+            <l n="691" xml:id="V_l_691">Sô niemen mit ime streit,</l>
+            <l n="692" xml:id="V_l_692">al bizer Tyre zuo treib:</l>
+            <l n="693" xml:id="V_l_693">â, waz ime dâ helede tôt peleib!</l>
          </lg>
 
       </body>

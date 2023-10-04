@@ -278,8 +278,7 @@
          </lg>
          <anchor xml:id="V_Alexander_Cleopatra_end"/>
          
-         
-         <!-- EPISODIO 4 - scontro della citt&#224; di "Antonia" -->
+         <!-- EPISODIO 4 - SCONTRO DI "ANTONIA" -->
          
          <anchor xml:id="V_Alexander_retakes_city_start"/>
          <lg n="19" xml:id="V_lg_19">
@@ -314,7 +313,151 @@
          </lg>
          <anchor xml:id="V_Alexander_retakes_city_end"/>
 
-         <!-- EPISODIO 5  -->
+         <!-- EPISODIO 5: PRIMO LITIGIO SUI TRIBUTI CON DARIO  -->
+         
+         <lg n="21" xml:id="V_lg_21">
+            <l n="460" xml:id="V_l_460">Nû vernement, waz ich iu hie zele:</l>
+            <l n="461" xml:id="V_l_461">fur dem chunige in dem sale,</l>
+            <l n="462" xml:id="V_l_462">dâ vant er boten Darios,</l>
+            <l n="463" xml:id="V_l_463">aines geweltigen chuniges,</l>
+            <l n="464" xml:id="V_l_464">der den zins von sînem fater Philippus wold enfân,</l>
+            <l n="465" xml:id="V_l_465">wander Dario was undertân.</l>
+            <l n="466" xml:id="V_l_466">Diz was Darios, ter in Danigel stêt,</l>
+            <l n="467" xml:id="V_l_467">der mit dem chriechiscen chunige streit.</l>
+            <l n="468" xml:id="V_l_468">Diz was, den Daniel slâfinde gesach,</l>
+            <l n="469" xml:id="V_l_469">in einem troume, dâ er lach.</l>
+            <l n="470" xml:id="V_l_470">Dâ sah er fehten ainen boc unt ainen wider:</l>
+            <l n="471" xml:id="V_l_471">daz bezeichnet die zwêne chunige sider.</l>
+            <l n="472" xml:id="V_l_472">Daz Philippus den zins galt</l>
+            <l n="473" xml:id="V_l_473">in Darios gewalt,</l>
+            <l n="474" xml:id="V_l_474">dannen uber manegen tach,</l>
+            <l n="475" xml:id="V_l_475">daz was tem sune ungemach.</l>
+            <l n="476" xml:id="V_l_476">Darius, er wart umbe den selben zins erslagen,</l>
+            <l n="477" xml:id="V_l_477">daz ich iu zal wâre sagen.</l>
+         </lg>
+         <lg n="22" xml:id="V_lg_22">
+            <l n="478" xml:id="V_l_478">Alexander spranc ûf algerihte</l>
+            <l n="479" xml:id="V_l_479">zuo der boten gesihte.</l>
+            <l n="480" xml:id="V_l_480">Des zinses er newiht galt,</l>
+            <l n="481" xml:id="V_l_481">ir hêren er bôslîch scalt.</l>
+            <l n="482" xml:id="V_l_482">Er sprach: "Iuwer herre nehât anderes neheine frumicheit,</l>
+            <l n="483" xml:id="V_l_483">wan daz er scaz uber ein ander leit.</l>
+            <l n="484" xml:id="V_l_484">Er was ein harte tumb man,</l>
+            <l n="485" xml:id="V_l_485">daz er zinses an uns gesan.</l>
+            <l n="486" xml:id="V_l_486">Er ne wirt ime niemer gesant</l>
+            <l n="487" xml:id="V_l_487">hinnen ûzer Chriechlant,</l>
+            <l n="488" xml:id="V_l_488">bî mînen zîten."</l>
+            <l n="489" xml:id="V_l_489">Die boten hîz er rîten, </l>
+            <l n="490" xml:id="V_l_490">ê si ersturben an der stund,</l>
+            <l n="491" xml:id="V_l_491">daz sis ir herren tâten chunt:</l>
+            <l n="492" xml:id="V_l_492">alsô lange sô er des zinses neweht wolte enbern,</l>
+            <l n="493" xml:id="V_l_493">er solt in sîn dâ haime wern,</l>
+            <l n="494" xml:id="V_l_494">mit alsô getâner mâze,</l>
+            <l n="495" xml:id="V_l_495">er solte ime sîn houbet lâzen.</l>
+            <l n="496" xml:id="V_l_496">Diz inbôt er ime alsô.</l>
+            <l n="497" xml:id="V_l_497">Des wâren die boten riuwich unt frô:</l>
+            <l n="498" xml:id="V_l_498">si wârn vil frô, das si des lîbes genâsen,</l>
+            <l n="499" xml:id="V_l_499">unt wâren harte riuwich, daz er ir herren wolte verdwâsen.</l>
+         </lg>
+         
+         <!-- EPISODIO 6:  THELEMONE -->
+         
+         <lg n="23" xml:id="V_lg_23">
+            <l n="500" xml:id="V_l_500">Unde alsô diz wart gendet,</l>
+            <l n="501" xml:id="V_l_501">dô wart ein bote gesendet</l>
+            <l n="502" xml:id="V_l_502">unt saget Philippus, waz man reit</l>
+            <l n="503" xml:id="V_l_503">von ainer sîner untertâner diet,</l>
+            <l n="504" xml:id="V_l_504">von sînen mannen ze Thelemône,</l>
+            <l n="505" xml:id="V_l_505">daz sim unrehte wolten lônen</l>
+            <l n="506" xml:id="V_l_506">der triwen, der er mit in hâte begangen.</l>
+            <l n="507" xml:id="V_l_507">Si heten zeim anderen gevangen</l>
+            <l n="508" xml:id="V_l_508">unt wolten ummâze wider in stellen.</l>
+            <l n="509" xml:id="V_l_509">Alexander nam sîne gesellen,</l>
+            <l n="510" xml:id="V_l_510">frumeclîchen er dar reit,</l>
+            <l n="511" xml:id="V_l_511">alsô diche der stolze man det.</l>
+            <l n="512" xml:id="V_l_512">In die burch er giench,</l>
+            <l n="513" xml:id="V_l_513">den burgrâfæn er dar ûffe fiench.</l>
+            <l n="514" xml:id="V_l_514">Die bôsen er drabe stiez,</l>
+            <l n="515" xml:id="V_l_515">die sînen er druf liez,</l>
+            <l n="516" xml:id="V_l_516">unt nam ir scaz unt gewant</l>
+            <l n="517" xml:id="V_l_517">unt allez, daz er dâ fant,</l>
+            <l n="518" xml:id="V_l_518">unt lêhnte alle sîne man</l>
+            <l n="519" xml:id="V_l_519">mit dem, daz er dâ gewan.</l>
+            <!-- EPISODIO 7: PAUSONIAS -->
+            <l n="520" xml:id="V_l_520">Unt alser dô wider reit,</l>
+            <l n="521" xml:id="V_l_521">dô begagent ime ein mêror arbeit:</l>
+            <l n="522" xml:id="V_l_522">dâ wider reit ime Pausonias,</l>
+            <l n="523" xml:id="V_l_523">der ein rîcher marcgrâfe was</l>
+            <l n="524" xml:id="V_l_524">unt fuorte die chunigin in sîne gewalt.</l>
+            <l n="525" xml:id="V_l_525">Â, wie sêre ers dâ ze stede engalt!</l>
+            <l n="526" xml:id="V_l_526">Daz was diu scône Olimpias,</l>
+            <l n="527" xml:id="V_l_527">diu Alexanders muoter was.</l>
+            <l n="528" xml:id="V_l_528">Sînen vater lie er tôt wunt:</l>
+            <l n="529" xml:id="V_l_529">daz wart ime dâ gitân rihte chunt.</l>
+            <l n="530" xml:id="V_l_530">Alexander was ein helt frumeclîch,</l>
+            <l n="531" xml:id="V_l_531">den schilt zuht er vur sich,</l>
+            <l n="532" xml:id="V_l_532">unt alser ime was wol nâht,</l>
+            <l n="533" xml:id="V_l_533">ûf rihte er sînen scaft,</l>
+            <l n="534" xml:id="V_l_534">sprancde, dar Pausoniam gesach.</l>
+            <l n="535" xml:id="V_l_535">Durh sînen bûch er stach,</l>
+            <l n="536" xml:id="V_l_536">zuo der erde er in warf.</l>
+            <l n="537" xml:id="V_l_537">Er sprach: "Dis stiuphaters ich nieuht bedarf!".</l>
+         </lg>
+         <lg n="24" xml:id="V_lg_24">
+            <l n="538" xml:id="V_l_538">Alexander sprach zuo den gesinden</l>
+            <l n="539" xml:id="V_l_539">unt hîz den marcgrâfen ûf pinden.</l>
+            <l n="540" xml:id="V_l_540">Er fuortin lemptigen in sîn lant.</l>
+            <l n="541" xml:id="V_l_541">Â, wie siech er sînen vater vant:</l>
+            <l n="542" xml:id="V_l_542">der wunden er neuht genas,</l>
+            <l n="543" xml:id="V_l_543">die ime slûch Pausonias.</l>
+            <l n="544" xml:id="V_l_544">Alsô Alexander heim chom,</l>
+            <l n="545" xml:id="V_l_545">er giench fure sînen vater stân.</l>
+            <l n="546" xml:id="V_l_546">Er sprach: "Vater, wil du iwet sprechen,</l>
+            <l n="547" xml:id="V_l_547">du maht dich haizen rechen."</l>
+            <l n="548" xml:id="V_l_548">Er sprach: "Sun, du heiz in slahen!".</l>
+            <l n="549" xml:id="V_l_549">Daz was vil schiere getân.</l>
+            <l n="550" xml:id="V_l_550">Dar nach uber ummanegen tach</l>
+            <l n="551" xml:id="V_l_551">Philippus dâ tôt lach.</l>
+         </lg>
+         
+         <!-- EPISODIO 8: ALESSANDRO DIVENTA RE-->
+         
+         <lg n="25" xml:id="V_lg_25">
+            <l n="552" xml:id="V_l_552">Unde alsô Philippus was begraben,</l>
+            <l n="553" xml:id="V_l_553">dô wart Alexander ze chunig erhaben.</l>
+            <l n="554" xml:id="V_l_554">Starche wôhs ime sîn gewalt,</l>
+            <l n="555" xml:id="V_l_555">dô alrêrist was er zewainzec jâre alt,</l>
+            <l n="556" xml:id="V_l_556">daz er mit listen unt mit mahten</l>
+            <l n="557" xml:id="V_l_557">sîn rîche wol berihten mohte.</l>
+            <l n="558" xml:id="V_l_558">Ich sage iu, wie ers began:</l>
+            <l n="559" xml:id="V_l_559">er nam sîn aller getriwisten man,</l>
+            <l n="560" xml:id="V_l_560">die ime ze sîner nôte</l>
+            <l n="561" xml:id="V_l_561">ie wâren einmuote.</l>
+            <l n="562" xml:id="V_l_562">Er sprah: "Herre, wirne haben nieuth ze bîtene,</l>
+            <l n="563" xml:id="V_l_563">wir mûzen her laiten,</l>
+            <l n="564" xml:id="V_l_564">Chriechlande zêren.</l>
+            <l n="565" xml:id="V_l_565">Dar an gedenchent, herre,</l>
+            <l n="566" xml:id="V_l_566">daz man ie uber unser lant</l>
+            <l n="567" xml:id="V_l_567">die aller tûriste chunege vant.</l>
+            <l n="568" xml:id="V_l_568">Des lâzen wir die enkelten,</l>
+            <l n="569" xml:id="V_l_569">die uns den zins hiezen kelten,</l>
+            <l n="570" xml:id="V_l_570">hundert jâr unde mê</l>
+            <l n="571" xml:id="V_l_571">daz in ze laster ergê,</l>
+            <l n="572" xml:id="V_l_572">daz wir des zinses werden lôs!</l>
+            <l n="573" xml:id="V_l_573">Swer dâ wil snelez ros,</l>
+            <l n="574" xml:id="V_l_574">beidû wâfen unde gewât,</l>
+            <l n="575" xml:id="V_l_575">des tuon ich ime alles guoten rât</l>
+            <l n="576" xml:id="V_l_576">ân alle sîne arbeit.</l>
+            <l n="577" xml:id="V_l_577">Swer noch mit mir bestêt,</l>
+            <l n="578" xml:id="V_l_578">deme te‹i›lich lîb unde guot</l>
+            <l n="579" xml:id="V_l_579">unde trage ime imer willigen muot."</l>
+            <l n="580" xml:id="V_l_580">Unde als er diz gesagete,</l>
+            <l n="581" xml:id="V_l_581">ir niehein langer dagete,</l>
+            <l n="582" xml:id="V_l_582">sie sprâchen alle mit ainer zungen:</l>
+            <l n="583" xml:id="V_l_583">"Got behuote uns disen chunich jungen,</l>
+            <l n="584" xml:id="V_l_584">daz er mit genâden vil lange mûze leben in sînem rîche:</l>
+            <l n="585" xml:id="V_l_585">sô wê dem der ime geswîche!".</l>
+         </lg>
 
       </body>
    </text>

@@ -808,13 +808,83 @@
          <!-- EPISODIO 17: ALESSANDRO CONQUISTA LA SECONDA CERCHIA -->
          
          <lg n="43" xml:id="V_lg_43">
-            <l n="869" xml:id="V_l_869"/>
-            <l n="870" xml:id="V_l_870"/>
-            <l n="871" xml:id="V_l_871"/>
-            <l n="872" xml:id="V_l_872"/>
-            <l n="873" xml:id="V_l_873"/>
-            <l n="874" xml:id="V_l_874"/>
-            <l n="875" xml:id="V_l_875"/>
+            <l n="869" xml:id="V_l_869">Alsô si ze der ander chômen,</l>
+            <l n="870" xml:id="V_l_870">zêderboumi sie der nâmen</l>
+            <l n="871" xml:id="V_l_871">unde dar zuo lange dannen.</l>
+            <l n="872" xml:id="V_l_872">Duo hiez er perfride spannen</l>
+            <l n="873" xml:id="V_l_873">unde rihte die ûf mit listen</l>
+            <l n="874" xml:id="V_l_874">unde sazten si ûf zuo der feste.</l>
+            <l n="875" xml:id="V_l_875">Alexander steich ûf daz obrist gewer</l>
+            <l n="876" xml:id="V_l_876">unt gebôt den sturm uber al daz here,</l>
+            <l n="877" xml:id="V_l_877">unde liez dô mit der werlte</l>
+            <l n="878" xml:id="V_l_878">den ernst sturm werden.</l>
+            <l n="879" xml:id="V_l_879">Mit hameren man die burchmûre zebrach.</l>
+            <l n="880" xml:id="V_l_880">Â, waz dâ werlte tôt belach!</l>
+            <l n="881" xml:id="V_l_881">Alexanders schilt was helfenbein,</l>
+            <l n="882" xml:id="V_l_882">bezzer wart nie nechein;</l>
+            <l n="883" xml:id="V_l_883">sîn helm was alsô guot,</l>
+            <l n="884" xml:id="V_l_884">sô der nî nechein swert durch gewuot.</l>
+            <l n="885" xml:id="V_l_885">In der hende truch er einen gêr</l>
+            <l n="886" xml:id="V_l_886">von golde gedrâjet vil hêr.</l>
+            <l n="887" xml:id="V_l_887">Tuo sach er stân</l>
+            <l n="888" xml:id="V_l_888">den herzogen, dem al Tyre was undertân,</l>
+            <l n="889" xml:id="V_l_889">kegen ime ûf der mûre.</l>
+            <l n="890" xml:id="V_l_890">Er lie sich es nieuht fertûren,</l>
+            <l n="891" xml:id="V_l_891">er scôz in mit tem gêre durch</l>
+            <l n="892" xml:id="V_l_892">unde falt in tôt in die burch.</l>
+         </lg>
+         <lg n="44" xml:id="V_lg_44">
+            <l n="893" xml:id="V_l_893">Duo tet der chunich ainen sprunc,</l>
+            <l n="894" xml:id="V_l_894">mit im manch helt junc,</l>
+            <l n="895" xml:id="V_l_895">fon der perfriden ûf die zinnen:</l>
+            <l n="896" xml:id="V_l_896">alsus wolden sie die burch gewinnen.</l>
+            <l n="897" xml:id="V_l_897">Vier tûsint ir mit ime spranc,</l>
+            <l n="898" xml:id="V_l_898">sie truogen ubelen gedanc.</l>
+            <l n="899" xml:id="V_l_899">Mîn wân ne triege mich,</l>
+            <l n="900" xml:id="V_l_900">dâ gespranch ir etelîch</l>
+            <l n="901" xml:id="V_l_901">her dâ zestunt,</l>
+            <l n="902" xml:id="V_l_902">daz er nimer mêre wart gesunt,</l>
+            <l n="903" xml:id="V_l_903">daz ir ein hunderet tôt lach</l>
+            <l n="904" xml:id="V_l_904">ân andere ungemach.</l>
+            <l n="905" xml:id="V_l_905">Dâ brâchen sie die besten mûre zuo der erde,</l>
+            <l n="906" xml:id="V_l_906">diu der ie dehein solte werden.</l>
+         </lg>
+         
+         <!-- EPISODIO 18: ALESSANDRO FA BRECCIA  -->
+         
+         <lg n="45" xml:id="V_lg_45">
+            <l n="907" xml:id="V_l_907">Dâ was daz velt vil wît.</l>
+            <l n="908" xml:id="V_l_908">Dâ huob sich der bitteriste strît,</l>
+            <l n="909" xml:id="V_l_909">dâ ir noch ie abe hôrtet gesagen.</l>
+            <l n="910" xml:id="V_l_910">Dâ ne gesach man nechein zagen.</l>
+            <l n="911" xml:id="V_l_911">Dâ mahti man manegen degen scouwen</l>
+            <l n="912" xml:id="V_l_912">aldurch den helm verhouwen</l>
+            <l n="913" xml:id="V_l_913">unde manegen rîter junc</l>
+            <l n="914" xml:id="V_l_914">aldurch die halsperge verwunt,</l>
+            <l n="915" xml:id="V_l_915">daz er der wunde niht genas,</l>
+            <l n="916" xml:id="V_l_916">want daz swert scarf was.</l>
+            <l n="917" xml:id="V_l_917">Durch den scilt flôch der gêr</l>
+            <l n="918" xml:id="V_l_918">unde machet manegen helt sêr.</l>
+            <l n="919" xml:id="V_l_919">Dâ hete jâmer ein alsô der ander</l>
+            <l n="920" xml:id="V_l_920">âne den wunderlîche Alexander:</l>
+            <l n="921" xml:id="V_l_921">er  scluoch des liutes die menige.</l>
+            <l n="922" xml:id="V_l_922">Gebeizzet was sîn brunne</l>
+            <l n="923" xml:id="V_l_923">in eines wurmes bluote.</l>
+            <l n="924" xml:id="V_l_924">Er stunt ime stolzes muotes.</l>
+            <l n="925" xml:id="V_l_925">Hurnen was siu veste:</l>
+            <l n="926" xml:id="V_l_926">ez chom vone grôzen listen.</l>
+            <l n="927" xml:id="V_l_927">Ich lâze tûsint unt aver tûsint:</l>
+            <l n="928" xml:id="V_l_928">ûf der erde mahte niemen gân,</l>
+            <l n="929" xml:id="V_l_929">alsô vil lag ir dâ erslagen,</l>
+            <l n="930" xml:id="V_l_930">daz iz iu unzellîch ist ze sagen.</l>
+            <l n="931" xml:id="V_l_931"/>
+            <l n="932" xml:id="V_l_932"/>
+            <l n="933" xml:id="V_l_933"/>
+            <l n="934" xml:id="V_l_934"/>
+            <l n="935" xml:id="V_l_935"/>
+            <l n="936" xml:id="V_l_936"/>
+            <l n="937" xml:id="V_l_937"/>
+            <l n="938" xml:id="V_l_938"/>
          </lg>
 
       </body>

@@ -95,7 +95,7 @@
             <l n="289" xml:id="V_l_289"><anchor xml:id="V_Ptolemy_introduces_Bucephalus_start"/><said who="#Ptolemy" toWhom="#Alexander"/>"Herre, ist Buzival, ein ros vil swinde,</l>
             <l n="290" xml:id="V_l_290">daz hât iuwer vater în getân.</l>
             <l n="291" xml:id="V_l_291">Under der stuot ne mohte nechein bezzer gegên."</l>
-            <l n="292" xml:id="V_l_292">Er sprach:"Herre, ez ne hât nehein marscalch in huote.</l>
+            <l n="292" xml:id="V_l_292">Er sprach: "Herre, ez ne hât nehein marscalch in huote.</l>
             <l n="293" xml:id="V_l_293">wande ez erbîzet ubele unt guote."<anchor xml:id="V_Ptolemy_introduces_Bucephalus_end"/></l>
          </lg>
          <lg n="7" xml:id="V_lg_7">
@@ -877,14 +877,214 @@
             <l n="928" xml:id="V_l_928">ûf der erde mahte niemen gân,</l>
             <l n="929" xml:id="V_l_929">alsô vil lag ir dâ erslagen,</l>
             <l n="930" xml:id="V_l_930">daz iz iu unzellîch ist ze sagen.</l>
-            <l n="931" xml:id="V_l_931"/>
-            <l n="932" xml:id="V_l_932"/>
-            <l n="933" xml:id="V_l_933"/>
-            <l n="934" xml:id="V_l_934"/>
-            <l n="935" xml:id="V_l_935"/>
-            <l n="936" xml:id="V_l_936"/>
-            <l n="937" xml:id="V_l_937"/>
-            <l n="938" xml:id="V_l_938"/>
+            <!-- EPISODIO 19: TIRO CONTRATTACCA  -->
+            <l n="931" xml:id="V_l_931">Die chûnen von Tyre,</l>
+            <l n="932" xml:id="V_l_932">des lebens vil gîre,</l>
+            <l n="933" xml:id="V_l_933">si fuhten alsô wildiu swîn,</l>
+            <l n="934" xml:id="V_l_934">swes tôt nieht solte sîn.</l>
+         </lg>
+         <lg n="46" xml:id="V_lg_46">
+            <l n="935" xml:id="V_l_935">Die umbe die burch lâgen,</l>
+            <l n="936" xml:id="V_l_936">sine dorften sich des siges niemer geruomen,</l>
+            <l n="937" xml:id="V_l_937">wande die burgêre brâchen si durch</l>
+            <l n="938" xml:id="V_l_938">unde wichen aber wider in die burch.</l>
+            <!-- EPISODIO 20: LE STRATEGIE DI ALESSANDRO -->
+            <l n="939" xml:id="V_l_939">Dâ verlôs er manegen dûren chneht:</l>
+            <l n="940" xml:id="V_l_940">Alexander tet in grôz unreht.</l>
+         </lg>
+         <lg n="47" xml:id="V_lg_47">
+            <l n="941" xml:id="V_l_941">Harte zurnt sich Alexander duo,</l>
+            <l n="942" xml:id="V_l_942">mit nîde giench er den porten zuo.</l>
+            <l n="943" xml:id="V_l_943">Die dar ûf wâren,</l>
+            <l n="944" xml:id="V_l_944">si tâten scaden mêre.</l>
+            <l n="945" xml:id="V_l_945">Ûf ter porte stunten drîe turni:</l>
+            <l n="946" xml:id="V_l_946">dâ geschiet er abe mit zorni</l>
+            <l n="947" xml:id="V_l_947">des mordes, des er an sînen holden gesach.</l>
+            <l n="948" xml:id="V_l_948">Mit sînen fursten er sprach:</l>
+            <l n="949" xml:id="V_l_949">"Herre, bedenchet iuchs in zît,</l>
+            <l n="950" xml:id="V_l_950">wandir tiure chnehte sît:</l>
+            <l n="951" xml:id="V_l_951">nement si nû den obern sige,</l>
+            <l n="952" xml:id="V_l_952">sô ist unser spot uber daz lant."</l>
+            <l n="953" xml:id="V_l_953">Der rât, der ime dô wart getân,</l>
+            <l n="954" xml:id="V_l_954">den mugent ir schiere verstên:</l>
+            <l n="955" xml:id="V_l_955">sie rieten, daz er mange getaete richten</l>
+            <l n="956" xml:id="V_l_956">unde liezze die turni brechen.</l>
+            <l n="957" xml:id="V_l_957">Zwâ unde sibenzech mange wurden dâ gestalt:</l>
+            <l n="958" xml:id="V_l_958">sie wurfen alle mit gewalt,</l>
+            <l n="959" xml:id="V_l_959">si wâren vil wol gesailet,</l>
+            <l n="960" xml:id="V_l_960">si wurden in drîu getailet,</l>
+            <l n="961" xml:id="V_l_961">si wurfen fûr unde witi.</l>
+            <l n="962" xml:id="V_l_962">Das was Alexanders site,</l>
+            <l n="963" xml:id="V_l_963">daz er chriechisc fûr chunde wurchen</l>
+            <l n="964" xml:id="V_l_964">unde liez iz niemen merchen,</l>
+            <l n="965" xml:id="V_l_965">von welher liste iz im chom,</l>
+            <l n="966" xml:id="V_l_966">daz ez in dem wazzere bran.</l>
+            <l n="967" xml:id="V_l_967">Daz warf er în zuo der burch,</l>
+            <l n="968" xml:id="V_l_968">dâ mite brante er siu aldurch unde durch,</l>
+            <l n="969" xml:id="V_l_969">unde dar zuo manegen herten stein:</l>
+            <l n="970" xml:id="V_l_970">dô belaib der burgâre nienhein,</l>
+            <l n="971" xml:id="V_l_971">si mûsen duo alle von der zinnen gân,</l>
+            <l n="972" xml:id="V_l_972">wande si ne getorsten dâ nie langer gestân,</l>
+            <l n="973" xml:id="V_l_973">for des fûres forhten.</l>
+            <l n="974" xml:id="V_l_974">Alexander, der tranch zuo der porte,</l>
+            <l n="975" xml:id="V_l_975">mit nîde er sie der nider brach.</l>
+            <l n="976" xml:id="V_l_976">Â, waz ime dâ helede tôt lach!</l>
+            <l n="977" xml:id="V_l_977">Des waerim zêren mê gescît,</l>
+            <l n="978" xml:id="V_l_978">forhten si der mange wurfe nieht.</l>
+            <l n="979" xml:id="V_l_979">Sô solt im diu burch werden tiure,</l>
+            <l n="980" xml:id="V_l_980">gewunners nieht mit Chriechiscem fiure.</l>
+         </lg>
+         
+         <!-- EPISODIO 21: LA CADUTA DI TIRO -->
+         
+         <lg n="48" xml:id="V_lg_48">
+            <l n="981" xml:id="V_l_981">Alexander wolte sich wole rechen.</l>
+            <l n="982" xml:id="V_l_982">Er hiez die trîe turne nider brehen,</l>
+            <l n="983" xml:id="V_l_983">die daz fûr hiete verlâzen.</l>
+            <l n="984" xml:id="V_l_984">Der aller rîchisten burgâre, die in der burch sâzen,</l>
+            <l n="985" xml:id="V_l_985">der tede er driu tûsint fâhen</l>
+            <l n="986" xml:id="V_l_986">unde hiez sie blenden unde hâhen,</l>
+            <l n="987" xml:id="V_l_987">wider sîne furstin drîn,</l>
+            <l n="988" xml:id="V_l_988">die er dâ for sante der în.</l>
+            <l n="989" xml:id="V_l_989">Des siges, des er dâ nam,</l>
+            <l n="990" xml:id="V_l_990">wêrez ein wole bedâht man,</l>
+            <l n="991" xml:id="V_l_991">er ne wurdes niemer ze frô,</l>
+            <l n="992" xml:id="V_l_992">wande ez gescah sît alsô,</l>
+            <l n="993" xml:id="V_l_993">daz ir mêre was, der ime da tôt belaib,</l>
+            <gap/>
+            <l n="994" xml:id="V_l_994">tan der inerhalb Tyre wâre,</l>
+            <l n="995" xml:id="V_l_995">weder geste oder burgâre.</l>
+            <l n="996" xml:id="V_l_996">Al zestôret was tuo Tyrus:</l>
+            <l n="997" xml:id="V_l_997">die stifte sint ter chunich Apollonius,</l>
+            <l n="998" xml:id="V_l_998">den Antioch uber mere jagete,</l>
+            <l n="999" xml:id="V_l_999">wande er imme sagete</l>
+            <l n="1000" xml:id="V_l_1000">daz rêtsce an einem brieve,</l>
+            <l n="1001" xml:id="V_l_1001">daz er mit sîner tohter sliefe.</l>
+            <l n="1002" xml:id="V_l_1002">Tyre is noch diu selbe stat,</l>
+            <l n="1003" xml:id="V_l_1003">dâ daz heiden wîb unseren heren pat,</l>
+            <l n="1004" xml:id="V_l_1004">daz er ir tohter erlôste</l>
+            <l n="1005" xml:id="V_l_1005">von dem ubelen geiste, der sie nôte.</l>
+         </lg>
+         
+         <!-- EPISODIO 22: DARIO APPRENDE DELLA CADUTA DI TIRO -->
+         
+         <lg n="49" xml:id="V_lg_49">
+            <l n="1006" xml:id="V_l_1006">Darnâch uber unlanch stunt,</l>
+            <l n="1007" xml:id="V_l_1007">sô wart Dario chunt,</l>
+            <l n="1008" xml:id="V_l_1008">mit einem der vone Tyren entran,</l>
+            <l n="1009" xml:id="V_l_1009">daz Alexander, der chûne man,</l>
+            <l n="1010" xml:id="V_l_1010">sîne liute habete gevangen</l>
+            <l n="1011" xml:id="V_l_1011">unde geblendet unde erhangen,</l>
+            <l n="1012" xml:id="V_l_1012">unde diu schône Tyre lâg en chole.</l>
+            <l n="1013" xml:id="V_l_1013">Unde er sie hieze daz laster dolen,</l>
+            <l n="1014" xml:id="V_l_1014">er sprach er mohte sich scamen</l>
+            <l n="1015" xml:id="V_l_1015">sînes chunichlîches namen,</l>
+            <l n="1016" xml:id="V_l_1016">daz er in niuht ze helfen chôme,</l>
+            <l n="1017" xml:id="V_l_1017">duo er ir grôze nôt fernâme.</l>
+         </lg>
+         
+         <!-- EPISODIO 23: I DONI DI DARIO  -->
+         
+         <lg n="50" xml:id="V_lg_50">
+            <l n="1018" xml:id="V_l_1018">Ain rîcher chunich was Darios.</l>
+            <l n="1019" xml:id="V_l_1019">Herwider dâhter alsus:</l>
+            <l n="1020" xml:id="V_l_1020">Alexander dûhet in liuzel.</l>
+            <l n="1021" xml:id="V_l_1021">Er sante im eines chindes stuzel</l>
+            <l n="1022" xml:id="V_l_1022">unde dar zuo ein scuohpant,</l>
+            <l n="1023" xml:id="V_l_1023">alsô erz in sînem herzen vant,</l>
+            <l n="1024" xml:id="V_l_1024">unde ein wenich choldes in einer lade.</l>
+            <l n="1025" xml:id="V_l_1025">Er wânde, er ime iemer mohte gescaden</l>
+            <l n="1026" xml:id="V_l_1026">unde sante im dise drîe sache</l>
+            <l n="1027" xml:id="V_l_1027">unde tet des einen brîf machen,</l>
+            <l n="1028" xml:id="V_l_1028">daz ez der brîf benante,</l>
+            <l n="1029" xml:id="V_l_1029">umbe waz er ime die drîe gebe sante.</l>  
+         </lg>
+         <lg n="51" xml:id="V_lg_51">
+            <l n="1030" xml:id="V_l_1030">Aen stuzel sante er im umbe daz,</l>
+            <l n="1031" xml:id="V_l_1031">daz ime daz stunde michel baz,</l>
+            <l n="1032" xml:id="V_l_1032">daz er mit den chinden spilen gienge,</l>
+            <l n="1033" xml:id="V_l_1033">danner sîne liute cholte oder hienge.</l>
+            <l n="1034" xml:id="V_l_1034">Daz bezeichinôt daz scuochpant,</l>
+            <l n="1035" xml:id="V_l_1035">daz Alexander wart kesant,</l>
+            <l n="1036" xml:id="V_l_1036">daz er ime tagelîchen dienen solte,</l>
+            <l n="1037" xml:id="V_l_1037">ob Darios wolte,</l>
+            <l n="1038" xml:id="V_l_1038">wanten scuochpant nuzet man tagelîch:</l>
+            <l n="1039" xml:id="V_l_1039">daz er daran bedachte sich</l>
+            <l n="1040" xml:id="V_l_1040">unde lieze sîn irreheit stân</l>
+            <l n="1041" xml:id="V_l_1041">unde wâre sîneme herren undertân,</l>
+            <l n="1042" xml:id="V_l_1042">alsô ander sîne forderen heten,</l>
+            <l n="1043" xml:id="V_l_1043">die sich nie wider ime gesazten.</l>
+         </lg>
+         <lg n="52" xml:id="V_lg_52">
+            <l n="1044" xml:id="V_l_1044">Daz bezeichnôt daz cholt,</l>
+            <l n="1045" xml:id="V_l_1045">daz er rehte merchen scolte,</l>
+            <l n="1046" xml:id="V_l_1046">daz daz ter zins wâre, den ime sîn vater chulte</l>
+            <l n="1047" xml:id="V_l_1047">aller jârilîch turch sîne hulde,</l>
+            <l n="1048" xml:id="V_l_1048">daz er indes prâcht innin</l>
+            <l n="1049" xml:id="V_l_1049">unde fûr im den zins gewinnen,</l>
+            <l n="1050" xml:id="V_l_1050">unde daz er des choldes solde leben</l>
+            <l n="1051" xml:id="V_l_1051">unde er niemen nieuht solte nemen,</l>
+            <l n="1052" xml:id="V_l_1052">unz er wider haim chôme,</l>
+            <l n="1053" xml:id="V_l_1053">daz er niemen sînes nieuht nâme</l>
+            <l n="1054" xml:id="V_l_1054">unde daz er schiere dannen rite</l>
+            <l n="1055" xml:id="V_l_1055">unde nieuht langer bite.</l>
+            <l n="1056" xml:id="V_l_1056">Unde daeter euw‹e›ht mêre wider sîne willen,</l>
+            <l n="1057" xml:id="V_l_1057">er hiez in mit dem besemen villen.</l>
+         </lg>
+         
+         <!-- EPISODIO 24: LA RISPOSTA DI ALESSANDRO  -->
+         
+         <lg n="53" xml:id="V_lg_53">
+            <l n="1058" xml:id="V_l_1058">Unde alsô Alexander den brîf gelas,</l>
+            <l n="1059" xml:id="V_l_1059">owî, wie smâhe ime was,</l>
+            <l n="1060" xml:id="V_l_1060">daz man imme troute ze slahen!</l>
+            <l n="1061" xml:id="V_l_1061">Die boten hiez er alle ûf hâhen.</l>
+            <l n="1062" xml:id="V_l_1062">Der boten ainer zim sprach:</l>
+            <l n="1063" xml:id="V_l_1063">"Herre, tuot uns nehain ungemach,</l>
+            <l n="1064" xml:id="V_l_1064">wande ez ne dûcht iuch gnâde noch reht,</l>
+            <l n="1065" xml:id="V_l_1065">swâ sô iwier chneht</l>
+            <l n="1066" xml:id="V_l_1066">iwier botescaft tribe,</l>
+            <l n="1067" xml:id="V_l_1067">daz er drumbe tôt belibe.</l>
+            <l n="1068" xml:id="V_l_1068">Unde niene scentet euieren namen.</l>
+            <l n="1069" xml:id="V_l_1069">Wir jehen des, herre, alle samt,</l>
+            <l n="1070" xml:id="V_l_1070">daz under disen chunigen allen</l>
+            <l n="1071" xml:id="V_l_1071">nieheiner zeu mach gevallen,</l>
+            <l n="1072" xml:id="V_l_1072">der mit alsô grôzer frummicheit</l>
+            <l n="1073" xml:id="V_l_1073">sîn here uber lant leit,</l>
+            <l n="1074" xml:id="V_l_1074">sô ir, herre chunich, tuot.</l>
+            <l n="1075" xml:id="V_l_1075">Nû bedwinget iwieren muot</l>
+            <l n="1076" xml:id="V_l_1076">unde habet unser mâze,</l>
+            <l n="1077" xml:id="V_l_1077">wande wir getorsten die botscaft niet lâzen."</l>
+         </lg>
+         <lg n="54" xml:id="V_lg_54">
+            <l n="1078" xml:id="V_l_1078">Alexander bedâhte sich,</l>
+            <l n="1079" xml:id="V_l_1079">er wart den boten genâdich.</l>
+            <l n="1080" xml:id="V_l_1080">Er ne waiz in nieht umbe die sculde,</l>
+            <l n="1081" xml:id="V_l_1081">er gab in wider daz selbe golt,</l>
+            <l n="1082" xml:id="V_l_1082">daz ime von ir hêren bechom.</l>
+            <l n="1083" xml:id="V_l_1083">Er sprach: "Âwî, wie ubele ich ime des gan,</l>
+            <l n="1084" xml:id="V_l_1084">daz mir iwier herre drouwet ze slahen!</l>
+            <l n="1085" xml:id="V_l_1085">Er hât gelîch getân</l>
+            <l n="1086" xml:id="V_l_1086">alsô der bôse rude teot:</l>
+            <l n="1087" xml:id="V_l_1087">des nahtes, alsô er eweht verstêt,</l>
+            <l n="1088" xml:id="V_l_1088">sô ne getar er sich dar nâher niuht geziehen,</l>
+            <l n="1089" xml:id="V_l_1089">er beginnet ûzwerd flîhen</l>
+            <l n="1090" xml:id="V_l_1090">unde wîzzet iz allez mit sîner cheln</l>
+            <l n="1091" xml:id="V_l_1091">unde beginnet darwert belen."</l>
+         </lg>
+         <lg n="55" xml:id="V_lg_55">
+            <l n="1092" xml:id="V_l_1092">Er sprach: "Iwiers herren brief mir nieuht gevellet,</l>
+            <l n="1093" xml:id="V_l_1093">wande er zer gebe niene gehillet.</l>
+            <l n="1094" xml:id="V_l_1094">Diu gâbe, diu ist lobelîch,</l>
+            <l n="1095" xml:id="V_l_1095">unde der brief, der ist redelîch,</l>
+            <l n="1096" xml:id="V_l_1096">er bezeichenet alle ein ander"</l>
+            <l n="1097" xml:id="V_l_1097">sprah der chunig Alexander.</l>
+            <l n="1098" xml:id="V_l_1098">"Der stuzel, demer iwier herre hât gesant,</l>
+            <l n="1099" xml:id="V_l_1099">dâ mit hât er mir rechant,</l>
+            <l n="1100" xml:id="V_l_1100">daiz allez ane mir sul bestân,</l>
+            <l n="1101" xml:id="V_l_1101">swaz sô unter deme himele is betân</l>
+            <l n="1102" xml:id="V_l_1102">unde ich is alles herre sul werden,</l>
+            <l n="1103" xml:id="V_l_1103">ûf der scîbligen erde."</l>
          </lg>
 
       </body>

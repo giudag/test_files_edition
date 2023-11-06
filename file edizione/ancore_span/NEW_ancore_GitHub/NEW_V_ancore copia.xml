@@ -23,8 +23,8 @@
 
       <body>
 
-         <!-- EPISODIO 1 - BUCEFALO -->
-         
+         <!-- BUCEFALO -->
+
          <anchor xml:id="V_Bucephalus_start"/>
          <lg n="1" xml:id="V_lg_1">
             <l n="235" xml:id="V_l_235">Von Philippus stuode wil ich iu sagen:</l>
@@ -69,8 +69,11 @@
             <l n="267" xml:id="V_l_267">Er sprach, man solte ez noch an im ervaren,</l>
             <l n="268" xml:id="V_l_268">wem des chuniges gewalt</l>
             <l n="269" xml:id="V_l_269">nach sînem lîbe wurt fersalt.</l>
-            <l n="270" xml:id="V_l_270">Er sprach:<anchor xml:id="V_messenger_Bucephalus_start"/><said who="#messengerBucephalus" toWhom="#Philip"/>"Daz sol dem, derz alrêst bescrîde,</l>
-            <l n="271" xml:id="V_l_271">wan diz nie chein man ne gerite."<anchor xml:id="V_messenger_Bucephalus_end"/></l>
+            <l n="270" xml:id="V_l_270">Er sprach:<anchor xml:id="V_messenger_Bucephalus_start"
+                  /><said who="#messengerBucephalus" toWhom="#Philip"/>"Daz sol dem, derz alrêst
+               bescrîde,</l>
+            <l n="271" xml:id="V_l_271">wan diz nie chein man ne gerite."<anchor
+                  xml:id="V_messenger_Bucephalus_end"/></l>
             <l n="272" xml:id="V_l_272">Unt als Alexander haim chom,</l>
             <l n="273" xml:id="V_l_273">algerihte er daz vernam.</l>
             <l n="274" xml:id="V_l_274">Wîs was er zummâzen.</l>
@@ -85,18 +88,23 @@
             <l n="281" xml:id="V_l_281">daz stunt in sîner tobeheit scrîen.</l>
             <l n="282" xml:id="V_l_282">Alexander sprach zen chinden,</l>
             <l n="283" xml:id="V_l_283">die mit ime uber die palize gîngen:</l>
-            <l n="284" xml:id="V_l_284"><anchor xml:id="V_Alexander_pageBoys_start"/><said who="#Alexander" toWhom="#pageBoys"/>"Ich ne weiz, waz mir scillet inz ôre,</l>
+            <l n="284" xml:id="V_l_284"><anchor xml:id="V_Alexander_pageBoys_start"/><said
+                  who="#Alexander" toWhom="#pageBoys"/>"Ich ne weiz, waz mir scillet inz ôre,</l>
             <l n="285" xml:id="V_l_285">ez ne lât mich nieht gehôren.</l>
             <l n="286" xml:id="V_l_286">Ich ne weiz wederz ein ros oder ein lewe deot,</l>
-            <l n="287" xml:id="V_l_287">wan ez dâ in beslozzen stêt."<anchor xml:id="V_Alexander_pageBoys_end"/></l>
+            <l n="287" xml:id="V_l_287">wan ez dâ in beslozzen stêt."<anchor
+                  xml:id="V_Alexander_pageBoys_end"/></l>
          </lg>
          <lg n="6" xml:id="V_lg_6">
             <l n="288" xml:id="V_l_288">Btholomeus sprach zuo dem chinde:</l>
-            <l n="289" xml:id="V_l_289"><anchor xml:id="V_Ptolemy_introduces_Bucephalus_start"/><said who="#Ptolemy" toWhom="#Alexander"/>"Herre, ist Buzival, ein ros vil swinde,</l>
+            <l n="289" xml:id="V_l_289"><anchor xml:id="V_Ptolemy_introduces_Bucephalus_start"
+                  /><said who="#Ptolemy" toWhom="#Alexander"/>"Herre, ist Buzival, ein ros vil
+               swinde,</l>
             <l n="290" xml:id="V_l_290">daz hât iuwer vater în getân.</l>
             <l n="291" xml:id="V_l_291">Under der stuot ne mohte nechein bezzer gegên."</l>
             <l n="292" xml:id="V_l_292">Er sprach: "Herre, ez ne hât nehein marscalch in huote.</l>
-            <l n="293" xml:id="V_l_293">wande ez erbîzet ubele unt guote."<anchor xml:id="V_Ptolemy_introduces_Bucephalus_end"/></l>
+            <l n="293" xml:id="V_l_293">wande ez erbîzet ubele unt guote."<anchor
+                  xml:id="V_Ptolemy_introduces_Bucephalus_end"/></l>
          </lg>
          <lg n="7" xml:id="V_lg_7">
             <l n="294" xml:id="V_l_294">Unt diz Alexander vernam,</l>
@@ -132,7 +140,7 @@
          </lg>
          <anchor xml:id="V_Bucephalus_end"/>
 
-         <!-- EPISODIO 2 - ALESSANDRO CHIEDE AL PADRE DI POTER IMPUGNARE LE ARMI PER LA PRIMA VOLTA - PRIMA IMPRESA DI ALESSANDRO -->
+         <!--  ALESSANDRO CHIEDE AL PADRE DI POTER IMPUGNARE LE ARMI PER LA PRIMA VOLTA - PRIMA IMPRESA DI ALESSANDRO -->
 
          <anchor xml:id="V_Alexander_firstBattle_start"/>
          <lg n="10" xml:id="V_lg_10">
@@ -154,11 +162,14 @@
             <l n="331" xml:id="V_l_331">mit handen si sich nâmen.</l>
             <l n="332" xml:id="V_l_332">Ir rede was vil minnesam,</l>
             <l n="333" xml:id="V_l_333">als ir hie muget ferstân.</l>
-            <l n="334" xml:id="V_l_334"><anchor xml:id="V_Philip_praises_Alexander_start"/><said who="#Philip" toWhom="#Alexander"/>"Heil dich - sprach Philippus - sun mîn!</l>
+            <l n="334" xml:id="V_l_334"><anchor xml:id="V_Philip_praises_Alexander_start"/><said
+                  who="#Philip" toWhom="#Alexander"/>"Heil dich - sprach Philippus - sun mîn!</l>
             <l n="335" xml:id="V_l_335">Mich tuncet, du solt chunich sîn.</l>
             <l n="336" xml:id="V_l_336">Der gewalt sî dir vil gereit,</l>
-            <l n="337" xml:id="V_l_337">alsô wît, sô mîn rîch gêt."<anchor xml:id="V_Philip_praises_Alexander_end"/></l>
-            <l n="338" xml:id="V_l_338"><anchor xml:id="V_Alexander_wants_weapons_start"/><said who="#Alexander" toWhom="#Philip"/>"Heil iuch - sprach Alexander - fater mîn!</l>
+            <l n="337" xml:id="V_l_337">alsô wît, sô mîn rîch gêt."<anchor
+                  xml:id="V_Philip_praises_Alexander_end"/></l>
+            <l n="338" xml:id="V_l_338"><anchor xml:id="V_Alexander_wants_weapons_start"/><said
+                  who="#Alexander" toWhom="#Philip"/>"Heil iuch - sprach Alexander - fater mîn!</l>
             <l n="339" xml:id="V_l_339">Got lâz iuch iemer sâlich sîn!</l>
             <l n="340" xml:id="V_l_340">Alles guotes ich iu vil wol getrûwe.</l>
             <l n="341" xml:id="V_l_341">Vil lange mûzet ir iuwer rîche mit genâden bûwen!".</l>
@@ -171,7 +182,8 @@
             <l n="346" xml:id="V_l_346">Unt swer eigen tugent iemer sol gewinnen,</l>
             <l n="347" xml:id="V_l_347">der sal sîn in sîner jugende beginnen,</l>
             <l n="348" xml:id="V_l_348">unt ê seher sich sculdich,</l>
-            <l n="349" xml:id="V_l_349">nieuht versûmer sih."<anchor xml:id="V_Alexander_wants_weapons_end"/></l>
+            <l n="349" xml:id="V_l_349">nieuht versûmer sih."<anchor
+                  xml:id="V_Alexander_wants_weapons_end"/></l>
             <l n="350" xml:id="V_l_350">Der chunich, er ne wolte es newiht beiten,</l>
             <l n="351" xml:id="V_l_351">er hîz daz chint bereiten.</l>
             <l n="352" xml:id="V_l_352">Waz mage ich iu sundere gesagen?</l>
@@ -192,14 +204,16 @@
             <l n="365" xml:id="V_l_365">dâ er sînen vinger ûf geleite.</l>
          </lg>
          <lg n="13" xml:id="V_lg_13">
-            <l n="366" xml:id="V_l_366">Er sprach:<anchor xml:id="V_Alexander_royalTitle_start"/><said who="#Alexander" toWhom="#subjects"/>"Woldet ir eine wîle geruowen,</l>
+            <l n="366" xml:id="V_l_366">Er sprach:<anchor xml:id="V_Alexander_royalTitle_start"
+                  /><said who="#Alexander" toWhom="#subjects"/>"Woldet ir eine wîle geruowen,</l>
             <l n="367" xml:id="V_l_367">unze ich aine tugent maht getuon:</l>
             <l n="368" xml:id="V_l_368">an einem chunige wil ich es beginnen,</l>
             <l n="369" xml:id="V_l_369">unt mach ich den uberwinden,</l>
             <l n="370" xml:id="V_l_370">daz ich dem die chrôni abe ziehe</l>
             <l n="371" xml:id="V_l_371">unt ûz dem velde tuon geflîhen,</l>
             <l n="372" xml:id="V_l_372">sô muget ir mir chuniges namen geben,</l>
-            <l n="373" xml:id="V_l_373">alsô lange, sô ich iemer gelebe."<anchor xml:id="V_Alexander_royalTitle_end"/></l>
+            <l n="373" xml:id="V_l_373">alsô lange, sô ich iemer gelebe."<anchor
+                  xml:id="V_Alexander_royalTitle_end"/></l>
          </lg>
          <lg n="14" xml:id="V_lg_14">
             <l n="374" xml:id="V_l_374">Ein chunich was Nycolaus genant.</l>
@@ -209,9 +223,9 @@
             <l n="378" xml:id="V_l_378">Alexander faht ime den sige abe,</l>
             <l n="379" xml:id="V_l_379">er fuorte die corône mit im dane.</l>
             <anchor xml:id="V_Alexander_firstBattle_end"/>
-            
-            <!-- EPISODIO 3 - ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE: qui utili ancore perch&#233; nuovo episodio nel mezzo di una strofa -->
-            
+
+            <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE: qui utili ancore, nuovo episodio nel mezzo di una strofa -->
+
             <anchor xml:id="V_Alexander_Cleopatra_start"/>
             <l n="380" xml:id="V_l_380">Unt alser dô wider haim gesan,</l>
             <l n="381" xml:id="V_l_381">ein lait nûemâre er im vernam:</l>
@@ -227,7 +241,8 @@
             <l n="389" xml:id="V_l_389">sînem fater ers ûf sazte.</l>
          </lg>
          <lg n="16" xml:id="V_lg_16">
-            <l n="390" xml:id="V_l_390">Er sprach:<anchor xml:id="V_Alexander_accuses_Philip_start"/><said who="#Alexander" toWhom="#Philip"/>"Fater, nement tiz mit minnen,</l>
+            <l n="390" xml:id="V_l_390">Er sprach:<anchor xml:id="V_Alexander_accuses_Philip_start"
+                  /><said who="#Alexander" toWhom="#Philip"/>"Fater, nement tiz mit minnen,</l>
             <l n="391" xml:id="V_l_391">daz ich mit sturme hân gewunnen,</l>
             <l n="392" xml:id="V_l_392">unze ich es baz mach getuon:</l>
             <l n="393" xml:id="V_l_393">des habet ir êre unde ruom.</l>
@@ -240,7 +255,8 @@
             <l n="400" xml:id="V_l_400">Nû wêwn sô mir die ougen, dâ ich mit kesihe!</l>
             <l n="401" xml:id="V_l_401">Ich kedanche sîn allen den hien,</l>
             <l n="402" xml:id="V_l_402">die disen rât habent gefrumit,</l>
-            <l n="403" xml:id="V_l_403">daz er niemer zêren chumt!".<anchor xml:id="V_Alexander_accuses_Philip_end"/></l>
+            <l n="403" xml:id="V_l_403">daz er niemer zêren chumt!".<anchor
+                  xml:id="V_Alexander_accuses_Philip_end"/></l>
          </lg>
          <lg n="17" xml:id="V_lg_17">
             <l n="404" xml:id="V_l_404">Ein rîter hiez Lisias,</l>
@@ -254,7 +270,9 @@
             <l n="412" xml:id="V_l_412">den habet Alexander ûf der hende</l>
             <l n="413" xml:id="V_l_413">unt slûgen Lisian fur die zende,</l>
             <l n="414" xml:id="V_l_414">daz sim in sîne chelen risin.</l>
-            <l n="415" xml:id="V_l_415">Er sprach:<anchor xml:id="V_Alexander_Lysia_start"/><said who="#Alexander" toWhom="#Lysia"/>"Lâ du dîn rede wesen!".<anchor xml:id="V_Alexander_Lysia_end"/></l>
+            <l n="415" xml:id="V_l_415">Er sprach:<anchor xml:id="V_Alexander_Lysia_start"/><said
+                  who="#Alexander" toWhom="#Lysia"/>"Lâ du dîn rede wesen!".<anchor
+                  xml:id="V_Alexander_Lysia_end"/></l>
          </lg>
          <lg n="18" xml:id="V_lg_18">
             <l n="416" xml:id="V_l_416">Der chunich ûf fon der taveln spranch,</l>
@@ -277,9 +295,9 @@
             <l n="433" xml:id="V_l_433">unt brâht in unt sîne muter inein.</l>
          </lg>
          <anchor xml:id="V_Alexander_Cleopatra_end"/>
-         
-         <!-- EPISODIO 4 - SCONTRO DI "ANTONIA" -->
-         
+
+         <!-- SCONTRO DI "ANTONIA" -->
+
          <anchor xml:id="V_Alexander_retakes_city_start"/>
          <lg n="19" xml:id="V_lg_19">
             <l n="434" xml:id="V_l_434">Unde alsô daz was gendet,</l>
@@ -313,8 +331,9 @@
          </lg>
          <anchor xml:id="V_Alexander_retakes_city_end"/>
 
-         <!-- EPISODIO 5: PRIMO LITIGIO SUI TRIBUTI CON DARIO  -->
-         
+         <!--  PRIMO LITIGIO SUI TRIBUTI CON DARIO  -->
+
+         <anchor xml:id="V_tribute_dispute_start"/>
          <lg n="21" xml:id="V_lg_21">
             <l n="460" xml:id="V_l_460">Nû vernement, waz ich iu hie zele:</l>
             <l n="461" xml:id="V_l_461">fur dem chunige in dem sale,</l>
@@ -340,7 +359,8 @@
             <l n="479" xml:id="V_l_479">zuo der boten gesihte.</l>
             <l n="480" xml:id="V_l_480">Des zinses er newiht galt,</l>
             <l n="481" xml:id="V_l_481">ir hêren er bôslîch scalt.</l>
-            <l n="482" xml:id="V_l_482">Er sprach: "Iuwer herre nehât anderes neheine frumicheit,</l>
+            <l n="482" xml:id="V_l_482">Er sprach: "Iuwer herre nehât anderes neheine
+               frumicheit,</l>
             <l n="483" xml:id="V_l_483">wan daz er scaz uber ein ander leit.</l>
             <l n="484" xml:id="V_l_484">Er was ein harte tumb man,</l>
             <l n="485" xml:id="V_l_485">daz er zinses an uns gesan.</l>
@@ -357,11 +377,14 @@
             <l n="496" xml:id="V_l_496">Diz inbôt er ime alsô.</l>
             <l n="497" xml:id="V_l_497">Des wâren die boten riuwich unt frô:</l>
             <l n="498" xml:id="V_l_498">si wârn vil frô, das si des lîbes genâsen,</l>
-            <l n="499" xml:id="V_l_499">unt wâren harte riuwich, daz er ir herren wolte verdwâsen.</l>
+            <l n="499" xml:id="V_l_499">unt wâren harte riuwich, daz er ir herren wolte
+               verdwâsen.</l>
          </lg>
-         
-         <!-- EPISODIO 6:  THELEMONE -->
-         
+         <anchor xml:id="V_tribute_dispute_end"/>
+
+         <!-- THELEMONE -->
+
+         <anchor xml:id="V_Thelemone_start"/>
          <lg n="23" xml:id="V_lg_23">
             <l n="500" xml:id="V_l_500">Unde alsô diz wart gendet,</l>
             <l n="501" xml:id="V_l_501">dô wart ein bote gesendet</l>
@@ -383,7 +406,9 @@
             <l n="517" xml:id="V_l_517">unt allez, daz er dâ fant,</l>
             <l n="518" xml:id="V_l_518">unt lêhnte alle sîne man</l>
             <l n="519" xml:id="V_l_519">mit dem, daz er dâ gewan.</l>
-            <!-- EPISODIO 7: PAUSONIAS -->
+            <anchor xml:id="V_Thelemone_end"/>
+            <!--  LA MORTE DI FILIPPO -->
+            <anchor xml:id="V_Philip_death_start"/>
             <l n="520" xml:id="V_l_520">Unt alser dô wider reit,</l>
             <l n="521" xml:id="V_l_521">dô begagent ime ein mêror arbeit:</l>
             <l n="522" xml:id="V_l_522">dâ wider reit ime Pausonias,</l>
@@ -419,9 +444,11 @@
             <l n="550" xml:id="V_l_550">Dar nach uber ummanegen tach</l>
             <l n="551" xml:id="V_l_551">Philippus dâ tôt lach.</l>
          </lg>
-         
-         <!-- EPISODIO 8: ALESSANDRO DIVENTA RE -->
-         
+         <anchor xml:id="V_Philip_death_end"/>
+
+         <!-- ALESSANDRO DIVENTA RE -->
+
+         <anchor xml:id="V_Alexander_becomes_king_start"/>
          <lg n="25" xml:id="V_lg_25">
             <l n="552" xml:id="V_l_552">Unde alsô Philippus was begraben,</l>
             <l n="553" xml:id="V_l_553">dô wart Alexander ze chunig erhaben.</l>
@@ -458,9 +485,11 @@
             <l n="584" xml:id="V_l_584">daz er mit genâden vil lange mûze leben in sînem rîche:</l>
             <l n="585" xml:id="V_l_585">sô wê dem der ime geswîche!".</l>
          </lg>
-         
-         <!-- EPISODIO 9: LE SPEDIZIONI DI ALESSANDRO  -->
-         
+         <anchor xml:id="V_Alexander_becomes_king_end"/>
+
+         <!-- ALESSANDRO RECLUTA ALLEATI  -->
+
+         <anchor xml:id="V_Alexander_recruits_allys_start"/>
          <lg n="26" xml:id="V_lg_26">
             <l n="586" xml:id="V_l_586">Er hiez dô gebieten herrevart,</l>
             <l n="587" xml:id="V_l_587">alsim dâ gerâten wart,</l>
@@ -481,6 +510,11 @@
             <l n="602" xml:id="V_l_602">unde swem daz versmâhte,</l>
             <l n="603" xml:id="V_l_603">daz er sîn houbet verlorn hête.</l>
          </lg>
+         <anchor xml:id="V_Alexander_recruits_allys_end"/>
+         
+         <!-- ALESSANDRO IN ITALIA  -->
+         
+         <anchor xml:id="V_Alexander_Italy_start"/>
          <lg n="27" xml:id="V_lg_27">
             <l n="604" xml:id="V_l_604">Vil êrhaft er sîn gerete scuoph</l>
             <l n="605" xml:id="V_l_605">des tages, dô er sich ûz huob.</l>
@@ -511,6 +545,11 @@
             <l n="628" xml:id="V_l_628">Diu gâbe was ime dancnâme,</l>
             <l n="629" xml:id="V_l_629">des lobet er die guoten Rômâre.</l>
          </lg>
+         <anchor xml:id="V_Alexander_Italy_end"/>
+         
+         <!-- ALESSANDRO E CARTAGINE  -->
+         
+         <anchor xml:id="V_Alexander_Carthage_start"/>
          <lg n="29" xml:id="V_lg_29">
             <l n="630" xml:id="V_l_630">Zehen hundert er mit ime nam,</l>
             <l n="631" xml:id="V_l_631">der von Rôme dar chom,</l>
@@ -543,6 +582,9 @@
             <l n="653" xml:id="V_l_653">Er ne wolte ir goldes newiht enphâhen,</l>
             <l n="654" xml:id="V_l_654">er bestunt sie mit genâden,</l>
             <l n="655" xml:id="V_l_655">wande sie dûhten in frumich unde balt.</l>
+            <anchor xml:id="V_Alexander_Carthage_end"/>
+            <!-- ALESSANDRO FONDA ALESSANDRIA D'EGITTO  -->
+            <anchor xml:id="V_Alexander_Egypt_start"/>
             <l n="656" xml:id="V_l_656">Er namer ein tûsint in sîne gewalt</l>
             <l n="657" xml:id="V_l_657">unde fuorti sie in Egypto allesamt</l>
             <l n="658" xml:id="V_l_658">unde stifte dâ zêren sînes namen</l>
@@ -564,6 +606,9 @@
             <l n="671" xml:id="V_l_671">danne Rôme oder Antioch.</l>
             <l n="672" xml:id="V_l_672">Alexandria si hiez:</l>
             <l n="673" xml:id="V_l_673">sînen namen er drinne liez.</l>
+            <anchor xml:id="V_Alexander_Egypt_end"/>
+            <!-- ALESSANDRO IN MEDIO ORIENTE-->
+            <anchor xml:id="V_Alexander_Middle_East_start"/>
             <l n="674" xml:id="V_l_674">Dannen er durch daz lant brach,</l>
             <l n="675" xml:id="V_l_675">er tede ein michel ungemach:</l>
             <l n="676" xml:id="V_l_676">er was Dario gram.</l>
@@ -585,9 +630,11 @@
             <l n="692" xml:id="V_l_692">al bizer Tyre zuo treib:</l>
             <l n="693" xml:id="V_l_693">â, waz ime dâ helede tôt peleib!</l>
          </lg>
-         
-         <!-- EPISODIO 10: DESCRIZIONE DI TIRO  -->
-         
+         <anchor xml:id="V_Alexander_Middle_East_end"/>
+
+         <!--  DESCRIZIONE DI TIRO  -->
+
+         <anchor xml:id="V_Tyre_description_start"/>
          <lg n="33" xml:id="V_lg_33">
             <l n="694" xml:id="V_l_694">Tyre was ein stat grôz,</l>
             <l n="695" xml:id="V_l_695">daz mere sie alle umbe flôz.</l>
@@ -616,9 +663,11 @@
             <l n="718" xml:id="V_l_718">daz was Darios rex Persarum, </l>
             <l n="719" xml:id="V_l_719">deme sie undertân wâren.</l>
          </lg>
-         
-         <!-- EPISODIO 11: LA PROPOSTA DI ALESSANDRO A TIRO  -->
-         
+         <anchor xml:id="V_Tyre_description_end"/>
+
+         <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
+
+         <anchor xml:id="V_Alexander_proposal_to_Tyre_start"/>
          <lg n="34" xml:id="V_lg_34">
             <l n="720" xml:id="V_l_720">Nû vernement ouch ein ander:</l>
             <l n="721" xml:id="V_l_721">zuo zin sante Alexander</l>
@@ -651,14 +700,17 @@
             <l n="747" xml:id="V_l_747">si tâden stolzen liuten gelîch</l>
             <l n="748" xml:id="V_l_748">unde hîngen sie alle ûf ein zwîch.</l>
          </lg>
-         
-            <!-- EPISODIO 12: ALESSANDRO ATTACCA TIRO - PRIMO ASSALTO -->
-            
+         <anchor xml:id="V_Alexander_proposal_to_Tyre_end"/>
+
+         <!--  ALESSANDRO ATTACCA TIRO - PRIMO ASSALTO -->
+
+         <anchor xml:id="V_Alexander_firstAttack_Tyre_start"/>
          <lg n="35" xml:id="V_lg_35">
             <l n="749" xml:id="V_l_749">Nû beviench Alexander die burch mit here,</l>
             <l n="750" xml:id="V_l_750">mit den scephen in dem mere.</l>
             <l n="751" xml:id="V_l_751">Mit sturme er sie starche dwanc:</l>
             <l n="752" xml:id="V_l_752">er druog in ubelen gedanc.</l>
+            <anchor xml:id="V_Tyre_pushes_back_start"/>  <!--  TIRO RESPINGE-->
             <l n="753" xml:id="V_l_753">Si werten sich vone prîse wole.</l>
             <l n="754" xml:id="V_l_754">Der wier ne was nehein zal,</l>
             <l n="755" xml:id="V_l_755">der in der burch was,</l>
@@ -666,6 +718,7 @@
             <l n="757" xml:id="V_l_757">Alsô vil sclûgen sie ime sînes hers,</l>
             <l n="758" xml:id="V_l_758">daz die unde des mers</l>
             <l n="759" xml:id="V_l_759">von dem pluote wurden rôt.</l>
+            <anchor xml:id="V_Tyre_pushes_back_end"/>
             <l n="760" xml:id="V_l_760">Der wint tet in vil nôt,</l>
             <l n="761" xml:id="V_l_761">daz sîner scephe ein hundert versunchen</l>
             <l n="762" xml:id="V_l_762">unde sîne helde all ertrunchen.</l>
@@ -674,9 +727,11 @@
             <l n="765" xml:id="V_l_765">des sturmes hiez er abe stân,</l>
             <l n="766" xml:id="V_l_766">er tete die sceph wider in die habe gân.</l>
          </lg>
-         
-         <!-- EPISODIO 13:  LA CONTROMISURA DI ALESSANDRO -->
-         
+         <anchor xml:id="V_Alexander_firstAttack_Tyre_end"/>
+
+         <!-- LA CONTROMISURA DI ALESSANDRO -->
+
+         <anchor xml:id="V_Alexander_countermeasure_start"/>
          <lg n="36" xml:id="V_lg_36">
             <l n="767" xml:id="V_l_767">Alexander bedâhte sich</l>
             <l n="768" xml:id="V_l_768">des scaden ummâczlîch.</l>
@@ -709,6 +764,7 @@
             <l n="793" xml:id="V_l_793">Si nerfûlent ouch niemer mê,</l>
             <l n="794" xml:id="V_l_794">weder durh regen noch durch snê.</l>
          </lg>
+         <anchor xml:id="V_Arabs_help_Tyre_start"/> <!--  GLI ARABITI AIUTANO TIRO -->
          <lg n="38" xml:id="V_lg_38">
             <l n="795" xml:id="V_l_795">Unde alsô Arabati daz befunden,</l>
             <l n="796" xml:id="V_l_796">die Tyrin wole guotes gunden,</l>
@@ -716,6 +772,7 @@
             <l n="798" xml:id="V_l_798">die den forst valten,</l>
             <l n="799" xml:id="V_l_799">si nâmen ein ungezogenlîch phant</l>
             <l n="800" xml:id="V_l_800">unt ersluogen ein tûsint.</l>
+            <anchor xml:id="V_Arabs_help_Tyre_end"/>
             <gap/>
             <l n="801" xml:id="V_l_801"><gap/>er nam</l>
             <l n="802" xml:id="V_l_802">des hers, daz er noch dô habete.</l>
@@ -729,9 +786,11 @@
             <l n="809" xml:id="V_l_809">biz iz alliz gereite wart.</l>
             <l n="810" xml:id="V_l_810">Dô nam er die widervart.</l>
          </lg>
-         
-         <!-- EPISODIO 14:  TIRO CONTRATTACCA  -->
-         
+         <anchor xml:id="V_Alexander_countermeasure_end"/>
+
+         <!--  TIRO SI VENDICA  -->
+
+         <anchor xml:id="V_Tyre_revenge_start"/>
          <lg n="39" xml:id="V_lg_39">
             <l n="811" xml:id="V_l_811">Nû was Alexander mit here</l>
             <l n="812" xml:id="V_l_812">nâch den poumen uber mere.</l>
@@ -750,9 +809,11 @@
             <l n="825" xml:id="V_l_825">unde sancten sich in des sêwes grunt,</l>
             <l n="826" xml:id="V_l_826">unde sie chômen afer ûf wider gesunt.</l>
          </lg>
-         
-         <!-- EPISODIO 15: I DUCHI RISPONDONO  -->
-         
+         <anchor xml:id="V_Tyre_revenge_end"/>
+
+         <!-- I DUCHI RISPONDONO  -->
+
+         <anchor xml:id="V_dukes_against_Tyre_start"/>
          <lg n="40" xml:id="V_lg_40">
             <l n="827" xml:id="V_l_827">Unde alsô daz castel was endwart,</l>
             <l n="828" xml:id="V_l_828">dô huob sich aein sturm hart</l>
@@ -767,9 +828,11 @@
             <l n="837" xml:id="V_l_837">owê, daz Tyre duo niht genas,</l>
             <l n="838" xml:id="V_l_838">alsô wol ir ganegenget was!</l>
          </lg>
-         
-         <!-- EPISODIO 16: ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->
-         
+         <anchor xml:id="V_dukes_against_Tyre_end"/>
+
+         <!-- ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->
+
+         <anchor xml:id="V_Alexander_breaches_firstWalls_start"/>
          <lg n="41" xml:id="V_lg_41">
             <l n="839" xml:id="V_l_839">Nû willich sagen allen, die des niene chunnen,</l>
             <l n="840" xml:id="V_l_840">wie Tyre wart gewunnen.</l>
@@ -804,9 +867,11 @@
             <l n="867" xml:id="V_l_867">unde brâchen dâ der besten mûre eine,</l>
             <l n="868" xml:id="V_l_868">die ie burch gewan deheine.</l>
          </lg>
-         
-         <!-- EPISODIO 17: ALESSANDRO CONQUISTA LA SECONDA CERCHIA -->
-         
+         <anchor xml:id="V_Alexander_breaches_firstWalls_end"/>
+
+         <!-- ALESSANDRO CONQUISTA LA SECONDA CERCHIA -->
+
+         <anchor xml:id="V_Alexander_breaches_secondWalls_start"/>
          <lg n="43" xml:id="V_lg_43">
             <l n="869" xml:id="V_l_869">Alsô si ze der ander chômen,</l>
             <l n="870" xml:id="V_l_870">zêderboumi sie der nâmen</l>
@@ -849,9 +914,11 @@
             <l n="905" xml:id="V_l_905">Dâ brâchen sie die besten mûre zuo der erde,</l>
             <l n="906" xml:id="V_l_906">diu der ie dehein solte werden.</l>
          </lg>
-         
-         <!-- EPISODIO 18: ALESSANDRO FA BRECCIA  -->
-         
+         <anchor xml:id="V_Alexander_breaches_secondWalls_end"/>
+
+         <!--  ALESSANDRO FA BRECCIA  -->
+
+         <anchor xml:id="V_Alexander_enters_start"/>
          <lg n="45" xml:id="V_lg_45">
             <l n="907" xml:id="V_l_907">Dâ was daz velt vil wît.</l>
             <l n="908" xml:id="V_l_908">Dâ huob sich der bitteriste strît,</l>
@@ -867,7 +934,7 @@
             <l n="918" xml:id="V_l_918">unde machet manegen helt sêr.</l>
             <l n="919" xml:id="V_l_919">Dâ hete jâmer ein alsô der ander</l>
             <l n="920" xml:id="V_l_920">âne den wunderlîche Alexander:</l>
-            <l n="921" xml:id="V_l_921">er  scluoch des liutes die menige.</l>
+            <l n="921" xml:id="V_l_921">er scluoch des liutes die menige.</l>
             <l n="922" xml:id="V_l_922">Gebeizzet was sîn brunne</l>
             <l n="923" xml:id="V_l_923">in eines wurmes bluote.</l>
             <l n="924" xml:id="V_l_924">Er stunt ime stolzes muotes.</l>
@@ -877,7 +944,9 @@
             <l n="928" xml:id="V_l_928">ûf der erde mahte niemen gân,</l>
             <l n="929" xml:id="V_l_929">alsô vil lag ir dâ erslagen,</l>
             <l n="930" xml:id="V_l_930">daz iz iu unzellîch ist ze sagen.</l>
-            <!-- EPISODIO 19: TIRO CONTRATTACCA  -->
+            <anchor xml:id="V_Alexander_enters_end"/>
+            <!-- TIRO PROVA A RESISTERE  -->
+            <anchor xml:id="V_Tyre_resistance_start"/>
             <l n="931" xml:id="V_l_931">Die chûnen von Tyre,</l>
             <l n="932" xml:id="V_l_932">des lebens vil gîre,</l>
             <l n="933" xml:id="V_l_933">si fuhten alsô wildiu swîn,</l>
@@ -888,7 +957,6 @@
             <l n="936" xml:id="V_l_936">sine dorften sich des siges niemer geruomen,</l>
             <l n="937" xml:id="V_l_937">wande die burgêre brâchen si durch</l>
             <l n="938" xml:id="V_l_938">unde wichen aber wider in die burch.</l>
-            <!-- EPISODIO 20: LE STRATEGIE DI ALESSANDRO -->
             <l n="939" xml:id="V_l_939">Dâ verlôs er manegen dûren chneht:</l>
             <l n="940" xml:id="V_l_940">Alexander tet in grôz unreht.</l>
          </lg>
@@ -898,6 +966,9 @@
             <l n="943" xml:id="V_l_943">Die dar ûf wâren,</l>
             <l n="944" xml:id="V_l_944">si tâten scaden mêre.</l>
             <l n="945" xml:id="V_l_945">Ûf ter porte stunten drîe turni:</l>
+            <anchor xml:id="V_Tyre_resistance_end"/>
+            <!--  LE STRATEGIE DI ALESSANDRO -->
+            <anchor xml:id="V_Alexander_strategy_start"/>
             <l n="946" xml:id="V_l_946">dâ geschiet er abe mit zorni</l>
             <l n="947" xml:id="V_l_947">des mordes, des er an sînen holden gesach.</l>
             <l n="948" xml:id="V_l_948">Mit sînen fursten er sprach:</l>
@@ -934,9 +1005,11 @@
             <l n="979" xml:id="V_l_979">Sô solt im diu burch werden tiure,</l>
             <l n="980" xml:id="V_l_980">gewunners nieht mit Chriechiscem fiure.</l>
          </lg>
-         
-         <!-- EPISODIO 21: LA CADUTA DI TIRO -->
-         
+         <anchor xml:id="V_Alexander_strategy_end"/>
+
+         <!-- LA CADUTA DI TIRO -->
+
+         <anchor xml:id="V_Tyre_falls_start"/>
          <lg n="48" xml:id="V_lg_48">
             <l n="981" xml:id="V_l_981">Alexander wolte sich wole rechen.</l>
             <l n="982" xml:id="V_l_982">Er hiez die trîe turne nider brehen,</l>
@@ -965,9 +1038,11 @@
             <l n="1004" xml:id="V_l_1004">daz er ir tohter erlôste</l>
             <l n="1005" xml:id="V_l_1005">von dem ubelen geiste, der sie nôte.</l>
          </lg>
-         
-         <!-- EPISODIO 22: DARIO APPRENDE DELLA CADUTA DI TIRO -->
-         
+         <anchor xml:id="V_Tyre_falls_end"/>
+
+         <!-- DARIO APPRENDE DELLA CADUTA DI TIRO -->
+
+         <anchor xml:id="V_Darius_learns_of_Tyre_start"/>
          <lg n="49" xml:id="V_lg_49">
             <l n="1006" xml:id="V_l_1006">Darnâch uber unlanch stunt,</l>
             <l n="1007" xml:id="V_l_1007">sô wart Dario chunt,</l>
@@ -982,9 +1057,11 @@
             <l n="1016" xml:id="V_l_1016">daz er in niuht ze helfen chôme,</l>
             <l n="1017" xml:id="V_l_1017">duo er ir grôze nôt fernâme.</l>
          </lg>
-         
-         <!-- EPISODIO 23: I DONI DI DARIO  -->
-         
+         <anchor xml:id="V_Darius_learns_of_Tyre_end"/>
+
+         <!-- I DONI DI DARIO  -->
+
+         <anchor xml:id="V_Darius_gifts_start"/>
          <lg n="50" xml:id="V_lg_50">
             <l n="1018" xml:id="V_l_1018">Ain rîcher chunich was Darios.</l>
             <l n="1019" xml:id="V_l_1019">Herwider dâhter alsus:</l>
@@ -997,7 +1074,7 @@
             <l n="1026" xml:id="V_l_1026">unde sante im dise drîe sache</l>
             <l n="1027" xml:id="V_l_1027">unde tet des einen brîf machen,</l>
             <l n="1028" xml:id="V_l_1028">daz ez der brîf benante,</l>
-            <l n="1029" xml:id="V_l_1029">umbe waz er ime die drîe gebe sante.</l>  
+            <l n="1029" xml:id="V_l_1029">umbe waz er ime die drîe gebe sante.</l>
          </lg>
          <lg n="51" xml:id="V_lg_51">
             <l n="1030" xml:id="V_l_1030">Aen stuzel sante er im umbe daz,</l>
@@ -1031,9 +1108,11 @@
             <l n="1056" xml:id="V_l_1056">Unde daeter euw‹e›ht mêre wider sîne willen,</l>
             <l n="1057" xml:id="V_l_1057">er hiez in mit dem besemen villen.</l>
          </lg>
-         
-         <!-- EPISODIO 24: LA RISPOSTA DI ALESSANDRO  -->
-         
+         <anchor xml:id="V_Darius_gifts_end"/>
+
+         <!-- LA RISPOSTA DI ALESSANDRO  -->
+
+         <anchor xml:id="V_Alexander_reaction_start"/>
          <lg n="53" xml:id="V_lg_53">
             <l n="1058" xml:id="V_l_1058">Unde alsô Alexander den brîf gelas,</l>
             <l n="1059" xml:id="V_l_1059">owî, wie smâhe ime was,</l>
@@ -1100,9 +1179,11 @@
             <l n="1114" xml:id="V_l_1114">unde dar zuo von allen landen,</l>
             <l n="1115" xml:id="V_l_1115">unde betwinge die zemînen handen."</l>
          </lg>
-         
-         <!-- EPISODIO 25: ALESSANDRO MANDA UNA LETTERA A DARIO  -->
-         
+         <anchor xml:id="V_Alexander_reaction_end"/>
+
+         <!--  ALESSANDRO MANDA UNA LETTERA A DARIO  -->
+
+         <anchor xml:id="V_Alexander_letter_start"/>
          <lg n="57" xml:id="V_lg_57">
             <l n="1116" xml:id="V_l_1116">Diz sazte man dô allez an einen brief,</l>
             <l n="1117" xml:id="V_l_1117">daz was dem chunige Alexander lieb.</l>
@@ -1123,7 +1204,9 @@
             <l n="1132" xml:id="V_l_1132">Unde ob er daz tagedinch liezi,</l>
             <l n="1133" xml:id="V_l_1133">daz er niemer chunich kehizze,</l>
             <l n="1134" xml:id="V_l_1134">er bestunde daz volcqwîc.</l>
-            <!-- EPISODIO 26: LA RISPOSTA DI DARIO -->
+            <anchor xml:id="V_Alexander_letter_end"/>
+            <!--  LA RISPOSTA DI DARIO -->
+            <anchor xml:id="V_Darius_reaction_start"/>
             <l n="1135" xml:id="V_l_1135">Darios was ein chunich rîch.</l>
             <l n="1136" xml:id="V_l_1136">Unde alsô der brîf fur in chom,</l>
             <l n="1137" xml:id="V_l_1137">freislîch er in vernam.</l>
@@ -1136,8 +1219,9 @@
             <l n="1144" xml:id="V_l_1144">Er sprach, noch ouch niemer guot ende genaeme,</l>
             <l n="1145" xml:id="V_l_1145">daz er ie durch sîn laster ûz chôme.</l>
          </lg>
-         
-         <!-- EPISODIO 27: DARIO CHIEDE AIUTO AI DUCHI -->
+         <anchor xml:id="V_Darius_reaction_end"/>
+
+         <!-- DARIO CHIEDE AIUTO AI DUCHI -->
 
       </body>
    </text>

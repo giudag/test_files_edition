@@ -50,23 +50,78 @@
             corresp="#S_Thelemone #B_Thelemone"><ref target="#Thelemone"/>Alexander quells the revolt in Thelemone</span>
          <!--  LA MORTE DI FILIPPO -->
          <span from="#V_Philip_death_start" to="#V_Philip_death_end" xml:id="V_Philip_death"
-            corresp="#S_Philip_death #B_Philip_death"><ref target="#Philip_death"/></span>
-         
-         <span from="#" to="#" xml:id=""
-            corresp="#"><ref target="#"/></span>
-         
-         <span from="#" to="#" xml:id=""
-            corresp="#"><ref target="#"/></span>
-         
-         <span from="#" to="#" xml:id=""
-            corresp="#"><ref target="#"/></span>
-         
-         <span from="#" to="#" xml:id=""
-            corresp="#"><ref target="#"/></span>
-         
-         <span from="#" to="#" xml:id=""
-            corresp="#"><ref target="#"/></span>
-         
+            corresp="#S_Philip_death #B_Philip_death"><ref target="#Philip_death"/>Philip dies from the wounds inflicted by Pausonias</span>
+         <!-- ALESSANDRO DIVENTA RE -->
+         <span from="#V_Alexander_becomes_king_start" to="#V_Alexander_becomes_king_end" xml:id="V_Alexander_becomes_king"
+            corresp="#S_Alexander_becomes_king #B_Alexander_becomes_king"><ref target="#Alexander_becomes_king"/>Alexander becomes king and addresses his people about the tribute</span>
+         <!-- ALESSANDRO RECLUTA ALLEATI  -->
+         <span from="#V_Alexander_recruits_allys_start" to="#V_Alexander_recruits_allys_end" xml:id="V_Alexander_recruits_allys"
+            corresp="#S_Alexander_recruits_allys #B_Alexander_recruits_allys"><ref target="#Alexander_recruits_allys"/>Alexander sends messengers to other lands to demand help against Darius</span>
+         <!-- ALESSANDRO IN ITALIA  -->
+         <span from="#V_Alexander_Italy_start" to="#V_Alexander_Italy_end" xml:id="V_Alexander_Italy"
+            corresp="#S_Alexander_Italy #B_Alexander_Italy"><ref target="#Alexander_Italy"/>Alexander's expedition in Sicily and to the Romans</span>
+         <!-- ALESSANDRO E CARTAGINE  -->
+         <span from="#V_Alexander_Carthage_start" to="#V_Alexander_Carthage_end" xml:id="V_Alexander_Carthage"
+            corresp="#S_Alexander_Carthage #B_Alexander_Carthage"><ref target="#Alexander_Carthage"/>Alexander subdues Carthage</span>
+         <!-- ALESSANDRO FONDA ALESSANDRIA D'EGITTO  -->
+         <span from="#V_Alexander_Egypt_start" to="#V_Alexander_Egypt_end" xml:id="V_Alexander_Egypt"
+            corresp="#S_Alexander_Egypt #B_Alexander_Egypt"><ref target="#Alexander_Egypt"/>Alexander goes to Egypt and founds the city of Alexandria</span>
+         <!-- ALESSANDRO IN MEDIO ORIENTE-->
+         <span from="#V_Alexander_Middle_East_start" to="#V_Alexander_Middle_East_end" xml:id="V_Alexander_Middle_East"
+            corresp="#S_Alexander_Middle_East #B_Alexander_Middle_East"><ref target="#Alexander_Middle_East"/>Alexander conquers lands in the Middle East</span>
+         <!--  DESCRIZIONE DI TIRO  -->
+         <span from="#V_Tyre_description_start" to="#V_Tyre_description_end" xml:id="V_Tyre_description"
+            corresp="#S_Tyre_description #B_Tyre_description"><ref target="#Tyre_description"/>The city of Tyre is described</span>
+         <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
+         <span from="#V_Alexander_proposal_to_Tyre_start" to="#V_Alexander_proposal_to_Tyre_end" xml:id="V_Alexander_proposal_to_Tyre"
+            corresp="#S_Alexander_proposal_to_Tyre #B_Alexander_proposal_to_Tyre"><ref target="#Alexander_proposal_to_Tyre"/>Alexander tries to bend Tyre to his will</span>
+         <!--  ALESSANDRO ATTACCA TIRO - PRIMO ASSALTO -->
+         <span from="#V_Alexander_firstAttack_Tyre_start" to="#V_Alexander_firstAttack_Tyre_end" xml:id="V_Alexander_firstAttack_Tyre"
+            corresp="#S_Alexander_firstAttack_Tyre #B_Alexander_firstAttack_Tyre"><ref target="#Alexander_firstAttack_Tyre"/><!--  TIRO RESPINGE--><span from="#V_Tyre_pushes_back_start" to="#V_Tyre_pushes_back_end" xml:id="V_Tyre_pushes_back"
+               corresp="#S_Tyre_pushes_back #B_Tyre_pushes_back"><ptr target="#V_Alexander_firstAttack_Tyre"/></span>Alexander's first attack against Tyre fails because the city pushes his army back</span>
+         <!-- LA CONTROMISURA DI ALESSANDRO -->
+         <span from="#V_Alexander_countermeasure_start" to="#V_Alexander_countermeasure_end" xml:id="V_Alexander_countermeasure"
+            corresp="#S_Alexander_countermeasure #B_Alexander_countermeasure"><ref target="#Alexander_countermeasure"/><!--  GLI ARABITI AIUTANO TIRO --><span from="#V_Arabs_help_Tyre_start" to="#V_Arabs_help_Tyre_end" xml:id="V_Arabs_help_Tyre"
+               corresp="#S_Arabs_help_Tyre #B_Arabs_help_Tyre"><ptr target="#V_Alexander_countermeasure"/></span>Alexander gets tree trunks for the siege but is hindered by the Arabs</span>
+         <!--  TIRO SI VENDICA  -->
+         <span from="#V_Tyre_revenge_start" to="#V_Tyre_revenge_end" xml:id="V_Tyre_revenge"
+            corresp="#S_Tyre_revenge #B_Tyre_revenge"><ref target="#Tyre_revenge"/>Tyre goes for revenge with a countersiege</span>
+         <!-- I DUCHI RISPONDONO  -->
+         <span from="#V_dukes_against_Tyre_start" to="#V_dukes_against_Tyre_end" xml:id="V_dukes_against_Tyre"
+            corresp="#S_dukes_against_Tyre #B_dukes_against_Tyre"><ref target="#dukes_against_Tyre"/>Alexander's dukes try to attack again without success</span>
+         <!-- ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->
+         <span from="#V_Alexander_breaches_firstWalls_start" to="#V_Alexander_breaches_firstWalls_end" xml:id="V_Alexander_breaches_firstWalls"
+            corresp="#S_Alexander_breaches_firstWalls #B_Alexander_breaches_firstWalls"><ref target="#Alexander_breaches_firstWalls"/>Alexander manages to breach the first walls</span>
+         <!-- ALESSANDRO CONQUISTA LA SECONDA CERCHIA -->
+         <span from="#V_Alexander_breaches_secondWalls_start" to="#V_Alexander_breaches_secondWalls_end" xml:id="V_Alexander_breaches_secondWalls"
+            corresp="#S_Alexander_breaches_secondWalls #B_Alexander_breaches_secondWalls"><ref target="#Alexander_breaches_secondWalls"/>Alexander breaches the second walls and kills the sire of the city</span>
+         <!--  ALESSANDRO ENTRA A TIRO  -->
+         <span from="#V_Alexander_enters_start" to="#V_Alexander_enters_end" xml:id="V_Alexander_enters"
+            corresp="#S_Alexander_enters #B_Alexander_enters"><ref target="#Alexander_enters"/>Alexander violently battles inside the city</span>
+         <!-- TIRO PROVA A RESISTERE  -->
+         <span from="#V_Tyre_resistance_start" to="#V_Tyre_resistance_end" xml:id="V_Tyre_resistance"
+            corresp="#S_Tyre_resistance #B_Tyre_resistance"><ref target="#Tyre_resistance"/>Tyre tries not to succumb</span>
+         <!--  LE STRATEGIE DI ALESSANDRO -->
+         <span from="#V_Alexander_strategy_start" to="#V_Alexander_strategy_end" xml:id="V_Alexander_strategy"
+            corresp="#S_Alexander_strategy #B_Alexander_strategy"><ref target="#Alexander_strategy"/>Alexander is advised to use Greek fire</span>
+         <!-- LA CADUTA DI TIRO -->
+         <span from="#V_Tyre_falls_start" to="#V_Tyre_falls_end" xml:id="V_Tyre_falls"
+            corresp="#S_Tyre_falls #B_Tyre_falls"><ref target="#Tyre_falls"/>Tyre finally falls</span>
+         <!-- DARIO APPRENDE DELLA CADUTA DI TIRO -->
+         <span from="#V_Darius_learns_of_Tyre_start" to="#V_Darius_learns_of_Tyre_end" xml:id="V_Darius_learns_of_Tyre"
+            corresp="#S_Darius_learns_of_Tyre #B_Darius_learns_of_Tyre"><ref target="#_Darius_learns_of_Tyre"/>A survivor from Tyre tells King Darius what happened to the city</span>
+         <!-- I DONI DI DARIO  -->
+         <span from="#V_Darius_gifts_start" to="#V_Darius_gifts_end" xml:id="V_Darius_gifts"
+            corresp="#S_Darius_gifts #B_Darius_gifts"><ref target="#Darius_gifts"/>Darius sends Alexander a letter and three mocking gifts</span>
+         <!-- LA RISPOSTA DI ALESSANDRO  -->
+         <span from="#V_Alexander_reaction_start" to="#V_Alexander_reaction_end" xml:id="V_Alexander_reaction"
+            corresp="#S_Alexander_reaction #B_Alexander_reaction"><ref target="#Alexander_reaction"/>Alexander reacts to and interprets the gifts</span>
+         <!--  ALESSANDRO MANDA UNA LETTERA A DARIO  -->
+         <span from="#V_Alexander_letter_start" to="#V_Alexander_letter_end" xml:id="V_Alexander_letter"
+            corresp="#S_Alexander_letter #B_Alexander_letter"><ref target="#Alexander_letter"/>Alexander sends a threatening letter to Darius</span>
+         <!--  LA REAZIONE DI DARIO -->
+         <span from="#V_Darius_reaction_start" to="#V_Darius_reaction_end" xml:id="V_Darius_reaction"
+            corresp="#S_Darius_reaction #B_Darius_reaction"><ref target="#Darius_reaction"/>Darius furiously reacts to Alexander's provocation</span>
     
 
          <!-- S 

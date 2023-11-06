@@ -22,7 +22,7 @@
     
     <!-- con ref target rimando alla nota critica sotto, come da esempio su cross-references della TEI -->
     <!-- con ptr target rimando al macro-episodio che contiene una sottounità: mi piace perché è un "pure pointer", generico, "its primary function is simply to point...to another location" -->
-    <!-- no @corresp quando negli altri testimoni non c'è l'episodio -->
+    <!-- no @corresp quando negli altri testimoni non c'è l'episodio: CONTROLLALI TUTTI, solo riempiti  -->
 
       <!-- ################# QUI GLI EPISODI ################## -->
 
@@ -30,27 +30,27 @@
 
          <!-- #############   V   ############## -->
          
-         <!-- EPISODIO 1 - BUCEFALO -->
+         <!-- BUCEFALO -->
          <span from="#V_Bucephalus_start" to="#V_Bucephalus_end" xml:id="V_Bucephalus"
             corresp="#S_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/>Alexander tames the horse Bucephalus</span>
-         <!-- EPISODIO 2 - ALESSANDRO CHIEDE AL PADRE DI POTER IMPUGNARE LE ARMI PER LA PRIMA VOLTA - PRIMA IMPRESA DI ALESSANDRO -->
+         <!-- ALESSANDRO CHIEDE AL PADRE DI POTER IMPUGNARE LE ARMI PER LA PRIMA VOLTA - PRIMA IMPRESA DI ALESSANDRO -->
          <span from="#V_Alexander_firstBattle_start" to="#V_Alexander_firstBattle_end" xml:id="V_Alexander_firstBattle"
             corresp="#S_Alexander_firstBattle #B_Alexander_firstBattle"><ref target="#Alexander_firstBattle"/>Alexander takes up arms for the first time</span>
-         <!-- EPISODIO 3 - ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
+         <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
          <span from="#V_Alexander_Cleopatra_start" to="#V_Alexander_Cleopatra_end" xml:id="V_Alexander_Cleopatra"
-            corresp="#S_Alexander_Cleopatra #B_Alexander_Cleopatra"><ref target="#Alexander_Cleopatra"/>Alexander confronts his father about Philip betraying his mother</span>
-         <!-- EPISODIO 4 - SCONTRO DI "ANTONIA" -->
+            corresp="#S_Alexander_Cleopatra #B_Alexander_Cleopatra"><ref target="#Alexander_Cleopatra"/>Alexander confronts his father about him betraying his mother</span>
+         <!-- SCONTRO DI "ANTONIA" -->
          <span from="#V_Alexander_retakes_city_start" to="#V_Alexander_retakes_city_end" xml:id="V_Alexander_retakes_city"
             corresp="#S_Alexander_retakes_city #B_Alexander_retakes_city"><ref target="#Alexander_retakes_city"/>Alexander retakes the city of "Antonia"</span>
-         <!-- EPISODIO 5: PRIMO LITIGIO SUI TRIBUTI CON DARIO  -->
+         <!-- PRIMO LITIGIO SUI TRIBUTI CON DARIO  -->
          <span from="#V_tribute_dispute_start" to="#V_tribute_dispute_end" xml:id="V_tribute_dispute"
-            corresp="#S_tribute_dispute #B_tribute_dispute"><ref target="#tribute_dispute"/>The dispute over tributes between Philip / Alexander and Darius</span>
-         
-         <span from="#" to="#" xml:id=""
-            corresp="#"><ref target="#"/></span>
-         
-         <span from="#" to="#" xml:id=""
-            corresp="#"><ref target="#"/></span>
+            corresp="#S_tribute_dispute #B_tribute_dispute"><ref target="#tribute_dispute"/>The dispute over tributes between Philip / Alexander and Darius is introduced</span>
+         <!-- THELEMONE -->
+         <span from="#V_Thelemone_start" to="#V_Thelemone_end" xml:id="V_Thelemone"
+            corresp="#S_Thelemone #B_Thelemone"><ref target="#Thelemone"/>Alexander quells the revolt in Thelemone</span>
+         <!--  LA MORTE DI FILIPPO -->
+         <span from="#V_Philip_death_start" to="#V_Philip_death_end" xml:id="V_Philip_death"
+            corresp="#S_Philip_death #B_Philip_death"><ref target="#Philip_death"/></span>
          
          <span from="#" to="#" xml:id=""
             corresp="#"><ref target="#"/></span>
@@ -106,15 +106,17 @@
 
 
       <!-- ############ QUI IL COMMENTO SULLE UNITÀ NARRATIVE ############### -->
-      
+    <!--
       <interpGrp xml:id="criticalCommentary_episodes" type="notes">
          <interp xml:id="Bucephalus">Bucephalus, whose name literally means "ox-headed", is named by King Philip because of its wondrous features. According to the prophecy, the indomitable horse can be tamed only by the one who is destined to become king after Philip. In the German corpus, Alexander manages to submit it just with his glare. The name Vestian corresponds to Hephaestion, Alexander's companion and lover, but the medieval tradition doesn't mention the love between the two.</interp>
          <interp xml:id="Alexander_firstBattle">Fifteen-year-old Alexander wants to prove himself worthy of the royal title and asks his father for permission to take up arms. Philip agrees and Alexander goes to fight Nycolaus, an athlete whose figure is here - and in other sources - reinterpreted as the king of Caesarea.</interp>
          <interp xml:id="Alexander_Cleopatra">Alexander reproaches his father for having taken another woman, Cleopatra, and leaving his mother. One of the negative traits of Alexander's character, rage, is here underlined. A brawl ensues, Philip is injured and Alexander calms down. In the V recension, he takes care of his father and reunites his parents, but historical sources tell us that Olympias was repudiated and Alexander was banished after Philip and Cleopatra's wedding till Philip's death.</interp>
          <interp xml:id="Alexander_retakes_city">Alexander subjugates a rebel city, handed down with the corrupted name Antonia in V, which was plotting not to pay tribute to Philip anymore. B does not mention the name of the city, whereas in S this episode is missing.</interp>
+         <interp xml:id="tribute_dispute">Much to Alexander's disapproval, Darius's messengers come to collect tribute from Philip. The text anticipates that this dispute will be the cause of Darius's death. From an historical point of view, </interp>
+         <interp xml:id="Thelemone"></interp>
       </interpGrp>
     
-    <!--
+  
     <interpGrp xml:id="criticalCommentary_speeches" type="notes">
        <interp xml:id="messenger_Bucephalus">This direct speech is only present in V. The messenger, sent from the man who was familiar with the horse, states that the horse belongs to the person who will be able to mount it, as it had never happend before.</interp>
     </interpGrp>

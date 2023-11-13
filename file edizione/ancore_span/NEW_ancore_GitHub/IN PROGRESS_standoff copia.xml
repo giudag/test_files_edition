@@ -124,7 +124,30 @@
          <!--  LA REAZIONE DI DARIO -->
          <span type="episode" from="#V_Darius_reaction_start" to="#V_Darius_reaction_end" xml:id="V_Darius_reaction"
             corresp="#S_Darius_reaction #B_Darius_reaction"><ref target="#Darius_reaction"/>Darius furiously reacts to Alexander's provocation</span>
-    
+         <!-- DARIO CHIEDE AIUTO AI DUCHI -->
+         <span type="episode" from="#V_Darius_calls_dukes_start" to="#V_Darius_calls_dukes_end" xml:id="V_Darius_calls_dukes"
+            corresp="#S_Darius_calls_dukes #B_Darius_calls_dukes"><ref target="#Darius_calls_dukes"/>Darius asks two of his dukes to push Alexander back</span>
+         <!-- I DUCHI SONO SCETTICI -->
+         <span type="episode" from="#V_dukes_skeptical_start" to="#V_dukes_skeptical_end" xml:id="V_dukes_skeptical"
+            corresp="#S_dukes_skeptical #B_dukes_skeptical"><ref target="#dukes_skeptical"/>The dukes critices Darius's approach to Alexander's campaign</span>
+         
+         
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
+         
+         
     
          <!--  ########################## ALTRI TESTIMONI ############################ -->
 

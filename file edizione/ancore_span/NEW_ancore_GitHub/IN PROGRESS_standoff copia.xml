@@ -130,14 +130,16 @@
          <!-- I DUCHI SONO SCETTICI -->
          <span type="episode" from="#V_dukes_skeptical_start" to="#V_dukes_skeptical_end" xml:id="V_dukes_skeptical"
             corresp="#S_dukes_skeptical #B_dukes_skeptical"><ref target="#dukes_skeptical"/>The dukes critices Darius's approach to Alexander's campaign</span>
+         <!-- DARIO INZIA L'ATTACCO -->
+         <span type="episode" from="#V_Darius_starts_attack_start" to="#V_Darius_starts_attack_end" xml:id="V_Darius_starts_attack"
+            corresp="#S_Darius_starts_attack #B_Darius_starts_attack"><ref target="#Darius_starts_attack"/>Darius sends another duke against Alexander</span>
+         <!-- DARIO MINACCIA I DUCHI -->
+         <span type="episode" from="#V_Darius_threatens_dukes_start" to="#V_Darius_threatens_dukes_end" xml:id="V_Darius_threatens_dukes"
+            corresp="#S_Darius_threatens_dukes #B_Darius_threatens_dukes"><ref target="#Darius_threatens_dukes"/>Darius threatens the dukes into taking action</span>
+         <!-- THE DUKES TAKE ACTION -->
+         <span type="episode" from="#V_dukes_take_action_start" to="#V_dukes_take_action_end" xml:id="V_dukes_take_action"
+            corresp="#S_dukes_take_action #B_dukes_take_action"><ref target="#dukes_take_action"/>The dukes finally resolve to gather their men</span>
          
-         
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
          <span type="episode" from="#" to="#" xml:id=""
             corresp="#S_ #B_"><ref target="#"/></span>
          <span type="episode" from="#" to="#" xml:id=""

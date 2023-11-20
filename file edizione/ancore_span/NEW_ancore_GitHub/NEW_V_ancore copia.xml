@@ -68,11 +68,9 @@
             <l n="267" xml:id="V_l_267">Er sprach, man solte ez noch an im ervaren,</l>
             <l n="268" xml:id="V_l_268">wem des chuniges gewalt</l>
             <l n="269" xml:id="V_l_269">nach sînem lîbe wurt fersalt.</l>
-            <l n="270" xml:id="V_l_270">Er sprach:<anchor xml:id="V_messenger_Bucephalus_start"
-                  /><said who="#messengerBucephalus" toWhom="#Philip"/>"Daz sol dem, derz alrêst
+            <l n="270" xml:id="V_l_270">Er sprach:<anchor xml:id="V_messenger_Bucephalus_start"/><said who="#messengerBucephalus" toWhom="#Philip"/>"Daz sol dem, derz alrêst
                bescrîde,</l>
-            <l n="271" xml:id="V_l_271">wan diz nie chein man ne gerite."<anchor
-                  xml:id="V_messenger_Bucephalus_end"/></l>
+            <l n="271" xml:id="V_l_271">wan diz nie chein man ne gerite".<anchor xml:id="V_messenger_Bucephalus_end"/></l>
             <l n="272" xml:id="V_l_272">Unt als Alexander haim chom,</l>
             <l n="273" xml:id="V_l_273">algerihte er daz vernam.</l>
             <l n="274" xml:id="V_l_274">Wîs was er zummâzen.</l>
@@ -87,23 +85,19 @@
             <l n="281" xml:id="V_l_281">daz stunt in sîner tobeheit scrîen.</l>
             <l n="282" xml:id="V_l_282">Alexander sprach zen chinden,</l>
             <l n="283" xml:id="V_l_283">die mit ime uber die palize gîngen:</l>
-            <l n="284" xml:id="V_l_284"><anchor xml:id="V_Alexander_pageBoys_start"/><said
-                  who="#Alexander" toWhom="#pageBoys"/>"Ich ne weiz, waz mir scillet inz ôre,</l>
+            <l n="284" xml:id="V_l_284"><anchor xml:id="V_Alexander_pageBoys_start"/><said who="#Alexander" toWhom="#pageBoys"/>"Ich ne weiz, waz mir scillet inz ôre,</l>
             <l n="285" xml:id="V_l_285">ez ne lât mich nieht gehôren.</l>
             <l n="286" xml:id="V_l_286">Ich ne weiz wederz ein ros oder ein lewe deot,</l>
-            <l n="287" xml:id="V_l_287">wan ez dâ in beslozzen stêt."<anchor
-                  xml:id="V_Alexander_pageBoys_end"/></l>
+            <l n="287" xml:id="V_l_287">wan ez dâ in beslozzen stêt".<anchor xml:id="V_Alexander_pageBoys_end"/></l>
          </lg>
          <lg n="6" xml:id="V_lg_6">
             <l n="288" xml:id="V_l_288">Btholomeus sprach zuo dem chinde:</l>
-            <l n="289" xml:id="V_l_289"><anchor xml:id="V_Ptolemy_introduces_Bucephalus_start"
-                  /><said who="#Ptolemy" toWhom="#Alexander"/>"Herre, ist Buzival, ein ros vil
+            <l n="289" xml:id="V_l_289"><anchor xml:id="V_Ptolemy_introduces_Bucephalus_start"/><said who="#Ptolemy" toWhom="#Alexander"/>"Herre, ist Buzival, ein ros vil
                swinde,</l>
             <l n="290" xml:id="V_l_290">daz hât iuwer vater în getân.</l>
-            <l n="291" xml:id="V_l_291">Under der stuot ne mohte nechein bezzer gegên."</l>
+            <l n="291" xml:id="V_l_291">Under der stuot ne mohte nechein bezzer gegên".</l>
             <l n="292" xml:id="V_l_292">Er sprach: "Herre, ez ne hât nehein marscalch in huote.</l>
-            <l n="293" xml:id="V_l_293">wande ez erbîzet ubele unt guote."<anchor
-                  xml:id="V_Ptolemy_introduces_Bucephalus_end"/></l>
+            <l n="293" xml:id="V_l_293">wande ez erbîzet ubele unt guote".<anchor xml:id="V_Ptolemy_introduces_Bucephalus_end"/></l>
          </lg>
          <lg n="7" xml:id="V_lg_7">
             <l n="294" xml:id="V_l_294">Unt diz Alexander vernam,</l>
@@ -161,14 +155,11 @@
             <l n="331" xml:id="V_l_331">mit handen si sich nâmen.</l>
             <l n="332" xml:id="V_l_332">Ir rede was vil minnesam,</l>
             <l n="333" xml:id="V_l_333">als ir hie muget ferstân.</l>
-            <l n="334" xml:id="V_l_334"><anchor xml:id="V_Philip_praises_Alexander_start"/><said
-                  who="#Philip" toWhom="#Alexander"/>"Heil dich - sprach Philippus - sun mîn!</l>
+            <l n="334" xml:id="V_l_334"><anchor xml:id="V_Philip_praises_Alexander_start"/><said who="#Philip" toWhom="#Alexander"/>"Heil dich - sprach Philippus - sun mîn!</l>
             <l n="335" xml:id="V_l_335">Mich tuncet, du solt chunich sîn.</l>
             <l n="336" xml:id="V_l_336">Der gewalt sî dir vil gereit,</l>
-            <l n="337" xml:id="V_l_337">alsô wît, sô mîn rîch gêt."<anchor
-                  xml:id="V_Philip_praises_Alexander_end"/></l>
-            <l n="338" xml:id="V_l_338"><anchor xml:id="V_Alexander_wants_weapons_start"/><said
-                  who="#Alexander" toWhom="#Philip"/>"Heil iuch - sprach Alexander - fater mîn!</l>
+            <l n="337" xml:id="V_l_337">alsô wît, sô mîn rîch gêt".<anchor xml:id="V_Philip_praises_Alexander_end"/></l>
+            <l n="338" xml:id="V_l_338"><anchor xml:id="V_Alexander_wants_weapons_start"/><said who="#Alexander" toWhom="#Philip"/>"Heil iuch - sprach Alexander - fater mîn!</l>
             <l n="339" xml:id="V_l_339">Got lâz iuch iemer sâlich sîn!</l>
             <l n="340" xml:id="V_l_340">Alles guotes ich iu vil wol getrûwe.</l>
             <l n="341" xml:id="V_l_341">Vil lange mûzet ir iuwer rîche mit genâden bûwen!".</l>
@@ -181,8 +172,7 @@
             <l n="346" xml:id="V_l_346">Unt swer eigen tugent iemer sol gewinnen,</l>
             <l n="347" xml:id="V_l_347">der sal sîn in sîner jugende beginnen,</l>
             <l n="348" xml:id="V_l_348">unt ê seher sich sculdich,</l>
-            <l n="349" xml:id="V_l_349">nieuht versûmer sih."<anchor
-                  xml:id="V_Alexander_wants_weapons_end"/></l>
+            <l n="349" xml:id="V_l_349">nieuht versûmer sih".<anchor xml:id="V_Alexander_wants_weapons_end"/></l>
             <l n="350" xml:id="V_l_350">Der chunich, er ne wolte es newiht beiten,</l>
             <l n="351" xml:id="V_l_351">er hîz daz chint bereiten.</l>
             <l n="352" xml:id="V_l_352">Waz mage ich iu sundere gesagen?</l>
@@ -203,16 +193,14 @@
             <l n="365" xml:id="V_l_365">dâ er sînen vinger ûf geleite.</l>
          </lg>
          <lg n="13" xml:id="V_lg_13">
-            <l n="366" xml:id="V_l_366">Er sprach:<anchor xml:id="V_Alexander_royalTitle_start"
-                  /><said who="#Alexander" toWhom="#subjects"/>"Woldet ir eine wîle geruowen,</l>
+            <l n="366" xml:id="V_l_366">Er sprach:<anchor xml:id="V_Alexander_royalTitle_start"/><said who="#Alexander" toWhom="#subjects"/>"Woldet ir eine wîle geruowen,</l>
             <l n="367" xml:id="V_l_367">unze ich aine tugent maht getuon:</l>
             <l n="368" xml:id="V_l_368">an einem chunige wil ich es beginnen,</l>
             <l n="369" xml:id="V_l_369">unt mach ich den uberwinden,</l>
             <l n="370" xml:id="V_l_370">daz ich dem die chrôni abe ziehe</l>
             <l n="371" xml:id="V_l_371">unt ûz dem velde tuon geflîhen,</l>
             <l n="372" xml:id="V_l_372">sô muget ir mir chuniges namen geben,</l>
-            <l n="373" xml:id="V_l_373">alsô lange, sô ich iemer gelebe."<anchor
-                  xml:id="V_Alexander_royalTitle_end"/></l>
+            <l n="373" xml:id="V_l_373">alsô lange, sô ich iemer gelebe".<anchor xml:id="V_Alexander_royalTitle_end"/></l>
          </lg>
          <lg n="14" xml:id="V_lg_14">
             <l n="374" xml:id="V_l_374">Ein chunich was Nycolaus genant.</l>
@@ -240,8 +228,7 @@
             <l n="389" xml:id="V_l_389">sînem fater ers ûf sazte.</l>
          </lg>
          <lg n="16" xml:id="V_lg_16">
-            <l n="390" xml:id="V_l_390">Er sprach:<anchor xml:id="V_Alexander_accuses_Philip_start"
-                  /><said who="#Alexander" toWhom="#Philip"/>"Fater, nement tiz mit minnen,</l>
+            <l n="390" xml:id="V_l_390">Er sprach:<anchor xml:id="V_Alexander_accuses_Philip_start"/><said who="#Alexander" toWhom="#Philip"/>"Fater, nement tiz mit minnen,</l>
             <l n="391" xml:id="V_l_391">daz ich mit sturme hân gewunnen,</l>
             <l n="392" xml:id="V_l_392">unze ich es baz mach getuon:</l>
             <l n="393" xml:id="V_l_393">des habet ir êre unde ruom.</l>
@@ -254,8 +241,7 @@
             <l n="400" xml:id="V_l_400">Nû wêwn sô mir die ougen, dâ ich mit kesihe!</l>
             <l n="401" xml:id="V_l_401">Ich kedanche sîn allen den hien,</l>
             <l n="402" xml:id="V_l_402">die disen rât habent gefrumit,</l>
-            <l n="403" xml:id="V_l_403">daz er niemer zêren chumt!".<anchor
-                  xml:id="V_Alexander_accuses_Philip_end"/></l>
+            <l n="403" xml:id="V_l_403">daz er niemer zêren chumt!".<anchor xml:id="V_Alexander_accuses_Philip_end"/></l>
          </lg>
          <lg n="17" xml:id="V_lg_17">
             <l n="404" xml:id="V_l_404">Ein rîter hiez Lisias,</l>
@@ -269,9 +255,7 @@
             <l n="412" xml:id="V_l_412">den habet Alexander ûf der hende</l>
             <l n="413" xml:id="V_l_413">unt slûgen Lisian fur die zende,</l>
             <l n="414" xml:id="V_l_414">daz sim in sîne chelen risin.</l>
-            <l n="415" xml:id="V_l_415">Er sprach:<anchor xml:id="V_Alexander_Lysia_start"/><said
-                  who="#Alexander" toWhom="#Lysia"/>"Lâ du dîn rede wesen!".<anchor
-                  xml:id="V_Alexander_Lysia_end"/></l>
+            <l n="415" xml:id="V_l_415">Er sprach:<anchor xml:id="V_Alexander_Lysia_start"/><said who="#Alexander" toWhom="#Lysia"/>"Lâ du dîn rede wesen!".<anchor xml:id="V_Alexander_Lysia_end"/></l>
          </lg>
          <lg n="18" xml:id="V_lg_18">
             <l n="416" xml:id="V_l_416">Der chunich ûf fon der taveln spranch,</l>
@@ -365,7 +349,7 @@
             <l n="485" xml:id="V_l_485">daz er zinses an uns gesan.</l>
             <l n="486" xml:id="V_l_486">Er ne wirt ime niemer gesant</l>
             <l n="487" xml:id="V_l_487">hinnen ûzer Chriechlant,</l>
-            <l n="488" xml:id="V_l_488">bî mînen zîten."</l>
+            <l n="488" xml:id="V_l_488">bî mînen zîten".</l>
             <l n="489" xml:id="V_l_489">Die boten hîz er rîten, </l>
             <l n="490" xml:id="V_l_490">ê si ersturben an der stund,</l>
             <l n="491" xml:id="V_l_491">daz sis ir herren tâten chunt:</l>
@@ -437,7 +421,7 @@
             <l n="544" xml:id="V_l_544">Alsô Alexander heim chom,</l>
             <l n="545" xml:id="V_l_545">er giench fure sînen vater stân.</l>
             <l n="546" xml:id="V_l_546">Er sprach: "Vater, wil du iwet sprechen,</l>
-            <l n="547" xml:id="V_l_547">du maht dich haizen rechen."</l>
+            <l n="547" xml:id="V_l_547">du maht dich haizen rechen".</l>
             <l n="548" xml:id="V_l_548">Er sprach: "Sun, du heiz in slahen!".</l>
             <l n="549" xml:id="V_l_549">Daz was vil schiere getân.</l>
             <l n="550" xml:id="V_l_550">Dar nach uber ummanegen tach</l>
@@ -476,7 +460,7 @@
             <l n="576" xml:id="V_l_576">ân alle sîne arbeit.</l>
             <l n="577" xml:id="V_l_577">Swer noch mit mir bestêt,</l>
             <l n="578" xml:id="V_l_578">deme teilich lîb unde guot</l>
-            <l n="579" xml:id="V_l_579">unde trage ime imer willigen muot."</l>
+            <l n="579" xml:id="V_l_579">unde trage ime imer willigen muot".</l>
             <l n="580" xml:id="V_l_580">Unde als er diz gesagete,</l>
             <l n="581" xml:id="V_l_581">ir niehein langer dagete,</l>
             <l n="582" xml:id="V_l_582">sie sprâchen alle mit ainer zungen:</l>
@@ -976,7 +960,7 @@
             <l n="949" xml:id="V_l_949">"Herre, bedenchet iuchs in zît,</l>
             <l n="950" xml:id="V_l_950">wandir tiure chnehte sît:</l>
             <l n="951" xml:id="V_l_951">nement si nû den obern sige,</l>
-            <l n="952" xml:id="V_l_952">sô ist unser spot uber daz lant."</l>
+            <l n="952" xml:id="V_l_952">sô ist unser spot uber daz lant".</l>
             <l n="953" xml:id="V_l_953">Der rât, der ime dô wart getân,</l>
             <l n="954" xml:id="V_l_954">den mugent ir schiere verstên:</l>
             <l n="955" xml:id="V_l_955">sie rieten, daz er mange getaete richten</l>
@@ -1134,7 +1118,7 @@
             <l n="1074" xml:id="V_l_1074">sô ir, herre chunich, tuot.</l>
             <l n="1075" xml:id="V_l_1075">Nû bedwinget iwieren muot</l>
             <l n="1076" xml:id="V_l_1076">unde habet unser mâze,</l>
-            <l n="1077" xml:id="V_l_1077">wande wir getorsten die botscaft niet lâzen."</l>
+            <l n="1077" xml:id="V_l_1077">wande wir getorsten die botscaft niet lâzen".</l>
          </lg>
          <lg n="54" xml:id="V_lg_54">
             <l n="1078" xml:id="V_l_1078">Alexander bedâhte sich,</l>
@@ -1150,7 +1134,7 @@
             <l n="1088" xml:id="V_l_1088">sô ne getar er sich dar nâher niuht geziehen,</l>
             <l n="1089" xml:id="V_l_1089">er beginnet ûzwerd flîhen</l>
             <l n="1090" xml:id="V_l_1090">unde wîzzet iz allez mit sîner cheln</l>
-            <l n="1091" xml:id="V_l_1091">unde beginnet darwert belen."</l>
+            <l n="1091" xml:id="V_l_1091">unde beginnet darwert belen".</l>
          </lg>
          <lg n="55" xml:id="V_lg_55">
             <l n="1092" xml:id="V_l_1092">Er sprach: "Iwiers herren brief mir nieuht gevellet,</l>
@@ -1164,7 +1148,7 @@
             <l n="1100" xml:id="V_l_1100">daiz allez ane mir sul bestân,</l>
             <l n="1101" xml:id="V_l_1101">swaz sô unter deme himele is betân</l>
             <l n="1102" xml:id="V_l_1102">unde ich is alles herre sul werden,</l>
-            <l n="1103" xml:id="V_l_1103">ûf der scîbligen erde."</l>
+            <l n="1103" xml:id="V_l_1103">ûf der scîbligen erde".</l>
          </lg>
          <lg n="56" xml:id="V_lg_56">
             <l n="1104" xml:id="V_l_1104">"Den riemen, den er mir sante,</l>
@@ -1178,7 +1162,7 @@
             <l n="1112" xml:id="V_l_1112">daz iz mir al einem wol gezem,</l>
             <l n="1113" xml:id="V_l_1113">daz ich den zins von ime neme,</l>
             <l n="1114" xml:id="V_l_1114">unde dar zuo von allen landen,</l>
-            <l n="1115" xml:id="V_l_1115">unde betwinge die zemînen handen."</l>
+            <l n="1115" xml:id="V_l_1115">unde betwinge die zemînen handen".</l>
          </lg>
          <anchor xml:id="V_Alexander_reaction_end"/>
 
@@ -1216,7 +1200,7 @@
             <l n="1140" xml:id="V_l_1140">Er sprach: "Daz mich ie der bescalt,</l>
             <l n="1141" xml:id="V_l_1141">des vater mir den cins chalt,</l>
             <l n="1142" xml:id="V_l_1142">ich salz an die chêren,</l>
-            <l n="1143" xml:id="V_l_1143">iz ne regêt im niemer zêren."</l>
+            <l n="1143" xml:id="V_l_1143">iz ne regêt im niemer zêren".</l>
             <l n="1144" xml:id="V_l_1144">Er sprach, noch ouch niemer guot ende genaeme,</l>
             <l n="1145" xml:id="V_l_1145">daz er ie durch sîn laster ûz chôme.</l>
          </lg>
@@ -1267,58 +1251,254 @@
             <l n="1177" xml:id="V_l_1177">Der chunich Alexander hat sich noch aines mêren
                vermezzen,</l>
             <l n="1178" xml:id="V_l_1178">daz ern in sînem aigeme lande vâhe,</l>
-            <l n="1179" xml:id="V_l_1179">mit grôzem urliuge bestâ."</l>
+            <l n="1179" xml:id="V_l_1179">mit grôzem urliuge bestâ".</l>
             <l n="1180" xml:id="V_l_1180">Si sprachen: "Unser herre hantil iz noch mit sinne,</l>
-            <l n="1181" xml:id="V_l_1181">ich wâne, ers michel scande gewinne."</l>
+            <l n="1181" xml:id="V_l_1181">ich wâne, ers michel scande gewinne".</l>
          </lg>
          <anchor xml:id="V_dukes_skeptical_end"/>
 
          <!-- DARIO INZIA L'ATTACCO -->
 
          <anchor xml:id="V_Darius_starts_attack_start"/>
-         <lg>
-            <l>Unde alsô der bote wider chom</l>
-            <l>unde Darios der zeweier herzogen rede vernam,</l>
-            <l>sêre zurnet er sich des.</l>
-            <l>Dô namer ainen herzogen, der hiez sich Mennes,</l>
-            <l>unde dar zuo zênzic tûsint man,</l>
-            <l>die er alle uber naht gewan,</l>
-            <l>unde sante si Alexander gegen.</l>
+         <lg n="60" xml:id="V_lg_60">
+            <l n="1182" xml:id="V_l_1182">Unde alsô der bote wider chom</l>
+            <l n="1183" xml:id="V_l_1183">unde Darios der zeweier herzogen rede vernam,</l>
+            <l n="1184" xml:id="V_l_1184">sêre zurnet er sich des.</l>
+            <l n="1185" xml:id="V_l_1185">Dô namer ainen herzogen, der hiez sich Mennes,</l>
+            <l n="1186" xml:id="V_l_1186">unde dar zuo zênzic tûsint man,</l>
+            <l n="1187" xml:id="V_l_1187">die er alle uber naht gewan,</l>
+            <l n="1188" xml:id="V_l_1188">unde sante si Alexander gegen.</l>
             <anchor xml:id="V_Darius_starts_attack_end"/>
             <!-- DARIO MINACCIA I DUCHI -->
             <anchor xml:id="V_Darius_threatens_dukes_start"/>
-            <l>Unde hiez den zwein herzogen sagen,</l>
-            <l>lîzzen sîn uberz wazer varen,</l>
-            <l>ez solt in iemer mêre scaden,</l>
-            <l>sine gewunnen sîn niemer frum,</l>
-            <l>noch sine getorsten niemer fur sîne ougen chomen.</l>
-            <l>Er sprach, wurde Alexanders wille gendet,</l>
-            <l>sie wurden aller dermite gescendet.</l>
+            <l n="1189" xml:id="V_l_1189">Unde hiez den zwein herzogen sagen,</l>
+            <l n="1190" xml:id="V_l_1190">lîzzen sîn uberz wazer varen,</l>
+            <l n="1191" xml:id="V_l_1191">ez solt in iemer mêre scaden,</l>
+            <l n="1192" xml:id="V_l_1192">sine gewunnen sîn niemer frum,</l>
+            <l n="1193" xml:id="V_l_1193">noch sine getorsten niemer fur sîne ougen chomen.</l>
+            <l n="1194" xml:id="V_l_1194">Er sprach, wurde Alexanders wille gendet,</l>
+            <l n="1195" xml:id="V_l_1195">sie wurden aller dermite gescendet.</l>
          </lg>
          <anchor xml:id="V_Darius_threatens_dukes_end"/>
          
          <!-- THE DUKES TAKE ACTION -->
          
          <anchor xml:id="V_dukes_take_action_start"/>
-         <lg>
-            <l>Die zwêne herzogen getorsten neuht lâzen,</l>
-            <l>al dâ ir man sâzen,</l>
-            <l>si santen al gerihte</l>
-            <l>uber allez ir gerihte.</l>
-            <l>Die sie zesamene brâhten,</l>
-            <l>ze zehen tûsint mahti man sie ahten</l>
-            <l>unde drîzech tûsint dar zuo.</l>
+         <lg n="61" xml:id="V_lg_61">
+            <l n="1196" xml:id="V_l_1196">Die zwêne herzogen getorsten neuht lâzen,</l>
+            <l n="1197" xml:id="V_l_1197">al dâ ir man sâzen,</l>
+            <l n="1198" xml:id="V_l_1198">si santen al gerihte</l>
+            <l n="1199" xml:id="V_l_1199">uber allez ir gerihte.</l>
+            <l n="1200" xml:id="V_l_1200">Die sie zesamene brâhten,</l>
+            <l n="1201" xml:id="V_l_1201">ze zehen tûsint mahti man sie ahten</l>
+            <l n="1202" xml:id="V_l_1202">unde drîzech tûsint dar zuo.</l>
+            <anchor xml:id="V_dukes_take_action_end"/> <!-- CONTROLLA NOTA PROF -->
             <gap/>
-            <l></l>
-            <l></l>
-            <l></l>
-            <l></l>
-            <l></l>
-            <l></l>
-            <l></l>
-            <l></l>
+            <l n="1203" xml:id="V_l_1203">Er hâte einen ubermuoten muot.</l>
+            <l n="1204" xml:id="V_l_1204">Er sciffet sich ze forderest uber de fluot:</l>
+            <l n="1205" xml:id="V_l_1205">an eime stade chômen si im enkegen,</l>
+            <l n="1206" xml:id="V_l_1206">alsus hôrtich maister Alberichen sagen.</l>
+            <l n="1207" xml:id="V_l_1207">Dâ hûb sich ein sturm vil grôz,</l>
+            <l n="1208" xml:id="V_l_1208">ein tûsint beleib ime dâ tôt</l>
+            <l n="1209" xml:id="V_l_1209">von chriechiscem chunne,</l>
+            <l n="1210" xml:id="V_l_1210">ê Alexander den furt ie gewunne.</l>
          </lg>
-         <anchor xml:id="V_dukes_take_action_end"/>
+         <lg n="62" xml:id="V_lg_62">
+            <l n="1211" xml:id="V_l_1211">Dû chom Alexander selbe geriten,</l>
+            <l n="1212" xml:id="V_l_1212">alsô ers vil chûme habti gebiten.</l>
+            <l n="1213" xml:id="V_l_1213">Ûf Buzival er reit.</l>
+            <l n="1214" xml:id="V_l_1214">Dô sluoger alsô der toner deit,</l>
+            <l n="1215" xml:id="V_l_1215">for dem sich niemen mach bewarn:</l>
+            <l n="1216" xml:id="V_l_1216">swer in fon ferre sach gevaren,</l>
+            <l n="1217" xml:id="V_l_1217">ê er hinder sich gesach,</l>
+            <l n="1218" xml:id="V_l_1218">sô heter sîn ainen slach,</l>
+            <l n="1219" xml:id="V_l_1219">daz er sîn pluot allez spyê</l>
+            <l n="1220" xml:id="V_l_1220">unde lebte ouch darnach niewiht mê.</l>
+            <l n="1221" xml:id="V_l_1221">Sîn schaft was mâre grôz:</l>
+            <l n="1222" xml:id="V_l_1222">sweme wart ein slach oder ein stôz,</l>
+            <l n="1223" xml:id="V_l_1223">der was des gewissen tôdes</l>
+            <l n="1224" xml:id="V_l_1224">unde ern beiz dar nâch niemer brôtes.</l>
+         </lg>
+         <lg n="63" xml:id="V_lg_63">
+            <l n="1225" xml:id="V_l_1225">Mennes was ein herzoge genant,</l>
+            <l n="1226" xml:id="V_l_1226">den Darios hete dar gesant,</l>
+            <l n="1227" xml:id="V_l_1227">der was ein helt vrumeclîch.</l>
+            <l n="1228" xml:id="V_l_1228">Ein hundert rîter hâter umbe sich,</l>
+            <l n="1229" xml:id="V_l_1229">mit swerten vil guoten,</l>
+            <l n="1230" xml:id="V_l_1230">die tâten si im ze huote.</l>
+            <l n="1231" xml:id="V_l_1231">Zime mahte niemen brechen,</l>
+            <l n="1232" xml:id="V_l_1232">wan ders lebenes wolte vergezin.</l>
+            <l n="1233" xml:id="V_l_1233">Alexander want sîn vane,</l>
+            <l n="1234" xml:id="V_l_1234">er begunde sîne helide manen.</l>
+            <l n="1235" xml:id="V_l_1235">Er sprænget ze Mennes wert</l>
+            <l n="1236" xml:id="V_l_1236">unde liez iz nieuht durch die scarphen swert.</l>
+            <l n="1237" xml:id="V_l_1237">Durch alle die sîne er brach,</l>
+            <l n="1238" xml:id="V_l_1238">Mennes er durch den schilt stach,</l>
+            <l n="1239" xml:id="V_l_1239">daz daz pluot begunde rinnen.</l>
+            <l n="1240" xml:id="V_l_1240">Mennes stach hine wider durch den sînen,</l>
+            <l n="1241" xml:id="V_l_1241">der was feste helfenpein,</l>
+            <l n="1242" xml:id="V_l_1242">daz daz pluot an dem spere schain.</l>
+            <l n="1243" xml:id="V_l_1243">Ir iewedere stach den anderen nider.</l>
+            <l n="1244" xml:id="V_l_1244">Aldâ grîfen si zen swerten sider.</l>
+            <l n="1245" xml:id="V_l_1245">Â, wî daz fiur dar ûz spranch,</l>
+            <l n="1246" xml:id="V_l_1246">dâ ein stahel wider den ander dranch.</l>
+            <l n="1247" xml:id="V_l_1247">Grôzer slege wurden nie getân,</l>
+            <l n="1248" xml:id="V_l_1248">sie ne slûge wîlen Samson,</l>
+            <l n="1249" xml:id="V_l_1249">der die grôzen maht an imme truoch,</l>
+            <l n="1250" xml:id="V_l_1250">daz er mit eines eseles bachen ein tûsint liutes ersluoch.</l>
+            <l n="1251" xml:id="V_l_1251">Â, wie mahte daz ie werden:</l>
+            <l n="1252" xml:id="V_l_1252">Mennes der sluoch Alexandern zuo der erde.</l>
+         </lg>
+         <lg n="64" xml:id="V_lg_64">
+            <l n="1253" xml:id="V_l_1253">Aldâ wart ime der helm abgeprochen,</l>
+            <gap/>
+            <gap/>
+            <l n="1254" xml:id="V_l_1254">der manegen grôzen slege,</l>
+            <l n="1255" xml:id="V_l_1255">der der chunich Alexander fînch.</l>
+            <gap/>
+            <l n="1256" xml:id="V_l_1256">Unde wâr er alsô wol gewâfent nieht,</l>
+            <l n="1257" xml:id="V_l_1257">erne bescowet niemerz tages lieht,</l>
+            <l n="1258" xml:id="V_l_1258">wane daz sînes tôdes noch neweht solte sîn.</l>
+            <l n="1259" xml:id="V_l_1259">Ein rîter, der hiez Daclym,</l>
+            <l n="1260" xml:id="V_l_1260">der was mit Alexander dâ</l>
+            <l n="1261" xml:id="V_l_1261">unde stunt ime des tages vil nâ.</l>
+            <l n="1262" xml:id="V_l_1262">Der ander hiez Jubal,</l>
+            <l n="1263" xml:id="V_l_1263">der sich vil ungerne in dem sturme hal,</l>
+            <l n="1264" xml:id="V_l_1264">der was dar chomen mit teme herzogen</l>
+            <l n="1265" xml:id="V_l_1265">unde hiete daz swert erzogen</l>
+            <l n="1266" xml:id="V_l_1266">unde wolde Alexander geben ainen slach,</l>
+            <l n="1267" xml:id="V_l_1267">dâ er im den hals plôz gesach.</l>
+            <l n="1268" xml:id="V_l_1268">Daclym wart der êror,</l>
+            <l n="1269" xml:id="V_l_1269">er lôste sînen herren.</l>
+            <l n="1270" xml:id="V_l_1270">Er sluoch Jubal von oberest sîner zende</l>
+            <l n="1271" xml:id="V_l_1271">alnider durch die lende,</l>
+            <l n="1272" xml:id="V_l_1272">unde machet zewene halbe man.</l>
+            <l n="1273" xml:id="V_l_1273">Â, wie guot ainen lob daz swert gewan!</l>
+         </lg>
+         <lg n="65" xml:id="V_lg_65">
+            <l n="1274" xml:id="V_l_1274">Daclym den helm gebranc,</l>
+            <l n="1275" xml:id="V_l_1275">sînem herren ern ûf daz hôbet pant.</l>
+            <l n="1276" xml:id="V_l_1276">Sîn houbet was im erscellet,</l>
+            <l n="1277" xml:id="V_l_1277">dâ er der nider wart gevellet.</l>
+            <l n="1278" xml:id="V_l_1278">Nieweht verwielt er sich sîner rede,</l>
+            <l n="1279" xml:id="V_l_1279">er was in grôzer unhuge.</l>
+            <l n="1280" xml:id="V_l_1280">Er warf sich umbe alsô aien helit.</l>
+            <l n="1281" xml:id="V_l_1281">"Nû wert iuch, herre chunich", </l>
+            <l n="1282" xml:id="V_l_1282">alsus sprach sîn rîter Daclym,</l>
+            <l n="1283" xml:id="V_l_1283">"hiute sî iwer ellen schîn,</l>
+            <l n="1284" xml:id="V_l_1284">wande ir ein diurre keneht sît:</l>
+            <l n="1285" xml:id="V_l_1285">nû zîhet swert, des ist zît".</l>
+         </lg>
+         <lg n="66" xml:id="V_lg_66">
+            <l n="1286" xml:id="V_l_1286">Unde Alexander wart lôs:</l>
+            <l n="1287" xml:id="V_l_1287">dô spranc er ûf sîn ros.</l>
+            <l n="1288" xml:id="V_l_1288">Sîn ougen wâren freislîch,</l>
+            <l n="1289" xml:id="V_l_1289">sînen fîent erforhten sich.</l>
+            <l n="1290" xml:id="V_l_1290">Unde alsô er zim selben chom,</l>
+            <l n="1291" xml:id="V_l_1291">Buzifal er mit den sporn nam.</l>
+            <l n="1292" xml:id="V_l_1292">Er tete Daclyme danch</l>
+            <l n="1293" xml:id="V_l_1293">unde frumit manegen swert slach.</l>
+            <l n="1294" xml:id="V_l_1294">Under die menege er reit,</l>
+            <l n="1295" xml:id="V_l_1295">alsô der daz kras nider sleht,</l>
+            <l n="1296" xml:id="V_l_1296">sô strouwet Alexander,</l>
+            <l n="1297" xml:id="V_l_1297">diz ne mohte nehain ander.</l>
+            <l n="1298" xml:id="V_l_1298">Diu menige, diu was mâre grôz,</l>
+            <l n="1299" xml:id="V_l_1299">die der herre slûch unde scôz.</l>
+            <l n="1300" xml:id="V_l_1300">Alsô vil lager dâ reslagen,</l>
+            <l n="1301" xml:id="V_l_1301">daz iu unzallîch wâre ze sagene,</l>
+            <l n="1302" xml:id="V_l_1302">Persen unde Chriechen,</l>
+            <l n="1303" xml:id="V_l_1303">ân wunden unde âne siechen.</l>
+            <l n="1304" xml:id="V_l_1304">Man saget von dem sturm, der ûf Wolfenwerde gescach,</l>
+            <l n="1305" xml:id="V_l_1305">dâ Hilten vater tôt lach,</l>
+            <l n="1306" xml:id="V_l_1306">zewisken Hagenen unde Waten:</l>
+            <l n="1307" xml:id="V_l_1307">sô ne moht er herzô nieht katen</l>
+            <l n="1308" xml:id="V_l_1308">Jedoch ne moht nechain sîn,</l>
+            <l n="1309" xml:id="V_l_1309">noch Herewîch noch Wolfwîn,</l>
+            <l n="1310" xml:id="V_l_1310">der der ie gevaht volcwîch,</l>
+            <l n="1311" xml:id="V_l_1311">dem chunige Alexander gelîch.</l>
+            <l n="1312" xml:id="V_l_1312">Man list von guoten chnehten,</l>
+            <l n="1313" xml:id="V_l_1313">die wol getorsten vehten,</l>
+            <l n="1314" xml:id="V_l_1314">in Troiâre liede,</l>
+            <l n="1315" xml:id="V_l_1315">ê sich der sturm gesciede,</l>
+            <l n="1316" xml:id="V_l_1316">Achilles unde Hector,</l>
+            <l n="1317" xml:id="V_l_1317">Paris unde Nestor,</l>
+            <l n="1318" xml:id="V_l_1318">die manich tûsint erslûgen</l>
+            <l n="1319" xml:id="V_l_1319">unde die ouch scarfe gêre truogen:</l>
+            <l n="1320" xml:id="V_l_1320">sô moht under in allen</l>
+            <l n="1321" xml:id="V_l_1321">zuo Alexander nieuht gevallen.</l>
+         </lg>
+         <lg n="67" xml:id="V_lg_67">
+            <l n="1322" xml:id="V_l_1322">Pincun was ein grâve genant,</l>
+            <l n="1323" xml:id="V_l_1323">der vûrte den vanen an der hant,</l>
+            <l n="1324" xml:id="V_l_1324">den er Alexander abebrach,</l>
+            <l n="1325" xml:id="V_l_1325">den Mennes der nider stach.</l>
+            <l n="1326" xml:id="V_l_1326">Unde alsô er den grâven hâte erchorn,</l>
+            <l n="1327" xml:id="V_l_1327">duo rûrt erz ros mit den sporn,</l>
+            <l n="1328" xml:id="V_l_1328">zuo dem grâven er reit.</l>
+            <l n="1329" xml:id="V_l_1329">Er sprach: "Daz was ein michel chintheit,</l>
+            <l n="1330" xml:id="V_l_1330">daz mîn vane chom in iwier hant:</l>
+            <l n="1331" xml:id="V_l_1331">iz wirt iu ze laster gewant!".</l>
+            <l n="1332" xml:id="V_l_1332">Der grâve daz ros umbe warf:</l>
+            <l n="1333" xml:id="V_l_1333">â, wie schîr er dâ restarb!</l>
+            <l n="1334" xml:id="V_l_1334">Er sprach: "Gewisse fûr ich einen vanen,</l>
+            <l n="1335" xml:id="V_l_1335">der churze wîle mit mir sol wonen.</l>
+            <l n="1336" xml:id="V_l_1336">Ich sol dirn alsô wider geben,</l>
+            <l n="1337" xml:id="V_l_1337">daz ez dir gât an dîn leben".</l>
+            <l n="1338" xml:id="V_l_1338">Mit samt deme worte</l>
+            <l n="1339" xml:id="V_l_1339">sô stach er in mit dem orte,</l>
+            <l n="1340" xml:id="V_l_1340">daz an dem spere was,</l>
+            <l n="1341" xml:id="V_l_1341">daz er der wunden wol genas.</l>
+            <l n="1342" xml:id="V_l_1342">Oberhalb der brâ,</l>
+            <l n="1343" xml:id="V_l_1343">dâ was ter stich ketân.</l>
+            <l n="1344" xml:id="V_l_1344">Nû vernement, waz Alexander sprah,</l>
+            <l n="1345" xml:id="V_l_1345">alsin Pincun gestach:</l>
+            <l n="1346" xml:id="V_l_1346">"Du solt lugenâre wesen</l>
+            <l n="1347" xml:id="V_l_1347">unde ich sol des stiches wol genesen!".</l>
+            <l n="1348" xml:id="V_l_1348">Mit dem selben worte,</l>
+            <l n="1349" xml:id="V_l_1349">gab er im ainen slach mit dem swerte</l>
+            <l n="1350" xml:id="V_l_1350">ûf daz houbet ern slûch,</l>
+            <l n="1351" xml:id="V_l_1351">durch den hals unde durch den huot.</l>
+            <l n="1352" xml:id="V_l_1352">Der slach was unsûzz:</l>
+            <l n="1353" xml:id="V_l_1353">daz houbet viel ime vur die fuaze.</l>
+         </lg>
+         <lg n="68" xml:id="V_lg_68">
+            <l n="1354" xml:id="V_l_1354">Unde Alexander sînen vanen wider gewan,</l>
+            <l n="1355" xml:id="V_l_1355">Mennes aber ime zuo chom.</l>
+            <l n="1356" xml:id="V_l_1356">Den herzogen er der nider stach.</l>
+            <l n="1357" xml:id="V_l_1357">Dô gab er im mit dem swert ainen slach.</l>
+            <l n="1358" xml:id="V_l_1358">Ûf den arm er in sluoch,</l>
+            <l n="1359" xml:id="V_l_1359">dâ er daz sper mite truoch.</l>
+            <l n="1360" xml:id="V_l_1360">Der slach was vone grôzer maht,</l>
+            <l n="1361" xml:id="V_l_1361">durch den arm unde durch den scaph,</l>
+            <l n="1362" xml:id="V_l_1362">sô chom daz swert gedrungen</l>
+            <l n="1363" xml:id="V_l_1363">unde want ime an der lungen.</l>
+            <l n="1364" xml:id="V_l_1364">Aldâ viel Mennes danider:</l>
+            <l n="1365" xml:id="V_l_1365">Persi ne fuhten nieuht sider.</l>
+            <l n="1366" xml:id="V_l_1366">Ûzer deme velde si fluhen,</l>
+            <l n="1367" xml:id="V_l_1367">si ne getorsten in selben nieht getrûwen.</l>
+         </lg>
+         <lg n="69" xml:id="V_lg_69">
+            <l n="1368" xml:id="V_l_1368">Des wart Alexander vil palt.</l>
+            <l n="1369" xml:id="V_l_1369">Er belaib dâ mit gewalt</l>
+            <l n="1370" xml:id="V_l_1370">zuo den selben stunden,</l>
+            <l n="1371" xml:id="V_l_1371">al biz im geheilten sîne wunden,</l>
+            <l n="1372" xml:id="V_l_1372">unde genâhete sich Dario baz.</l>
+            <l n="1373" xml:id="V_l_1373">Aine burch er ime besaz,</l>
+            <l n="1374" xml:id="V_l_1374">diu was Sardix kenant,</l>
+            <l n="1375" xml:id="V_l_1375">von sînen wart siu verbrant:</l>
+            <l n="1376" xml:id="V_l_1376">dô nam er silber unde golt,</l>
+            <l n="1377" xml:id="V_l_1377">er machet ime manegen degen holt.</l>
+            <l n="1378" xml:id="V_l_1378">Diu selbe burch Sardix,</l>
+            <l n="1379" xml:id="V_l_1379">von ir saget uns daz bûch Apokalipsis,</l>
+            <l n="1380" xml:id="V_l_1380">daz si der siben purge aineu wâre,</l>
+            <l n="1381" xml:id="V_l_1381">die got unser haeilêr,</l>
+            <l n="1382" xml:id="V_l_1382">in sînem obristen himel nante,</l>
+            <l n="1383" xml:id="V_l_1383">dû er sante Johannes dar ze poten sante.</l>
+            <l n="1384" xml:id="V_l_1384"/>
+            <l n="1385" xml:id="V_l_1385"/>
+            <l n="1386" xml:id="V_l_1386"/>
+         </lg>
+         
 
       </body>
    </text>

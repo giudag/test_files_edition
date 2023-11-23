@@ -1281,7 +1281,7 @@
          </lg>
          <anchor xml:id="V_Darius_threatens_dukes_end"/>
          
-         <!-- THE DUKES TAKE ACTION -->
+         <!-- I DUCHI AGISCONO -->
          
          <anchor xml:id="V_dukes_take_action_start"/>
          <lg n="61" xml:id="V_lg_61">
@@ -1292,7 +1292,9 @@
             <l n="1200" xml:id="V_l_1200">Die sie zesamene brâhten,</l>
             <l n="1201" xml:id="V_l_1201">ze zehen tûsint mahti man sie ahten</l>
             <l n="1202" xml:id="V_l_1202">unde drîzech tûsint dar zuo.</l>
-            <anchor xml:id="V_dukes_take_action_end"/> <!-- CONTROLLA NOTA PROF -->
+            <anchor xml:id="V_dukes_take_action_end"/>
+            <!-- ALESSANDRO ATTACCA AL GUADO -->
+            <anchor xml:id="V_Alexander_attack_ford_start"/>
             <gap/>
             <l n="1203" xml:id="V_l_1203">Er hâte einen ubermuoten muot.</l>
             <l n="1204" xml:id="V_l_1204">Er sciffet sich ze forderest uber de fluot:</l>
@@ -1319,6 +1321,11 @@
             <l n="1223" xml:id="V_l_1223">der was des gewissen tôdes</l>
             <l n="1224" xml:id="V_l_1224">unde ern beiz dar nâch niemer brôtes.</l>
          </lg>
+         <anchor xml:id="V_Alexander_attack_ford_end"/>
+         
+         <!-- ALESSANDRO VS MENNES -->
+         
+         <anchor xml:id="V_Alexander_Mennes_start"/>
          <lg n="63" xml:id="V_lg_63">
             <l n="1225" xml:id="V_l_1225">Mennes was ein herzoge genant,</l>
             <l n="1226" xml:id="V_l_1226">den Darios hete dar gesant,</l>
@@ -1359,6 +1366,9 @@
             <l n="1256" xml:id="V_l_1256">Unde wâr er alsô wol gewâfent nieht,</l>
             <l n="1257" xml:id="V_l_1257">erne bescowet niemerz tages lieht,</l>
             <l n="1258" xml:id="V_l_1258">wane daz sînes tôdes noch neweht solte sîn.</l>
+            <anchor xml:id="V_Alexander_Mennes_end"/>
+            <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
+            <anchor xml:id="V_knight_helps_Alexander_start "/>
             <l n="1259" xml:id="V_l_1259">Ein rîter, der hiez Daclym,</l>
             <l n="1260" xml:id="V_l_1260">der was mit Alexander dâ</l>
             <l n="1261" xml:id="V_l_1261">unde stunt ime des tages vil nâ.</l>
@@ -1389,6 +1399,11 @@
             <l n="1284" xml:id="V_l_1284">wande ir ein diurre keneht sît:</l>
             <l n="1285" xml:id="V_l_1285">nû zîhet swert, des ist zît".</l>
          </lg>
+         <anchor xml:id="V_knight_helps_Alexander_end"/>
+         
+         <!-- ALESSANDRO SI RIPRENDE -->
+         
+         <anchor xml:id="V_Alexander_recovers_start"/>
          <lg n="66" xml:id="V_lg_66">
             <l n="1286" xml:id="V_l_1286">Unde Alexander wart lôs:</l>
             <l n="1287" xml:id="V_l_1287">dô spranc er ûf sîn ros.</l>
@@ -1427,6 +1442,11 @@
             <l n="1320" xml:id="V_l_1320">sô moht under in allen</l>
             <l n="1321" xml:id="V_l_1321">zuo Alexander nieuht gevallen.</l>
          </lg>
+         <anchor xml:id="V_Alexander_recovers_end"/>
+         
+         <!-- ALESSANDRO VS PINCUN -->
+         
+         <anchor xml:id="V_Alexander_Pincun_start"/>
          <lg n="67" xml:id="V_lg_67">
             <l n="1322" xml:id="V_l_1322">Pincun was ein grâve genant,</l>
             <l n="1323" xml:id="V_l_1323">der vûrte den vanen an der hant,</l>
@@ -1461,6 +1481,11 @@
             <l n="1352" xml:id="V_l_1352">Der slach was unsûzz:</l>
             <l n="1353" xml:id="V_l_1353">daz houbet viel ime vur die fuaze.</l>
          </lg>
+         <anchor xml:id="V_Alexander_Pincun_end"/>
+         
+         <!-- ALESSANDRO UCCIDE MENNES -->
+         
+         <anchor xml:id="V_Alexander_kills_Mennes_start"/>
          <lg n="68" xml:id="V_lg_68">
             <l n="1354" xml:id="V_l_1354">Unde Alexander sînen vanen wider gewan,</l>
             <l n="1355" xml:id="V_l_1355">Mennes aber ime zuo chom.</l>
@@ -1477,6 +1502,11 @@
             <l n="1366" xml:id="V_l_1366">Ûzer deme velde si fluhen,</l>
             <l n="1367" xml:id="V_l_1367">si ne getorsten in selben nieht getrûwen.</l>
          </lg>
+         <anchor xml:id="V_Alexander_kills_Mennes_end"/>
+         
+         <!-- ALESSANDRO CONQUISTA SARDI -->
+         
+         <anchor xml:id="V_Alexander_takes_Sardis_start"/>
          <lg n="69" xml:id="V_lg_69">
             <l n="1368" xml:id="V_l_1368">Des wart Alexander vil palt.</l>
             <l n="1369" xml:id="V_l_1369">Er belaib dâ mit gewalt</l>
@@ -1495,6 +1525,11 @@
             <l n="1382" xml:id="V_l_1382">in sînem obristen himel nante,</l>
             <l n="1383" xml:id="V_l_1383">dû er sante Johannes dar ze poten sante.</l>
          </lg>
+         <anchor xml:id="V_Alexander_takes_Sardis_end"/>
+         
+         <!-- IL GIURAMENTO DI DARIO -->
+         
+         <anchor xml:id="V_Darius_oath_start"/>
          <lg n="70" xml:id="V_lg_70">
             <l n="1384" xml:id="V_l_1384">Unde dô man Dario diz gesagete.</l>
             <l n="1385" xml:id="V_l_1385">niuht sêre er ne chlagete:</l>
@@ -1511,6 +1546,11 @@
             <l n="1396" xml:id="V_l_1396">daz inz gevugel êze,</l>
             <l n="1397" xml:id="V_l_1397">des er sich ie wider in vermâze.</l>
          </lg>
+         <anchor xml:id="V_Darius_oath_end"/>
+         
+         <!-- L'ADUNATA DI DARIO -->
+         
+         <anchor xml:id="V_Darius_rally_start"/>
          <lg n="71" xml:id="V_lg_71">
             <l n="1398" xml:id="V_l_1398">Dannæn wurden sîne poten gesant,</l>
             <l n="1399" xml:id="V_l_1399">uber wazer unde uber lant,</l>
@@ -1596,7 +1636,7 @@
             <l n="1479" xml:id="V_l_1479">Alsus hete sich Darius besant.</l>
             <gap/>
          </lg>
-         
+         <anchor xml:id="V_Darius_rally_end"/>
 
       </body>
    </text>

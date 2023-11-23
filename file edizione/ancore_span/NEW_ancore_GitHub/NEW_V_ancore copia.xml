@@ -70,7 +70,7 @@
             <l n="269" xml:id="V_l_269">nach sînem lîbe wurt fersalt.</l>
             <l n="270" xml:id="V_l_270">Er sprach:<anchor xml:id="V_messenger_Bucephalus_start"/><said who="#messengerBucephalus" toWhom="#Philip"/>"Daz sol dem, derz alrêst
                bescrîde,</l>
-            <l n="271" xml:id="V_l_271">wan diz nie chein man ne gerite".<anchor xml:id="V_messenger_Bucephalus_end"/></l>
+            <l n="271" xml:id="V_l_271">wan diz nie chein man ne gerite".<anchor xml:id="V_messenger_Bucephalus_end"/></l>  <!-- LA PROFEZIA SU BUCEFALO -->
             <l n="272" xml:id="V_l_272">Unt als Alexander haim chom,</l>
             <l n="273" xml:id="V_l_273">algerihte er daz vernam.</l>
             <l n="274" xml:id="V_l_274">Wîs was er zummâzen.</l>
@@ -88,7 +88,7 @@
             <l n="284" xml:id="V_l_284"><anchor xml:id="V_Alexander_pageBoys_start"/><said who="#Alexander" toWhom="#pageBoys"/>"Ich ne weiz, waz mir scillet inz ôre,</l>
             <l n="285" xml:id="V_l_285">ez ne lât mich nieht gehôren.</l>
             <l n="286" xml:id="V_l_286">Ich ne weiz wederz ein ros oder ein lewe deot,</l>
-            <l n="287" xml:id="V_l_287">wan ez dâ in beslozzen stêt".<anchor xml:id="V_Alexander_pageBoys_end"/></l>
+            <l n="287" xml:id="V_l_287">wan ez dâ in beslozzen stêt".<anchor xml:id="V_Alexander_pageBoys_end"/></l> <!-- ALESSANDRO SENTE BUCEFALO -->
          </lg>
          <lg n="6" xml:id="V_lg_6">
             <l n="288" xml:id="V_l_288">Btholomeus sprach zuo dem chinde:</l>
@@ -97,7 +97,7 @@
             <l n="290" xml:id="V_l_290">daz hât iuwer vater în getân.</l>
             <l n="291" xml:id="V_l_291">Under der stuot ne mohte nechein bezzer gegên".</l>
             <l n="292" xml:id="V_l_292">Er sprach: "Herre, ez ne hât nehein marscalch in huote.</l>
-            <l n="293" xml:id="V_l_293">wande ez erbîzet ubele unt guote".<anchor xml:id="V_Ptolemy_introduces_Bucephalus_end"/></l>
+            <l n="293" xml:id="V_l_293">wande ez erbîzet ubele unt guote".<anchor xml:id="V_Ptolemy_introduces_Bucephalus_end"/></l> <!-- TOLOMEO PRESENTA BUCEFALO -->
          </lg>
          <lg n="7" xml:id="V_lg_7">
             <l n="294" xml:id="V_l_294">Unt diz Alexander vernam,</l>
@@ -158,7 +158,7 @@
             <l n="334" xml:id="V_l_334"><anchor xml:id="V_Philip_praises_Alexander_start"/><said who="#Philip" toWhom="#Alexander"/>"Heil dich - sprach Philippus - sun mîn!</l>
             <l n="335" xml:id="V_l_335">Mich tuncet, du solt chunich sîn.</l>
             <l n="336" xml:id="V_l_336">Der gewalt sî dir vil gereit,</l>
-            <l n="337" xml:id="V_l_337">alsô wît, sô mîn rîch gêt".<anchor xml:id="V_Philip_praises_Alexander_end"/></l>
+            <l n="337" xml:id="V_l_337">alsô wît, sô mîn rîch gêt".<anchor xml:id="V_Philip_praises_Alexander_end"/></l> <!-- FILIPPO LODA ALESSANDRO -->
             <l n="338" xml:id="V_l_338"><anchor xml:id="V_Alexander_wants_weapons_start"/><said who="#Alexander" toWhom="#Philip"/>"Heil iuch - sprach Alexander - fater mîn!</l>
             <l n="339" xml:id="V_l_339">Got lâz iuch iemer sâlich sîn!</l>
             <l n="340" xml:id="V_l_340">Alles guotes ich iu vil wol getrûwe.</l>
@@ -172,7 +172,7 @@
             <l n="346" xml:id="V_l_346">Unt swer eigen tugent iemer sol gewinnen,</l>
             <l n="347" xml:id="V_l_347">der sal sîn in sîner jugende beginnen,</l>
             <l n="348" xml:id="V_l_348">unt ê seher sich sculdich,</l>
-            <l n="349" xml:id="V_l_349">nieuht versûmer sih".<anchor xml:id="V_Alexander_wants_weapons_end"/></l>
+            <l n="349" xml:id="V_l_349">nieuht versûmer sih".<anchor xml:id="V_Alexander_wants_weapons_end"/></l> <!-- ALESSANDRO CHIEDE ARMI -->
             <l n="350" xml:id="V_l_350">Der chunich, er ne wolte es newiht beiten,</l>
             <l n="351" xml:id="V_l_351">er hîz daz chint bereiten.</l>
             <l n="352" xml:id="V_l_352">Waz mage ich iu sundere gesagen?</l>
@@ -200,7 +200,7 @@
             <l n="370" xml:id="V_l_370">daz ich dem die chrôni abe ziehe</l>
             <l n="371" xml:id="V_l_371">unt ûz dem velde tuon geflîhen,</l>
             <l n="372" xml:id="V_l_372">sô muget ir mir chuniges namen geben,</l>
-            <l n="373" xml:id="V_l_373">alsô lange, sô ich iemer gelebe".<anchor xml:id="V_Alexander_royalTitle_end"/></l>
+            <l n="373" xml:id="V_l_373">alsô lange, sô ich iemer gelebe".<anchor xml:id="V_Alexander_royalTitle_end"/></l> <!-- ALESSANDRO DISCUTE DEL TITOLO REGALE -->
          </lg>
          <lg n="14" xml:id="V_lg_14">
             <l n="374" xml:id="V_l_374">Ein chunich was Nycolaus genant.</l>

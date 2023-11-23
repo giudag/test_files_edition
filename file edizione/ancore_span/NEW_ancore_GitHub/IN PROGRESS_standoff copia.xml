@@ -136,10 +136,43 @@
          <!-- DARIO MINACCIA I DUCHI -->
          <span type="episode" from="#V_Darius_threatens_dukes_start" to="#V_Darius_threatens_dukes_end" xml:id="V_Darius_threatens_dukes"
             corresp="#S_Darius_threatens_dukes #B_Darius_threatens_dukes"><ref target="#Darius_threatens_dukes"/>Darius threatens the dukes into taking action</span>
-         <!-- THE DUKES TAKE ACTION -->
+         <!-- I DUCHI AGISCONO -->
          <span type="episode" from="#V_dukes_take_action_start" to="#V_dukes_take_action_end" xml:id="V_dukes_take_action"
             corresp="#S_dukes_take_action #B_dukes_take_action"><ref target="#dukes_take_action"/>The dukes finally resolve to gather their men</span>
+         <!-- ALESSANDRO ATTACCA AL GUADO -->
+         <span type="episode" from="#V_Alexander_attack_ford_start" to="#V_Alexander_attack_ford_end" xml:id="V_Alexander_attack_ford"
+            corresp="#S_Alexander_attack_ford #B_Alexander_attack_ford"><ref target="#Alexander_attack_ford"/>Alexander meets the dukes' men at the ford and attacks</span>
+         <!-- ALESSANDRO VS MENNES -->
+         <span type="episode" from="#V_Alexander_Mennes_start" to="#V_Alexander_Mennes_end" xml:id="V_Alexander_Mennes"
+            corresp="#S_Alexander_Mennes #B_Alexander_Mennes"><ref target="#Alexander_Mennes"/>Alexander fights against the duke Mennes</span>
+         <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
+         <span type="episode" from="#V_knight_helps_Alexander_start" to="#V_knight_helps_Alexander_end" xml:id="V_knight_helps_Alexander"
+            corresp="#S_knight_helps_Alexander #B_knight_helps_Alexander"><ref target="#knight_helps_Alexander"/>A knight called Daclym</span>
+         <!-- ALESSANDRO SI RIPRENDE -->
+         <span type="episode" from="#V_Alexander_recovers_start" to="#V_Alexander_recovers_end" xml:id="V_Alexander_recovers"
+            corresp="#S_Alexander_recovers #B_Alexander_recovers"><ref target="#Alexander_recovers"/></span>
+         <!-- ALESSANDRO VS PINCUN -->
+         <span type="episode" from="#V_Alexander_Pincun_start" to="#V_Alexander_Pincun_end" xml:id="V_Alexander_Pincun"
+            corresp="#S_Alexander_Pincun #B_Alexander_Pincun"><ref target="#Alexander_Pincun"/></span>
+         <!-- ALESSANDRO UCCIDE MENNES -->
+         <span type="episode" from="#V_Alexander_kills_Mennes_start" to="#V_Alexander_kills_Mennes_end" xml:id="V_Alexander_kills_Mennes"
+            corresp="#S_Alexander_kills_Mennes #B_Alexander_kills_Mennes"><ref target="#Alexander_kills_Mennes"/></span>
+         <!-- ALESSANDRO CONQUISTA SARDI -->
+         <span type="episode" from="#V_Alexander_takes_Sardis_start" to="#V_Alexander_takes_Sardis_end" xml:id="V_Alexander_takes_Sardis"
+            corresp="#S_Alexander_takes_Sardis #B_Alexander_takes_Sardis"><ref target="#Alexander_takes_Sardis"/></span>
+         <!-- IL GIURAMENTO DI DARIO -->
+         <span type="episode" from="#V_Darius_oath_start" to="#V_Darius_oath_end" xml:id="V_Darius_oath"
+            corresp="#S_Darius_oath #B_Darius_oath"><ref target="#Darius_oath"/></span>
+         <!-- L'ADUNATA DI DARIO -->
+         <span type="episode" from="#V_Darius_rally_start" to="#V_Darius_rally_end" xml:id="V_Darius_rally"
+            corresp="#S_Darius_rally #B_Darius_rally"><ref target="#Darius_rally"/></span>
          
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
+         <span type="episode" from="#" to="#" xml:id=""
+            corresp="#S_ #B_"><ref target="#"/></span>
          <span type="episode" from="#" to="#" xml:id=""
             corresp="#S_ #B_"><ref target="#"/></span>
          <span type="episode" from="#" to="#" xml:id=""

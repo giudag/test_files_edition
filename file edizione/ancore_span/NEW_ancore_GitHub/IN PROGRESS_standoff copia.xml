@@ -24,7 +24,7 @@
     <!-- con ptr target rimando al macro-episodio che contiene una sottounità: mi piace perché è un "pure pointer", generico, "its primary function is simply to point...to another location" -->
     <!-- no @corresp quando negli altri testimoni non c'è l'episodio: CONTROLLALI TUTTI, solo riempiti  -->
     <!-- biblio -->
-   
+    <!-- aggiungere listPers -->
 
       <!-- ################# QUI GLI EPISODI ################## -->
 
@@ -34,10 +34,16 @@
          
          <!-- BUCEFALO -->
          <span type="episode" from="#V_Bucephalus_start" to="#V_Bucephalus_end" xml:id="V_Bucephalus"
-            corresp="#S_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/>Alexander tames the horse Bucephalus</span>
+            corresp="#S_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/><!-- LA PROFEZIA SU BUCEFALO --><span type="direct_speech" from="#V_messenger_Bucephalus_start" to="#V_messenger_Bucephalus_end" xml:id="V_messenger_Bucephalus"
+               corresp="#S_messenger_Bucephalus #B_messenger_Bucephalus"><ptr target="#V_messenger_Bucephalus"/></span><!-- ALESSANDRO SENTE BUCEFALO --><span type="direct_speech" from="#V_Alexander_pageBoys_start" to="#V_Alexander_pageBoys_end" xml:id="V_Alexander_pageBoys"
+                  corresp="#S_Alexander_pageBoys #B_Alexander_pageBoys"><ptr target="#V_messenger_Bucephalus"/></span><!-- TOLOMEO PRESENTA BUCEFALO --><span type="direct_speech" from="#V_Ptolemy_introduces_Bucephalus_start" to="#V_Ptolemy_introduces_Bucephalus_end" xml:id="V_Ptolemy_introduces_Bucephalus"
+                     corresp="#S_Ptolemy_introduces_Bucephalus #B_Ptolemy_introduces_Bucephalus"><ptr target="#V_messenger_Bucephalus"/></span>Alexander tames the horse Bucephalus</span>
          <!-- ALESSANDRO CHIEDE AL PADRE DI POTER IMPUGNARE LE ARMI PER LA PRIMA VOLTA - PRIMA IMPRESA DI ALESSANDRO -->
          <span type="episode" from="#V_Alexander_firstBattle_start" to="#V_Alexander_firstBattle_end" xml:id="V_Alexander_firstBattle"
-            corresp="#S_Alexander_firstBattle #B_Alexander_firstBattle"><ref target="#Alexander_firstBattle"/>Alexander takes up arms for the first time</span>
+            corresp="#S_Alexander_firstBattle #B_Alexander_firstBattle"><ref target="#Alexander_firstBattle"/><!-- FILIPPO LODA ALESSANDRO --><span type="direct_speech" from="#V_Philip_praises_Alexander_start" to="#V_Philip_praises_Alexander_end" xml:id="V_Philip_praises_Alexander"
+               corresp="#S_Philip_praises_Alexander #B_Philip_praises_Alexander"><ptr target="#V_Alexander_firstBattle"/></span><!-- ALESSANDRO CHIEDE ARMI --><span type="direct_speech" from="#V_Alexander_wants_weapons_start" to="#V_Alexander_wants_weapons_end" xml:id="V_Alexander_wants_weapons"
+                  corresp="#S_Alexander_wants_weapons #B_Alexander_wants_weapons"><ptr target="#V_Alexander_firstBattle"/></span><!-- ALESSANDRO DISCUTE DEL TITOLO REGALE --><span type="direct_speech" from="#V_Alexander_royalTitle_start" to="#V_Alexander_royalTitle_end" xml:id="V_Alexander_royalTitle"
+                     corresp="#S_Alexander_royalTitle #B_Alexander_royalTitle"><ptr target="#V_Alexander_firstBattle"/></span>Alexander takes up arms for the first time</span>
          <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
          <span  type="episode" from="#V_Alexander_Cleopatra_start" to="#V_Alexander_Cleopatra_end" xml:id="V_Alexander_Cleopatra"
             corresp="#S_Alexander_Cleopatra #B_Alexander_Cleopatra"><ref target="#Alexander_Cleopatra"/>Alexander confronts his father about him betraying his mother</span>
@@ -147,42 +153,26 @@
             corresp="#S_Alexander_Mennes #B_Alexander_Mennes"><ref target="#Alexander_Mennes"/>Alexander fights against the duke Mennes</span>
          <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
          <span type="episode" from="#V_knight_helps_Alexander_start" to="#V_knight_helps_Alexander_end" xml:id="V_knight_helps_Alexander"
-            corresp="#S_knight_helps_Alexander #B_knight_helps_Alexander"><ref target="#knight_helps_Alexander"/>A knight called Daclym</span>
+            corresp="#S_knight_helps_Alexander #B_knight_helps_Alexander"><ref target="#knight_helps_Alexander"/>A knight called "Daclym" saves Alexander from an attack</span>
          <!-- ALESSANDRO SI RIPRENDE -->
          <span type="episode" from="#V_Alexander_recovers_start" to="#V_Alexander_recovers_end" xml:id="V_Alexander_recovers"
-            corresp="#S_Alexander_recovers #B_Alexander_recovers"><ref target="#Alexander_recovers"/></span>
+            corresp="#S_Alexander_recovers #B_Alexander_recovers"><ref target="#Alexander_recovers"/>Alexander resumes his ferocious fighting</span>
          <!-- ALESSANDRO VS PINCUN -->
          <span type="episode" from="#V_Alexander_Pincun_start" to="#V_Alexander_Pincun_end" xml:id="V_Alexander_Pincun"
-            corresp="#S_Alexander_Pincun #B_Alexander_Pincun"><ref target="#Alexander_Pincun"/></span>
+            corresp="#S_Alexander_Pincun #B_Alexander_Pincun"><ref target="#Alexander_Pincun"/>Alexander fights against the count Pincun to retake his stolen banner</span>
          <!-- ALESSANDRO UCCIDE MENNES -->
          <span type="episode" from="#V_Alexander_kills_Mennes_start" to="#V_Alexander_kills_Mennes_end" xml:id="V_Alexander_kills_Mennes"
-            corresp="#S_Alexander_kills_Mennes #B_Alexander_kills_Mennes"><ref target="#Alexander_kills_Mennes"/></span>
+            corresp="#S_Alexander_kills_Mennes #B_Alexander_kills_Mennes"><ref target="#Alexander_kills_Mennes"/>Alexander kills Mennes in battle and the Persians stop fighting</span>
          <!-- ALESSANDRO CONQUISTA SARDI -->
          <span type="episode" from="#V_Alexander_takes_Sardis_start" to="#V_Alexander_takes_Sardis_end" xml:id="V_Alexander_takes_Sardis"
-            corresp="#S_Alexander_takes_Sardis #B_Alexander_takes_Sardis"><ref target="#Alexander_takes_Sardis"/></span>
+            corresp="#S_Alexander_takes_Sardis #B_Alexander_takes_Sardis"><ref target="#Alexander_takes_Sardis"/>Alexander takes the city of Sardis, which belonged to Darius</span>
          <!-- IL GIURAMENTO DI DARIO -->
          <span type="episode" from="#V_Darius_oath_start" to="#V_Darius_oath_end" xml:id="V_Darius_oath"
-            corresp="#S_Darius_oath #B_Darius_oath"><ref target="#Darius_oath"/></span>
+            corresp="#S_Darius_oath #B_Darius_oath"><ref target="#Darius_oath"/>Darius swears to take revenge against Alexander and kill him</span>
          <!-- L'ADUNATA DI DARIO -->
          <span type="episode" from="#V_Darius_rally_start" to="#V_Darius_rally_end" xml:id="V_Darius_rally"
-            corresp="#S_Darius_rally #B_Darius_rally"><ref target="#Darius_rally"/></span>
-         
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
-         <span type="episode" from="#" to="#" xml:id=""
-            corresp="#S_ #B_"><ref target="#"/></span>
-         
-         
+            corresp="#S_Darius_rally #B_Darius_rally"><ref target="#Darius_rally"/>Darius rallies his subordinates from many different lands</span>
+     
     
          <!--  ########################## ALTRI TESTIMONI ############################ -->
 

@@ -228,7 +228,7 @@
             <l n="389" xml:id="V_l_389">sînem fater ers ûf sazte.</l>
          </lg>
          <lg n="16" xml:id="V_lg_16">
-            <l n="390" xml:id="V_l_390">Er sprach:<anchor xml:id="V_Alexander_accuses_Philip_start"/><said who="#Alexander" toWhom="#Philip"/>"Fater, nement tiz mit minnen,</l>
+            <l n="390" xml:id="V_l_390">Er sprach:<anchor xml:id="V_Alexander_reproaches_Philip_start"/><said who="#Alexander" toWhom="#Philip"/>"Fater, nement tiz mit minnen,</l> <!-- ALESSANDRO RIMPROVERA FILIPPO -->
             <l n="391" xml:id="V_l_391">daz ich mit sturme hân gewunnen,</l>
             <l n="392" xml:id="V_l_392">unze ich es baz mach getuon:</l>
             <l n="393" xml:id="V_l_393">des habet ir êre unde ruom.</l>
@@ -241,7 +241,7 @@
             <l n="400" xml:id="V_l_400">Nû wêwn sô mir die ougen, dâ ich mit kesihe!</l>
             <l n="401" xml:id="V_l_401">Ich kedanche sîn allen den hien,</l>
             <l n="402" xml:id="V_l_402">die disen rât habent gefrumit,</l>
-            <l n="403" xml:id="V_l_403">daz er niemer zêren chumt!".<anchor xml:id="V_Alexander_accuses_Philip_end"/></l>
+            <l n="403" xml:id="V_l_403">daz er niemer zêren chumt!".<anchor xml:id="V_Alexander_reproaches_Philip_end"/></l>
          </lg>
          <lg n="17" xml:id="V_lg_17">
             <l n="404" xml:id="V_l_404">Ein rîter hiez Lisias,</l>
@@ -255,7 +255,7 @@
             <l n="412" xml:id="V_l_412">den habet Alexander ûf der hende</l>
             <l n="413" xml:id="V_l_413">unt slûgen Lisian fur die zende,</l>
             <l n="414" xml:id="V_l_414">daz sim in sîne chelen risin.</l>
-            <l n="415" xml:id="V_l_415">Er sprach:<anchor xml:id="V_Alexander_Lysia_start"/><said who="#Alexander" toWhom="#Lysia"/>"Lâ du dîn rede wesen!".<anchor xml:id="V_Alexander_Lysia_end"/></l>
+            <l n="415" xml:id="V_l_415">Er sprach:<anchor xml:id="V_Alexander_Lysia_start"/><said who="#Alexander" toWhom="#Lysia"/>"Lâ du dîn rede wesen!".<anchor xml:id="V_Alexander_Lysia_end"/></l> <!-- ALESSANDRO LITIGA CON LISIA -->
          </lg>
          <lg n="18" xml:id="V_lg_18">
             <l n="416" xml:id="V_l_416">Der chunich ûf fon der taveln spranch,</l>
@@ -342,14 +342,14 @@
             <l n="479" xml:id="V_l_479">zuo der boten gesihte.</l>
             <l n="480" xml:id="V_l_480">Des zinses er newiht galt,</l>
             <l n="481" xml:id="V_l_481">ir hêren er bôslîch scalt.</l>
-            <l n="482" xml:id="V_l_482">Er sprach: "Iuwer herre nehât anderes neheine
+            <l n="482" xml:id="V_l_482">Er sprach: <anchor xml:id="V_Alexander_denies_tribute_start"/><said who="#Alexander" toWhom="#messengersDarius"/>"Iuwer herre nehât anderes neheine <!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO -->
                frumicheit,</l>
             <l n="483" xml:id="V_l_483">wan daz er scaz uber ein ander leit.</l>
             <l n="484" xml:id="V_l_484">Er was ein harte tumb man,</l>
             <l n="485" xml:id="V_l_485">daz er zinses an uns gesan.</l>
             <l n="486" xml:id="V_l_486">Er ne wirt ime niemer gesant</l>
             <l n="487" xml:id="V_l_487">hinnen ûzer Chriechlant,</l>
-            <l n="488" xml:id="V_l_488">bî mînen zîten".</l>
+            <l n="488" xml:id="V_l_488">bî mînen zîten".<anchor xml:id="V_Alexander_denies_tribute_end"/></l>
             <l n="489" xml:id="V_l_489">Die boten hîz er rîten, </l>
             <l n="490" xml:id="V_l_490">ê si ersturben an der stund,</l>
             <l n="491" xml:id="V_l_491">daz sis ir herren tâten chunt:</l>
@@ -409,7 +409,7 @@
             <l n="534" xml:id="V_l_534">sprancde, dar Pausoniam gesach.</l>
             <l n="535" xml:id="V_l_535">Durh sînen bûch er stach,</l>
             <l n="536" xml:id="V_l_536">zuo der erde er in warf.</l>
-            <l n="537" xml:id="V_l_537">Er sprach: "Dis stiuphaters ich nieuht bedarf!".</l>
+            <l n="537" xml:id="V_l_537">Er sprach: <anchor xml:id="V_Alexander_repudiates_Pausonias_start"/><said who="#Alexander" toWhom="#Pausonias"/>"Dis stiuphaters ich nieuht bedarf!".<anchor xml:id="V_Alexander_repudiates_Pausonias_end"/></l>  <!--  ALESSANDRO RIPUDIA PAUSONIA -->
          </lg>
          <lg n="24" xml:id="V_lg_24">
             <l n="538" xml:id="V_l_538">Alexander sprach zuo den gesinden</l>
@@ -420,9 +420,9 @@
             <l n="543" xml:id="V_l_543">die ime slûch Pausonias.</l>
             <l n="544" xml:id="V_l_544">Alsô Alexander heim chom,</l>
             <l n="545" xml:id="V_l_545">er giench fure sînen vater stân.</l>
-            <l n="546" xml:id="V_l_546">Er sprach: "Vater, wil du iwet sprechen,</l>
-            <l n="547" xml:id="V_l_547">du maht dich haizen rechen".</l>
-            <l n="548" xml:id="V_l_548">Er sprach: "Sun, du heiz in slahen!".</l>
+            <l n="546" xml:id="V_l_546">Er sprach: <anchor xml:id="V_Alexander_asks_Philip_about_revenge_start"/><said who="#Alexander" toWhom="#Philip"/>"Vater, wil du iwet sprechen,</l> <!--  ALESSANDRO CHIEDE A FILIPPO COSA FARE CON PAUSONIA -->
+            <l n="547" xml:id="V_l_547">du maht dich haizen rechen".<anchor xml:id="V_Alexander_asks_Philip_about_revenge_end"/></l>
+            <l n="548" xml:id="V_l_548">Er sprach: <anchor xml:id="V_Philip_asks_for_revenge_start"/><said who="#Philip" toWhom="#Alexander"/>"Sun, du heiz in slahen!".<anchor xml:id="V_Philip_asks_for_revenge_end"/></l> <!--  FILIPPO CHIEDE DI ESSERE VENDICATO -->
             <l n="549" xml:id="V_l_549">Daz was vil schiere getân.</l>
             <l n="550" xml:id="V_l_550">Dar nach uber ummanegen tach</l>
             <l n="551" xml:id="V_l_551">Philippus dâ tôt lach.</l>
@@ -443,7 +443,7 @@
             <l n="559" xml:id="V_l_559">er nam sîn aller getriwisten man,</l>
             <l n="560" xml:id="V_l_560">die ime ze sîner nôte</l>
             <l n="561" xml:id="V_l_561">ie wâren einmuote.</l>
-            <l n="562" xml:id="V_l_562">Er sprah: "Herre, wirne haben nieuth ze bîtene,</l>
+            <l n="562" xml:id="V_l_562">Er sprah: <anchor xml:id="V_Alexander_gathers_his_men_start"/><said who="#Alexander" toWhom="#menAlexander"/>"Herre, wirne haben nieuth ze bîtene,</l> <!--  ALESSANDRO CHIAMA A RACCOLTA I SUOI UOMINI -->
             <l n="563" xml:id="V_l_563">wir mûzen her laiten,</l>
             <l n="564" xml:id="V_l_564">Chriechlande zêren.</l>
             <l n="565" xml:id="V_l_565">Dar an gedenchent, herre,</l>
@@ -460,13 +460,13 @@
             <l n="576" xml:id="V_l_576">ân alle sîne arbeit.</l>
             <l n="577" xml:id="V_l_577">Swer noch mit mir bestêt,</l>
             <l n="578" xml:id="V_l_578">deme teilich lîb unde guot</l>
-            <l n="579" xml:id="V_l_579">unde trage ime imer willigen muot".</l>
+            <l n="579" xml:id="V_l_579">unde trage ime imer willigen muot".<anchor xml:id="V_Alexander_gathers_his_men_end"/></l>
             <l n="580" xml:id="V_l_580">Unde als er diz gesagete,</l>
             <l n="581" xml:id="V_l_581">ir niehein langer dagete,</l>
             <l n="582" xml:id="V_l_582">sie sprâchen alle mit ainer zungen:</l>
-            <l n="583" xml:id="V_l_583">"Got behuote uns disen chunich jungen,</l>
+            <l n="583" xml:id="V_l_583"><anchor xml:id="V_menAlexander_bless_Alexander_start"/><said who="#menAlexander" toWhom="#God"/>"Got behuote uns disen chunich jungen,</l> <!--  GLI UOMINI DI ALESSANDRO GLI DANNO LA LORO BENEDIZIONE -->
             <l n="584" xml:id="V_l_584">daz er mit genâden vil lange mûze leben in sînem rîche:</l>
-            <l n="585" xml:id="V_l_585">sô wê dem der ime geswîche!".</l>
+            <l n="585" xml:id="V_l_585">sô wê dem der ime geswîche!".<anchor xml:id="V_menAlexander_bless_Alexander_end"/></l>
          </lg>
          <anchor xml:id="V_Alexander_becomes_king_end"/>
 
@@ -957,10 +957,10 @@
             <l n="946" xml:id="V_l_946">dâ geschiet er abe mit zorni</l>
             <l n="947" xml:id="V_l_947">des mordes, des er an sînen holden gesach.</l>
             <l n="948" xml:id="V_l_948">Mit sînen fursten er sprach:</l>
-            <l n="949" xml:id="V_l_949">"Herre, bedenchet iuchs in zît,</l>
+            <l n="949" xml:id="V_l_949"><anchor xml:id="V_Alexander_consults_princes_start"/><said who="#Alexander" toWhom="#princesAlexander"/>"Herre, bedenchet iuchs in zît,</l> <!--  ALESSANDRO CONSULTA I SUOI PRINCIPI -->
             <l n="950" xml:id="V_l_950">wandir tiure chnehte sît:</l>
             <l n="951" xml:id="V_l_951">nement si nû den obern sige,</l>
-            <l n="952" xml:id="V_l_952">sô ist unser spot uber daz lant".</l>
+            <l n="952" xml:id="V_l_952">sô ist unser spot uber daz lant".<anchor xml:id="V_Alexander_consults_princes_end"/></l>
             <l n="953" xml:id="V_l_953">Der rât, der ime dô wart getân,</l>
             <l n="954" xml:id="V_l_954">den mugent ir schiere verstên:</l>
             <l n="955" xml:id="V_l_955">sie rieten, daz er mange getaete richten</l>
@@ -1090,7 +1090,7 @@
             <l n="1053" xml:id="V_l_1053">daz er niemen sînes nieuht nâme</l>
             <l n="1054" xml:id="V_l_1054">unde daz er schiere dannen rite</l>
             <l n="1055" xml:id="V_l_1055">unde nieuht langer bite.</l>
-            <l n="1056" xml:id="V_l_1056">Unde daeter euw‹e›ht mêre wider sîne willen,</l>
+            <l n="1056" xml:id="V_l_1056">Unde daeter euweht mêre wider sîne willen,</l>
             <l n="1057" xml:id="V_l_1057">er hiez in mit dem besemen villen.</l>
          </lg>
          <anchor xml:id="V_Darius_gifts_end"/>
@@ -1104,7 +1104,7 @@
             <l n="1060" xml:id="V_l_1060">daz man imme troute ze slahen!</l>
             <l n="1061" xml:id="V_l_1061">Die boten hiez er alle ûf hâhen.</l>
             <l n="1062" xml:id="V_l_1062">Der boten ainer zim sprach:</l>
-            <l n="1063" xml:id="V_l_1063">"Herre, tuot uns nehain ungemach,</l>
+            <l n="1063" xml:id="V_l_1063"><anchor xml:id="V_messengersDarius_beg_Alexander_start"/><said who="#messengersDarius" toWhom="#Alexander"/>"Herre, tuot uns nehain ungemach,</l>  <!-- I MESSAGGERI DI DARIO IMPLORANO PIETÀ  -->
             <l n="1064" xml:id="V_l_1064">wande ez ne dûcht iuch gnâde noch reht,</l>
             <l n="1065" xml:id="V_l_1065">swâ sô iwier chneht</l>
             <l n="1066" xml:id="V_l_1066">iwier botescaft tribe,</l>
@@ -1118,7 +1118,7 @@
             <l n="1074" xml:id="V_l_1074">sô ir, herre chunich, tuot.</l>
             <l n="1075" xml:id="V_l_1075">Nû bedwinget iwieren muot</l>
             <l n="1076" xml:id="V_l_1076">unde habet unser mâze,</l>
-            <l n="1077" xml:id="V_l_1077">wande wir getorsten die botscaft niet lâzen".</l>
+            <l n="1077" xml:id="V_l_1077">wande wir getorsten die botscaft niet lâzen".<anchor xml:id="V_messengersDarius_beg_Alexander_end"/></l>
          </lg>
          <lg n="54" xml:id="V_lg_54">
             <l n="1078" xml:id="V_l_1078">Alexander bedâhte sich,</l>
@@ -1126,7 +1126,7 @@
             <l n="1080" xml:id="V_l_1080">Er ne waiz in nieht umbe die sculde,</l>
             <l n="1081" xml:id="V_l_1081">er gab in wider daz selbe golt,</l>
             <l n="1082" xml:id="V_l_1082">daz ime von ir hêren bechom.</l>
-            <l n="1083" xml:id="V_l_1083">Er sprach: "Âwî, wie ubele ich ime des gan,</l>
+            <l n="1083" xml:id="V_l_1083">Er sprach: <anchor xml:id="V_Alexander_insults_Darius_start"/><said who="#Alexander" toWhom="#messengersDarius"/>"Âwî, wie ubele ich ime des gan,</l> <!-- ALESSANDRO INSULTA DARIO  -->
             <l n="1084" xml:id="V_l_1084">daz mir iwier herre drouwet ze slahen!</l>
             <l n="1085" xml:id="V_l_1085">Er hât gelîch getân</l>
             <l n="1086" xml:id="V_l_1086">alsô der bôse rude teot:</l>
@@ -1134,10 +1134,10 @@
             <l n="1088" xml:id="V_l_1088">sô ne getar er sich dar nâher niuht geziehen,</l>
             <l n="1089" xml:id="V_l_1089">er beginnet ûzwerd flîhen</l>
             <l n="1090" xml:id="V_l_1090">unde wîzzet iz allez mit sîner cheln</l>
-            <l n="1091" xml:id="V_l_1091">unde beginnet darwert belen".</l>
+            <l n="1091" xml:id="V_l_1091">unde beginnet darwert belen".<anchor xml:id="V_Alexander_insults_Darius_end"/></l>
          </lg>
          <lg n="55" xml:id="V_lg_55">
-            <l n="1092" xml:id="V_l_1092">Er sprach: "Iwiers herren brief mir nieuht gevellet,</l>
+            <l n="1092" xml:id="V_l_1092">Er sprach: <anchor xml:id="V_Alexander_interprets_giftsDarius_start"/><said who="#Alexander" toWhom="#messengersDarius"/>"Iwiers herren brief mir nieuht gevellet,</l> <!-- ALESSANDRO INTERPRETA I DONI DI DARIO  -->
             <l n="1093" xml:id="V_l_1093">wande er zer gebe niene gehillet.</l>
             <l n="1094" xml:id="V_l_1094">Diu gâbe, diu ist lobelîch,</l>
             <l n="1095" xml:id="V_l_1095">unde der brief, der ist redelîch,</l>
@@ -1162,7 +1162,7 @@
             <l n="1112" xml:id="V_l_1112">daz iz mir al einem wol gezem,</l>
             <l n="1113" xml:id="V_l_1113">daz ich den zins von ime neme,</l>
             <l n="1114" xml:id="V_l_1114">unde dar zuo von allen landen,</l>
-            <l n="1115" xml:id="V_l_1115">unde betwinge die zemînen handen".</l>
+            <l n="1115" xml:id="V_l_1115">unde betwinge die zemînen handen". <anchor xml:id="V_Alexander_interprets_giftsDarius_end"/></l>
          </lg>
          <anchor xml:id="V_Alexander_reaction_end"/>
 
@@ -1197,10 +1197,10 @@
             <l n="1137" xml:id="V_l_1137">freislîch er in vernam.</l>
             <l n="1138" xml:id="V_l_1138">Mit zorn er ûf fuor,</l>
             <l n="1139" xml:id="V_l_1139">mit sînem rîche er swuor.</l>
-            <l n="1140" xml:id="V_l_1140">Er sprach: "Daz mich ie der bescalt,</l>
+            <l n="1140" xml:id="V_l_1140">Er sprach: <anchor xml:id="V_Darius_threatens_start"/><said who="#Darius"/>"Daz mich ie der bescalt,</l> <!-- DARIO MINACCIA VENDETTA -->
             <l n="1141" xml:id="V_l_1141">des vater mir den cins chalt,</l>
             <l n="1142" xml:id="V_l_1142">ich salz an die chêren,</l>
-            <l n="1143" xml:id="V_l_1143">iz ne regêt im niemer zêren".</l>
+            <l n="1143" xml:id="V_l_1143">iz ne regêt im niemer zêren".<anchor xml:id="V_Darius_threatens_end"/></l>
             <l n="1144" xml:id="V_l_1144">Er sprach, noch ouch niemer guot ende genaeme,</l>
             <l n="1145" xml:id="V_l_1145">daz er ie durch sîn laster ûz chôme.</l>
          </lg>
@@ -1234,7 +1234,7 @@
          <anchor xml:id="V_dukes_skeptical_start"/>
          <lg n="59" xml:id="V_lg_59">
             <l n="1162" xml:id="V_l_1162">Dô sprâchen die zwêne herzogen:</l>
-            <l n="1163" xml:id="V_l_1163">"Unser herre ist vil sêre betrogen,</l>
+            <l n="1163" xml:id="V_l_1163"><anchor xml:id="V_dukes_discuss_start"/><said who="#dukesDarius"/>"Unser herre ist vil sêre betrogen,</l>  <!-- I DUCHI DISCUTONO I PROPRI DUBBI -->
             <l n="1164" xml:id="V_l_1164">daz er uns den man heizet vâhen,</l>
             <l n="1165" xml:id="V_l_1165">dem alliu lant sint undertân</l>
             <l n="1166" xml:id="V_l_1166">unde die fursten habet gevangen,</l>
@@ -1253,7 +1253,7 @@
             <l n="1178" xml:id="V_l_1178">daz ern in sînem aigeme lande vâhe,</l>
             <l n="1179" xml:id="V_l_1179">mit grôzem urliuge bestâ".</l>
             <l n="1180" xml:id="V_l_1180">Si sprachen: "Unser herre hantil iz noch mit sinne,</l>
-            <l n="1181" xml:id="V_l_1181">ich wâne, ers michel scande gewinne".</l>
+            <l n="1181" xml:id="V_l_1181">ich wâne, ers michel scande gewinne".<anchor xml:id="V_dukes_discuss_end"/></l>
          </lg>
          <anchor xml:id="V_dukes_skeptical_end"/>
 
@@ -1393,11 +1393,11 @@
             <l n="1278" xml:id="V_l_1278">Nieweht verwielt er sich sîner rede,</l>
             <l n="1279" xml:id="V_l_1279">er was in grôzer unhuge.</l>
             <l n="1280" xml:id="V_l_1280">Er warf sich umbe alsô aien helit.</l>
-            <l n="1281" xml:id="V_l_1281">"Nû wert iuch, herre chunich", </l>
+            <l n="1281" xml:id="V_l_1281"><anchor xml:id="V_knight_encouragement_start"/><said who="#Daclym" toWhom="#Alexander"/>"Nû wert iuch, herre chunich",</l>   <!-- L'INCORAGGIAMENTO DEL CAVALIERE -->
             <l n="1282" xml:id="V_l_1282">alsus sprach sîn rîter Daclym,</l>
             <l n="1283" xml:id="V_l_1283">"hiute sî iwer ellen schîn,</l>
             <l n="1284" xml:id="V_l_1284">wande ir ein diurre keneht sît:</l>
-            <l n="1285" xml:id="V_l_1285">nû zîhet swert, des ist zît".</l>
+            <l n="1285" xml:id="V_l_1285">nû zîhet swert, des ist zît".<anchor xml:id="V_knight_encouragement_end"/></l>
          </lg>
          <anchor xml:id="V_knight_helps_Alexander_end"/>
          
@@ -1455,15 +1455,15 @@
             <l n="1326" xml:id="V_l_1326">Unde alsô er den grâven hâte erchorn,</l>
             <l n="1327" xml:id="V_l_1327">duo rûrt erz ros mit den sporn,</l>
             <l n="1328" xml:id="V_l_1328">zuo dem grâven er reit.</l>
-            <l n="1329" xml:id="V_l_1329">Er sprach: "Daz was ein michel chintheit,</l>
+            <l n="1329" xml:id="V_l_1329">Er sprach: <anchor xml:id="V_Alexander_outrage_banner_start"/><said who="#Alexander" toWhom="#Pincun"/>"Daz was ein michel chintheit,</l> <!-- ALESSANDRO È OLTRAGGIATO DAL FURTO DELLO STENDARDO -->
             <l n="1330" xml:id="V_l_1330">daz mîn vane chom in iwier hant:</l>
-            <l n="1331" xml:id="V_l_1331">iz wirt iu ze laster gewant!".</l>
+            <l n="1331" xml:id="V_l_1331">iz wirt iu ze laster gewant!".<anchor xml:id="V_Alexander_outrage_banner_end"/></l>
             <l n="1332" xml:id="V_l_1332">Der grâve daz ros umbe warf:</l>
             <l n="1333" xml:id="V_l_1333">â, wie schîr er dâ restarb!</l>
-            <l n="1334" xml:id="V_l_1334">Er sprach: "Gewisse fûr ich einen vanen,</l>
+            <l n="1334" xml:id="V_l_1334">Er sprach: <anchor xml:id="V_Pincun_threatens_start"/><said who="#Pincun" toWhom="#Alexander"/>"Gewisse fûr ich einen vanen,</l> <!-- PINCUN MINACCIA ALESSANDRO -->
             <l n="1335" xml:id="V_l_1335">der churze wîle mit mir sol wonen.</l>
             <l n="1336" xml:id="V_l_1336">Ich sol dirn alsô wider geben,</l>
-            <l n="1337" xml:id="V_l_1337">daz ez dir gât an dîn leben".</l>
+            <l n="1337" xml:id="V_l_1337">daz ez dir gât an dîn leben".<anchor xml:id="V_Pincun_threatens_end"/></l>
             <l n="1338" xml:id="V_l_1338">Mit samt deme worte</l>
             <l n="1339" xml:id="V_l_1339">sô stach er in mit dem orte,</l>
             <l n="1340" xml:id="V_l_1340">daz an dem spere was,</l>
@@ -1472,8 +1472,8 @@
             <l n="1343" xml:id="V_l_1343">dâ was ter stich ketân.</l>
             <l n="1344" xml:id="V_l_1344">Nû vernement, waz Alexander sprah,</l>
             <l n="1345" xml:id="V_l_1345">alsin Pincun gestach:</l>
-            <l n="1346" xml:id="V_l_1346">"Du solt lugenâre wesen</l>
-            <l n="1347" xml:id="V_l_1347">unde ich sol des stiches wol genesen!".</l>
+            <l n="1346" xml:id="V_l_1346"><anchor xml:id="V_Alexander_mocks_Pincun_start"/><said who="#Alexander" toWhom="#Pincun"/>"Du solt lugenâre wesen</l> <!-- ALESSANDRO SBEFFEGGIA PINCUN -->
+            <l n="1347" xml:id="V_l_1347">unde ich sol des stiches wol genesen!".<anchor xml:id="V_Alexander_mocks_Pincun_end"/></l>
             <l n="1348" xml:id="V_l_1348">Mit dem selben worte,</l>
             <l n="1349" xml:id="V_l_1349">gab er im ainen slach mit dem swerte</l>
             <l n="1350" xml:id="V_l_1350">ûf daz houbet ern slûch,</l>

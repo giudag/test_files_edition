@@ -22,7 +22,9 @@
 
       <body>
 
+         <!-- BUCEFALO -->
 
+         <anchor xml:id="S_Bucephalus_start"/>
          <lg n="21" xml:id="S_lg_21">
             <l n="269" xml:id="S_l_269">Von Philippis stute wil ih u nu sagen:</l>
             <l n="270" xml:id="S_l_270">Dar under was ein ros getragen.</l>
@@ -149,6 +151,11 @@
             <l n="375" xml:id="S_l_375">Uz dem marstalle er iz reit:</l>
             <l n="376" xml:id="S_l_376">Daz was ein michil baltheit.</l>
          </lg>
+         <anchor xml:id="S_Bucephalus_end"/>
+         
+         <!--  ALESSANDRO CHIEDE AL PADRE DI POTER IMPUGNARE LE ARMI PER LA PRIMA VOLTA - PRIMA IMPRESA DI ALESSANDRO -->
+         
+         <anchor xml:id="S_Alexander_firstBattle_start"/>
          <lg n="30" xml:id="S_lg_30">
             <l n="377" xml:id="S_l_377">Do wart daz langer nit verdaget,</l>
             <l n="378" xml:id="S_l_378">dem kuninge wart do gesagit,</l>
@@ -235,6 +242,10 @@
             <l n="449" xml:id="S_l_449">Alexander vaht ime den sige ane</l>					
             <l n="450" xml:id="S_l_450">und furte di cronen mit ime dane.</l>
          </lg>
+         <anchor xml:id="S_Alexander_firstBattle_end"/>
+         
+         <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
+         
          <lg n="36" xml:id="S_lg_36">
             <l n="451" xml:id="S_l_451">Do er do wider heim quam,</l>
             <l n="452" xml:id="S_l_452">ein vil leit mere er vernam,</l>

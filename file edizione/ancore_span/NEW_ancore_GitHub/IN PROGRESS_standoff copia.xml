@@ -51,43 +51,43 @@
                   corresp="#S_Alexander_Lysia #B_Alexander_Lysia"><ptr target="#V_Alexander_Cleopatra"/></span>Alexander confronts his father about him betraying his mother</span>
          <!-- SCONTRO DI "ANTONIA" -->
          <span type="episode" from="#V_Alexander_retakes_city_start" to="#V_Alexander_retakes_city_end" xml:id="V_Alexander_retakes_city"
-            corresp="#S_Alexander_retakes_city #B_Alexander_retakes_city"><ref target="#Alexander_retakes_city"/>Alexander retakes the city of "Antonia"</span>
+            corresp="#B_Alexander_retakes_city"><ref target="#Alexander_retakes_city"/>Alexander retakes the city of "Antonia"</span>
          <!-- PRIMO LITIGIO SUI TRIBUTI CON DARIO  -->
          <span type="episode" from="#V_tribute_dispute_start" to="#V_tribute_dispute_end" xml:id="V_tribute_dispute"
-            corresp="#S_tribute_dispute #B_tribute_dispute"><ref target="#tribute_dispute"/><!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO --><span type="direct_speech" from="#V_Alexander_denies_tribute_start" to="#V_Alexander_denies_tribute_end" xml:id="V_Alexander_denies_tribute"
-               corresp="#S_Alexander_denies_tribute #B_Alexander_denies_tribute"><ptr target="#V_tribute_dispute"/></span>The dispute over tributes between Philip / Alexander and Darius is introduced</span>
+            corresp="#B_tribute_dispute"><ref target="#tribute_dispute"/><!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO --><span type="direct_speech" from="#V_Alexander_denies_tribute_start" to="#V_Alexander_denies_tribute_end" xml:id="V_Alexander_denies_tribute"
+               corresp="#B_Alexander_denies_tribute"><ptr target="#V_tribute_dispute"/></span>The dispute over tributes between Philip / Alexander and Darius is introduced</span>
          <!-- THELEMONE -->
          <span type="episode" from="#V_Thelemone_start" to="#V_Thelemone_end" xml:id="V_Thelemone"
-            corresp="#S_Thelemone #B_Thelemone"><ref target="#Thelemone"/>Alexander quells the revolt in Thelemone</span>
+            corresp="#B_Thelemone"><ref target="#Thelemone"/>Alexander quells the revolt in Thelemone</span>
          <!--  LA MORTE DI FILIPPO -->
          <span type="episode" from="#V_Philip_death_start" to="#V_Philip_death_end" xml:id="V_Philip_death"
-            corresp="#S_Philip_death #B_Philip_death"><ref target="#Philip_death"/><!--  ALESSANDRO RIPUDIA PAUSONIA --><span type="direct_speech" from="#V_Alexander_repudiates_Pausonias_start" to="#V_Alexander_repudiates_Pausonias_end" xml:id="V_Alexander_repudiates_Pausonias"
-               corresp="#S_Alexander_repudiates_Pausonias #B_Alexander_repudiates_Pausonias"><ptr target="#V_Philip_death"/></span><!--  ALESSANDRO CHIEDE A FILIPPO COSA FARE CON PAUSONIA --><span type="direct_speech" from="#V_Alexander_asks_Philip_about_revenge_start" to="#V_Alexander_asks_Philip_about_revenge_end" xml:id="V_Alexander_asks_Philip_about_revenge"
-                  corresp="#S_Alexander_asks_Philip_about_revenge #B_Alexander_asks_Philip_about_revenge"><ptr target="#V_Philip_death"/></span><!--  FILIPPO CHIEDE DI ESSERE VENDICATO --><span type="direct_speech" from="#V_Philip_asks_for_revenge_start" to="#V_Philip_asks_for_revenge_end" xml:id="V_Philip_asks_for_revenge"
-                     corresp="#S_Philip_asks_for_revenge #B_Philip_asks_for_revenge"><ptr target="#V_Philip_death"/></span>Philip dies from the wounds inflicted by Pausonias</span>
+            corresp="#B_Philip_death"><ref target="#Philip_death"/><!--  ALESSANDRO RIPUDIA PAUSONIA --><span type="direct_speech" from="#V_Alexander_repudiates_Pausonias_start" to="#V_Alexander_repudiates_Pausonias_end" xml:id="V_Alexander_repudiates_Pausonias"
+               corresp="#B_Alexander_repudiates_Pausonias"><ptr target="#V_Philip_death"/></span><!--  ALESSANDRO CHIEDE A FILIPPO COSA FARE CON PAUSONIA --><span type="direct_speech" from="#V_Alexander_asks_Philip_about_revenge_start" to="#V_Alexander_asks_Philip_about_revenge_end" xml:id="V_Alexander_asks_Philip_about_revenge"
+                  corresp="#B_Alexander_asks_Philip_about_revenge"><ptr target="#V_Philip_death"/></span><!--  FILIPPO CHIEDE DI ESSERE VENDICATO --><span type="direct_speech" from="#V_Philip_asks_for_revenge_start" to="#V_Philip_asks_for_revenge_end" xml:id="V_Philip_asks_for_revenge"
+                     corresp="#B_Philip_asks_for_revenge"><ptr target="#V_Philip_death"/></span>Philip dies from the wounds inflicted by Pausonias</span>
          <!-- ALESSANDRO DIVENTA RE -->
          <span type="episode" from="#V_Alexander_becomes_king_start" to="#V_Alexander_becomes_king_end" xml:id="V_Alexander_becomes_king"
-            corresp="#S_Alexander_becomes_king #B_Alexander_becomes_king"><ref target="#Alexander_becomes_king"/><!--  ALESSANDRO CHIAMA A RACCOLTA I SUOI UOMINI --><span type="direct_speech" from="#V_Alexander_gathers_his_men_start" to="#V_Alexander_gathers_his_men_end" xml:id="V_Alexander_gathers_his_men"
-               corresp="#S_Alexander_gathers_his_men #B_Alexander_gathers_his_men"><ptr target="#V_Alexander_becomes_king"/></span><!--  GLI UOMINI DI ALESSANDRO GLI DANNO LA LORO BENEDIZIONE --><span type="direct_speech" from="#V_menAlexander_bless_Alexander_start" to="#V_menAlexander_bless_Alexander_end" xml:id="V_menAlexander_bless_Alexander"
-                  corresp="#S_menAlexander_bless_Alexander #B_menAlexander_bless_Alexander"><ptr target="#V_Alexander_becomes_king"/></span>Alexander becomes king and addresses his people about the tribute</span>
+            corresp="#B_Alexander_becomes_king"><ref target="#Alexander_becomes_king"/><!--  ALESSANDRO CHIAMA A RACCOLTA I SUOI UOMINI --><span type="direct_speech" from="#V_Alexander_gathers_his_men_start" to="#V_Alexander_gathers_his_men_end" xml:id="V_Alexander_gathers_his_men"
+               corresp="#B_Alexander_gathers_his_men"><ptr target="#V_Alexander_becomes_king"/></span><!--  GLI UOMINI DI ALESSANDRO GLI DANNO LA LORO BENEDIZIONE --><span type="direct_speech" from="#V_menAlexander_bless_Alexander_start" to="#V_menAlexander_bless_Alexander_end" xml:id="V_menAlexander_bless_Alexander"
+                  corresp="#B_menAlexander_bless_Alexander"><ptr target="#V_Alexander_becomes_king"/></span>Alexander becomes king and addresses his people about the tribute</span>
          <!-- ALESSANDRO RECLUTA ALLEATI  -->
          <span type="episode" from="#V_Alexander_recruits_allys_start" to="#V_Alexander_recruits_allys_end" xml:id="V_Alexander_recruits_allys"
-            corresp="#S_Alexander_recruits_allys #B_Alexander_recruits_allys"><ref target="#Alexander_recruits_allys"/>Alexander sends messengers to other lands to demand help against Darius</span>
+            corresp="#B_Alexander_recruits_allys"><ref target="#Alexander_recruits_allys"/>Alexander sends messengers to other lands to demand help against Darius</span>
          <!-- ALESSANDRO IN ITALIA  -->
          <span type="episode" from="#V_Alexander_Italy_start" to="#V_Alexander_Italy_end" xml:id="V_Alexander_Italy"
-            corresp="#S_Alexander_Italy #B_Alexander_Italy"><ref target="#Alexander_Italy"/>Alexander's expedition in Sicily and to the Romans</span>
+            corresp="#B_Alexander_Italy"><ref target="#Alexander_Italy"/>Alexander's expedition in Sicily and to the Romans</span>
          <!-- ALESSANDRO E CARTAGINE  -->
          <span type="episode" from="#V_Alexander_Carthage_start" to="#V_Alexander_Carthage_end" xml:id="V_Alexander_Carthage"
-            corresp="#S_Alexander_Carthage #B_Alexander_Carthage"><ref target="#Alexander_Carthage"/>Alexander subdues Carthage</span>
+            corresp="#B_Alexander_Carthage"><ref target="#Alexander_Carthage"/>Alexander subdues Carthage</span>
          <!-- ALESSANDRO FONDA ALESSANDRIA D'EGITTO  -->
          <span type="episode" from="#V_Alexander_Egypt_start" to="#V_Alexander_Egypt_end" xml:id="V_Alexander_Egypt"
-            corresp="#S_Alexander_Egypt #B_Alexander_Egypt"><ref target="#Alexander_Egypt"/>Alexander goes to Egypt and founds the city of Alexandria</span>
+            corresp="#B_Alexander_Egypt"><ref target="#Alexander_Egypt"/>Alexander goes to Egypt and founds the city of Alexandria</span>
          <!-- ALESSANDRO IN MEDIO ORIENTE-->
          <span type="episode" from="#V_Alexander_Middle_East_start" to="#V_Alexander_Middle_East_end" xml:id="V_Alexander_Middle_East"
-            corresp="#S_Alexander_Middle_East #B_Alexander_Middle_East"><ref target="#Alexander_Middle_East"/>Alexander conquers lands in the Middle East</span>
+            corresp="#B_Alexander_Middle_East"><ref target="#Alexander_Middle_East"/>Alexander conquers lands in the Middle East</span>
          <!--  DESCRIZIONE DI TIRO  -->
          <span type="episode" from="#V_Tyre_description_start" to="#V_Tyre_description_end" xml:id="V_Tyre_description"
-            corresp="#S_Tyre_description #B_Tyre_description"><ref target="#Tyre_description"/>The city of Tyre is described</span>
+            corresp="#B_Tyre_description"><ref target="#Tyre_description"/>The city of Tyre is described</span>
          <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
          <span type="episode" from="#V_Alexander_proposal_to_Tyre_start" to="#V_Alexander_proposal_to_Tyre_end" xml:id="V_Alexander_proposal_to_Tyre"
             corresp="#S_Alexander_proposal_to_Tyre #B_Alexander_proposal_to_Tyre"><ref target="#Alexander_proposal_to_Tyre"/>Alexander tries to bend Tyre to his will</span>
@@ -193,6 +193,7 @@
      
     
          <!-- #############   S   ############## -->
+         
 
          <!-- BUCEFALO -->
          <span type="episode" from="#S_Bucephalus_start" to="#S_Bucephalus_end" xml:id="S_Bucephalus"
@@ -200,9 +201,16 @@
          <!-- ALESSANDRO CHIEDE AL PADRE DI POTER IMPUGNARE LE ARMI PER LA PRIMA VOLTA - PRIMA IMPRESA DI ALESSANDRO -->
          <span type="episode" from="#S_Alexander_firstBattle_start" to="#S_Alexander_firstBattle_end" xml:id="S_Alexander_firstBattle"
             corresp="#V_Alexander_firstBattle #B_Alexander_firstBattle"><ref target="#Alexander_firstBattle"/>Alexander takes up arms for the first time</span>
-         <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE -->
-
-
+         <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
+         <span  type="episode" from="#S_Alexander_Cleopatra_start" to="#S_Alexander_Cleopatra_end" xml:id="S_Alexander_Cleopatra"
+            corresp="#V_Alexander_Cleopatra #B_Alexander_Cleopatra"><ref target="#Alexander_Cleopatra"/>Alexander confronts his father about him betraying his mother</span>
+         <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
+         <span type="episode" from="#S_Alexander_proposal_to_Tyre_start" to="#S_Alexander_proposal_to_Tyre_end" xml:id="S_Alexander_proposal_to_Tyre"
+            corresp="#V_Alexander_proposal_to_Tyre #B_Alexander_proposal_to_Tyre"><ref target="#Alexander_proposal_to_Tyre"/>Alexander tries to bend Tyre to his will</span>
+         <!--  ALESSANDRO ATTACCA TIRO - PRIMO ASSALTO -->
+         <span type="episode" from="#S_Alexander_firstAttack_Tyre_start" to="#S_Alexander_firstAttack_Tyre_end" xml:id="S_Alexander_firstAttack_Tyre"
+            corresp="#V_Alexander_firstAttack_Tyre #B_Alexander_firstAttack_Tyre"><ref target="#Alexander_firstAttack_Tyre"/><!--  TIRO RESPINGE--><span type="sub-unit" from="#S_Tyre_pushes_back_start" to="#S_Tyre_pushes_back_end" xml:id="S_Tyre_pushes_back"
+               corresp="#V_Tyre_pushes_back #B_Tyre_pushes_back"><ptr target="#S_Alexander_firstAttack_Tyre"/></span>Alexander's first attack against Tyre fails because the city pushes his army back</span>
 
 
 

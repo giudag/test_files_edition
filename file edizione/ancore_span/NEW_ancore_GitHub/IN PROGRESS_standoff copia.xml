@@ -192,16 +192,51 @@
             corresp="#S_Darius_rally #B_Darius_rally"><ref target="#Darius_rally"/>Darius rallies his subordinates from many different lands</span>
      
     
-         <!--  ########################## ALTRI TESTIMONI ############################ -->
+         <!-- #############   S   ############## -->
 
-         <!-- S 
-
-         <span from="#S_Bucephalus_start" to="#S_Bucephalus_end" xml:id="S_Bucephalus"
+         <!-- BUCEFALO -->
+         <span type="episode" from="#S_Bucephalus_start" to="#S_Bucephalus_end" xml:id="S_Bucephalus"
             corresp="#V_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/>Alexander tames the horse Bucephalus</span>
-         
-         <span from="#S_Alexander_firstBattle_start" to="#S_Alexander_firstBattle_end" xml:id="S_Alexander_firstBattle"
+         <!-- ALESSANDRO CHIEDE AL PADRE DI POTER IMPUGNARE LE ARMI PER LA PRIMA VOLTA - PRIMA IMPRESA DI ALESSANDRO -->
+         <span type="episode" from="#S_Alexander_firstBattle_start" to="#S_Alexander_firstBattle_end" xml:id="S_Alexander_firstBattle"
             corresp="#V_Alexander_firstBattle #B_Alexander_firstBattle"><ref target="#Alexander_firstBattle"/>Alexander takes up arms for the first time</span>
+         <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
           B 
 
          <span from="#B_Bucephalus_start" to="#B_Bucephalus_end" xml:id="B_Bucephalus"

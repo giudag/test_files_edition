@@ -153,9 +153,9 @@
          </lg>
          <anchor xml:id="S_Bucephalus_end"/>
 
-         <!--  ALESSANDRO CHIEDE AL PADRE DI POTER IMPUGNARE LE ARMI PER LA PRIMA VOLTA - PRIMA IMPRESA DI ALESSANDRO -->
+         <!-- ALESSANDRO CHIEDE L'INVESTITURA - PRIMA IMPRESA DI ALESSANDRO -->
 
-         <anchor xml:id="S_Alexander_firstBattle_start"/>
+         <anchor xml:id="S_Alexander_firstDeed_start"/>
          <lg n="30" xml:id="S_lg_30">
             <l n="377" xml:id="S_l_377">Do wart daz langer nit verdaget,</l>
             <l n="378" xml:id="S_l_378">dem kuninge wart do gesagit,</l>
@@ -242,7 +242,7 @@
             <l n="449" xml:id="S_l_449">Alexander vaht ime den sige ane</l>
             <l n="450" xml:id="S_l_450">und furte di cronen mit ime dane.</l>
          </lg>
-         <anchor xml:id="S_Alexander_firstBattle_end"/>
+         <anchor xml:id="S_Alexander_firstDeed_end"/>
 
          <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
 
@@ -447,27 +447,9 @@
          </lg>
          <anchor xml:id="S_Alexander_firstAttack_Tyre_end"/>
 
+         <!-- LA CONTROMISURA DI ALESSANDRO -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         <anchor xml:id="S_Alexander_countermeasure_start"/>
          <lg n="43" xml:id="S_lg_43">
             <l n="622" xml:id="S_l_622">Do clagete Alexander</l>
             <l n="623" xml:id="S_l_623">mer dan sihein ander</l>
@@ -508,6 +490,8 @@
             <l n="656" xml:id="S_l_656">ne muge niemer me</l>
             <l n="657" xml:id="S_l_657">durh regen noh durh sne.</l>
          </lg>
+         <!--  GLI ARABITI AIUTANO TIRO -->
+         <anchor xml:id="S_Arabs_help_Tyre_start"/>
          <lg n="45" xml:id="S_lg_45">
             <l n="658" xml:id="S_l_658">Do Arabes daz befunden,</l>
             <l n="659" xml:id="S_l_659">di Tyro gutis gunden,</l>
@@ -517,6 +501,7 @@
             <l n="663" xml:id="S_l_663">ein phant si in namen</l>
             <l n="664" xml:id="S_l_664">und irslugen ir da zestunt</l>
             <l n="665" xml:id="S_l_665">mer dan ein dusunt.</l>
+            <anchor xml:id="V_Arabs_help_Tyre_end"/>
             <l n="666" xml:id="S_l_666">Do Alexander daz vernam,</l>
             <l n="667" xml:id="S_l_667">vier dusint er do nam</l>
             <l n="668" xml:id="S_l_668">uz von sinem here.</l>
@@ -538,6 +523,24 @@
             <l n="684" xml:id="S_l_684">biz daz werc bereitet wart.</l>
             <l n="685" xml:id="S_l_685">Do karter an di widervart.</l>
          </lg>
+         <anchor xml:id="V_Alexander_countermeasure_end"/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
          <lg n="46" xml:id="S_lg_46">
             <l n="686" xml:id="S_l_686">Alle di wile do Alexandris here</l>
             <l n="687" xml:id="S_l_687">nah den boumen fur von dem mere,</l>
@@ -1494,7 +1497,7 @@
             <l n="1568" xml:id="S_l_1568">zwenzich tusint gesellen:</l>
             <l n="1569" xml:id="S_l_1569">Si gunden ime wol siner eren.</l>
             <l n="1570" xml:id="S_l_1570">Ouch begunden dar keren</l>
-            <l n="1571" xml:id="S_l_1571">von India di ſursten,</l>
+            <l n="1571" xml:id="S_l_1571">von India di fursten,</l>
             <l n="1572" xml:id="S_l_1572">di wol vehten torsten.</l>
             <l n="1573" xml:id="S_l_1573">Do siz vernamen,</l>
             <l n="1574" xml:id="S_l_1574">mit zwelif tusinden si quamen.</l>

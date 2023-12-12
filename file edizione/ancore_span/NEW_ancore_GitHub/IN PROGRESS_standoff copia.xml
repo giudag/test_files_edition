@@ -212,7 +212,10 @@
          <span type="episode" from="#S_Alexander_firstAttack_Tyre_start" to="#S_Alexander_firstAttack_Tyre_end" xml:id="S_Alexander_firstAttack_Tyre"
             corresp="#V_Alexander_firstAttack_Tyre #B_Alexander_firstAttack_Tyre"><ref target="#Alexander_firstAttack_Tyre"/><!--  TIRO RESPINGE--><span type="sub-unit" from="#S_Tyre_pushes_back_start" to="#S_Tyre_pushes_back_end" xml:id="S_Tyre_pushes_back"
                corresp="#V_Tyre_pushes_back #B_Tyre_pushes_back"><ptr target="#S_Alexander_firstAttack_Tyre"/></span>Alexander's first attack against Tyre fails because the city pushes his army back</span>
-
+         <!-- LA CONTROMISURA DI ALESSANDRO -->
+         <span type="episode" from="#S_Alexander_countermeasure_start" to="#S_Alexander_countermeasure_end" xml:id="S_Alexander_countermeasure"
+            corresp="#V_Alexander_countermeasure #B_Alexander_countermeasure"><ref target="#Alexander_countermeasure"/><!--  GLI ARABITI AIUTANO TIRO --><span type="sub-unit" from="#S_Arabs_help_Tyre_start" to="#S_Arabs_help_Tyre_end" xml:id="S_Arabs_help_Tyre"
+               corresp="#V_Arabs_help_Tyre #B_Arabs_help_Tyre"><ptr target="#S_Alexander_countermeasure"/></span>Alexander gets tree trunks for the siege but is hindered by the Arabs</span>
 
 
 

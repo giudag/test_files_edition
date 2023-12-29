@@ -17,205 +17,605 @@
       </fileDesc>
    </teiHeader>
 
- <standOff>
-    
-    
-    <!-- con ref target rimando alla nota critica sotto, come da esempio su cross-references della TEI -->
-    <!-- con ptr target rimando al macro-episodio che contiene una sottounità: mi piace perché è un "pure pointer", generico, "its primary function is simply to point...to another location" -->
-    <!-- no @corresp quando negli altri testimoni non c'è l'episodio: CONTROLLALI TUTTI, solo riempiti  -->
-    <!-- biblio -->
-    <!-- aggiungere listPers -->
+   <standOff>
+
+
+      <!-- ################# QUI LA LISTA DEI PERSONAGGI - PER ORA QUELLI DEI DISCORSI DIRETTI IN ORDINE ALFABETICO ################## -->
+
+      <listPerson>
+         <person xml:id="Alexander"/>
+         <person xml:id="AlexandersMen"/>
+         <person xml:id="AlexandersPrinces"/>
+         <person xml:id="Daclym"/>
+         <person xml:id="Darius"/>
+         <person xml:id="DariusDukes"/>
+         <person xml:id="DariusMessengers"/>
+         <person xml:id="God"/>
+         <person xml:id="Lysia"/>
+         <person xml:id="MacedonianSubjects"/>
+         <person xml:id="messengerBucephalus"/>
+         <person xml:id="pageBoys"/>
+         <person xml:id="Pausonias"/>
+         <person xml:id="Philip"/>
+         <person xml:id="Pincun"/>
+         <person xml:id="Ptolemy"/>
+      </listPerson>
+
+
+
+
 
       <!-- ################# QUI GLI EPISODI ################## -->
+
+
+      <!-- con ref target rimando alla nota critica sotto, come da esempio su cross-references della TEI -->
+      <!-- con ptr target rimando al macro-episodio che contiene una sottounità: mi piace perché è un "pure pointer", generico, "its primary function is simply to point...to another location" -->
+      <!-- no @corresp quando negli altri testimoni non c'è l'episodio: CONTROLLALI TUTTI, solo riempiti  -->
+      <!-- biblio -->
+      <!-- aggiungere listPers -->
+
+
 
       <spanGrp xml:id="episodes">
 
          <!-- #############   V   ############## -->
-         
+
          <!-- BUCEFALO -->
-         <span type="episode" from="#V_Bucephalus_start" to="#V_Bucephalus_end" xml:id="V_Bucephalus"
-            corresp="#S_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/><!-- LA PROFEZIA SU BUCEFALO --><span type="direct_speech" from="#V_messenger_Bucephalus_start" to="#V_messenger_Bucephalus_end" xml:id="V_messenger_Bucephalus"
-               corresp="#S_messenger_Bucephalus #B_messenger_Bucephalus"><ptr target="#V_messenger_Bucephalus"/></span><!-- ALESSANDRO SENTE BUCEFALO --><span type="direct_speech" from="#V_Alexander_pageBoys_start" to="#V_Alexander_pageBoys_end" xml:id="V_Alexander_pageBoys"
-                  corresp="#S_Alexander_pageBoys #B_Alexander_pageBoys"><ptr target="#V_messenger_Bucephalus"/></span><!-- TOLOMEO PRESENTA BUCEFALO --><span type="direct_speech" from="#V_Ptolemy_introduces_Bucephalus_start" to="#V_Ptolemy_introduces_Bucephalus_end" xml:id="V_Ptolemy_introduces_Bucephalus"
-                     corresp="#S_Ptolemy_introduces_Bucephalus #B_Ptolemy_introduces_Bucephalus"><ptr target="#V_messenger_Bucephalus"/></span>Alexander tames the horse Bucephalus</span>
+         <span type="episode" from="#V_Bucephalus_start" to="#V_Bucephalus_end"
+            xml:id="V_Bucephalus" corresp="#S_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"
+               /><!-- LA PROFEZIA SU BUCEFALO --><span type="direct_speech"
+               from="#V_messenger_Bucephalus_start" to="#V_messenger_Bucephalus_end"
+               xml:id="V_messenger_Bucephalus"
+               corresp="#S_messenger_Bucephalus #B_messenger_Bucephalus"><ptr
+                  target="#V_messenger_Bucephalus"/></span><!-- ALESSANDRO SENTE BUCEFALO --><span
+               type="direct_speech" from="#V_Alexander_pageBoys_start"
+               to="#V_Alexander_pageBoys_end" xml:id="V_Alexander_pageBoys"
+               corresp="#S_Alexander_pageBoys #B_Alexander_pageBoys"><ptr
+                  target="#V_messenger_Bucephalus"/></span><!-- TOLOMEO PRESENTA BUCEFALO --><span
+               type="direct_speech" from="#V_Ptolemy_introduces_Bucephalus_start"
+               to="#V_Ptolemy_introduces_Bucephalus_end" xml:id="V_Ptolemy_introduces_Bucephalus"
+               corresp="#S_Ptolemy_introduces_Bucephalus #B_Ptolemy_introduces_Bucephalus"><ptr
+                  target="#V_messenger_Bucephalus"/></span>Alexander tames the horse
+            Bucephalus</span>
          <!-- ALESSANDRO CHIEDE L'INVESTITURA - PRIMA IMPRESA DI ALESSANDRO -->
-         <span type="episode" from="#V_Alexander_firstDeed_start" to="#V_Alexander_firstDeed_end" xml:id="V_Alexander_firstDeed"
-            corresp="#S_Alexander_firstDeed #B_Alexander_firstDeed"><ref target="#Alexander_firstDeed"/><!-- FILIPPO LODA ALESSANDRO --><span type="direct_speech" from="#V_Philip_praises_Alexander_start" to="#V_Philip_praises_Alexander_end" xml:id="V_Philip_praises_Alexander"
-               corresp="#S_Philip_praises_Alexander #B_Philip_praises_Alexander"><ptr target="#V_Alexander_firstDeed"/></span><!-- ALESSANDRO CHIEDE ARMI --><span type="direct_speech" from="#V_Alexander_wants_weapons_start" to="#V_Alexander_wants_weapons_end" xml:id="V_Alexander_wants_weapons"
-                  corresp="#S_Alexander_wants_weapons #B_Alexander_wants_weapons"><ptr target="#V_Alexander_firstDeed"/></span><!-- ALESSANDRO DISCUTE DEL TITOLO REGALE --><span type="direct_speech" from="#V_Alexander_royalTitle_start" to="#V_Alexander_royalTitle_end" xml:id="V_Alexander_royalTitle"
-                     corresp="#S_Alexander_royalTitle #B_Alexander_royalTitle"><ptr target="#V_Alexander_firstDeed"/></span>Alexander takes up arms for the first time</span>
+         <span type="episode" from="#V_Alexander_firstDeed_start" to="#V_Alexander_firstDeed_end"
+            xml:id="V_Alexander_firstDeed" corresp="#S_Alexander_firstDeed #B_Alexander_firstDeed"
+               ><ref target="#Alexander_firstDeed"/><!-- FILIPPO LODA ALESSANDRO --><span
+               type="direct_speech" from="#V_Philip_praises_Alexander_start"
+               to="#V_Philip_praises_Alexander_end" xml:id="V_Philip_praises_Alexander"
+               corresp="#S_Philip_praises_Alexander #B_Philip_praises_Alexander"><ptr
+                  target="#V_Alexander_firstDeed"/></span><!-- ALESSANDRO CHIEDE ARMI --><span
+               type="direct_speech" from="#V_Alexander_wants_weapons_start"
+               to="#V_Alexander_wants_weapons_end" xml:id="V_Alexander_wants_weapons"
+               corresp="#S_Alexander_wants_weapons #B_Alexander_wants_weapons"><ptr
+                  target="#V_Alexander_firstDeed"
+               /></span><!-- ALESSANDRO DISCUTE DEL TITOLO REGALE --><span type="direct_speech"
+               from="#V_Alexander_royalTitle_start" to="#V_Alexander_royalTitle_end"
+               xml:id="V_Alexander_royalTitle"
+               corresp="#S_Alexander_royalTitle #B_Alexander_royalTitle"><ptr
+                  target="#V_Alexander_firstDeed"/></span>Alexander takes up arms for the first
+            time</span>
          <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
-         <span  type="episode" from="#V_Alexander_Cleopatra_start" to="#V_Alexander_Cleopatra_end" xml:id="V_Alexander_Cleopatra"
-            corresp="#S_Alexander_Cleopatra #B_Alexander_Cleopatra"><ref target="#Alexander_Cleopatra"/><!-- ALESSANDRO RIMPROVERA FILIPPO --><span type="direct_speech" from="#V_Alexander_reproaches_Philip_start" to="#V_Alexander_reproaches_Philip_end" xml:id="V_Alexander_reproaches_Philip"
-               corresp="#S_Alexander_reproaches_Philip #B_Alexander_reproaches_Philip"><ptr target="#V_Alexander_Cleopatra"/></span><!-- ALESSANDRO LITIGA CON LISIA --><span type="direct_speech" from="#V_Alexander_Lysia_start" to="#V_Alexander_Lysia_end" xml:id="V_Alexander_Lysia"
-                  corresp="#S_Alexander_Lysia #B_Alexander_Lysia"><ptr target="#V_Alexander_Cleopatra"/></span>Alexander confronts his father about him betraying his mother</span>
+         <span type="episode" from="#V_Alexander_Cleopatra_start" to="#V_Alexander_Cleopatra_end"
+            xml:id="V_Alexander_Cleopatra" corresp="#S_Alexander_Cleopatra #B_Alexander_Cleopatra"
+               ><ref target="#Alexander_Cleopatra"/><!-- ALESSANDRO RIMPROVERA FILIPPO --><span
+               type="direct_speech" from="#V_Alexander_reproaches_Philip_start"
+               to="#V_Alexander_reproaches_Philip_end" xml:id="V_Alexander_reproaches_Philip"
+               corresp="#S_Alexander_reproaches_Philip #B_Alexander_reproaches_Philip"><ptr
+                  target="#V_Alexander_Cleopatra"/></span><!-- ALESSANDRO LITIGA CON LISIA --><span
+               type="direct_speech" from="#V_Alexander_Lysia_start" to="#V_Alexander_Lysia_end"
+               xml:id="V_Alexander_Lysia" corresp="#S_Alexander_Lysia #B_Alexander_Lysia"><ptr
+                  target="#V_Alexander_Cleopatra"/></span>Alexander confronts his father about him
+            betraying his mother</span>
          <!-- SCONTRO DI "ANTONIA" -->
-         <span type="episode" from="#V_Alexander_retakes_city_start" to="#V_Alexander_retakes_city_end" xml:id="V_Alexander_retakes_city"
-            corresp="#B_Alexander_retakes_city"><ref target="#Alexander_retakes_city"/>Alexander retakes the city of "Antonia"</span>
+         <span type="episode" from="#V_Alexander_retakes_city_start"
+            to="#V_Alexander_retakes_city_end" xml:id="V_Alexander_retakes_city"
+            corresp="#B_Alexander_retakes_city"><ref target="#Alexander_retakes_city"/>Alexander
+            retakes the city of "Antonia"</span>
          <!-- PRIMO CONFLITTO SUI TRIBUTI CON DARIO  -->
-         <span type="episode" from="#V_tribute_dispute_start" to="#V_tribute_dispute_end" xml:id="V_tribute_dispute"
-            corresp="#B_tribute_dispute"><ref target="#tribute_dispute"/><!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO --><span type="direct_speech" from="#V_Alexander_denies_tribute_start" to="#V_Alexander_denies_tribute_end" xml:id="V_Alexander_denies_tribute"
-               corresp="#B_Alexander_denies_tribute"><ptr target="#V_tribute_dispute"/></span>The dispute over tributes between Philip / Alexander and Darius is introduced</span>
+         <span type="episode" from="#V_tribute_dispute_start" to="#V_tribute_dispute_end"
+            xml:id="V_tribute_dispute" corresp="#B_tribute_dispute"><ref target="#tribute_dispute"
+               /><!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO --><span
+               type="direct_speech" from="#V_Alexander_denies_tribute_start"
+               to="#V_Alexander_denies_tribute_end" xml:id="V_Alexander_denies_tribute"
+               corresp="#B_Alexander_denies_tribute"><ptr target="#V_tribute_dispute"/></span>The
+            dispute over tributes between Philip / Alexander and Darius is introduced</span>
          <!-- THELEMONE -->
          <span type="episode" from="#V_Thelemone_start" to="#V_Thelemone_end" xml:id="V_Thelemone"
-            corresp="#B_Thelemone"><ref target="#Thelemone"/>Alexander quells the revolt in Thelemone</span>
+            corresp="#B_Thelemone"><ref target="#Thelemone"/>Alexander quells the revolt in
+            Thelemone</span>
          <!--  LA MORTE DI FILIPPO -->
-         <span type="episode" from="#V_Philip_death_start" to="#V_Philip_death_end" xml:id="V_Philip_death"
-            corresp="#B_Philip_death"><ref target="#Philip_death"/><!--  ALESSANDRO RIPUDIA PAUSONIA --><span type="direct_speech" from="#V_Alexander_repudiates_Pausonias_start" to="#V_Alexander_repudiates_Pausonias_end" xml:id="V_Alexander_repudiates_Pausonias"
-               corresp="#B_Alexander_repudiates_Pausonias"><ptr target="#V_Philip_death"/></span><!--  ALESSANDRO CHIEDE A FILIPPO COSA FARE CON PAUSONIA --><span type="direct_speech" from="#V_Alexander_asks_Philip_about_revenge_start" to="#V_Alexander_asks_Philip_about_revenge_end" xml:id="V_Alexander_asks_Philip_about_revenge"
-                  corresp="#B_Alexander_asks_Philip_about_revenge"><ptr target="#V_Philip_death"/></span><!--  FILIPPO CHIEDE DI ESSERE VENDICATO --><span type="direct_speech" from="#V_Philip_asks_for_revenge_start" to="#V_Philip_asks_for_revenge_end" xml:id="V_Philip_asks_for_revenge"
-                     corresp="#B_Philip_asks_for_revenge"><ptr target="#V_Philip_death"/></span>Philip dies from the wounds inflicted by Pausonias</span>
+         <span type="episode" from="#V_Philip_death_start" to="#V_Philip_death_end"
+            xml:id="V_Philip_death" corresp="#B_Philip_death"><ref target="#Philip_death"
+               /><!--  ALESSANDRO RIPUDIA PAUSONIA --><span type="direct_speech"
+               from="#V_Alexander_repudiates_Pausonias_start"
+               to="#V_Alexander_repudiates_Pausonias_end" xml:id="V_Alexander_repudiates_Pausonias"
+               corresp="#B_Alexander_repudiates_Pausonias"><ptr target="#V_Philip_death"
+               /></span><!--  ALESSANDRO CHIEDE A FILIPPO COSA FARE CON PAUSONIA --><span
+               type="direct_speech" from="#V_Alexander_asks_Philip_about_revenge_start"
+               to="#V_Alexander_asks_Philip_about_revenge_end"
+               xml:id="V_Alexander_asks_Philip_about_revenge"
+               corresp="#B_Alexander_asks_Philip_about_revenge"><ptr target="#V_Philip_death"
+               /></span><!--  FILIPPO CHIEDE DI ESSERE VENDICATO --><span type="direct_speech"
+               from="#V_Philip_asks_for_revenge_start" to="#V_Philip_asks_for_revenge_end"
+               xml:id="V_Philip_asks_for_revenge" corresp="#B_Philip_asks_for_revenge"><ptr
+                  target="#V_Philip_death"/></span>Philip dies from the wounds inflicted by
+            Pausonias</span>
          <!-- ALESSANDRO DIVENTA RE -->
-         <span type="episode" from="#V_Alexander_becomes_king_start" to="#V_Alexander_becomes_king_end" xml:id="V_Alexander_becomes_king"
-            corresp="#B_Alexander_becomes_king"><ref target="#Alexander_becomes_king"/><!--  ALESSANDRO CHIAMA A RACCOLTA I SUOI UOMINI --><span type="direct_speech" from="#V_Alexander_gathers_his_men_start" to="#V_Alexander_gathers_his_men_end" xml:id="V_Alexander_gathers_his_men"
-               corresp="#B_Alexander_gathers_his_men"><ptr target="#V_Alexander_becomes_king"/></span><!--  GLI UOMINI DI ALESSANDRO GLI DANNO LA LORO BENEDIZIONE --><span type="direct_speech" from="#V_AlexandersMen_bless_Alexander_start" to="#V_AlexandersMen_bless_Alexander_end" xml:id="V_AlexandersMen_bless_Alexander"
-                  corresp="#B_AlexandersMen_bless_Alexander"><ptr target="#V_Alexander_becomes_king"/></span>Alexander becomes king and addresses his people about the tribute</span>
+         <span type="episode" from="#V_Alexander_becomes_king_start"
+            to="#V_Alexander_becomes_king_end" xml:id="V_Alexander_becomes_king"
+            corresp="#B_Alexander_becomes_king"><ref target="#Alexander_becomes_king"
+               /><!--  ALESSANDRO CHIAMA A RACCOLTA I SUOI UOMINI --><span type="direct_speech"
+               from="#V_Alexander_gathers_his_men_start" to="#V_Alexander_gathers_his_men_end"
+               xml:id="V_Alexander_gathers_his_men" corresp="#B_Alexander_gathers_his_men"><ptr
+                  target="#V_Alexander_becomes_king"
+               /></span><!--  GLI UOMINI DI ALESSANDRO GLI DANNO LA LORO BENEDIZIONE --><span
+               type="direct_speech" from="#V_AlexandersMen_bless_Alexander_start"
+               to="#V_AlexandersMen_bless_Alexander_end" xml:id="V_AlexandersMen_bless_Alexander"
+               corresp="#B_AlexandersMen_bless_Alexander"><ptr target="#V_Alexander_becomes_king"
+               /></span>Alexander becomes king and addresses his people about the tribute</span>
          <!-- ALESSANDRO RECLUTA ALLEATI  -->
-         <span type="episode" from="#V_Alexander_recruits_allys_start" to="#V_Alexander_recruits_allys_end" xml:id="V_Alexander_recruits_allys"
-            corresp="#B_Alexander_recruits_allys"><ref target="#Alexander_recruits_allys"/>Alexander sends messengers to other lands to demand help against Darius</span>
+         <span type="episode" from="#V_Alexander_recruits_allys_start"
+            to="#V_Alexander_recruits_allys_end" xml:id="V_Alexander_recruits_allys"
+            corresp="#B_Alexander_recruits_allys"><ref target="#Alexander_recruits_allys"/>Alexander
+            sends messengers to other lands to demand help against Darius</span>
          <!-- ALESSANDRO IN ITALIA  -->
-         <span type="episode" from="#V_Alexander_Italy_start" to="#V_Alexander_Italy_end" xml:id="V_Alexander_Italy"
-            corresp="#B_Alexander_Italy"><ref target="#Alexander_Italy"/>Alexander's expedition in Sicily and to the Romans</span>
+         <span type="episode" from="#V_Alexander_Italy_start" to="#V_Alexander_Italy_end"
+            xml:id="V_Alexander_Italy" corresp="#B_Alexander_Italy"><ref target="#Alexander_Italy"
+            />Alexander's expedition in Sicily and to the Romans</span>
          <!-- ALESSANDRO E CARTAGINE  -->
-         <span type="episode" from="#V_Alexander_Carthage_start" to="#V_Alexander_Carthage_end" xml:id="V_Alexander_Carthage"
-            corresp="#B_Alexander_Carthage"><ref target="#Alexander_Carthage"/>Alexander subdues Carthage</span>
+         <span type="episode" from="#V_Alexander_Carthage_start" to="#V_Alexander_Carthage_end"
+            xml:id="V_Alexander_Carthage" corresp="#B_Alexander_Carthage"><ref
+               target="#Alexander_Carthage"/>Alexander subdues Carthage</span>
          <!-- ALESSANDRO FONDA ALESSANDRIA D'EGITTO  -->
-         <span type="episode" from="#V_Alexander_Egypt_start" to="#V_Alexander_Egypt_end" xml:id="V_Alexander_Egypt"
-            corresp="#B_Alexander_Egypt"><ref target="#Alexander_Egypt"/>Alexander goes to Egypt and founds the city of Alexandria</span>
+         <span type="episode" from="#V_Alexander_Egypt_start" to="#V_Alexander_Egypt_end"
+            xml:id="V_Alexander_Egypt" corresp="#B_Alexander_Egypt"><ref target="#Alexander_Egypt"
+            />Alexander goes to Egypt and founds the city of Alexandria</span>
          <!-- ALESSANDRO IN TERRA SANTA-->
-         <span type="episode" from="#V_Alexander_Holy_Land_start" to="#V_Alexander_Holy_Land_end" xml:id="V_Alexander_Holy_Land"
-            corresp="#B_Alexander_Holy_Land"><ref target="#Alexander_Holy_Land"/>Alexander conquers cities and regions in the Holy Land</span>
+         <span type="episode" from="#V_Alexander_Holy_Land_start" to="#V_Alexander_Holy_Land_end"
+            xml:id="V_Alexander_Holy_Land" corresp="#B_Alexander_Holy_Land"><ref
+               target="#Alexander_Holy_Land"/>Alexander conquers cities and regions in the Holy
+            Land</span>
          <!--  DESCRIZIONE DI TIRO  -->
-         <span type="episode" from="#V_Tyre_description_start" to="#V_Tyre_description_end" xml:id="V_Tyre_description"
-            corresp="#B_Tyre_description"><ref target="#Tyre_description"/>The city of Tyre is described</span>
+         <span type="episode" from="#V_Tyre_description_start" to="#V_Tyre_description_end"
+            xml:id="V_Tyre_description" corresp="#B_Tyre_description"><ref
+               target="#Tyre_description"/>The city of Tyre is described</span>
          <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
-         <span type="episode" from="#V_Alexander_proposal_to_Tyre_start" to="#V_Alexander_proposal_to_Tyre_end" xml:id="V_Alexander_proposal_to_Tyre"
-            corresp="#S_Alexander_proposal_to_Tyre #B_Alexander_proposal_to_Tyre"><ref target="#Alexander_proposal_to_Tyre"/>Alexander tries to bend Tyre to his will</span>
+         <span type="episode" from="#V_Alexander_proposal_to_Tyre_start"
+            to="#V_Alexander_proposal_to_Tyre_end" xml:id="V_Alexander_proposal_to_Tyre"
+            corresp="#S_Alexander_proposal_to_Tyre #B_Alexander_proposal_to_Tyre"><ref
+               target="#Alexander_proposal_to_Tyre"/>Alexander tries to bend Tyre to his will</span>
          <!--  ALESSANDRO ATTACCA TIRO - PRIMO ASSALTO -->
-         <span type="episode" from="#V_Alexander_firstAttack_Tyre_start" to="#V_Alexander_firstAttack_Tyre_end" xml:id="V_Alexander_firstAttack_Tyre"
-            corresp="#S_Alexander_firstAttack_Tyre #B_Alexander_firstAttack_Tyre"><ref target="#Alexander_firstAttack_Tyre"/><!--  TIRO RESPINGE--><span type="sub-unit" from="#V_Tyre_pushes_back_start" to="#V_Tyre_pushes_back_end" xml:id="V_Tyre_pushes_back"
-               corresp="#S_Tyre_pushes_back #B_Tyre_pushes_back"><ptr target="#V_Alexander_firstAttack_Tyre"/></span>Alexander's first attack against Tyre fails because the city pushes his army back</span>
+         <span type="episode" from="#V_Alexander_firstAttack_Tyre_start"
+            to="#V_Alexander_firstAttack_Tyre_end" xml:id="V_Alexander_firstAttack_Tyre"
+            corresp="#S_Alexander_firstAttack_Tyre #B_Alexander_firstAttack_Tyre"><ref
+               target="#Alexander_firstAttack_Tyre"/><!--  TIRO RESPINGE--><span type="sub-unit"
+               from="#V_Tyre_pushes_back_start" to="#V_Tyre_pushes_back_end"
+               xml:id="V_Tyre_pushes_back" corresp="#S_Tyre_pushes_back #B_Tyre_pushes_back"><ptr
+                  target="#V_Alexander_firstAttack_Tyre"/></span>Alexander's first attack against
+            Tyre fails because the city pushes his army back</span>
          <!-- LA CONTROMISURA DI ALESSANDRO -->
-         <span type="episode" from="#V_Alexander_countermeasure_start" to="#V_Alexander_countermeasure_end" xml:id="V_Alexander_countermeasure"
-            corresp="#S_Alexander_countermeasure #B_Alexander_countermeasure"><ref target="#Alexander_countermeasure"/><!--  GLI ARABITI AIUTANO TIRO --><span type="sub-unit" from="#V_Arabs_help_Tyre_start" to="#V_Arabs_help_Tyre_end" xml:id="V_Arabs_help_Tyre"
-               corresp="#S_Arabs_help_Tyre #B_Arabs_help_Tyre"><ptr target="#V_Alexander_countermeasure"/></span>Alexander gets tree trunks for the siege but is hindered by the Arabs</span>
+         <span type="episode" from="#V_Alexander_countermeasure_start"
+            to="#V_Alexander_countermeasure_end" xml:id="V_Alexander_countermeasure"
+            corresp="#S_Alexander_countermeasure #B_Alexander_countermeasure"><ref
+               target="#Alexander_countermeasure"/><!--  GLI ARABITI AIUTANO TIRO --><span
+               type="sub-unit" from="#V_Arabs_help_Tyre_start" to="#V_Arabs_help_Tyre_end"
+               xml:id="V_Arabs_help_Tyre" corresp="#S_Arabs_help_Tyre #B_Arabs_help_Tyre"><ptr
+                  target="#V_Alexander_countermeasure"/></span>Alexander gets tree trunks for the
+            siege but is hindered by the Arabs</span>
          <!--  TIRO SI VENDICA  -->
-         <span type="episode" from="#V_Tyre_revenge_start" to="#V_Tyre_revenge_end" xml:id="V_Tyre_revenge"
-            corresp="#S_Tyre_revenge #B_Tyre_revenge"><ref target="#Tyre_revenge"/>Tyre goes for revenge with a counterattack</span>
+         <span type="episode" from="#V_Tyre_revenge_start" to="#V_Tyre_revenge_end"
+            xml:id="V_Tyre_revenge" corresp="#S_Tyre_revenge #B_Tyre_revenge"><ref
+               target="#Tyre_revenge"/>Tyre goes for revenge with a counterattack</span>
          <!-- I DUCHI DI ALESSANDRO RISPONDONO  -->
-         <span type="episode" from="#V_AlexandersDukes_against_Tyre_start" to="#V_AlexandersDukes_against_Tyre_end" xml:id="V_AlexandersDukes_against_Tyre"
-            corresp="#S_AlexandersDukes_against_Tyre #B_AlexandersDukes_against_Tyre"><ref target="#AlexandersDukes_against_Tyre"/>Alexander's dukes try to attack again without success</span>
+         <span type="episode" from="#V_AlexandersDukes_against_Tyre_start"
+            to="#V_AlexandersDukes_against_Tyre_end" xml:id="V_AlexandersDukes_against_Tyre"
+            corresp="#S_AlexandersDukes_against_Tyre #B_AlexandersDukes_against_Tyre"><ref
+               target="#AlexandersDukes_against_Tyre"/>Alexander's dukes try to attack again without
+            success</span>
          <!-- ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->
-         <span type="episode" from="#V_Alexander_breaches_firstWalls_start" to="#V_Alexander_breaches_firstWalls_end" xml:id="V_Alexander_breaches_firstWalls"
-            corresp="#S_Alexander_breaches_firstWalls #B_Alexander_breaches_firstWalls"><ref target="#Alexander_breaches_firstWalls"/>Alexander manages to breach the first walls</span>
+         <span type="episode" from="#V_Alexander_breaches_firstWalls_start"
+            to="#V_Alexander_breaches_firstWalls_end" xml:id="V_Alexander_breaches_firstWalls"
+            corresp="#S_Alexander_breaches_firstWalls #B_Alexander_breaches_firstWalls"><ref
+               target="#Alexander_breaches_firstWalls"/>Alexander manages to breach the first
+            walls</span>
          <!-- ALESSANDRO CONQUISTA LA SECONDA CERCHIA -->
-         <span type="episode" from="#V_Alexander_breaches_secondWalls_start" to="#V_Alexander_breaches_secondWalls_end" xml:id="V_Alexander_breaches_secondWalls"
-            corresp="#S_Alexander_breaches_secondWalls #B_Alexander_breaches_secondWalls"><ref target="#Alexander_breaches_secondWalls"/>Alexander breaches the second walls and kills the sire of the city</span>
+         <span type="episode" from="#V_Alexander_breaches_secondWalls_start"
+            to="#V_Alexander_breaches_secondWalls_end" xml:id="V_Alexander_breaches_secondWalls"
+            corresp="#S_Alexander_breaches_secondWalls #B_Alexander_breaches_secondWalls"><ref
+               target="#Alexander_breaches_secondWalls"/>Alexander breaches the second walls and
+            kills the sire of the city</span>
          <!--  ALESSANDRO ENTRA A TIRO  -->
-         <span type="episode" from="#V_Alexander_enters_start" to="#V_Alexander_enters_end" xml:id="V_Alexander_enters"
-            corresp="#S_Alexander_enters #B_Alexander_enters"><ref target="#Alexander_enters"/>Alexander violently battles inside the city</span>
+         <span type="episode" from="#V_Alexander_enters_start" to="#V_Alexander_enters_end"
+            xml:id="V_Alexander_enters" corresp="#S_Alexander_enters #B_Alexander_enters"><ref
+               target="#Alexander_enters"/>Alexander violently battles inside the city</span>
          <!-- TIRO PROVA A RESISTERE  -->
-         <span type="episode" from="#V_Tyre_resistance_start" to="#V_Tyre_resistance_end" xml:id="V_Tyre_resistance"
-            corresp="#S_Tyre_resistance #B_Tyre_resistance"><ref target="#Tyre_resistance"/>Tyre tries not to succumb</span>
+         <span type="episode" from="#V_Tyre_resistance_start" to="#V_Tyre_resistance_end"
+            xml:id="V_Tyre_resistance" corresp="#S_Tyre_resistance #B_Tyre_resistance"><ref
+               target="#Tyre_resistance"/>Tyre tries not to succumb</span>
          <!--  LE STRATEGIE DI ALESSANDRO -->
-         <span type="episode" from="#V_Alexander_strategy_start" to="#V_Alexander_strategy_end" xml:id="V_Alexander_strategy"
-            corresp="#S_Alexander_strategy #B_Alexander_strategy"><ref target="#Alexander_strategy"/><!--  ALESSANDRO CONSULTA I SUOI PRINCIPI --><span type="direct_speech" from="#V_Alexander_consults_princes_start" to="#V_Alexander_consults_princes_end" xml:id="V_Alexander_consults_princes"
-               corresp="#S_Alexander_consults_princes #B_Alexander_consults_princes"><ptr target="#V_Alexander_strategy"/></span>Alexander is advised to use Greek fire</span>
+         <span type="episode" from="#V_Alexander_strategy_start" to="#V_Alexander_strategy_end"
+            xml:id="V_Alexander_strategy" corresp="#S_Alexander_strategy #B_Alexander_strategy"><ref
+               target="#Alexander_strategy"/><!--  ALESSANDRO CONSULTA I SUOI PRINCIPI --><span
+               type="direct_speech" from="#V_Alexander_consults_princes_start"
+               to="#V_Alexander_consults_princes_end" xml:id="V_Alexander_consults_princes"
+               corresp="#S_Alexander_consults_princes #B_Alexander_consults_princes"><ptr
+                  target="#V_Alexander_strategy"/></span>Alexander is advised to use Greek
+            fire</span>
          <!-- LA CADUTA DI TIRO -->
-         <span type="episode" from="#V_Tyre_falls_start" to="#V_Tyre_falls_end" xml:id="V_Tyre_falls"
-            corresp="#S_Tyre_falls #B_Tyre_falls"><ref target="#Tyre_falls"/><!-- RINASCITA DI TIRO --><span type="sub-unit" from="#V_Tyre_rebirth_start" to="#V_Tyre_rebirth_end" xml:id="V_Tyre_rebirth"
-               corresp="#S_Tyre_rebirth #B_Tyre_rebirth"><ptr target="#V_Tyre_falls"/></span>Tyre finally falls</span>
+         <span type="episode" from="#V_Tyre_falls_start" to="#V_Tyre_falls_end"
+            xml:id="V_Tyre_falls" corresp="#S_Tyre_falls #B_Tyre_falls"><ref target="#Tyre_falls"
+               /><!-- RINASCITA DI TIRO --><span type="sub-unit" from="#V_Tyre_rebirth_start"
+               to="#V_Tyre_rebirth_end" xml:id="V_Tyre_rebirth"
+               corresp="#S_Tyre_rebirth #B_Tyre_rebirth"><ptr target="#V_Tyre_falls"/></span>Tyre
+            finally falls</span>
          <!-- DARIO APPRENDE DELLA CADUTA DI TIRO -->
-         <span type="episode" from="#V_Darius_learns_of_Tyre_start" to="#V_Darius_learns_of_Tyre_end" xml:id="V_Darius_learns_of_Tyre"
-            corresp="#S_Darius_learns_of_Tyre #B_Darius_learns_of_Tyre"><ref target="#Darius_learns_of_Tyre"/>A survivor from Tyre tells King Darius what happened to the city</span>
+         <span type="episode" from="#V_Darius_learns_of_Tyre_start"
+            to="#V_Darius_learns_of_Tyre_end" xml:id="V_Darius_learns_of_Tyre"
+            corresp="#S_Darius_learns_of_Tyre #B_Darius_learns_of_Tyre"><ref
+               target="#Darius_learns_of_Tyre"/>A survivor from Tyre tells King Darius what happened
+            to the city</span>
          <!-- I DONI DI DARIO  -->
-         <span type="episode" from="#V_Darius_gifts_start" to="#V_Darius_gifts_end" xml:id="V_Darius_gifts"
-            corresp="#S_Darius_gifts #B_Darius_gifts"><ref target="#Darius_gifts"/>Darius sends Alexander a letter and three mocking gifts</span>
+         <span type="episode" from="#V_Darius_gifts_start" to="#V_Darius_gifts_end"
+            xml:id="V_Darius_gifts" corresp="#S_Darius_gifts #B_Darius_gifts"><ref
+               target="#Darius_gifts"/>Darius sends Alexander a letter and three mocking
+            gifts</span>
          <!-- LA RISPOSTA DI ALESSANDRO  -->
-         <span type="episode" from="#V_Alexander_reaction_start" to="#V_Alexander_reaction_end" xml:id="V_Alexander_reaction"
-            corresp="#S_Alexander_reaction #B_Alexander_reaction"><ref target="#Alexander_reaction"/><!-- I MESSAGGERI DI DARIO IMPLORANO PIETÀ  --><span type="direct_speech" from="#V_DariusMessengers_beg_Alexander_start" to="#V_DariusMessengers_beg_Alexander_end" xml:id="V_DariusMessengers_beg_Alexander"
-               corresp="#S_DariusMessengers_beg_Alexander #B_DariusMessengers_beg_Alexander"><ptr target="#V_Alexander_reaction"/></span><!-- ALESSANDRO INSULTA DARIO  --><span type="direct_speech" from="#V_Alexander_insults_Darius_start" to="#V_Alexander_insults_Darius_end" xml:id="V_Alexander_insults_Darius"
-                  corresp="#S_Alexander_insults_Darius #B_Alexander_insults_Darius"><ptr target="#V_Alexander_reaction"/></span><!-- ALESSANDRO INTERPRETA I DONI DI DARIO  --><span type="direct_speech" from="#V_Alexander_interprets_DariusGifts_start" to="#V_Alexander_interprets_DariusGifts_end" xml:id="V_Alexander_interprets_DariusGifts"
-                     corresp="#S_Alexander_interprets_DariusGifts #B_Alexander_interprets_DariusGifts"><ptr target="#V_Alexander_reaction"/></span>Alexander reacts to and interprets the gifts</span>
+         <span type="episode" from="#V_Alexander_reaction_start" to="#V_Alexander_reaction_end"
+            xml:id="V_Alexander_reaction" corresp="#S_Alexander_reaction #B_Alexander_reaction"><ref
+               target="#Alexander_reaction"/><!-- I MESSAGGERI DI DARIO IMPLORANO PIETÀ  --><span
+               type="direct_speech" from="#V_DariusMessengers_beg_Alexander_start"
+               to="#V_DariusMessengers_beg_Alexander_end" xml:id="V_DariusMessengers_beg_Alexander"
+               corresp="#S_DariusMessengers_beg_Alexander #B_DariusMessengers_beg_Alexander"><ptr
+                  target="#V_Alexander_reaction"/></span><!-- ALESSANDRO INSULTA DARIO  --><span
+               type="direct_speech" from="#V_Alexander_insults_Darius_start"
+               to="#V_Alexander_insults_Darius_end" xml:id="V_Alexander_insults_Darius"
+               corresp="#S_Alexander_insults_Darius #B_Alexander_insults_Darius"><ptr
+                  target="#V_Alexander_reaction"
+               /></span><!-- ALESSANDRO INTERPRETA I DONI DI DARIO  --><span type="direct_speech"
+               from="#V_Alexander_interprets_DariusGifts_start"
+               to="#V_Alexander_interprets_DariusGifts_end"
+               xml:id="V_Alexander_interprets_DariusGifts"
+               corresp="#S_Alexander_interprets_DariusGifts #B_Alexander_interprets_DariusGifts"
+                  ><ptr target="#V_Alexander_reaction"/></span>Alexander reacts to and interprets
+            the gifts</span>
          <!--  ALESSANDRO MANDA UNA LETTERA A DARIO  -->
-         <span type="episode" from="#V_Alexander_letter_start" to="#V_Alexander_letter_end" xml:id="V_Alexander_letter"
-            corresp="#S_Alexander_letter #B_Alexander_letter"><ref target="#Alexander_letter"/>Alexander sends a threatening letter to Darius</span>
+         <span type="episode" from="#V_Alexander_letter_start" to="#V_Alexander_letter_end"
+            xml:id="V_Alexander_letter" corresp="#S_Alexander_letter #B_Alexander_letter"><ref
+               target="#Alexander_letter"/>Alexander sends a threatening letter to Darius</span>
          <!--  LA REAZIONE DI DARIO -->
-         <span type="episode" from="#V_Darius_reaction_start" to="#V_Darius_reaction_end" xml:id="V_Darius_reaction"
-            corresp="#S_Darius_reaction #B_Darius_reaction"><ref target="#Darius_reaction"/><!-- DARIO MINACCIA VENDETTA --><span type="direct_speech" from="#V_Darius_threatens_revenge_start" to="#V_Darius_threatens_revenge_end" xml:id="V_Darius_threatens_revenge"
-               corresp="#S_Darius_threatens_revenge #B_Darius_threatens_revenge"><ptr target="#V_Darius_reaction"/></span>Darius furiously reacts to Alexander's provocation</span>
+         <span type="episode" from="#V_Darius_reaction_start" to="#V_Darius_reaction_end"
+            xml:id="V_Darius_reaction" corresp="#S_Darius_reaction #B_Darius_reaction"><ref
+               target="#Darius_reaction"/><!-- DARIO MINACCIA VENDETTA --><span type="direct_speech"
+               from="#V_Darius_threatens_revenge_start" to="#V_Darius_threatens_revenge_end"
+               xml:id="V_Darius_threatens_revenge"
+               corresp="#S_Darius_threatens_revenge #B_Darius_threatens_revenge"><ptr
+                  target="#V_Darius_reaction"/></span>Darius furiously reacts to Alexander's
+            provocation</span>
          <!-- DARIO CHIEDE AIUTO AI DUCHI -->
-         <span type="episode" from="#V_Darius_calls_dukes_start" to="#V_Darius_calls_dukes_end" xml:id="V_Darius_calls_dukes"
-            corresp="#S_Darius_calls_dukes #B_Darius_calls_dukes"><ref target="#Darius_calls_dukes"/>Darius asks two of his dukes to push Alexander back</span>
+         <span type="episode" from="#V_Darius_calls_dukes_start" to="#V_Darius_calls_dukes_end"
+            xml:id="V_Darius_calls_dukes" corresp="#S_Darius_calls_dukes #B_Darius_calls_dukes"><ref
+               target="#Darius_calls_dukes"/>Darius asks two of his dukes to push Alexander
+            back</span>
          <!-- I DUCHI DI DARIO SONO SCETTICI -->
-         <span type="episode" from="#V_DariusDukes_skeptical_start" to="#V_DariusDukes_skeptical_end" xml:id="V_DariusDukes_skeptical"
-            corresp="#S_DariusDukes_skeptical #B_DariusDukes_skeptical"><ref target="#DariusDukes_skeptical"/><!-- I DUCHI DI DARIO DISCUTONO I PROPRI DUBBI --><span type="direct_speech" from="#V_DariusDukes_discuss_start" to="#V_DariusDukes_discuss_end" xml:id="V_DariusDukes_discuss"
-               corresp="#S_DariusDukes_discuss #B_DariusDukes_discuss"><ptr target="#V_DariusDukes_skeptical"/></span>The dukes critices Darius's approach to Alexander's campaign</span>
+         <span type="episode" from="#V_DariusDukes_skeptical_start"
+            to="#V_DariusDukes_skeptical_end" xml:id="V_DariusDukes_skeptical"
+            corresp="#S_DariusDukes_skeptical #B_DariusDukes_skeptical"><ref
+               target="#DariusDukes_skeptical"
+               /><!-- I DUCHI DI DARIO DISCUTONO I PROPRI DUBBI --><span type="direct_speech"
+               from="#V_DariusDukes_discuss_start" to="#V_DariusDukes_discuss_end"
+               xml:id="V_DariusDukes_discuss"
+               corresp="#S_DariusDukes_discuss #B_DariusDukes_discuss"><ptr
+                  target="#V_DariusDukes_skeptical"/></span>The dukes critices Darius's approach to
+            Alexander's campaign</span>
          <!-- DARIO INZIA L'ATTACCO -->
-         <span type="episode" from="#V_Darius_starts_attack_start" to="#V_Darius_starts_attack_end" xml:id="V_Darius_starts_attack"
-            corresp="#S_Darius_starts_attack #B_Darius_starts_attack"><ref target="#Darius_starts_attack"/>Darius sends another duke against Alexander</span>
+         <span type="episode" from="#V_Darius_starts_attack_start" to="#V_Darius_starts_attack_end"
+            xml:id="V_Darius_starts_attack"
+            corresp="#S_Darius_starts_attack #B_Darius_starts_attack"><ref
+               target="#Darius_starts_attack"/>Darius sends another duke against Alexander</span>
          <!-- DARIO MINACCIA I SUOI DUCHI -->
-         <span type="episode" from="#V_Darius_threatens_dukes_start" to="#V_Darius_threatens_dukes_end" xml:id="V_Darius_threatens_dukes"
-            corresp="#S_Darius_threatens_dukes #B_Darius_threatens_dukes"><ref target="#Darius_threatens_dukes"/>Darius threatens the dukes into taking action</span>
+         <span type="episode" from="#V_Darius_threatens_dukes_start"
+            to="#V_Darius_threatens_dukes_end" xml:id="V_Darius_threatens_dukes"
+            corresp="#S_Darius_threatens_dukes #B_Darius_threatens_dukes"><ref
+               target="#Darius_threatens_dukes"/>Darius threatens the dukes into taking
+            action</span>
          <!-- I DUCHI DI DARIO AGISCONO -->
-         <span type="episode" from="#V_DariusDukes_take_action_start" to="#V_DariusDukes_take_action_end" xml:id="V_DariusDukes_take_action"
-            corresp="#S_DariusDukes_take_action #B_DariusDukes_take_action"><ref target="#DariusDukes_take_action"/>The dukes finally resolve to gather their men</span>
+         <span type="episode" from="#V_DariusDukes_take_action_start"
+            to="#V_DariusDukes_take_action_end" xml:id="V_DariusDukes_take_action"
+            corresp="#S_DariusDukes_take_action #B_DariusDukes_take_action"><ref
+               target="#DariusDukes_take_action"/>The dukes finally resolve to gather their
+            men</span>
          <!-- ALESSANDRO ATTACCA AL GUADO -->
-         <span type="episode" from="#V_Alexander_attack_ford_start" to="#V_Alexander_attack_ford_end" xml:id="V_Alexander_attack_ford"
-            corresp="#S_Alexander_attack_ford #B_Alexander_attack_ford"><ref target="#Alexander_attack_ford"/>Alexander meets the dukes' men at the ford and attacks</span>
+         <span type="episode" from="#V_Alexander_attack_ford_start"
+            to="#V_Alexander_attack_ford_end" xml:id="V_Alexander_attack_ford"
+            corresp="#S_Alexander_attack_ford #B_Alexander_attack_ford"><ref
+               target="#Alexander_attack_ford"/>Alexander meets the dukes' men at the ford and
+            attacks</span>
          <!-- ALESSANDRO VS MENNES -->
-         <span type="episode" from="#V_Alexander_vs_Mennes_start" to="#V_Alexander_vs_Mennes_end" xml:id="V_Alexander_vs_Mennes"
-            corresp="#S_Alexander_vs_Mennes #B_Alexander_vs_Mennes"><ref target="#Alexander_vs_Mennes"/>Alexander fights against the duke Mennes</span>
+         <span type="episode" from="#V_Alexander_vs_Mennes_start" to="#V_Alexander_vs_Mennes_end"
+            xml:id="V_Alexander_vs_Mennes" corresp="#S_Alexander_vs_Mennes #B_Alexander_vs_Mennes"
+               ><ref target="#Alexander_vs_Mennes"/>Alexander fights against the duke Mennes</span>
          <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
-         <span type="episode" from="#V_knight_helps_Alexander_start" to="#V_knight_helps_Alexander_end" xml:id="V_knight_helps_Alexander"
-            corresp="#S_knight_helps_Alexander #B_knight_helps_Alexander"><ref target="#knight_helps_Alexander"/><!-- L'INCORAGGIAMENTO DEL CAVALIERE --><span type="direct_speech" from="#V_knight_encouragement_start" to="#V_knight_encouragement_end" xml:id="V_knight_encouragement"
-               corresp="#S_knight_encouragement #B_knight_encouragement"><ptr target="#V_knight_helps_Alexander"/></span>A knight called "Daclym" saves Alexander from an attack</span>
+         <span type="episode" from="#V_knight_helps_Alexander_start"
+            to="#V_knight_helps_Alexander_end" xml:id="V_knight_helps_Alexander"
+            corresp="#S_knight_helps_Alexander #B_knight_helps_Alexander"><ref
+               target="#knight_helps_Alexander"/><!-- L'INCORAGGIAMENTO DEL CAVALIERE --><span
+               type="direct_speech" from="#V_knight_encouragement_start"
+               to="#V_knight_encouragement_end" xml:id="V_knight_encouragement"
+               corresp="#S_knight_encouragement #B_knight_encouragement"><ptr
+                  target="#V_knight_helps_Alexander"/></span>A knight called "Daclym" saves
+            Alexander from an attack</span>
          <!-- ALESSANDRO SI RIPRENDE -->
-         <span type="episode" from="#V_Alexander_recovers_start" to="#V_Alexander_recovers_end" xml:id="V_Alexander_recovers"
-            corresp="#S_Alexander_recovers #B_Alexander_recovers"><ref target="#Alexander_recovers"/>Alexander resumes his ferocious fighting</span>
+         <span type="episode" from="#V_Alexander_recovers_start" to="#V_Alexander_recovers_end"
+            xml:id="V_Alexander_recovers" corresp="#S_Alexander_recovers #B_Alexander_recovers"><ref
+               target="#Alexander_recovers"/>Alexander resumes his ferocious fighting</span>
          <!-- ALESSANDRO VS PINCUN -->
-         <span type="episode" from="#V_Alexander_vs_Pincun_start" to="#V_Alexander_vs_Pincun_end" xml:id="V_Alexander_vs_Pincun"
-            corresp="#S_Alexander_vs_Pincun #B_Alexander_vs_Pincun"><ref target="#Alexander_vs_Pincun"/><!-- ALESSANDRO È OLTRAGGIATO DAL FURTO DELLO STENDARDO --><span type="direct_speech" from="#V_Alexander_outrage_banner_start" to="#V_Alexander_outrage_banner_end" xml:id="V_Alexander_outrage_banner"
-               corresp="#S_Alexander_outrage_banner #B_Alexander_outrage_banner"><ptr target="#V_Alexander_vs_Pincun"/></span><!-- PINCUN MINACCIA ALESSANDRO --><span type="direct_speech" from="#V_Pincun_threatens_Alexander_start" to="#V_Pincun_threatens_Alexander_end" xml:id="V_Pincun_threatens_Alexander"
-                  corresp="#S_Pincun_threatens_Alexander #B_Pincun_threatens_Alexander"><ptr target="#V_Alexander_vs_Pincun"/></span><!-- ALESSANDRO SBEFFEGGIA PINCUN --><span type="direct_speech" from="#V_Alexander_mocks_Pincun_start" to="#V_Alexander_mocks_Pincun_end" xml:id="V_Alexander_mocks_Pincun"
-                     corresp="#S_Alexander_mocks_Pincun #B_Alexander_mocks_Pincun"><ptr target="#V_Alexander_vs_Pincun"/></span>Alexander fights against the count Pincun to retake his stolen banner and decapitates him</span>
+         <span type="episode" from="#V_Alexander_vs_Pincun_start" to="#V_Alexander_vs_Pincun_end"
+            xml:id="V_Alexander_vs_Pincun" corresp="#S_Alexander_vs_Pincun #B_Alexander_vs_Pincun"
+               ><ref target="#Alexander_vs_Pincun"
+               /><!-- ALESSANDRO È OLTRAGGIATO DAL FURTO DELLO STENDARDO --><span
+               type="direct_speech" from="#V_Alexander_outrage_banner_start"
+               to="#V_Alexander_outrage_banner_end" xml:id="V_Alexander_outrage_banner"
+               corresp="#S_Alexander_outrage_banner #B_Alexander_outrage_banner"><ptr
+                  target="#V_Alexander_vs_Pincun"/></span><!-- PINCUN MINACCIA ALESSANDRO --><span
+               type="direct_speech" from="#V_Pincun_threatens_Alexander_start"
+               to="#V_Pincun_threatens_Alexander_end" xml:id="V_Pincun_threatens_Alexander"
+               corresp="#S_Pincun_threatens_Alexander #B_Pincun_threatens_Alexander"><ptr
+                  target="#V_Alexander_vs_Pincun"/></span><!-- ALESSANDRO SBEFFEGGIA PINCUN --><span
+               type="direct_speech" from="#V_Alexander_mocks_Pincun_start"
+               to="#V_Alexander_mocks_Pincun_end" xml:id="V_Alexander_mocks_Pincun"
+               corresp="#S_Alexander_mocks_Pincun #B_Alexander_mocks_Pincun"><ptr
+                  target="#V_Alexander_vs_Pincun"/></span>Alexander fights against the count Pincun
+            to retake his stolen banner and decapitates him</span>
          <!-- ALESSANDRO UCCIDE MENNES -->
-         <span type="episode" from="#V_Alexander_kills_Mennes_start" to="#V_Alexander_kills_Mennes_end" xml:id="V_Alexander_kills_Mennes"
-            corresp="#S_Alexander_kills_Mennes #B_Alexander_kills_Mennes"><ref target="#Alexander_kills_Mennes"/>Alexander kills Mennes in battle and the Persians stop fighting</span>
+         <span type="episode" from="#V_Alexander_kills_Mennes_start"
+            to="#V_Alexander_kills_Mennes_end" xml:id="V_Alexander_kills_Mennes"
+            corresp="#S_Alexander_kills_Mennes #B_Alexander_kills_Mennes"><ref
+               target="#Alexander_kills_Mennes"/>Alexander kills Mennes in battle and the Persians
+            stop fighting</span>
          <!-- ALESSANDRO CONQUISTA SARDI -->
-         <span type="episode" from="#V_Alexander_takes_Sardis_start" to="#V_Alexander_takes_Sardis_end" xml:id="V_Alexander_takes_Sardis"
-            corresp="#S_Alexander_takes_Sardis #B_Alexander_takes_Sardis"><ref target="#Alexander_takes_Sardis"/>Alexander takes the city of Sardis, which belonged to Darius</span>
+         <span type="episode" from="#V_Alexander_takes_Sardis_start"
+            to="#V_Alexander_takes_Sardis_end" xml:id="V_Alexander_takes_Sardis"
+            corresp="#S_Alexander_takes_Sardis #B_Alexander_takes_Sardis"><ref
+               target="#Alexander_takes_Sardis"/>Alexander takes the city of Sardis, which belonged
+            to Darius</span>
          <!-- IL GIURAMENTO DI DARIO -->
-         <span type="episode" from="#V_Darius_oath_start" to="#V_Darius_oath_end" xml:id="V_Darius_oath"
-            corresp="#S_Darius_oath #B_Darius_oath"><ref target="#Darius_oath"/>Darius swears to take revenge against Alexander and kill him</span>
+         <span type="episode" from="#V_Darius_oath_start" to="#V_Darius_oath_end"
+            xml:id="V_Darius_oath" corresp="#S_Darius_oath #B_Darius_oath"><ref
+               target="#Darius_oath"/>Darius swears to take revenge against Alexander and kill
+            him</span>
          <!-- L'ADUNATA DI DARIO -->
-         <span type="episode" from="#V_Darius_rally_start" to="#V_Darius_rally_end" xml:id="V_Darius_rally"
-            corresp="#S_Darius_rally #B_Darius_rally"><ref target="#Darius_rally"/>Darius rallies his subordinates from many different lands</span>
-     
-    
-         <!-- #############   S   ############## -->
-         
+         <span type="episode" from="#V_Darius_rally_start" to="#V_Darius_rally_end"
+            xml:id="V_Darius_rally" corresp="#S_Darius_rally #B_Darius_rally"><ref
+               target="#Darius_rally"/>Darius rallies his subordinates from many different
+            lands</span>
+
+
+         <!-- #############   S: DA TRADUZIONE, CONTROLLA CONTENUTO PER DESCRIZIONE   ############## -->
+
 
          <!-- BUCEFALO -->
-         <span type="episode" from="#S_Bucephalus_start" to="#S_Bucephalus_end" xml:id="S_Bucephalus"
-            corresp="#V_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"/>Alexander tames the horse Bucephalus</span>
+         <span type="episode" from="#S_Bucephalus_start" to="#S_Bucephalus_end"
+            xml:id="S_Bucephalus" corresp="#V_Bucephalus #B_Bucephalus"><ref target="#Bucephalus"
+            />Alexander tames the horse Bucephalus</span>
          <!-- ALESSANDRO CHIEDE L'INVESTITURA - PRIMA IMPRESA DI ALESSANDRO -->
-         <span type="episode" from="#S_Alexander_firstDeed_start" to="#S_Alexander_firstDeed_end" xml:id="S_Alexander_firstDeed"
-            corresp="#V_Alexander_firstDeed #B_Alexander_firstDeed"><ref target="#Alexander_firstDeed"/>Alexander takes up arms for the first time</span>
+         <span type="episode" from="#S_Alexander_firstDeed_start" to="#S_Alexander_firstDeed_end"
+            xml:id="S_Alexander_firstDeed" corresp="#V_Alexander_firstDeed #B_Alexander_firstDeed"
+               ><ref target="#Alexander_firstDeed"/>Alexander takes up arms for the first
+            time</span>
          <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
-         <span  type="episode" from="#S_Alexander_Cleopatra_start" to="#S_Alexander_Cleopatra_end" xml:id="S_Alexander_Cleopatra"
-            corresp="#V_Alexander_Cleopatra #B_Alexander_Cleopatra"><ref target="#Alexander_Cleopatra"/>Alexander confronts his father about him betraying his mother</span>
+         <span type="episode" from="#S_Alexander_Cleopatra_start" to="#S_Alexander_Cleopatra_end"
+            xml:id="S_Alexander_Cleopatra" corresp="#V_Alexander_Cleopatra #B_Alexander_Cleopatra"
+               ><ref target="#Alexander_Cleopatra"/>Alexander confronts his father about him
+            betraying his mother</span>
          <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
-         <span type="episode" from="#S_Alexander_proposal_to_Tyre_start" to="#S_Alexander_proposal_to_Tyre_end" xml:id="S_Alexander_proposal_to_Tyre"
-            corresp="#V_Alexander_proposal_to_Tyre #B_Alexander_proposal_to_Tyre"><ref target="#Alexander_proposal_to_Tyre"/>Alexander tries to bend Tyre to his will</span>
+         <span type="episode" from="#S_Alexander_proposal_to_Tyre_start"
+            to="#S_Alexander_proposal_to_Tyre_end" xml:id="S_Alexander_proposal_to_Tyre"
+            corresp="#V_Alexander_proposal_to_Tyre #B_Alexander_proposal_to_Tyre"><ref
+               target="#Alexander_proposal_to_Tyre"/>Alexander tries to bend Tyre to his will</span>
          <!--  ALESSANDRO ATTACCA TIRO - PRIMO ASSALTO -->
-         <span type="episode" from="#S_Alexander_firstAttack_Tyre_start" to="#S_Alexander_firstAttack_Tyre_end" xml:id="S_Alexander_firstAttack_Tyre"
-            corresp="#V_Alexander_firstAttack_Tyre #B_Alexander_firstAttack_Tyre"><ref target="#Alexander_firstAttack_Tyre"/><!--  TIRO RESPINGE--><span type="sub-unit" from="#S_Tyre_pushes_back_start" to="#S_Tyre_pushes_back_end" xml:id="S_Tyre_pushes_back"
-               corresp="#V_Tyre_pushes_back #B_Tyre_pushes_back"><ptr target="#S_Alexander_firstAttack_Tyre"/></span>Alexander's first attack against Tyre fails because the city pushes his army back</span>
+         <span type="episode" from="#S_Alexander_firstAttack_Tyre_start"
+            to="#S_Alexander_firstAttack_Tyre_end" xml:id="S_Alexander_firstAttack_Tyre"
+            corresp="#V_Alexander_firstAttack_Tyre #B_Alexander_firstAttack_Tyre"><ref
+               target="#Alexander_firstAttack_Tyre"/><!--  TIRO RESPINGE--><span type="sub-unit"
+               from="#S_Tyre_pushes_back_start" to="#S_Tyre_pushes_back_end"
+               xml:id="S_Tyre_pushes_back" corresp="#V_Tyre_pushes_back #B_Tyre_pushes_back"><ptr
+                  target="#S_Alexander_firstAttack_Tyre"/></span>Alexander's first attack against
+            Tyre fails because the city pushes his army back</span>
          <!-- LA CONTROMISURA DI ALESSANDRO -->
-         <span type="episode" from="#S_Alexander_countermeasure_start" to="#S_Alexander_countermeasure_end" xml:id="S_Alexander_countermeasure"
-            corresp="#V_Alexander_countermeasure #B_Alexander_countermeasure"><ref target="#Alexander_countermeasure"/><!--  GLI ARABITI AIUTANO TIRO --><span type="sub-unit" from="#S_Arabs_help_Tyre_start" to="#S_Arabs_help_Tyre_end" xml:id="S_Arabs_help_Tyre"
-               corresp="#V_Arabs_help_Tyre #B_Arabs_help_Tyre"><ptr target="#S_Alexander_countermeasure"/></span>Alexander gets tree trunks for the siege but is hindered by the Arabs</span>
+         <span type="episode" from="#S_Alexander_countermeasure_start"
+            to="#S_Alexander_countermeasure_end" xml:id="S_Alexander_countermeasure"
+            corresp="#V_Alexander_countermeasure #B_Alexander_countermeasure"><ref
+               target="#Alexander_countermeasure"/><!--  GLI ARABITI AIUTANO TIRO --><span
+               type="sub-unit" from="#S_Arabs_help_Tyre_start" to="#S_Arabs_help_Tyre_end"
+               xml:id="S_Arabs_help_Tyre" corresp="#V_Arabs_help_Tyre #B_Arabs_help_Tyre"><ptr
+                  target="#S_Alexander_countermeasure"/></span>Alexander gets tree trunks for the
+            siege but is hindered by the Arabs</span>
+         <!--  TIRO SI VENDICA  -->
+         <span type="episode" from="#S_Tyre_revenge_start" to="#S_Tyre_revenge_end"
+            xml:id="S_Tyre_revenge" corresp="#V_Tyre_revenge #B_Tyre_revenge"><ref
+               target="#Tyre_revenge"/>Tyre goes for revenge with a counterattack</span>
+
+         <!-- ??????? TRADUZIONE-->
+         
+         
+         <!-- ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->
+         <span type="episode" from="#S_Alexander_breaches_firstWalls_start"
+            to="#S_Alexander_breaches_firstWalls_end" xml:id="S_Alexander_breaches_firstWalls"
+            corresp="#V_Alexander_breaches_firstWalls #B_Alexander_breaches_firstWalls"><ref
+               target="#Alexander_breaches_firstWalls"/>Alexander manages to breach the first
+            walls</span>
+         <!-- ALESSANDRO CONQUISTA LA SECONDA CERCHIA -->
+         <span type="episode" from="#S_Alexander_breaches_secondWalls_start"
+            to="#S_Alexander_breaches_secondWalls_end" xml:id="S_Alexander_breaches_secondWalls"
+            corresp="#V_Alexander_breaches_secondWalls #B_Alexander_breaches_secondWalls"><ref
+               target="#Alexander_breaches_secondWalls"/>Alexander breaches the second walls and
+            kills the sire of the city</span>
+         <!--  ALESSANDRO ENTRA A TIRO  -->
+         <span type="episode" from="#S_Alexander_enters_start" to="#S_Alexander_enters_end"
+            xml:id="S_Alexander_enters" corresp="#V_Alexander_enters #B_Alexander_enters"><ref
+               target="#Alexander_enters"/>Alexander violently battles inside the city</span>
+         <!-- TIRO PROVA A RESISTERE  -->
+         <span type="episode" from="#S_Tyre_resistance_start" to="#S_Tyre_resistance_end"
+            xml:id="S_Tyre_resistance" corresp="#V_Tyre_resistance #B_Tyre_resistance"><ref
+               target="#Tyre_resistance"/>Tyre tries not to succumb</span>
+         <!--  LE STRATEGIE DI ALESSANDRO -->
+         <span type="episode" from="#S_Alexander_strategy_start" to="#S_Alexander_strategy_end"
+            xml:id="S_Alexander_strategy" corresp="#V_Alexander_strategy #B_Alexander_strategy"><ref
+               target="#Alexander_strategy"/><!--  ALESSANDRO CONSULTA I SUOI PRINCIPI --><span
+                  type="direct_speech" from="#S_Alexander_consults_princes_start"
+                  to="#S_Alexander_consults_princes_end" xml:id="S_Alexander_consults_princes"
+                  corresp="#V_Alexander_consults_princes #B_Alexander_consults_princes"><ptr
+                     target="#S_Alexander_strategy"/></span>Alexander is advised to use Greek
+            fire</span>
+         <!-- LA CADUTA DI TIRO -->
+         <span type="episode" from="#S_Tyre_falls_start" to="#S_Tyre_falls_end"
+            xml:id="S_Tyre_falls" corresp="#V_Tyre_falls #B_Tyre_falls"><ref target="#Tyre_falls"
+            /><!-- RINASCITA DI TIRO --><span type="sub-unit" from="#S_Tyre_rebirth_start"
+               to="#S_Tyre_rebirth_end" xml:id="S_Tyre_rebirth"
+               corresp="#V_Tyre_rebirth #B_Tyre_rebirth"><ptr target="#S_Tyre_falls"/></span>Tyre
+            finally falls</span>
+         <!-- DARIO APPRENDE DELLA CADUTA DI TIRO -->
+         <span type="episode" from="#S_Darius_learns_of_Tyre_start"
+            to="#S_Darius_learns_of_Tyre_end" xml:id="S_Darius_learns_of_Tyre"
+            corresp="#V_Darius_learns_of_Tyre #B_Darius_learns_of_Tyre"><ref
+               target="#Darius_learns_of_Tyre"/>A survivor from Tyre tells King Darius what happened
+            to the city</span>
+         <!-- I DONI DI DARIO  -->
+         <span type="episode" from="#S_Darius_gifts_start" to="#S_Darius_gifts_end"
+            xml:id="S_Darius_gifts" corresp="#V_Darius_gifts #B_Darius_gifts"><ref
+               target="#Darius_gifts"/>Darius sends Alexander a letter and three mocking
+            gifts</span>
+         <!-- LA RISPOSTA DI ALESSANDRO  -->
+         <span type="episode" from="#S_Alexander_reaction_start" to="#S_Alexander_reaction_end"
+            xml:id="S_Alexander_reaction" corresp="#V_Alexander_reaction #B_Alexander_reaction"><ref
+               target="#Alexander_reaction"/><!-- I MESSAGGERI DI DARIO IMPLORANO PIETÀ  --><span
+                  type="direct_speech" from="#S_DariusMessengers_beg_Alexander_start"
+                  to="#S_DariusMessengers_beg_Alexander_end" xml:id="S_DariusMessengers_beg_Alexander"
+                  corresp="#V_DariusMessengers_beg_Alexander #B_DariusMessengers_beg_Alexander"><ptr
+                     target="#S_Alexander_reaction"/></span><!-- ALESSANDRO INSULTA DARIO  --><span
+                        type="direct_speech" from="#S_Alexander_insults_Darius_start"
+                        to="#S_Alexander_insults_Darius_end" xml:id="S_Alexander_insults_Darius"
+                        corresp="#V_Alexander_insults_Darius #B_Alexander_insults_Darius"><ptr
+                           target="#S_Alexander_reaction"
+                        /></span><!-- ALESSANDRO INTERPRETA I DONI DI DARIO  --><span type="direct_speech"
+                           from="#S_Alexander_interprets_DariusGifts_start"
+                           to="#S_Alexander_interprets_DariusGifts_end"
+                           xml:id="S_Alexander_interprets_DariusGifts"
+                           corresp="#V_Alexander_interprets_DariusGifts #B_Alexander_interprets_DariusGifts"
+                           ><ptr target="#S_Alexander_reaction"/></span>Alexander reacts to and interprets
+            the gifts</span>
+         <!--  ALESSANDRO MANDA UNA LETTERA A DARIO  -->
+         <span type="episode" from="#S_Alexander_letter_start" to="#S_Alexander_letter_end"
+            xml:id="S_Alexander_letter" corresp="#V_Alexander_letter #B_Alexander_letter"><ref
+               target="#Alexander_letter"/>Alexander sends a threatening letter to Darius</span>
+         <!--  LA REAZIONE DI DARIO -->
+         <span type="episode" from="#S_Darius_reaction_start" to="#S_Darius_reaction_end"
+            xml:id="S_Darius_reaction" corresp="#V_Darius_reaction #B_Darius_reaction"><ref
+               target="#Darius_reaction"/><!-- DARIO MINACCIA VENDETTA --><span type="direct_speech"
+                  from="#S_Darius_threatens_revenge_start" to="#S_Darius_threatens_revenge_end"
+                  xml:id="S_Darius_threatens_revenge"
+                  corresp="#V_Darius_threatens_revenge #B_Darius_threatens_revenge"><ptr
+                     target="#S_Darius_reaction"/></span>Darius furiously reacts to Alexander's
+            provocation</span>
+         <!-- DARIO CHIEDE AIUTO AI DUCHI -->
+         <span type="episode" from="#S_Darius_calls_dukes_start" to="#S_Darius_calls_dukes_end"
+            xml:id="S_Darius_calls_dukes" corresp="#V_Darius_calls_dukes #B_Darius_calls_dukes"><ref
+               target="#Darius_calls_dukes"/>Darius asks two of his dukes to push Alexander
+            back</span>
+         <!-- I DUCHI DI DARIO SONO SCETTICI -->
+         <span type="episode" from="#S_DariusDukes_skeptical_start"
+            to="#S_DariusDukes_skeptical_end" xml:id="S_DariusDukes_skeptical"
+            corresp="#V_DariusDukes_skeptical #B_DariusDukes_skeptical"><ref
+               target="#DariusDukes_skeptical"
+            /><!-- I DUCHI DI DARIO DISCUTONO I PROPRI DUBBI --><span type="direct_speech"
+               from="#S_DariusDukes_discuss_start" to="#S_DariusDukes_discuss_end"
+               xml:id="S_DariusDukes_discuss"
+               corresp="#V_DariusDukes_discuss #B_DariusDukes_discuss"><ptr
+                  target="#S_DariusDukes_skeptical"/></span>The dukes critices Darius's approach to
+            Alexander's campaign</span>
+         <!-- DARIO INZIA L'ATTACCO -->
+         <span type="episode" from="#S_Darius_starts_attack_start" to="#S_Darius_starts_attack_end"
+            xml:id="S_Darius_starts_attack"
+            corresp="#V_Darius_starts_attack #B_Darius_starts_attack"><ref
+               target="#Darius_starts_attack"/>Darius sends another duke against Alexander</span>
+         <!-- DARIO MINACCIA I SUOI DUCHI -->
+         <span type="episode" from="#S_Darius_threatens_dukes_start"
+            to="#S_Darius_threatens_dukes_end" xml:id="S_Darius_threatens_dukes"
+            corresp="#V_Darius_threatens_dukes #B_Darius_threatens_dukes"><ref
+               target="#Darius_threatens_dukes"/>Darius threatens the dukes into taking
+            action</span>
+         <!-- I DUCHI DI DARIO AGISCONO -->
+         <span type="episode" from="#S_DariusDukes_take_action_start"
+            to="#S_DariusDukes_take_action_end" xml:id="S_DariusDukes_take_action"
+            corresp="#V_DariusDukes_take_action #B_DariusDukes_take_action"><ref
+               target="#DariusDukes_take_action"/>The dukes finally resolve to gather their
+            men</span>
+         <!-- ALESSANDRO ATTACCA AL GUADO -->
+         <span type="episode" from="#S_Alexander_attack_ford_start"
+            to="#S_Alexander_attack_ford_end" xml:id="S_Alexander_attack_ford"
+            corresp="#V_Alexander_attack_ford #B_Alexander_attack_ford"><ref
+               target="#Alexander_attack_ford"/>Alexander meets the dukes' men at the ford and
+            attacks</span>
+         <!-- ALESSANDRO VS MENNES -->
+         <span type="episode" from="#S_Alexander_vs_Mennes_start" to="#S_Alexander_vs_Mennes_end"
+            xml:id="S_Alexander_vs_Mennes" corresp="#V_Alexander_vs_Mennes #B_Alexander_vs_Mennes"
+            ><ref target="#Alexander_vs_Mennes"/>Alexander fights against the duke Mennes</span>
+         <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
+         <span type="episode" from="#S_knight_helps_Alexander_start"
+            to="#S_knight_helps_Alexander_end" xml:id="S_knight_helps_Alexander"
+            corresp="#V_knight_helps_Alexander #B_knight_helps_Alexander"><ref
+               target="#knight_helps_Alexander"/><!-- L'INCORAGGIAMENTO DEL CAVALIERE --><span
+                  type="direct_speech" from="#S_knight_encouragement_start"
+                  to="#S_knight_encouragement_end" xml:id="S_knight_encouragement"
+                  corresp="#V_knight_encouragement #B_knight_encouragement"><ptr
+                     target="#S_knight_helps_Alexander"/></span>A knight called "Daclym" saves
+            Alexander from an attack</span>
+         <!-- ALESSANDRO SI RIPRENDE -->
+         <span type="episode" from="#S_Alexander_recovers_start" to="#S_Alexander_recovers_end"
+            xml:id="S_Alexander_recovers" corresp="#V_Alexander_recovers #B_Alexander_recovers"><ref
+               target="#Alexander_recovers"/>Alexander resumes his ferocious fighting</span>
+         <!-- ALESSANDRO VS PINCUN -->
+         <span type="episode" from="#S_Alexander_vs_Pincun_start" to="#S_Alexander_vs_Pincun_end"
+            xml:id="S_Alexander_vs_Pincun" corresp="#V_Alexander_vs_Pincun #B_Alexander_vs_Pincun"
+            ><ref target="#Alexander_vs_Pincun"
+            /><!-- ALESSANDRO È OLTRAGGIATO DAL FURTO DELLO STENDARDO --><span
+               type="direct_speech" from="#S_Alexander_outrage_banner_start"
+               to="#S_Alexander_outrage_banner_end" xml:id="S_Alexander_outrage_banner"
+               corresp="#V_Alexander_outrage_banner #B_Alexander_outrage_banner"><ptr
+                  target="#S_Alexander_vs_Pincun"/></span><!-- PINCUN MINACCIA ALESSANDRO --><span
+                     type="direct_speech" from="#S_Pincun_threatens_Alexander_start"
+                     to="#S_Pincun_threatens_Alexander_end" xml:id="S_Pincun_threatens_Alexander"
+                     corresp="#V_Pincun_threatens_Alexander #B_Pincun_threatens_Alexander"><ptr
+                        target="#S_Alexander_vs_Pincun"/></span><!-- ALESSANDRO SBEFFEGGIA PINCUN --><span
+                           type="direct_speech" from="#S_Alexander_mocks_Pincun_start"
+                           to="#S_Alexander_mocks_Pincun_end" xml:id="S_Alexander_mocks_Pincun"
+                           corresp="#V_Alexander_mocks_Pincun #B_Alexander_mocks_Pincun"><ptr
+                              target="#S_Alexander_vs_Pincun"/></span>Alexander fights against the count Pincun
+            to retake his stolen banner and decapitates him</span>
+         <!-- ALESSANDRO UCCIDE MENNES -->
+         <span type="episode" from="#S_Alexander_kills_Mennes_start"
+            to="#S_Alexander_kills_Mennes_end" xml:id="S_Alexander_kills_Mennes"
+            corresp="#V_Alexander_kills_Mennes #B_Alexander_kills_Mennes"><ref
+               target="#Alexander_kills_Mennes"/>Alexander kills Mennes in battle and the Persians
+            stop fighting</span>
+         <!-- ALESSANDRO CONQUISTA SARDI -->
+         <span type="episode" from="#S_Alexander_takes_Sardis_start"
+            to="#S_Alexander_takes_Sardis_end" xml:id="S_Alexander_takes_Sardis"
+            corresp="#V_Alexander_takes_Sardis #B_Alexander_takes_Sardis"><ref
+               target="#Alexander_takes_Sardis"/>Alexander takes the city of Sardis, which belonged
+            to Darius</span>
+         <!-- IL GIURAMENTO DI DARIO -->
+         <span type="episode" from="#S_Darius_oath_start" to="#S_Darius_oath_end"
+            xml:id="S_Darius_oath" corresp="#V_Darius_oath #B_Darius_oath"><ref
+               target="#Darius_oath"/>Darius swears to take revenge against Alexander and kill
+            him</span>
+         <!-- L'ADUNATA DI DARIO -->
+         <span type="episode" from="#S_Darius_rally_start" to="#S_Darius_rally_end"
+            xml:id="S_Darius_rally" corresp="#V_Darius_rally #B_Darius_rally"><ref
+               target="#Darius_rally"/>Darius rallies his subordinates from many different
+            lands</span>
+         
 
 
 
@@ -227,28 +627,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
+         <!-- 
           B 
 
          <span from="#B_Bucephalus_start" to="#B_Bucephalus_end" xml:id="B_Bucephalus"
@@ -258,13 +637,13 @@
             corresp="#V_Alexander_firstDeed #S_Alexander_firstDeed"><ref target="#Alexander_firstDeed"/>Alexander takes up arms for the first time</span>  -->
 
       </spanGrp>
-      
-      
+
+
 
       <!-- ############ QUI IL COMMENTO SULLE UNITÀ NARRATIVE ############### -->
-    
-    
-    <!--
+
+
+      <!--
       <interpGrp type="notes" xml:id="criticalCommentary">
          <interp xml:id="Bucephalus">Bucephalus, whose name literally means "ox-headed", is named by King Philip because of its wondrous features. According to the prophecy, the indomitable horse can be tamed only by the one who is destined to become king after Philip. In the German corpus, Alexander manages to submit it just with his glare. The name Vestian corresponds to Hephaestion, Alexander's companion and lover, but the medieval tradition doesn't mention the love between the two.</interp>
          <interp xml:id="messenger_Bucephalus">This direct speech is only present in V. The messenger, sent from the man who was familiar with the horse, states that the horse belongs to the person who will be able to mount it, as it had never happend before.</interp>

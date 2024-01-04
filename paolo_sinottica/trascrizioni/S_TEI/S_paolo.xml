@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+
+   <facsimile xml:id="S_scans">
+      <surface corresp="#S_pag_18" xml:id="S_surf_18">
+         <graphic url="data/images/single/S_18.jpg" width="932px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_19" xml:id="S_surf_19">
+         <graphic url="data/images/single/S_19.jpg" width="973px" height="1539px"/>
+      </surface>
+      <surface corresp="#S_pag_20" xml:id="S_surf_20">
+         <graphic url="data/images/single/S_20.jpg" width="941px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_21" xml:id="S_surf_21">
+         <graphic url="data/images/single/S_21.jpg" width="964px" height="1578px"/>
+      </surface>
+   </facsimile>
+
+
+   <text xml:id="S">
+
+      <body>
+         
+         <!-- PAGINA. 18, edizione M. -->
+         
+         <pb n="18" xml:id="S_pag_18" facs="S_18.jpg"/>
+
+         <!-- BUCEFALO -->
+
+         <anchor xml:id="S_Bucephalus_start"/>
+         <lg n="21" xml:id="S_lg_21">
+            <l n="269" xml:id="S_l_269">Von Philippis stute wil ih u nu sagen:</l>
+            <l n="270" xml:id="S_l_270">Dar under was ein ros getragen.</l>
+            <l n="271" xml:id="S_l_271">Daz ros, daz was wunderlich,</l>
+            <l n="272" xml:id="S_l_272">irre und vil stritich,</l>
+            <l n="273" xml:id="S_l_273">snel und starc von gescafnisse.</l>
+            <l n="274" xml:id="S_l_274">Des sult ir sin gwisse.</l>
+            <l n="275" xml:id="S_l_275">Iz hete unzalliche craft</l>
+            <l n="276" xml:id="S_l_276">und ummazliche macht.</l>
+            <l n="277" xml:id="S_l_277">Iz irbeiz di lute unde irsluch,</l>
+            <l n="278" xml:id="S_l_278">iz was freislich gnuch.</l>
+            <l n="279" xml:id="S_l_279">Ime was sin munt,</l>
+            <l n="280" xml:id="S_l_280">daz wil ih u tun kunt,</l>
+            <l n="281" xml:id="S_l_281">alseime esele getan.</l>
+            <l n="282" xml:id="S_l_282">Di nasen waren ime wite uf getan.</l>
+            <l n="283" xml:id="S_l_283">Sine oren waren ime lanc,</l>
+            <l n="284" xml:id="S_l_284">daz houbit magir unde slanc.</l>
+            <l n="285" xml:id="S_l_285">Sine ougen waren ime allir vare,</l>
+            <l n="286" xml:id="S_l_286">glich eineme fliegindin aren.</l>
+         </lg>
+         <lg n="22" xml:id="S_lg_22">
+            <l n="287" xml:id="S_l_287">Sin hals was ime lockechte,</l>
+            <l n="288" xml:id="S_l_288">ih wene, iz were lewin geslehte.</l>
+            <l n="289" xml:id="S_l_289">Uf den goffen hatiz rindis har,</l>
+            <l n="290" xml:id="S_l_290">an den siten liebarten mal.</l>
+            <l n="291" xml:id="S_l_291">So Sarrazin joh cristin man</l>
+            <l n="292" xml:id="S_l_292">nie nihein bezzer ros gwan.</l>
+         </lg>
+         <lg n="23" xml:id="S_lg_23">
+            <l n="293" xml:id="S_l_293">Daz ros wart mit isine gebunden,</l>
+            <l n="294" xml:id="S_l_294">alse daz da tobit zallen stunden.</l>
+            <l n="295" xml:id="S_l_295">Iz wart vor den kuninc Philippum geleit,</l>
+            <l n="296" xml:id="S_l_296">und alser vernam sine gelegenheit,</l>
+            <l n="297" xml:id="S_l_297">Bucival hiz erz namen.</l>
+            <l n="298" xml:id="S_l_298">Daz duhte si gut allesamen.</l>
+         </lg>
+         <lg n="24" xml:id="S_lg_24">
+            <l n="299" xml:id="S_l_299">Do hiz man manigen starkin man</l>
+            <l n="300" xml:id="S_l_300">daz selbe ros leiten dan</l>
+            <l n="301" xml:id="S_l_301">und in einen marstal betun,</l>
+            <l n="302" xml:id="S_l_302">daz man da vor mohte gerun.</l>
+            <l n="303" xml:id="S_l_303">Zo ime ne torste nieman gan,</l>
+            <l n="304" xml:id="S_l_304">wan der also hete getan,</l>
+            <l n="305" xml:id="S_l_305">daz ime verteilet wart daz leben,</l>
+            <l n="306" xml:id="S_l_306">den mose man deme rosse geben.</l>
+         </lg>
+         <lg n="25" xml:id="S_lg_25">
+            <l n="307" xml:id="S_l_307">Deme kuninge wart ein bote do gesant</l>
+            <l n="308" xml:id="S_l_308">von deme, der daz ros het erkant,</l>
+            <!-- PAGINA. 19, edizione M. -->
+            <pb n="19" xml:id="S_pag_19" facs="S_19.jpg"/>
+            <l n="309" xml:id="S_l_309">und hiz iz sint baz bewarn,</l>
+            <l n="310" xml:id="S_l_310">wande man solde dar an irvarn, </l>
+            <l n="311" xml:id="S_l_311">weme nah sinem libe</l>
+            <l n="312" xml:id="S_l_312">sin kunincriche solde blibe,</l>
+            <l n="313" xml:id="S_l_313">und enbot ime da bi,</l>
+            <l n="314" xml:id="S_l_314">iz solde rechte derre si,</l>
+            <l n="315" xml:id="S_l_315">der iz allir erist beschrite,</l>
+            <l n="316" xml:id="S_l_316">wandiz noh diu nehein man ne gerite.</l>
+         </lg>
+         <lg n="26" xml:id="S_lg_26">
+            <l n="317" xml:id="S_l_317">Unde alse Alexander heim quam,</l>
+            <l n="318" xml:id="S_l_318">di scrift er harte wol vernam.</l>
+            <l n="319" xml:id="S_l_319">Wis was er zummazen,</l>
+            <l n="320" xml:id="S_l_320">sine meistere heter verlazen.</l>
+            <l n="321" xml:id="S_l_321">Dannoh ne heter nit vernomen,</l>
+            <l n="322" xml:id="S_l_322">wi iz umbe daz ros was comen.</l>
+            <l n="323" xml:id="S_l_323">Eines tages do der jungelinc</l>
+            <l n="324" xml:id="S_l_324">in der pælenze ginc,</l>
+            <l n="325" xml:id="S_l_325">do volgetime Vestian,</l>
+            <l n="326" xml:id="S_l_326">der was ein edele juncman.</l>
+            <l n="327" xml:id="S_l_327">Daz ros horter do weien</l>
+            <l n="328" xml:id="S_l_328">und tubillichen schrien.</l>
+            <l n="329" xml:id="S_l_329">Vil starke er do dachte,</l>
+            <l n="330" xml:id="S_l_330">waz daz wesen mohte,</l>
+            <l n="331" xml:id="S_l_331">mit allen sinen sinne,</l>
+            <l n="332" xml:id="S_l_332">wes were di freisliche stimme.</l>
+         </lg>
+         <lg n="27" xml:id="S_lg_27">
+            <l n="333" xml:id="S_l_333">Zo Vestiane er do sprah:</l>
+            <l n="334" xml:id="S_l_334">"Nu sage mir, waz daz sin mach,</l>
+            <l n="335" xml:id="S_l_335">daz mir schillit in mine oren</l>
+            <l n="336" xml:id="S_l_336">und ne lazit mich nith gehoren.</l>
+            <l n="337" xml:id="S_l_337">Iz gebarit freisliche,</l>
+            <l n="338" xml:id="S_l_338">sin stimme, di is geliche</l>
+            <l n="339" xml:id="S_l_339">einem freislichem tiere".</l>
+            <l n="340" xml:id="S_l_340">Do antworte ime schiere</l>
+            <l n="341" xml:id="S_l_341">Ptolomeus unde sprah:</l>
+            <l n="342" xml:id="S_l_342">“Ih sage dir, waz daz wesen mach:</l>
+            <l n="343" xml:id="S_l_343">Iz ist ein ros freislich.</l>
+            <l n="344" xml:id="S_l_344">Ime ne wart nie nehein gelich</l>
+            <l n="345" xml:id="S_l_345">in alle criechische lant:</l>
+            <l n="346" xml:id="S_l_346">Bucival is iz genant.</l>
+            <l n="347" xml:id="S_l_347">Din vater hat iz in getan.</l>
+            <l n="348" xml:id="S_l_348">Iz ne dorfte bezzer nie gegan</l>
+            <l n="349" xml:id="S_l_349">under neheiner stute.</l>
+            <l n="350" xml:id="S_l_350">Iz ne hat nieman in hute,</l>
+            <l n="351" xml:id="S_l_351">wandiz ist vil freislich.</l>
+            <l n="352" xml:id="S_l_352">Sin stimme, di ist eislich.</l>
+            <l n="353" xml:id="S_l_353">Iz irbizit man unde wib.</l>
+            <l n="354" xml:id="S_l_354">Nieman ne mach sinen lib</l>
+            <l n="355" xml:id="S_l_355">vor ime gesunt behalden,</l>
+            <l n="356" xml:id="S_l_356">swes iz muz gwalden".</l>
+         </lg>
+         <lg n="28" xml:id="S_lg_28">
+            <l n="357" xml:id="S_l_357">Do der herre diz vernam,</l>
+            <l n="358" xml:id="S_l_358">schiere er zo deme rosse quam.</l>
+            <l n="359" xml:id="S_l_359">Do sin daz ros wart gware</l>
+            <l n="360" xml:id="S_l_360">und er iz begunde ane stare,</l>
+            <l n="361" xml:id="S_l_361">iz vergaz allir siner macht</l>
+            <l n="362" xml:id="S_l_362">unde woldime wesen dienisthaft.</l>
+            <l n="363" xml:id="S_l_363">Iz knete fur in der nider</l>
+            <l n="364" xml:id="S_l_364"> und ne unsitete niwit sider.</l>
+            <l n="365" xml:id="S_l_365">Ime worden sine gebere,</l>
+            <l n="366" xml:id="S_l_366">alsiz des kindes vil wol gewone were.</l>
+         </lg>
+         <lg n="29" xml:id="S_lg_29">
+            <l n="367" xml:id="S_l_367">Er begundiz streichen,</l>
+            <l n="368" xml:id="S_l_368">daz nieman geweichen</l>
+            <l n="369" xml:id="S_l_369">ne mohte neheine wis,</l>
+            <l n="370" xml:id="S_l_370">wander was vil wis:</l>
+            <l n="371" xml:id="S_l_371">Er ne legete zoum noh seil dar ane,</l>
+            <l n="372" xml:id="S_l_372">er begreif iz in sine manen.</l>
+            <l n="373" xml:id="S_l_373">Ellenthaft was sin gedanc:</l>
+            <l n="374" xml:id="S_l_374">Uf den rucke er ime spranc.</l>
+            <l n="375" xml:id="S_l_375">Uz dem marstalle er iz reit:</l>
+            <l n="376" xml:id="S_l_376">Daz was ein michil baltheit.</l>
+         </lg>
+         <anchor xml:id="S_Bucephalus_end"/>
+
+         <!-- ALESSANDRO CHIEDE L'INVESTITURA - PRIMA IMPRESA DI ALESSANDRO -->
+
+         <anchor xml:id="S_Alexander_firstDeed_start"/>
+         <lg n="30" xml:id="S_lg_30">
+            <l n="377" xml:id="S_l_377">Do wart daz langer nit verdaget,</l>
+            <l n="378" xml:id="S_l_378">dem kuninge wart do gesagit,</l>
+            <l n="379" xml:id="S_l_379">waz sin sun hete getan.</l>
+            <l n="380" xml:id="S_l_380">Der kuninc, der spranc uf san</l>
+            <l n="381" xml:id="S_l_381">und zehenzich sines gesindes.</l>
+            <l n="382" xml:id="S_l_382">Er frowete sih sinis kindes,</l>
+            <l n="383" xml:id="S_l_383">di mere er gerne vernam.</l>
+            <l n="384" xml:id="S_l_384">Do der kuninc dar quam</l>
+            <l n="385" xml:id="S_l_385">und in Alexander vernam,</l>
+            <l n="386" xml:id="S_l_386">do tet er alsime wol gezam:</l>
+            <l n="387" xml:id="S_l_387">Er warf sih nider unde ginc.</l>
+            <l n="388" xml:id="S_l_388">Vestian daz ros entfienc,</l>
+            <l n="389" xml:id="S_l_389">alsiz Alexander wolde,</l>
+            <l n="390" xml:id="S_l_390">mit einem breitele von golde,</l>
+            <l n="391" xml:id="S_l_391">mit gesteine wol beslagen.</l>
+            <l n="392" xml:id="S_l_392">Sinen vater ginc er ingagen.</l>
+            <l n="393" xml:id="S_l_393">Do si zesamene quamen,</l>
+            <l n="394" xml:id="S_l_394">bi henden si sih namen.</l>
+            <l n="395" xml:id="S_l_395">Ir rede wart vile minnesam,</l>
+            <l n="396" xml:id="S_l_396">als ir hie mougit verstan.</l>
+         </lg>
+         <lg n="31" xml:id="S_lg_31">
+            <l n="397" xml:id="S_l_397">"Heil dir — sprah er — sune min.</l>
+            <l n="398" xml:id="S_l_398">Mih dunkit du salt kuninc sin.</l>
+            <l n="399" xml:id="S_l_399">Diu gwalt si dir vil geret,</l>
+            <l n="400" xml:id="S_l_400">also verre, so min riche get".</l>
+            <l n="401" xml:id="S_l_401">Alexander sprah zestunt:</l>
+            <l n="402" xml:id="S_l_402">"Vater, Got laze uh sin gesunt!</l>
+            <l n="403" xml:id="S_l_403">Allis gutes ih u wol getruwen.</l>
+            <l n="404" xml:id="S_l_404">Got laz uh lange buwen,</l>
+            <l n="405" xml:id="S_l_405">mit froweden uwer riche</l>
+            <l n="406" xml:id="S_l_406">und ouh selicliche.</l>
+         </lg>
+         <lg n="32" xml:id="S_lg_32">
+            <l n="407" xml:id="S_l_407">Noch sult ir, vater, mich geweren</l>
+            <l n="408" xml:id="S_l_408">eines dinges, des ih sere geren:</l>
+            <l n="409" xml:id="S_l_409">Nu bin ih funfzehen jar alt,</l>
+            <l n="410" xml:id="S_l_410">daz han ih rehte gezalt,</l>
+            <l n="411" xml:id="S_l_411">und bin so komen zo minen tagen,</l>
+            <l n="412" xml:id="S_l_412">daz ih wol wafen mac tragen.</l>
+            <l n="413" xml:id="S_l_413">Swer diheine tugent sol gwinnen,</l>
+            <l n="414" xml:id="S_l_414">der salis in siner juginde beginnen.</l>
+            <l n="415" xml:id="S_l_415">Und swer dir zins sol geben,</l>
+            <l n="416" xml:id="S_l_416">wil er iht derwider streben,</l>
+            <l n="417" xml:id="S_l_417">der muz en dir mit scanden</l>
+            <l n="418" xml:id="S_l_418">senden von sinen landen</l>
+            <!-- PAGINA. 20, edizione M. -->
+            <pb n="20" xml:id="S_pag_20" facs="S_20.jpg"/>
+            <l n="419" xml:id="S_l_419">und ouh lasterliche".</l>
+            <l n="420" xml:id="S_l_420">Do ne wolde der kuninc riche</l>
+            <l n="421" xml:id="S_l_421">niwit langer beiten:</l>
+            <l n="422" xml:id="S_l_422">Er hiz daz kint bereiten.</l>
+            <l n="423" xml:id="S_l_423">Waz sol ih mer dar umbe sagen?</l>
+            <l n="424" xml:id="S_l_424">Er hiz ime wafen vor tragen,</l>
+            <l n="425" xml:id="S_l_425">so man si under des kuninges gesinden</l>
+            <l n="426" xml:id="S_l_426">allirbest mohte vinden,</l>
+            <l n="427" xml:id="S_l_427">und verkore si Alexander,</l>
+            <l n="428" xml:id="S_l_428">man gewunne ime aber ander.</l>
+         </lg>
+         <lg n="33" xml:id="S_lg_33">
+            <l n="429" xml:id="S_l_429">Do daz kint nah riterlichen site</l>
+            <l n="430" xml:id="S_l_430">wol gewefent was und geriten,</l>
+            <l n="431" xml:id="S_l_431">do was er ein scone jungelinc.</l>
+            <l n="432" xml:id="S_l_432">Si gruzten in alse einen kuninc.</l>
+            <l n="433" xml:id="S_l_433">Er sprah, wes si gedechten,</l>
+            <l n="434" xml:id="S_l_434">daz si ime kuninges namen ane lechten,</l>
+            <l n="435" xml:id="S_l_435">so er kunincriches nit ne hete,</l>
+            <l n="436" xml:id="S_l_436">daz er sinen vinger uf gesezte.</l>
+         </lg>
+         <lg n="34" xml:id="S_lg_34">
+            <l n="437" xml:id="S_l_437">Er sprah: "Woldet ir eine wile gerun,</l>
+            <l n="438" xml:id="S_l_438">unze ih eine tugint mohte getun!</l>
+            <l n="439" xml:id="S_l_439">An einem kuninc wil ih is beginnen,</l>
+            <l n="440" xml:id="S_l_440">und mach ich den verwinnen</l>
+            <l n="441" xml:id="S_l_441">und ih ime di cronen abe gezihen</l>
+            <l n="442" xml:id="S_l_442">und uz den velde getun flihen,</l>
+            <l n="443" xml:id="S_l_443">so mugit ir mir kuningis namen geben</l>
+            <l n="444" xml:id="S_l_444">al di wile, di ih leben".</l>
+         </lg>
+         <lg n="35" xml:id="S_lg_35">
+            <l n="445" xml:id="S_l_445">Ein kuninc was Nicolaus genant.</l>
+            <l n="446" xml:id="S_l_446">Alexander fur in sin lant,</l>
+            <l n="447" xml:id="S_l_447">ze Cesaream vor die groze stat.</l>
+            <l n="448" xml:id="S_l_448">Da wart der richer kuninc entsazt.</l>
+            <l n="449" xml:id="S_l_449">Alexander vaht ime den sige ane</l>
+            <l n="450" xml:id="S_l_450">und furte di cronen mit ime dane.</l>
+         </lg>
+         <anchor xml:id="S_Alexander_firstDeed_end"/>
+
+         <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
+
+         <anchor xml:id="S_Alexander_Cleopatra_start"/>
+         <lg n="36" xml:id="S_lg_36">
+            <l n="451" xml:id="S_l_451">Do er do wider heim quam,</l>
+            <l n="452" xml:id="S_l_452">ein vil leit mere er vernam,</l>
+            <l n="453" xml:id="S_l_453">des gewan er ungemute:</l>
+            <l n="454" xml:id="S_l_454">Iz was siner muter</l>
+            <l n="455" xml:id="S_l_455">sin vater Philippus ab comen</l>
+            <l n="456" xml:id="S_l_456">und hete ein ander wib genomen,</l>
+            <l n="457" xml:id="S_l_457">di was Cleopatra genant.</l>
+            <l n="458" xml:id="S_l_458">Do Alexander daz irvant</l>
+            <l n="459" xml:id="S_l_459">und erz rehte vernam,</l>
+            <l n="460" xml:id="S_l_460">vor sinen vater ginc er stan.</l>
+            <l n="461" xml:id="S_l_461">Er sazte di cronen do,</l>
+            <l n="462" xml:id="S_l_462">di er Nicolao</l>
+            <l n="463" xml:id="S_l_463">hete geroubit,</l>
+            <l n="464" xml:id="S_l_464">sinem vater uf daz houbit.</l>
+            <l n="465" xml:id="S_l_465">"Her vater, nemet diz ze minnen,</l>
+            <l n="466" xml:id="S_l_466">daz ih mit sturme han gewunnen</l>
+            <l n="467" xml:id="S_l_467">unz ih mer mac getuon,</l>
+            <l n="468" xml:id="S_l_468">des habit ir ere unde ruom.</l>
+            <l n="469" xml:id="S_l_469">Wene ein dinc, daz ih u clagen</l>
+            <l n="470" xml:id="S_l_470">und in minem herzen tragen,</l>
+            <l n="471" xml:id="S_l_471">des han ih vil sweren mut,</l>
+            <l n="472" xml:id="S_l_472">ouh ne dunkit iz mir niwit gut,</l>
+            <l n="473" xml:id="S_l_473">daz ir mine muter,</l>
+            <l n="474" xml:id="S_l_474">Olympiaden di guten,</l>
+            <l n="475" xml:id="S_l_475">mir ze leide verlazen hat</l>
+            <l n="476" xml:id="S_l_476">und einen ubirhur begat</l>
+            <l n="477" xml:id="S_l_477">mit einem anderen wibe.</l>
+            <l n="478" xml:id="S_l_478">Ih swere u daz bi mineme libe,</l>
+            <l n="479" xml:id="S_l_479">swer disen rat hat gefromit,</l>
+            <l n="480" xml:id="S_l_480">daz iz ime ze grozen unstaten noh comet".</l>
+         </lg>
+         <lg n="37" xml:id="S_lg_37">
+            <l n="481" xml:id="S_l_481">Ein riter hiz Lysias,</l>
+            <l n="482" xml:id="S_l_482">der stolz und redehaft was,</l>
+            <l n="483" xml:id="S_l_483">der was mit der brute dar comen,</l>
+            <l n="484" xml:id="S_l_484">des gwan er lutzelen fromen.</l>
+            <l n="485" xml:id="S_l_485">Deme was vil harte ungemach,</l>
+            <l n="486" xml:id="S_l_486">daz Alexander so vil sprah,</l>
+            <l n="487" xml:id="S_l_487">und antworte ime smeliche</l>
+            <l n="488" xml:id="S_l_488">unde frevilliche.</l>
+            <l n="489" xml:id="S_l_489">Des mohter gerne habin enborn.</l>
+            <l n="490" xml:id="S_l_490">Des gwan daz kint grozen zorn:</l>
+            <l n="491" xml:id="S_l_491">Einen guldinen naph groz und swar,</l>
+            <l n="492" xml:id="S_l_492">dar ane stunden blachmal,</l>
+            <l n="493" xml:id="S_l_493">hete Alexander an di hande,</l>
+            <l n="494" xml:id="S_l_494">den sluch er Lysiam vor di zande,</l>
+            <l n="495" xml:id="S_l_495">daz si ime in di kele resen,</l>
+            <l n="496" xml:id="S_l_496">und sprach: "La dine bose rede wesen!"</l>
+         </lg>
+         <lg n="38" xml:id="S_lg_38">
+            <l n="497" xml:id="S_l_497">Philippus uf di tabelen spranc,</l>
+            <l n="498" xml:id="S_l_498">wande in sin groze zorn dwanc.</l>
+            <l n="499" xml:id="S_l_499">Der strit ime niht wol gevil.</l>
+            <l n="500" xml:id="S_l_500">Do trat er fur baz unde viel,</l>
+            <l n="501" xml:id="S_l_501">daz ime sin schenkel zebrach.</l>
+            <l n="502" xml:id="S_l_502">Lasterlichen er do lach.</l>
+            <l n="503" xml:id="S_l_503">In andirhalb fiel di brut.</l>
+            <l n="504" xml:id="S_l_504">Da ne wart neheiner gabe lut</l>
+            <l n="505" xml:id="S_l_505">nieren nehein spileman.</l>
+            <l n="506" xml:id="S_l_506">Wande do iz also quam.</l>
+            <l n="507" xml:id="S_l_507">daz der kuninc, der nider<gap extent="folio"/></l>
+         </lg>
+         <anchor xml:id="S_Alexander_Cleopatra_end"/>
+
+         <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
+
+         <anchor xml:id="S_Alexander_proposal_to_Tyre_start"/>
+         <lg n="39" xml:id="S_lg_39">
+            <l n="508" xml:id="S_l_508">Nu vernemet ouh ein ander:</l>
+            <l n="509" xml:id="S_l_509">Zo zin sante Alexander</l>
+            <l n="510" xml:id="S_l_510">und hiez sinen knechte</l>
+            <l n="511" xml:id="S_l_511">sagen in vil rechte,</l>
+            <l n="512" xml:id="S_l_512">ob si in ze kuninge wolden entfan</l>
+            <l n="513" xml:id="S_l_513">und ime werden undertan,</l>
+            <l n="514" xml:id="S_l_514">und ime geben in sine hant</l>
+            <l n="515" xml:id="S_l_515">di burc unde daz lant:</l>
+            <l n="516" xml:id="S_l_516">Er wolde si lazen leben</l>
+            <l n="517" xml:id="S_l_517">und woldin mit eren geben</l>
+            <l n="518" xml:id="S_l_518">und mit gnaden lazen</l>
+            <l n="529" xml:id="S_l_519">und faren sine straze.</l>
+            <l n="520" xml:id="S_l_520">Ob si des nit ne wolden,</l>
+            <l n="521" xml:id="S_l_521">er sagetin, daz er solde</l>
+            <l n="522" xml:id="S_l_522">ir lant zevoren</l>
+            <l n="523" xml:id="S_l_523">und ire stat zestoren,</l>
+            <!-- PAGINA. 21, edizione M. -->
+            <pb n="21" xml:id="S_pag_21" facs="S_21.jpg"/>
+            <l n="524" xml:id="S_l_524">unde nemen in allen daz leben,</l>
+            <l n="525" xml:id="S_l_525">ob si ime wolden widerstreben</l>
+            <l n="526" xml:id="S_l_526">mit siheiner gwalt.</l>
+            <l n="527" xml:id="S_l_527">Do waren dar in helede balt.</l>
+            <l n="528" xml:id="S_l_528">Do si di rede vernamen,</l>
+            <l n="529" xml:id="S_l_529">ze samene si quamen.</l>
+            <l n="530" xml:id="S_l_530">Zo Alexandro si santen,</l>
+            <l n="531" xml:id="S_l_531">wande si sin niht nerkanten</l>
+            <l n="532" xml:id="S_l_532">unde hiezen ime sagen,</l>
+            <l n="533" xml:id="S_l_533">er mohte gerne gedagen,</l>
+            <l n="534" xml:id="S_l_534">wande si sin niht neforhten</l>
+            <l n="535" xml:id="S_l_535">unde ze nihte ne bedorften.</l>
+            <l n="536" xml:id="S_l_536">Doch trugen si ime willigen mut</l>
+            <l n="537" xml:id="S_l_537">unde gaben ime gerne ir gut,</l>
+            <l n="538" xml:id="S_l_538">ob erz wolde durh minne.</l>
+            <l n="539" xml:id="S_l_539">Sus sprachen si dar inne.</l>
+         </lg>
+         <lg n="40" xml:id="S_lg_40">
+            <l n="540" xml:id="S_l_540">Do der bote wider quam</l>
+            <l n="541" xml:id="S_l_541">und in Alexander vernam</l>
+            <l n="542" xml:id="S_l_542">und er ime gesagete rechte,</l>
+            <l n="543" xml:id="S_l_543">waz ime di guten knechte</l>
+            <l n="544" xml:id="S_l_544">uz von Tyren enboten,</l>
+            <l n="545" xml:id="S_l_545">von zorne begunder roten,</l>
+            <l n="546" xml:id="S_l_546">vor ungemute er nider saz.</l>
+            <l n="547" xml:id="S_l_547">Bi sime libe er sih vermaz,</l>
+            <l n="548" xml:id="S_l_548">iz gienge in allen an den leben,</l>
+            <l n="549" xml:id="S_l_549">daz si ime torsten widerstreben.</l>
+            <l n="550" xml:id="S_l_550">Er solde sih wol gerechen</l>
+            <l n="551" xml:id="S_l_551">unde ir stat zebrechen.</l>
+         </lg>
+         <lg n="41" xml:id="S_lg_41">
+            <l n="552" xml:id="S_l_552">Do nam er siner fursten dri,</l>
+            <l n="553" xml:id="S_l_553">ih neweiz niht, wi ir name si,</l>
+            <l n="554" xml:id="S_l_554">und sante si wider in di stat</l>
+            <l n="555" xml:id="S_l_555">und hiz den besten sagen daz,</l>
+            <l n="556" xml:id="S_l_556">wa si ir wisheit taten,</l>
+            <l n="557" xml:id="S_l_557">daz si in versmaten,</l>
+            <l n="558" xml:id="S_l_558">der Rome mit siner craft</l>
+            <l n="559" xml:id="S_l_559">under sih hete braht</l>
+            <l n="560" xml:id="S_l_560">und alle criechische lant</l>
+            <l n="561" xml:id="S_l_561">hete in siner hant.</l>
+            <l n="562" xml:id="S_l_562">Wes si wolden wenen,</l>
+            <l n="563" xml:id="S_l_563">durh waz er dare queme,</l>
+            <l n="564" xml:id="S_l_564">daz si sih baz bedehten,</l>
+            <l n="565" xml:id="S_l_565">si ne kanten in nit rehte.</l>
+            <l n="566" xml:id="S_l_566">Er wolde mit sinen knehten</l>
+            <l n="567" xml:id="S_l_567">ir starke stat irvehten</l>
+            <l n="568" xml:id="S_l_568">und iz ne sold in niemer gefromen,</l>
+            <l n="569" xml:id="S_l_569">iz solde in unrechte comen,</l>
+            <l n="570" xml:id="S_l_570">si ne wordin ime undertan.</l>
+            <l n="571" xml:id="S_l_571">Nu vernemet, wi iz do quam:</l>
+            <l n="572" xml:id="S_l_572">Do di boten in quamen</l>
+            <l n="573" xml:id="S_l_573">und di burgere vernamen,</l>
+            <l n="574" xml:id="S_l_574">waz di boten sageten,</l>
+            <l n="575" xml:id="S_l_575">nit langer si ne dageten:</l>
+            <l n="576" xml:id="S_l_576">Di boten si vingen,</l>
+            <l n="577" xml:id="S_l_577">schiere si sie verhingen.</l>
+         </lg>
+         <anchor xml:id="S_Alexander_proposal_to_Tyre_end"/>
+
+         <!--  ALESSANDRO ATTACCA TIRO - PRIMO ASSALTO -->
+
+         <anchor xml:id="S_Alexander_firstAttack_Tyre_start"/>
+         <lg n="42" xml:id="S_lg_42">
+            <l n="578" xml:id="S_l_578">Do daz mere uz quam</l>
+            <l n="579" xml:id="S_l_579">und iz Alexander vernam,</l>
+            <l n="580" xml:id="S_l_580">do gwan der helt gut</l>
+            <l n="581" xml:id="S_l_581">eines zurnigen lewen mut.</l>
+            <l n="582" xml:id="S_l_582">Do hiz er sin here</l>
+            <l n="583" xml:id="S_l_583">mit schiffen varen in daz mere</l>
+            <l n="584" xml:id="S_l_584">und hiz di burg al umbevan:</l>
+            <l n="585" xml:id="S_l_585">Daz wart schire getan.</l>
+            <!--  TIRO RESPINGE-->
+            <anchor xml:id="S_Tyre_pushes_back_start"/>
+            <l n="586" xml:id="S_l_586">Und alse di Tyrere</l>
+            <l n="587" xml:id="S_l_587">vernamen dise mere,</l>
+            <l n="588" xml:id="S_l_588">do schuofen si ir were</l>
+            <l n="589" xml:id="S_l_589">wider daz creftige here</l>
+            <l n="590" xml:id="S_l_590">in der burh innen</l>
+            <l n="591" xml:id="S_l_591">und giengen an di zinnen.</l>
+            <l n="592" xml:id="S_l_592">Alexander truch in ubelen danc,</l>
+            <l n="593" xml:id="S_l_593">mit sturme er si sere dwanc.</l>
+            <l n="594" xml:id="S_l_594">Und di dar inne waren,</l>
+            <l n="595" xml:id="S_l_595">das sagih u zwaren,</l>
+            <l n="596" xml:id="S_l_596">di werten ire selede</l>
+            <l n="597" xml:id="S_l_597">alse turlichen helide</l>
+            <l n="598" xml:id="S_l_598">und vohten sere her ze tale.</l>
+            <l n="599" xml:id="S_l_599">Ih wil u sagen ir zale:</l>
+            <l n="600" xml:id="S_l_600">Man zalte si da zestunt</l>
+            <l n="601" xml:id="S_l_601">me dan an hundrith tusunt.</l>
+            <l n="602" xml:id="S_l_602">Des geloube, swer so wile.</l>
+            <l n="603" xml:id="S_l_603">Si irslugen so vile</l>
+            <l n="604" xml:id="S_l_604">Alexandris heris,</l>
+            <l n="605" xml:id="S_l_605">daz di unden des meris</l>
+            <l n="606" xml:id="S_l_606">von dem blute wurden rot.</l>
+            <anchor xml:id="S_Tyre_pushes_back_end"/>
+            <l n="607" xml:id="S_l_607">Der wint, der tet in starke not,</l>
+            <l n="608" xml:id="S_l_608">wander vil stark was,</l>
+            <l n="609" xml:id="S_l_609">der selbe der da Boreas</l>
+            <l n="610" xml:id="S_l_610">in den buchen heizet</l>
+            <l n="611" xml:id="S_l_611">und di aller meist reizet</l>
+            <l n="612" xml:id="S_l_612">daz mere mit den unden.</l>
+            <l n="613" xml:id="S_l_613">Der schiffe sluch er ze grunde</l>
+            <l n="614" xml:id="S_l_614">vile, daz si versunken</l>
+            <l n="615" xml:id="S_l_615">und di lute dar in vertrunken.</l>
+            <l n="616" xml:id="S_l_616">Vil manic ouh da irslagen lach.</l>
+            <l n="617" xml:id="S_l_617">Do Alexander daz gesach,</l>
+            <l n="618" xml:id="S_l_618">des sturmes hiz er abe stan</l>
+            <l n="619" xml:id="S_l_619">und hiz balde wider gan</l>
+            <l n="620" xml:id="S_l_620">di schif in di habe,</l>
+            <l n="621" xml:id="S_l_621">ob ich rechte vernomen habe.</l>
+         </lg>
+         <anchor xml:id="S_Alexander_firstAttack_Tyre_end"/>
+
+         <!-- LA CONTROMISURA DI ALESSANDRO -->
+
+         <anchor xml:id="S_Alexander_countermeasure_start"/>
+         <lg n="43" xml:id="S_lg_43">
+            <l n="622" xml:id="S_l_622">Do clagete Alexander</l>
+            <l n="623" xml:id="S_l_623">mer dan sihein ander</l>
+            <l n="624" xml:id="S_l_624">sinen scaden groze,</l>
+            <l n="625" xml:id="S_l_625">sine liebe wicgenoze.</l>
+            <l n="626" xml:id="S_l_626">Doh moser getrosten sih</l>
+            <l n="627" xml:id="S_l_627">des scaden ummazlich,</l>
+            <l n="628" xml:id="S_l_628">wander was ein listich man.</l>
+            <l n="629" xml:id="S_l_629">Vil groze boume er gwan</l>
+            <l n="630" xml:id="S_l_630">und hiz si ze samene spannen</l>
+            <l n="631" xml:id="S_l_631">von kundigen zimbermannen</l>
+            <l n="632" xml:id="S_l_632">und hiz si mit steinen fullen.</l>
+            <l n="633" xml:id="S_l_633">Daz was an sinen willen:</l>
+            <l n="634" xml:id="S_l_634">Swanner iz gefulte vollen hoe,</l>
+            <l n="635" xml:id="S_l_635">daz er sin ebinhoe</l>
+            <l n="636" xml:id="S_l_636">dar uf zo den turmen brechte</l>
+            <l n="637" xml:id="S_l_637">und lange boume dar abe rihte,</l>
+            <l n="638" xml:id="S_l_638">di uf di zinnen mohten gan.</l>
+            <!-- PAGINA. 22, edizione M. -->
+            <pb n="22" xml:id="S_pag_22"/>
+         </lg>
+        
+      </body>
+   </text>
+</TEI>

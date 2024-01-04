@@ -37,9 +37,9 @@
       <body>
 
          <!-- FOL. 109v, fine colonna b -->
-         
+
          <pb n="109v" xml:id="V_fol_109v" facs="V_109v.jpg"/>
-            
+
          <!-- BUCEFALO -->
 
          <anchor xml:id="V_Bucephalus_start"/>
@@ -47,7 +47,8 @@
             <l n="235" xml:id="V_l_235">Von Philippus stuode wil ich iu sagen:</l>
             <l n="236" xml:id="V_l_236">dar under wart ein ros getragen,</l>
             <l n="237" xml:id="V_l_237">daz was wunderlîch.</l>
-            <pb n="110r" xml:id="V_fol_110r" facs="V_110r.jpg"/>  <!-- FOL. 110r -->
+            <pb n="110r" xml:id="V_fol_110r" facs="V_110r.jpg"/>
+            <!-- FOL. 110r -->
             <l n="238" xml:id="V_l_238">Iz was irre unt strîtich,</l>
             <l n="239" xml:id="V_l_239">snel unt ernisthaft</l>
             <l n="240" xml:id="V_l_240">fon sîner gescephte joch von sîner chraft.</l>
@@ -87,9 +88,12 @@
             <l n="267" xml:id="V_l_267">Er sprach, man solte ez noch an im ervaren,</l>
             <l n="268" xml:id="V_l_268">wem des chuniges gewalt</l>
             <l n="269" xml:id="V_l_269">nach sînem lîbe wurt fersalt.</l>
-            <l n="270" xml:id="V_l_270">Er sprach:<anchor xml:id="V_messenger_Bucephalus_start"/><said who="#messengerBucephalus" toWhom="#Philip"/>"Daz sol dem, derz alrêst
-               bescrîde,</l> <!-- LA PROFEZIA SU BUCEFALO -->
-            <l n="271" xml:id="V_l_271">wan diz nie chein man ne gerite".<anchor xml:id="V_messenger_Bucephalus_end"/></l>  
+            <l n="270" xml:id="V_l_270">Er sprach:<anchor xml:id="V_messenger_Bucephalus_start"
+                  /><said who="#messengerBucephalus" toWhom="#Philip"/>"Daz sol dem, derz alrêst
+               bescrîde,</l>
+            <!-- LA PROFEZIA SU BUCEFALO -->
+            <l n="271" xml:id="V_l_271">wan diz nie chein man ne gerite".<anchor
+                  xml:id="V_messenger_Bucephalus_end"/></l>
             <l n="272" xml:id="V_l_272">Unt als Alexander haim chom,</l>
             <l n="273" xml:id="V_l_273">algerihte er daz vernam.</l>
             <l n="274" xml:id="V_l_274">Wîs was er zummâzen.</l>
@@ -104,19 +108,25 @@
             <l n="281" xml:id="V_l_281">daz stunt in sîner tobeheit scrîen.</l>
             <l n="282" xml:id="V_l_282">Alexander sprach zen chinden,</l>
             <l n="283" xml:id="V_l_283">die mit ime uber die palize gîngen:</l>
-            <l n="284" xml:id="V_l_284"><anchor xml:id="V_Alexander_pageBoys_start"/><said who="#Alexander" toWhom="#pageBoys"/>"Ich ne weiz, waz mir scillet inz ôre,</l> <!-- ALESSANDRO SENTE BUCEFALO -->
+            <l n="284" xml:id="V_l_284"><anchor xml:id="V_Alexander_pageBoys_start"/><said
+                  who="#Alexander" toWhom="#pageBoys"/>"Ich ne weiz, waz mir scillet inz ôre,</l>
+            <!-- ALESSANDRO SENTE BUCEFALO -->
             <l n="285" xml:id="V_l_285">ez ne lât mich nieht gehôren.</l>
             <l n="286" xml:id="V_l_286">Ich ne weiz wederz ein ros oder ein lewe deot,</l>
-            <l n="287" xml:id="V_l_287">wan ez dâ in beslozzen stêt".<anchor xml:id="V_Alexander_pageBoys_end"/></l>
+            <l n="287" xml:id="V_l_287">wan ez dâ in beslozzen stêt".<anchor
+                  xml:id="V_Alexander_pageBoys_end"/></l>
          </lg>
          <lg n="26" xml:id="V_lg_26">
             <l n="288" xml:id="V_l_288">Btholomeus sprach zuo dem chinde:</l>
-            <l n="289" xml:id="V_l_289"><anchor xml:id="V_Ptolemy_introduces_Bucephalus_start"/><said who="#Ptolemy" toWhom="#Alexander"/>"Herre, ist Buzival, ein ros vil
-               swinde,</l> <!-- TOLOMEO PRESENTA BUCEFALO -->
+            <l n="289" xml:id="V_l_289"><anchor xml:id="V_Ptolemy_introduces_Bucephalus_start"
+                  /><said who="#Ptolemy" toWhom="#Alexander"/>"Herre, ist Buzival, ein ros vil
+               swinde,</l>
+            <!-- TOLOMEO PRESENTA BUCEFALO -->
             <l n="290" xml:id="V_l_290">daz hât iuwer vater în getân.</l>
             <l n="291" xml:id="V_l_291">Under der stuot ne mohte nechein bezzer gegên".</l>
             <l n="292" xml:id="V_l_292">Er sprach: "Herre, ez ne hât nehein marscalch in huote.</l>
-            <l n="293" xml:id="V_l_293">wande ez erbîzet ubele unt guote".<anchor xml:id="V_Ptolemy_introduces_Bucephalus_end"/></l> 
+            <l n="293" xml:id="V_l_293">wande ez erbîzet ubele unt guote".<anchor
+                  xml:id="V_Ptolemy_introduces_Bucephalus_end"/></l>
          </lg>
          <lg n="27" xml:id="V_lg_27">
             <l n="294" xml:id="V_l_294">Unt diz Alexander vernam,</l>
@@ -174,11 +184,16 @@
             <l n="331" xml:id="V_l_331">mit handen si sich nâmen.</l>
             <l n="332" xml:id="V_l_332">Ir rede was vil minnesam,</l>
             <l n="333" xml:id="V_l_333">als ir hie muget ferstân.</l>
-            <l n="334" xml:id="V_l_334"><anchor xml:id="V_Philip_praises_Alexander_start"/><said who="#Philip" toWhom="#Alexander"/>"Heil dich - sprach Philippus - sun mîn!</l> <!-- FILIPPO LODA ALESSANDRO -->
+            <l n="334" xml:id="V_l_334"><anchor xml:id="V_Philip_praises_Alexander_start"/><said
+                  who="#Philip" toWhom="#Alexander"/>"Heil dich - sprach Philippus - sun mîn!</l>
+            <!-- FILIPPO LODA ALESSANDRO -->
             <l n="335" xml:id="V_l_335">Mich tuncet, du solt chunich sîn.</l>
             <l n="336" xml:id="V_l_336">Der gewalt sî dir vil gereit,</l>
-            <l n="337" xml:id="V_l_337">alsô wît, sô mîn rîch gêt".<anchor xml:id="V_Philip_praises_Alexander_end"/></l> 
-            <l n="338" xml:id="V_l_338"><anchor xml:id="V_Alexander_wants_weapons_start"/><said who="#Alexander" toWhom="#Philip"/>"Heil iuch - sprach Alexander - fater mîn!</l>  <!-- ALESSANDRO CHIEDE ARMI -->
+            <l n="337" xml:id="V_l_337">alsô wît, sô mîn rîch gêt".<anchor
+                  xml:id="V_Philip_praises_Alexander_end"/></l>
+            <l n="338" xml:id="V_l_338"><anchor xml:id="V_Alexander_wants_weapons_start"/><said
+                  who="#Alexander" toWhom="#Philip"/>"Heil iuch - sprach Alexander - fater mîn!</l>
+            <!-- ALESSANDRO CHIEDE ARMI -->
             <l n="339" xml:id="V_l_339">Got lâz iuch iemer sâlich sîn!</l>
             <l n="340" xml:id="V_l_340">Alles guotes ich iu vil wol getrûwe.</l>
             <l n="341" xml:id="V_l_341">Vil lange mûzet ir iuwer rîche mit genâden bûwen!".</l>
@@ -191,11 +206,13 @@
             <l n="346" xml:id="V_l_346">Unt swer eigen tugent iemer sol gewinnen,</l>
             <l n="347" xml:id="V_l_347">der sal sîn in sîner jugende beginnen,</l>
             <l n="348" xml:id="V_l_348">unt ê seher sich sculdich,</l>
-            <l n="349" xml:id="V_l_349">nieuht versûmer sih".<anchor xml:id="V_Alexander_wants_weapons_end"/></l>
+            <l n="349" xml:id="V_l_349">nieuht versûmer sih".<anchor
+                  xml:id="V_Alexander_wants_weapons_end"/></l>
             <l n="350" xml:id="V_l_350">Der chunich, er ne wolte es newiht beiten,</l>
             <l n="351" xml:id="V_l_351">er hîz daz chint bereiten.</l>
             <l n="352" xml:id="V_l_352">Waz mage ich iu sundere gesagen?</l>
-            <pb n="110v" xml:id="V_fol_110v" facs="V_110v.jpg"/>  <!-- FOL. 110v -->
+            <pb n="110v" xml:id="V_fol_110v" facs="V_110v.jpg"/>
+            <!-- FOL. 110v -->
             <l n="353" xml:id="V_l_353">Er det im wâfen fur tragen,</l>
             <l n="354" xml:id="V_l_354">sô mans unter eines chuniges gesinden</l>
             <l n="355" xml:id="V_l_355">aller bezzest chunde finden;</l>
@@ -213,14 +230,18 @@
             <l n="365" xml:id="V_l_365">dâ er sînen vinger ûf geleite.</l>
          </lg>
          <lg n="33" xml:id="V_lg_33">
-            <l n="366" xml:id="V_l_366">Er sprach:<anchor xml:id="V_Alexander_royalTitle_start"/><said who="#Alexander" toWhom="#MacedonianSubjects"/>"Woldet ir eine wîle geruowen,</l> <!-- ALESSANDRO DISCUTE DEL TITOLO REGALE -->
+            <l n="366" xml:id="V_l_366">Er sprach:<anchor xml:id="V_Alexander_royalTitle_start"
+                  /><said who="#Alexander" toWhom="#MacedonianSubjects"/>"Woldet ir eine wîle
+               geruowen,</l>
+            <!-- ALESSANDRO DISCUTE DEL TITOLO REGALE -->
             <l n="367" xml:id="V_l_367">unze ich aine tugent maht getuon:</l>
             <l n="368" xml:id="V_l_368">an einem chunige wil ich es beginnen,</l>
             <l n="369" xml:id="V_l_369">unt mach ich den uberwinden,</l>
             <l n="370" xml:id="V_l_370">daz ich dem die chrôni abe ziehe</l>
             <l n="371" xml:id="V_l_371">unt ûz dem velde tuon geflîhen,</l>
             <l n="372" xml:id="V_l_372">sô muget ir mir chuniges namen geben,</l>
-            <l n="373" xml:id="V_l_373">alsô lange, sô ich iemer gelebe".<anchor xml:id="V_Alexander_royalTitle_end"/></l> 
+            <l n="373" xml:id="V_l_373">alsô lange, sô ich iemer gelebe".<anchor
+                  xml:id="V_Alexander_royalTitle_end"/></l>
          </lg>
          <lg n="34" xml:id="V_lg_34">
             <l n="374" xml:id="V_l_374">Ein chunich was Nycolaus genant.</l>
@@ -248,7 +269,10 @@
             <l n="389" xml:id="V_l_389">sînem fater ers ûf sazte.</l>
          </lg>
          <lg n="36" xml:id="V_lg_36">
-            <l n="390" xml:id="V_l_390">Er sprach:<anchor xml:id="V_Alexander_reproaches_Philip_start"/><said who="#Alexander" toWhom="#Philip"/>"Fater, nement tiz mit minnen,</l> <!-- ALESSANDRO RIMPROVERA FILIPPO -->
+            <l n="390" xml:id="V_l_390">Er sprach:<anchor
+                  xml:id="V_Alexander_reproaches_Philip_start"/><said who="#Alexander"
+                  toWhom="#Philip"/>"Fater, nement tiz mit minnen,</l>
+            <!-- ALESSANDRO RIMPROVERA FILIPPO -->
             <l n="391" xml:id="V_l_391">daz ich mit sturme hân gewunnen,</l>
             <l n="392" xml:id="V_l_392">unze ich es baz mach getuon:</l>
             <l n="393" xml:id="V_l_393">des habet ir êre unde ruom.</l>
@@ -261,7 +285,8 @@
             <l n="400" xml:id="V_l_400">Nû wêwn sô mir die ougen, dâ ich mit kesihe!</l>
             <l n="401" xml:id="V_l_401">Ich kedanche sîn allen den hien,</l>
             <l n="402" xml:id="V_l_402">die disen rât habent gefrumit,</l>
-            <l n="403" xml:id="V_l_403">daz er niemer zêren chumt!".<anchor xml:id="V_Alexander_reproaches_Philip_end"/></l>
+            <l n="403" xml:id="V_l_403">daz er niemer zêren chumt!".<anchor
+                  xml:id="V_Alexander_reproaches_Philip_end"/></l>
          </lg>
          <lg n="37" xml:id="V_lg_37">
             <l n="404" xml:id="V_l_404">Ein rîter hiez Lisias,</l>
@@ -275,7 +300,10 @@
             <l n="412" xml:id="V_l_412">den habet Alexander ûf der hende</l>
             <l n="413" xml:id="V_l_413">unt slûgen Lisian fur die zende,</l>
             <l n="414" xml:id="V_l_414">daz sim in sîne chelen risin.</l>
-            <l n="415" xml:id="V_l_415">Er sprach:<anchor xml:id="V_Alexander_Lysia_start"/><said who="#Alexander" toWhom="#Lysia"/>"Lâ du dîn rede wesen!".<anchor xml:id="V_Alexander_Lysia_end"/></l> <!-- ALESSANDRO LITIGA CON LISIA -->
+            <l n="415" xml:id="V_l_415">Er sprach:<anchor xml:id="V_Alexander_Lysia_start"/><said
+                  who="#Alexander" toWhom="#Lysia"/>"Lâ du dîn rede wesen!".<anchor
+                  xml:id="V_Alexander_Lysia_end"/></l>
+            <!-- ALESSANDRO LITIGA CON LISIA -->
          </lg>
          <lg n="38" xml:id="V_lg_38">
             <l n="416" xml:id="V_l_416">Der chunich ûf fon der taveln spranch,</l>
@@ -341,7 +369,8 @@
             <l n="460" xml:id="V_l_460">Nû vernement, waz ich iu hie zele:</l>
             <l n="461" xml:id="V_l_461">fur dem chunige in dem sale,</l>
             <l n="462" xml:id="V_l_462">dâ vant er boten Darios,</l>
-            <l n="463" xml:id="V_l_463">aines ge-<pb n="111r" xml:id="V_fol_111r" facs="V_111r.jpg"/><!-- FOL. 111r -->weltigen chuniges,</l>
+            <l n="463" xml:id="V_l_463">aines ge-<pb n="111r" xml:id="V_fol_111r" facs="V_111r.jpg"
+               /><!-- FOL. 111r -->weltigen chuniges,</l>
             <l n="464" xml:id="V_l_464">der den zins von sînem fater Philippus wold enfân,</l>
             <l n="465" xml:id="V_l_465">wander Dario was undertân.</l>
             <l n="466" xml:id="V_l_466">Diz was Darios, ter in Danigel stêt,</l>
@@ -362,14 +391,16 @@
             <l n="479" xml:id="V_l_479">zuo der boten gesihte.</l>
             <l n="480" xml:id="V_l_480">Des zinses er newiht galt,</l>
             <l n="481" xml:id="V_l_481">ir hêren er bôslîch scalt.</l>
-            <l n="482" xml:id="V_l_482">Er sprach: <anchor xml:id="V_Alexander_denies_tribute_start"/><said who="#Alexander" toWhom="#DariusMessengers"/>"Iuwer herre nehât anderes neheine <!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO -->
-               frumicheit,</l>
+            <l n="482" xml:id="V_l_482">Er sprach: <anchor xml:id="V_Alexander_denies_tribute_start"
+                  /><said who="#Alexander" toWhom="#DariusMessengers"/>"Iuwer herre nehât anderes
+               neheine <!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO --> frumicheit,</l>
             <l n="483" xml:id="V_l_483">wan daz er scaz uber ein ander leit.</l>
             <l n="484" xml:id="V_l_484">Er was ein harte tumb man,</l>
             <l n="485" xml:id="V_l_485">daz er zinses an uns gesan.</l>
             <l n="486" xml:id="V_l_486">Er ne wirt ime niemer gesant</l>
             <l n="487" xml:id="V_l_487">hinnen ûzer Chriechlant,</l>
-            <l n="488" xml:id="V_l_488">bî mînen zîten".<anchor xml:id="V_Alexander_denies_tribute_end"/></l>
+            <l n="488" xml:id="V_l_488">bî mînen zîten".<anchor
+                  xml:id="V_Alexander_denies_tribute_end"/></l>
             <l n="489" xml:id="V_l_489">Die boten hîz er rîten, </l>
             <l n="490" xml:id="V_l_490">ê si ersturben an der stund,</l>
             <l n="491" xml:id="V_l_491">daz sis ir herren tâten chunt:</l>
@@ -429,7 +460,11 @@
             <l n="534" xml:id="V_l_534">sprancde, dar Pausoniam gesach.</l>
             <l n="535" xml:id="V_l_535">Durh sînen bûch er stach,</l>
             <l n="536" xml:id="V_l_536">zuo der erde er in warf.</l>
-            <l n="537" xml:id="V_l_537">Er sprach: <anchor xml:id="V_Alexander_repudiates_Pausonias_start"/><said who="#Alexander" toWhom="#Pausonias"/>"Dis stiuphaters ich nieuht bedarf!".<anchor xml:id="V_Alexander_repudiates_Pausonias_end"/></l>  <!--  ALESSANDRO RIPUDIA PAUSONIA -->
+            <l n="537" xml:id="V_l_537">Er sprach: <anchor
+                  xml:id="V_Alexander_repudiates_Pausonias_start"/><said who="#Alexander"
+                  toWhom="#Pausonias"/>"Dis stiuphaters ich nieuht bedarf!".<anchor
+                  xml:id="V_Alexander_repudiates_Pausonias_end"/></l>
+            <!--  ALESSANDRO RIPUDIA PAUSONIA -->
          </lg>
          <lg n="44" xml:id="V_lg_44">
             <l n="538" xml:id="V_l_538">Alexander sprach zuo den gesinden</l>
@@ -440,9 +475,16 @@
             <l n="543" xml:id="V_l_543">die ime slûch Pausonias.</l>
             <l n="544" xml:id="V_l_544">Alsô Alexander heim chom,</l>
             <l n="545" xml:id="V_l_545">er giench fure sînen vater stân.</l>
-            <l n="546" xml:id="V_l_546">Er sprach: <anchor xml:id="V_Alexander_asks_Philip_about_revenge_start"/><said who="#Alexander" toWhom="#Philip"/>"Vater, wil du iwet sprechen,</l> <!--  ALESSANDRO CHIEDE A FILIPPO COSA FARE CON PAUSONIA -->
-            <l n="547" xml:id="V_l_547">du maht dich haizen rechen".<anchor xml:id="V_Alexander_asks_Philip_about_revenge_end"/></l>
-            <l n="548" xml:id="V_l_548">Er sprach: <anchor xml:id="V_Philip_asks_for_revenge_start"/><said who="#Philip" toWhom="#Alexander"/>"Sun, du heiz in slahen!".<anchor xml:id="V_Philip_asks_for_revenge_end"/></l> <!--  FILIPPO CHIEDE DI ESSERE VENDICATO -->
+            <l n="546" xml:id="V_l_546">Er sprach: <anchor
+                  xml:id="V_Alexander_asks_Philip_about_revenge_start"/><said who="#Alexander"
+                  toWhom="#Philip"/>"Vater, wil du iwet sprechen,</l>
+            <!--  ALESSANDRO CHIEDE A FILIPPO COSA FARE CON PAUSONIA -->
+            <l n="547" xml:id="V_l_547">du maht dich haizen rechen".<anchor
+                  xml:id="V_Alexander_asks_Philip_about_revenge_end"/></l>
+            <l n="548" xml:id="V_l_548">Er sprach: <anchor xml:id="V_Philip_asks_for_revenge_start"
+                  /><said who="#Philip" toWhom="#Alexander"/>"Sun, du heiz in slahen!".<anchor
+                  xml:id="V_Philip_asks_for_revenge_end"/></l>
+            <!--  FILIPPO CHIEDE DI ESSERE VENDICATO -->
             <l n="549" xml:id="V_l_549">Daz was vil schiere getân.</l>
             <l n="550" xml:id="V_l_550">Dar nach uber ummanegen tach</l>
             <l n="551" xml:id="V_l_551">Philippus dâ tôt lach.</l>
@@ -463,7 +505,10 @@
             <l n="559" xml:id="V_l_559">er nam sîn aller getriwisten man,</l>
             <l n="560" xml:id="V_l_560">die ime ze sîner nôte</l>
             <l n="561" xml:id="V_l_561">ie wâren einmuote.</l>
-            <l n="562" xml:id="V_l_562">Er sprah: <anchor xml:id="V_Alexander_gathers_his_men_start"/><said who="#Alexander" toWhom="#AlexandersMen"/>"Herre, wirne haben nieuth ze bîtene,</l> <!--  ALESSANDRO CHIAMA A RACCOLTA I SUOI UOMINI -->
+            <l n="562" xml:id="V_l_562">Er sprah: <anchor xml:id="V_Alexander_gathers_his_men_start"
+                  /><said who="#Alexander" toWhom="#AlexandersMen"/>"Herre, wirne haben nieuth ze
+               bîtene,</l>
+            <!--  ALESSANDRO CHIAMA A RACCOLTA I SUOI UOMINI -->
             <l n="563" xml:id="V_l_563">wir mûzen her laiten,</l>
             <l n="564" xml:id="V_l_564">Chriechlande zêren.</l>
             <l n="565" xml:id="V_l_565">Dar an gedenchent, herre,</l>
@@ -478,7 +523,8 @@
             <l n="574" xml:id="V_l_574">beidû wâfen unde gewât,</l>
             <l n="575" xml:id="V_l_575">des tuon ich ime alles guoten rât</l>
             <l n="576" xml:id="V_l_576">ân alle sîne arbeit.</l>
-            <l n="577" xml:id="V_l_577">Swer noch mit <pb n="111v" xml:id="V_fol_111v"/><!-- FOL. 111v --> mir bestêt,</l>
+            <l n="577" xml:id="V_l_577">Swer noch mit <pb n="111v" xml:id="V_fol_111v"
+               /><!-- FOL. 111v --> mir bestêt,</l>
          </lg>
          <anchor xml:id="V_Alexander_becomes_king_end"/>
 

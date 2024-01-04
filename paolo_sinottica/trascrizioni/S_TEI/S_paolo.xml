@@ -37,9 +37,9 @@
    <text xml:id="S">
 
       <body>
-         
+
          <!-- PAGINA. 18, edizione M. -->
-         
+
          <pb n="18" xml:id="S_pag_18" facs="S_18.jpg"/>
 
          <!-- BUCEFALO -->
@@ -497,7 +497,7 @@
             <!-- PAGINA. 22, edizione M. -->
             <pb n="22" xml:id="S_pag_22"/>
          </lg>
-        
+
       </body>
    </text>
 </TEI>

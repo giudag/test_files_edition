@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <text xml:id="B">
+      
+      <body>
+         
+         <!-- FOL. 28r, inizio colonna a -->
+         
+         <pb n="28r" xml:id="B_fol_28r" facs="B_28r.jpg"/>
+         
+         <!-- BUCEFALO -->
+         
+         <anchor xml:id="B_Bucephalus_start"/>
+         <lg n="5" xml:id="B_lg_5">
+            <l n="531" xml:id="B_l_531">In der selben zit,</l>
+            <l n="532" xml:id="B_l_532">des mir die gescrift urkunde git,</l>
+            <l n="533" xml:id="B_l_533">ein fürst us Kabadocyenlant</l>
+            <l n="534" xml:id="B_l_534">Pilipo ein ros sant.</l>
+            <l n="535" xml:id="B_l_535">Das was ungezamt, freislich,</l>
+            <l n="536" xml:id="B_l_536">wild und das geschœfte wunderlich:</l>
+            <l n="537" xml:id="B_l_537">es bies die liut und sluog,</l>
+            <l n="538" xml:id="B_l_538">es was tuobhaft genuog.</l>
+            <l n="539" xml:id="B_l_539">Sin mul als ein essel was,</l>
+            <l n="540" xml:id="B_l_540">vast uf geslagen sin nas;</l>
+            <l n="541" xml:id="B_l_541">sin oren woren im lang,</l>
+            <l n="542" xml:id="B_l_542">sin huobt mager und swanc,</l>
+            <l n="543" xml:id="B_l_543">sin ougen waren als ein bluot,</l>
+            <l n="544" xml:id="B_l_544">vor bescheidenheit wol behuot;</l>
+            <l n="545" xml:id="B_l_545">es mocht lœwen geschlechtte sin</l>
+            <l n="546" xml:id="B_l_546">sin hals, als ein lœwin.</l>
+            <l n="547" xml:id="B_l_547">Uf dem ruken hat es rindes har,</l>
+            <l n="548" xml:id="B_l_548">an den sitten sunderbar</l>
+            <l n="549" xml:id="B_l_549">geschaffen als ein lechbart.</l>
+            <l n="550" xml:id="B_l_550">Es was mit issen gebunden:</l>
+            <l n="551" xml:id="B_l_551">es dobt zuo allen stunden.</l>
+            <l n="552" xml:id="B_l_552">Für künig Pilipo ward es geleit:</l>
+            <l n="553" xml:id="B_l_553">als er sach sin gelegenheit,</l>
+            <!-- FILIPPO DÀ IL NOME A BUCEFALO -->
+            <l n="554" xml:id="B_l_554">er sprach:<anchor xml:id="B_Philip_names_Bucephalus_start"/><said who="#Philip"/>"Burzival es heissen sol".<anchor xml:id="B_Philip_names_Bucephalus_end"/></l>
+            <l n="555" xml:id="B_l_555">Der name geviel in allen wol.</l>
+            <l n="556" xml:id="B_l_556">Zuo im getorste nieman gan,</l>
+            <l n="557" xml:id="B_l_557">wand wer die schulde hat getan,</l>
+            <l n="558" xml:id="B_l_558">das im verteilet was das leben:</l>
+            <l n="559" xml:id="B_l_559">der ward dem ros denne gegeben,</l>
+            <l n="560" xml:id="B_l_560">wond es sin niut enspart,</l>
+            <l n="561" xml:id="B_l_561">er wart von im zerzart.</l>
+            <l n="562" xml:id="B_l_562">Es woltte nur essen liut:</l>
+            <l n="563" xml:id="B_l_563">wer im kam so nache iut,</l>
+            <l n="564" xml:id="B_l_564">das es in mocht gevachen,</l>
+            <l n="565" xml:id="B_l_565">des dot muost sich do nachen.</l>
+         </lg>
+         
+         <lg n="6" xml:id="B_lg_6">
+            <l n="566" xml:id="B_l_566">Da nach in kurzen tagen,</l>
+            <l n="567" xml:id="B_l_567">Pilipo begonden wissagen</l>
+            <l n="568" xml:id="B_l_568">die gœtter all gemein,</l>
+            <l n="569" xml:id="B_l_569">das in der weltte mœnschs dehein</l>
+            <l n="570" xml:id="B_l_570">das selb ros soltte ritten</l>
+            <l n="571" xml:id="B_l_571">und überschritten,</l>
+            <l n="572" xml:id="B_l_572">denne der das künkerich</l>
+            <l n="573" xml:id="B_l_573">nach im besiczen soltte gewalttenklich</l>
+            <l n="574" xml:id="B_l_574">und nach sinem dote</l>
+            <l n="575" xml:id="B_l_575">solt wessen her.</l>
+            <l n="576" xml:id="B_l_576">Do der küng das vernam,</l>
+            <l n="577" xml:id="B_l_577">vil ser er sin erkam:</l>
+            <l n="578" xml:id="B_l_578">ich enweis, ob es im lieb wer,</l>
+            <l n="579" xml:id="B_l_579">oder ob es im brechtte swer.</l>
+            <l n="580" xml:id="B_l_580">Alexander was us gewessen</l>
+            <l n="581" xml:id="B_l_581">und was <!-- FOL. 28v --><pb n="28v" xml:id="B_fol_28v" facs="B_28v.jpg"/> ein küng userlesen</l>
+            <l n="582" xml:id="B_l_582">und an kreftten niut las.</l>
+            <l n="583" xml:id="B_l_583">Uf zwenzig jor alt er was,</l>
+            <l n="584" xml:id="B_l_584">do kam er wider hein</l>
+            <l n="585" xml:id="B_l_585">und bedorfte meisterschaft enkein.</l>
+            <l n="586" xml:id="B_l_586">Er hat noch niut vernomen,</l>
+            <l n="587" xml:id="B_l_587">wie das ros dar was komen.</l>
+            <l n="588" xml:id="B_l_588">Eins tages fuogt sich das,</l>
+            <l n="589" xml:id="B_l_589">das er uf dem palas sas,</l>
+            <l n="590" xml:id="B_l_590">do hort er winhellen das ros.</l>
+            <!-- ALESSANDRO SENTE BUCEFALO -->
+            <l n="591" xml:id="B_l_591">Zuo den sinen sprach er:<anchor xml:id="B_Alexander_pageBoys_start"/><said who="#Alexander" toWhom="#pageBoys"/>"Losa, los:</l>
+            <l n="592" xml:id="B_l_592">was schalles mag das sin,</l>
+            <l n="593" xml:id="B_l_593">das so lut hilt in die oren min?</l>
+            <l n="594" xml:id="B_l_594">Ob es ros oder leow tuot,</l>
+            <l n="595" xml:id="B_l_595">des ist veriret mir min muot".<anchor xml:id="B_Alexander_pageBoys_end"/></l>
+            <l n="596" xml:id="B_l_596">Do sprach Potolomeus zuo dem kint:</l>
+            <!-- TOLOMEO PRESENTA BUCEFALO -->
+            <l n="597" xml:id="B_l_597"><anchor xml:id="B_Ptolemy_introduces_Bucephalus_start"/><said who="#Ptolemy" toWhom="#Alexander"/>"Her, es ist ein ros geswind,</l>
+            <l n="598" xml:id="B_l_598">das mit unsitte lebet alle moll</l>
+            <l n="599" xml:id="B_l_599">und ist geheissen Bucival:</l>
+            <l n="600" xml:id="B_l_600">das hat iuwer vatter in getan.</l>
+            <l n="601" xml:id="B_l_601">Kein stuot mag sœlichs niut gehan,</l>
+            <l n="602" xml:id="B_l_602">kein marschalk hat es in siner huot,</l>
+            <l n="603" xml:id="B_l_603">wand es bisset übel und guot.</l>
+            <l n="604" xml:id="B_l_604">Here, ich dir niut vertagen,</l>
+            <l n="605" xml:id="B_l_605">ein teil siner wis sagen:</l>
+            <l n="606" xml:id="B_l_606">wer im kunt so nache,</l>
+            <l n="607" xml:id="B_l_607">das es in mag gevahen,</l>
+            <l n="608" xml:id="B_l_608">der wirt niut lenger gespart,</l>
+            <l n="609" xml:id="B_l_609">er wirt vil klein zerzart".<anchor xml:id="B_Ptolemy_introduces_Bucephalus_end"/></l>
+            <l n="610" xml:id="B_l_610">Do Allexander das vernan,</l>
+            <l n="611" xml:id="B_l_611">vil balde er zuo dem stalle kan.</l>
+            <l n="612" xml:id="B_l_612">Er hies die knechte springen,</l>
+            <l n="613" xml:id="B_l_613">die slüssel balde bringen.</l>
+            <l n="614" xml:id="B_l_614">Si begonden alle fliechen.</l>
+            <l n="615" xml:id="B_l_615">Sy forchten, das er si hies her us ziehen:</l>
+            <l n="616" xml:id="B_l_616">des er sy wol erlies! Sy sprachen:<anchor xml:id="B_stableBoys_Alexander_start"/><said who="#stableBoys" toWhom="#Alexander"/>"Her zürnen niut,</l>
+            <!-- GLI STALLIERI PARLANO DI BICEFALO AD ALESSANDRO -->
+            <l n="617" xml:id="B_l_617">wir kenen wol des ros sit:</l>
+            <l n="618" xml:id="B_l_618">es lept niut als küen ein man,</l>
+            <l n="619" xml:id="B_l_619">der zuo dem ros türe gan".<anchor xml:id="B_stableBoys_Alexander_end"/></l>
+            <l n="620" xml:id="B_l_620">Do er ir zagheit ersach,</l>
+            <l n="621" xml:id="B_l_621">vor zorne die tür er brach,</l>
+            <l n="622" xml:id="B_l_622">er det ir mit dem fuos ein stos,</l>
+            <l n="623" xml:id="B_l_623">das die türe in den stal schos.</l>
+            <l n="624" xml:id="B_l_624">Er hies sy alle hœcher stan,</l>
+            <l n="625" xml:id="B_l_625">er wolt allein hin in gan.</l>
+            <l n="626" xml:id="B_l_626">Das ros woltte gegen im varn:</l>
+            <l n="627" xml:id="B_l_627">als es in begunde an- <!-- FOL. 29r --><pb n="29r" xml:id="B_fol_29r" facs="B_29r.jpg"/>starn,</l>
+            <l n="628" xml:id="B_l_628">von siner gesicht es erschrak,</l>
+            <l n="629" xml:id="B_l_629">as alle sin freidikeit gelag.</l>
+            <l n="630" xml:id="B_l_630">Es erzittret an der stund</l>
+            <l n="631" xml:id="B_l_631">und wadlet mit dem swancz als ein hunt:</l>
+            <l n="632" xml:id="B_l_632">es kniuwete vor im nider</l>
+            <l n="633" xml:id="B_l_633">und det kein frediket sider.</l>
+            <l n="634" xml:id="B_l_634">Das ros begond er streichen,</l>
+            <l n="635" xml:id="B_l_635">das nie man mocht erweichen</l>
+            <l n="636" xml:id="B_l_636">und nie zoum an is kam.</l>
+            <gap/>
+            <l n="637" xml:id="B_l_637">Gar kuntlich ward sin gedank:</l>
+            <l n="638" xml:id="B_l_638">uf das ros er sprang,</l>
+            <l n="639" xml:id="B_l_639">er reit es us dem stal:</l>
+            <l n="640" xml:id="B_l_640">das duchtte sy wunder all.</l>
+            <anchor xml:id="B_Bucephalus_end"/>
+            
+            <!-- ALESSANDRO CHIEDE L'INVESTITURA - PRIMA IMPRESA DI ALESSANDRO -->
+            
+            <anchor xml:id="B_Alexander_firstDeed_start"/>
+            <l n="641" xml:id="B_l_641">Ein bot iltte dem kunge sagen</l>
+            <l n="642" xml:id="B_l_642">und woltte niut vertagen.</l>
+            <l n="643" xml:id="B_l_643">Mit sinem gesind er gein im gie,</l>
+            <l n="644" xml:id="B_l_644">sin hercz des gros früed enpfey.</l>
+            <l n="645" xml:id="B_l_645">Als Allexander das vernam,</l>
+            <l n="646" xml:id="B_l_646">das der küng gegen im kam,</l>
+            <l n="647" xml:id="B_l_647">vom rosse er do sprang und gieng.</l>
+            <l n="648" xml:id="B_l_648">Vestyana das ros enpfieng,</l>
+            <l n="649" xml:id="B_l_649">das ward ze stund gezemet hie.</l>
+            <l n="650" xml:id="B_l_650">Sin vatter in wol enpfie.</l>
+            <!-- FILIPPO LODA ALESSANDRO -->
+            <l n="651" xml:id="B_l_651">Er sprach:<anchor xml:id="B_Philip_praises_Alexander_start"/><said who="#Philip" toWhom="#Alexander"/>"Heil si dir, sun min,</l>
+            <l n="652" xml:id="B_l_652">nach mir solt du küng sin". <anchor xml:id="B_Philip_praises_Alexander_end"/></l>
+            <!-- ALESSANDRO CHIEDE ARMI -->
+            <l n="653" xml:id="B_l_653"><anchor xml:id="B_Alexander_wants_weapons_start"/><said who="#Alexander" toWhom="#Philip"/>"Heil mües iuch ouch sin",</l>
+            <l n="654" xml:id="B_l_654">sprach Allexander, "vatter min. </l>
+            <l n="655" xml:id="B_l_655">Vatter und her, ich han gezalt,</l>
+            <l n="656" xml:id="B_l_656">das ich bin zweinzig jor alt</l>
+            <l n="657" xml:id="B_l_657">und bin komen zuo den tagen,</l>
+            <l n="658" xml:id="B_l_658">das ich wol waffen mœchtte tragen. </l>
+            <l n="659" xml:id="B_l_659">Ir sœllent mir gebietten,</l>
+            <l n="660" xml:id="B_l_660">ich wil mich arbeitten</l>
+            <l n="661" xml:id="B_l_661">in allen iuweren landen,</l>
+            <l n="662" xml:id="B_l_662">ich getriuw mit minen handen</l>
+            <l n="663" xml:id="B_l_663">den zins gewinen in kurczer frist,</l>
+            <l n="664" xml:id="B_l_664">der uns uncz her ussen ist".<anchor xml:id="B_Alexander_wants_weapons_end"/></l>
+            <l n="665" xml:id="B_l_665">Er hies im waffen dar tragen</l>
+            <l n="666" xml:id="B_l_666">und einen schilt wol beslagen.</l>
+            <l n="667" xml:id="B_l_667">Da er nach des landes siten</l>
+            <l n="668" xml:id="B_l_668">was gewaffnet und geritten, </l>
+            <l n="669" xml:id="B_l_669">do schein er ein küner degen bald, </l>
+            <l n="670" xml:id="B_l_670">des ouch menger helt sid engalt</l>
+            <l n="671" xml:id="B_l_671">mit manheit vil geswind.</l>
+            <l n="672" xml:id="B_l_672">Alles hofgesind</l>
+            <l n="673" xml:id="B_l_673">als einen küng ertten in.</l>
+            <gap/>
+            <!-- ALESSANDRO DISCUTE DEL TITOLO REGALE -->
+            <l n="674" xml:id="B_l_674">Er sprach:<anchor xml:id="B_Alexander_royalTitle_start"/><said who="#Alexander" toWhom="#MacedonianSubjects"/>"Wellent
+               <!-- FOL. 29v --><pb n="29v" xml:id="B_fol_29v" facs="B_29v.jpg"/> ir ein wille
+               ruowe han,</l>
+            <l n="675" xml:id="B_l_675">bis ich einen strit mœchtte began</l>
+            <l n="676" xml:id="B_l_676">mit einem küng, den ich meine,</l>
+            <l n="677" xml:id="B_l_677">und wer er hert als ein steine,</l>
+            <l n="678" xml:id="B_l_678">ich wil es mit im beginen:</l>
+            <l n="679" xml:id="B_l_679">mag ich den sig gewinen,</l>
+            <l n="680" xml:id="B_l_680">das ich in werffe uf die pan,</l>
+            <l n="681" xml:id="B_l_681">so muos er die krone mir lan;</l>
+            <l n="682" xml:id="B_l_682">so den, so lon ich mir min leben</l>
+            <l n="683" xml:id="B_l_683">künges namen geben".<anchor xml:id="B_Alexander_royalTitle_end"/></l>
+         </lg>
+         
+         <lg n="7" xml:id="B_lg_7">
+            <l n="684" xml:id="B_l_684">Der küng was Niklaus genant.</l>
+            <l n="685" xml:id="B_l_685">Alexander fuor in sin lant.</l>
+            <l n="686" xml:id="B_l_686">Vor Zesarya, der grossen stat,</l>
+            <l n="687" xml:id="B_l_687">det er in des lebens mat:</l>
+            <l n="688" xml:id="B_l_688">mit stritte nam er den sig all da,</l>
+            <l n="689" xml:id="B_l_689">sin krone fuort er danen do.</l>
+            <l n="690" xml:id="B_l_690">Das lant ward im undertan.</l>
+            <anchor xml:id="B_Alexander_firstDeed_end"/>
+            
+            <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
+            
+            <anchor xml:id="B_Alexander_Cleopatra_start"/>
+            <l n="691" xml:id="B_l_691">Do er nu wider hein kan,</l>
+            <l n="692" xml:id="B_l_692">do hort er sœliche mer,</l>
+            <l n="693" xml:id="B_l_693">die im woren swer:</l>
+            <l n="694" xml:id="B_l_694">sin vatter, küng Pilipus,</l>
+            <l n="695" xml:id="B_l_695">hat entseczet von sinem hus</l>
+            <l n="696" xml:id="B_l_696">sin muotter, die küngin.</l>
+            <l n="697" xml:id="B_l_697">Nach etlicher rat und sin,</l>
+            <l n="698" xml:id="B_l_698">hat er ein ander wip genomen</l>
+            <l n="699" xml:id="B_l_699">und was uf di zit komen,</l>
+            <l n="700" xml:id="B_l_700">das im der hochzit gezam.</l>
+            <l n="701" xml:id="B_l_701">Cleopatra was ir nam.</l>
+            <l n="702" xml:id="B_l_702">Alexander gie ze hant,</l>
+            <l n="703" xml:id="B_l_703">da er sinen vater vant</l>
+            <l n="704" xml:id="B_l_704">ob dem tische siczen schon.</l>
+            <l n="705" xml:id="B_l_705">Er nam die erfochten kron</l>
+            <l n="706" xml:id="B_l_706">und saczte sy uf sins vatter houbt eben.</l>
+            <!-- ALESSANDRO RIMPROVERA FILIPPO -->
+            <l n="707" xml:id="B_l_707">:<anchor xml:id="B_Alexander_reproaches_Philip_start"/><said who="#Alexander" toWhom="#Philip"/>"Das land si iuch da zuo gegeben",</l>
+            <l n="708" xml:id="B_l_708">sprach er zuo dem vatter sa,</l>
+            <l n="709" xml:id="B_l_709">"das han ich ervochten do.</l>
+            <l n="710" xml:id="B_l_710">Das land iuch versmohen nicht,</l>
+            <l n="711" xml:id="B_l_711">ich bessers won das geschicht.</l>
+            <l n="712" xml:id="B_l_712">Eins dinges trag ich üblen muot,</l>
+            <l n="713" xml:id="B_l_713">mich dunket das niut guot:</l>
+            <l n="714" xml:id="B_l_714">das ir min muotter wellent lan.</l>
+            <l n="715" xml:id="B_l_715">Sy überhügen, ist bœs getan.</l>
+            <l n="716" xml:id="B_l_716">Die rede stet als si nun ste:</l>
+            <l n="717" xml:id="B_l_717">essent, ich sol iuch niut sagen mee.</l>
+            <l n="718" xml:id="B_l_718">Doch samer min ougen,</l>
+            <l n="719" xml:id="B_l_719">ich sprich das ane luogen.</l>
+            <l n="720" xml:id="B_l_720">Ich dank sin allen den,</l>
+            <l n="721" xml:id="B_l_721">die iuch den rat hant gegeben:</l>
+            <l n="722" xml:id="B_l_722">das si geratten niemer mer</l>
+            <l n="723" xml:id="B_l_723">keiner küngin an ir er".<anchor xml:id="B_Alexander_reproaches_Philip_end"/></l>
+            <l n="724" xml:id="B_l_724">Das hort ein graffe, hies Lisyas,</l>
+            <l n="725" xml:id="B_l_725">der gar stolcz <!-- FOL. 30r --><pb n="30r" xml:id="B_fol_30r"/> und redhaft was.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

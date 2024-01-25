@@ -21,6 +21,10 @@
    <text xml:id="S">
 
       <body>
+         
+         <!-- PAGINA. 18, edizione M. -->
+         
+         <pb n="18" xml:id="S_pag_18" facs="S_18.jpg"/>
 
          <!-- BUCEFALO -->
 
@@ -74,6 +78,8 @@
          <lg n="25" xml:id="S_lg_25">
             <l n="307" xml:id="S_l_307">Deme kuninge wart ein bote do gesant</l>
             <l n="308" xml:id="S_l_308">von deme, der daz ros het erkant,</l>
+            <!-- PAGINA. 19, edizione M. -->
+            <pb n="19" xml:id="S_pag_19" facs="S_19.jpg"/>
             <l n="309" xml:id="S_l_309">und hiz iz sint baz bewarn,</l>
             <l n="310" xml:id="S_l_310">wande man solde dar an irvarn, </l>
             <l n="311" xml:id="S_l_311">weme nah sinem libe</l>
@@ -103,7 +109,7 @@
          </lg>
          <lg n="27" xml:id="S_lg_27">
             <l n="333" xml:id="S_l_333">Zo Vestiane er do sprah:</l>
-            <l n="334" xml:id="S_l_334"><anchor xml:id="S_Alexander_Vestian_start"/><said who="#Alexander" toWhom="#Vestian"/>"Nu sage mir, waz daz sin mach,</l>  <!-- ALESSANDRO SENTE BUCEFALO -->
+            <l n="334" xml:id="S_l_334"><anchor xml:id="S_Alexander_Vestian_start"/><said who="#Alexander" toWhom="#Vestian"/>"Nu sage mir, waz daz sin mach,</l>  <!-- ALESSANDRO SENTE BUCEFALO - PARLA CON EFESTIONE -->
             <l n="335" xml:id="S_l_335">daz mir schillit in mine oren</l>
             <l n="336" xml:id="S_l_336">und ne lazit mich nith gehoren.</l>
             <l n="337" xml:id="S_l_337">Iz gebarit freisliche,</l>
@@ -203,6 +209,8 @@
             <l n="416" xml:id="S_l_416">wil er iht derwider streben,</l>
             <l n="417" xml:id="S_l_417">der muz en dir mit scanden</l>
             <l n="418" xml:id="S_l_418">senden von sinen landen</l>
+            <!-- PAGINA. 20, edizione M. -->
+            <pb n="20" xml:id="S_pag_20" facs="S_20.jpg"/>
             <l n="419" xml:id="S_l_419">und ouh lasterliche".<anchor xml:id="S_Alexander_wants_weapons_end"/></l>
             <l n="420" xml:id="S_l_420">Do ne wolde der kuninc riche</l>
             <l n="421" xml:id="S_l_421">niwit langer beiten:</l>
@@ -332,6 +340,8 @@
             <l n="521" xml:id="S_l_521">er sagetin, daz er solde</l>
             <l n="522" xml:id="S_l_522">ir lant zevoren</l>
             <l n="523" xml:id="S_l_523">und ire stat zestoren,</l>
+            <!-- PAGINA. 21, edizione M. -->
+            <pb n="21" xml:id="S_pag_21" facs="S_21.jpg"/>
             <l n="524" xml:id="S_l_524">unde nemen in allen daz leben,</l>
             <l n="525" xml:id="S_l_525">ob si ime wolden widerstreben</l>
             <l n="526" xml:id="S_l_526">mit siheiner gwalt.</l>
@@ -468,6 +478,8 @@
             <l n="636" xml:id="S_l_636">dar uf zo den turmen brechte</l>
             <l n="637" xml:id="S_l_637">und lange boume dar abe rihte,</l>
             <l n="638" xml:id="S_l_638">di uf di zinnen mohten gan.</l>
+            <!-- PAGINA. 22, edizione M. -->
+            <pb n="22" xml:id="S_pag_22"/>
             <l n="639" xml:id="S_l_639">Mit nide wolder si bestan.</l>
          </lg>
          <lg n="44" xml:id="S_lg_44">
@@ -1339,7 +1351,7 @@
             <l n="1355" xml:id="S_l_1355">und manet uwer gesellen,</l>
             <l n="1356" xml:id="S_l_1356">daz si diz here irschellen,</l>
             <l n="1357" xml:id="S_l_1357">wandir ein ture knec ht sit.</l>
-            <l n="1358" xml:id="S_l_1358">Nu reget daz swert, des ist zit".<anchor xml:id="S_knight_encouragement_end"/</l>
+            <l n="1358" xml:id="S_l_1358">Nu reget daz swert, des ist zit".<anchor xml:id="S_knight_encouragement_end"/></l>
          </lg>
          <anchor xml:id="S_knight_helps_Alexander_end"/>
          

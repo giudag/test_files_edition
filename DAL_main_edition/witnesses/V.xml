@@ -21,6 +21,10 @@
    <text xml:id="V">
 
       <body>
+         
+         <!-- FOL. 109v, fine colonna b -->
+         
+         <pb n="109v" xml:id="V_fol_109v" facs="V_109v.jpg"/>
 
          <!-- BUCEFALO -->
 
@@ -29,6 +33,8 @@
             <l n="235" xml:id="V_l_235">Von Philippus stuode wil ich iu sagen:</l>
             <l n="236" xml:id="V_l_236">dar under wart ein ros getragen,</l>
             <l n="237" xml:id="V_l_237">daz was wunderlîch.</l>
+            <pb n="110r" xml:id="V_fol_110r" facs="V_110r.jpg"/>
+            <!-- FOL. 110r -->
             <l n="238" xml:id="V_l_238">Iz was irre unt strîtich,</l>
             <l n="239" xml:id="V_l_239">snel unt ernisthaft</l>
             <l n="240" xml:id="V_l_240">fon sîner gescephte joch von sîner chraft.</l>
@@ -176,6 +182,8 @@
             <l n="350" xml:id="V_l_350">Der chunich, er ne wolte es newiht beiten,</l>
             <l n="351" xml:id="V_l_351">er hîz daz chint bereiten.</l>
             <l n="352" xml:id="V_l_352">Waz mage ich iu sundere gesagen?</l>
+            <pb n="110v" xml:id="V_fol_110v" facs="V_110v.jpg"/>
+            <!-- FOL. 110v -->
             <l n="353" xml:id="V_l_353">Er det im wâfen fur tragen,</l>
             <l n="354" xml:id="V_l_354">sô mans unter eines chuniges gesinden</l>
             <l n="355" xml:id="V_l_355">aller bezzest chunde finden;</l>
@@ -321,7 +329,8 @@
             <l n="460" xml:id="V_l_460">Nû vernement, waz ich iu hie zele:</l>
             <l n="461" xml:id="V_l_461">fur dem chunige in dem sale,</l>
             <l n="462" xml:id="V_l_462">dâ vant er boten Darios,</l>
-            <l n="463" xml:id="V_l_463">aines geweltigen chuniges,</l>
+            <l n="463" xml:id="V_l_463">aines ge-<pb n="111r" xml:id="V_fol_111r" facs="V_111r.jpg"
+            /><!-- FOL. 111r -->weltigen chuniges,</l>
             <l n="464" xml:id="V_l_464">der den zins von sînem fater Philippus wold enfân,</l>
             <l n="465" xml:id="V_l_465">wander Dario was undertân.</l>
             <l n="466" xml:id="V_l_466">Diz was Darios, ter in Danigel stêt,</l>
@@ -458,7 +467,8 @@
             <l n="574" xml:id="V_l_574">beidû wâfen unde gewât,</l>
             <l n="575" xml:id="V_l_575">des tuon ich ime alles guoten rât</l>
             <l n="576" xml:id="V_l_576">ân alle sîne arbeit.</l>
-            <l n="577" xml:id="V_l_577">Swer noch mit mir bestêt,</l>
+            <l n="577" xml:id="V_l_577">Swer noch mit <pb n="111v" xml:id="V_fol_111v"
+            /><!-- FOL. 111v --> mir bestêt,</l>
             <l n="578" xml:id="V_l_578">deme teilich lîb unde guot</l>
             <l n="579" xml:id="V_l_579">unde trage ime imer willigen muot".<anchor xml:id="V_Alexander_gathers_his_men_end"/></l>
             <l n="580" xml:id="V_l_580">Unde als er diz gesagete,</l>

@@ -59,7 +59,7 @@
 
       <!-- guarda spanGrp: può stare anche dentro <span> -->
       
-      <!-- STEPS: finire S con discorsi diretti, sotto-unità e parte mancante; fare B -->
+      <!-- STEPS: S sotto-unità e parte mancante; fare B -->
 
 
 
@@ -338,16 +338,36 @@
 
          <!-- BUCEFALO -->
          <span type="episode" from="#S_Bucephalus_start" to="#S_Bucephalus_end"
-            xml:id="S_Bucephalus" corresp="#V_Bucephalus #B_Bucephalus" ana="#Bucephalus">Alexander tames the horse Bucephalus</span>
+            xml:id="S_Bucephalus" corresp="#V_Bucephalus #B_Bucephalus" ana="#Bucephalus"><!-- ALESSANDRO SENTE BUCEFALO - PARLA CON EFESTIONE --><span
+               type="direct_speech" from="#S_Alexander_Vestian_start"
+               to="#S_Alexander_Vestian_end" xml:id="S_Alexander_Vestian"
+               corresp="#B_Alexander_Vestian" ana="#Alexander_Vestian"></span><!-- TOLOMEO PRESENTA BUCEFALO --><span
+                     type="direct_speech" from="#S_Ptolemy_introduces_Bucephalus_start"
+                     to="#S_Ptolemy_introduces_Bucephalus_end" xml:id="S_Ptolemy_introduces_Bucephalus"
+                     corresp="#V_Ptolemy_introduces_Bucephalus #B_Ptolemy_introduces_Bucephalus"></span>Alexander tames the horse Bucephalus</span>
          <!-- ALESSANDRO CHIEDE L'INVESTITURA - PRIMA IMPRESA DI ALESSANDRO -->
          <span type="episode" from="#S_Alexander_firstDeed_start" to="#S_Alexander_firstDeed_end"
             xml:id="S_Alexander_firstDeed" corresp="#V_Alexander_firstDeed #B_Alexander_firstDeed" ana="#Alexander_firstDeed"
-               >Alexander takes up arms for the first
+            ><!-- FILIPPO LODA ALESSANDRO --><span
+               type="direct_speech" from="#S_Philip_praises_Alexander_start"
+               to="#S_Philip_praises_Alexander_end" xml:id="S_Philip_praises_Alexander"
+               corresp="#V_Philip_praises_Alexander #B_Philip_praises_Alexander"></span><!-- ALESSANDRO CHIEDE ARMI --><span
+                  type="direct_speech" from="#S_Alexander_wants_weapons_start"
+                  to="#S_Alexander_wants_weapons_end" xml:id="S_Alexander_wants_weapons"
+                  corresp="#V_Alexander_wants_weapons #B_Alexander_wants_weapons"></span><!-- ALESSANDRO DISCUTE DEL TITOLO REGALE --><span type="direct_speech"
+                     from="#S_Alexander_royalTitle_start" to="#S_Alexander_royalTitle_end"
+                     xml:id="S_Alexander_royalTitle"
+                     corresp="#V_Alexander_royalTitle #B_Alexander_royalTitle"></span>Alexander takes up arms for the first
             time</span>
          <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
          <span type="episode" from="#S_Alexander_Cleopatra_start" to="#S_Alexander_Cleopatra_end"
             xml:id="S_Alexander_Cleopatra" corresp="#V_Alexander_Cleopatra #B_Alexander_Cleopatra" ana="#Alexander_Cleopatra"
-               >Alexander confronts his father about him
+            ><!-- ALESSANDRO RIMPROVERA FILIPPO --><span
+               type="direct_speech" from="#S_Alexander_reproaches_Philip_start"
+               to="#S_Alexander_reproaches_Philip_end" xml:id="S_Alexander_reproaches_Philip"
+               corresp="#V_Alexander_reproaches_Philip #B_Alexander_reproaches_Philip"></span><!-- ALESSANDRO LITIGA CON LISIA --><span
+                  type="direct_speech" from="#S_Alexander_Lysia_start" to="#S_Alexander_Lysia_end"
+                  xml:id="S_Alexander_Lysia" corresp="#V_Alexander_Lysia #B_Alexander_Lysia"></span>Alexander confronts his father about him
             betraying his mother</span>
          <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
          <span type="episode" from="#S_Alexander_proposal_to_Tyre_start"
@@ -410,8 +430,10 @@
             to the city</span>
          <!-- I DONI DI DARIO  -->
          <span type="episode" from="#S_Darius_gifts_start" to="#S_Darius_gifts_end"
-            xml:id="S_Darius_gifts" corresp="#V_Darius_gifts #B_Darius_gifts" ana="#Darius_gifts">Darius sends Alexander a letter and three mocking
-            gifts</span>
+            xml:id="S_Darius_gifts" corresp="#V_Darius_gifts #B_Darius_gifts" ana="#Darius_gifts"><!--  DARIO INSULTA ALESSANDRO --><span
+               type="direct_speech" from="#S_Darius_TyreSurvivor_start"
+               to="#S_Darius_TyreSurvivor_end" xml:id="S_Darius_TyreSurvivor"
+               corresp="#B_Darius_TyreSurvivor" ana="#Darius_TyreSurvivor"></span>TRADUZIONE PER NOTA</span>
          <!-- LA RISPOSTA DI ALESSANDRO  -->
          <span type="episode" from="#S_Alexander_reaction_start" to="#S_Alexander_reaction_end"
             xml:id="S_Alexander_reaction" corresp="#V_Alexander_reaction #B_Alexander_reaction" ana="#Alexander_reaction"><!-- I MESSAGGERI DI DARIO IMPLORANO PIETÀ  --><span
@@ -517,7 +539,7 @@
             lands</span>
 
 
-
+         </spanGrp>
 
 
 
@@ -536,7 +558,7 @@
          <span from="#B_Alexander_firstDeed_start" to="#B_Alexander_firstDeed_end" xml:id="B_Alexander_firstDeed"
             corresp="#V_Alexander_firstDeed #S_Alexander_firstDeed"><ref target="#Alexander_firstDeed"/>Alexander takes up arms for the first time</span>  -->
 
-      </spanGrp>
+      
 
 
 

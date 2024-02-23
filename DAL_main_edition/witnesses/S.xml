@@ -17,6 +17,47 @@
       </fileDesc>
    </teiHeader>
 
+   <facsimile xml:id="S_scans">
+      <surface corresp="#S_pag_18" xml:id="S_surf_18">
+         <graphic url="data/images/single/S_18.jpg" width="932px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_19" xml:id="S_surf_19">
+         <graphic url="data/images/single/S_19.jpg" width="973px" height="1539px"/>
+      </surface>
+      <surface corresp="#S_pag_20" xml:id="S_surf_20">
+         <graphic url="data/images/single/S_20.jpg" width="941px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_21" xml:id="S_surf_21">
+         <graphic url="data/images/single/S_21.jpg" width="964px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_22" xml:id="S_surf_22">
+         <graphic url="data/images/single/S_22.jpg" width="964px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_23" xml:id="S_surf_23">
+         <graphic url="data/images/single/S_23.jpg" width="964px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_24" xml:id="S_surf_24">
+         <graphic url="data/images/single/S_24.jpg" width="964px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_25" xml:id="S_surf_25">
+         <graphic url="data/images/single/S_25.jpg" width="964px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_26" xml:id="S_surf_26">
+         <graphic url="data/images/single/S_26.jpg" width="964px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_27" xml:id="S_surf_27">
+         <graphic url="data/images/single/S_27.jpg" width="964px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_28" xml:id="S_surf_28">
+         <graphic url="data/images/single/S_28.jpg" width="964px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_29" xml:id="S_surf_29">
+         <graphic url="data/images/single/S_29.jpg" width="964px" height="1578px"/>
+      </surface>
+      <surface corresp="#S_pag_30" xml:id="S_surf_30">
+         <graphic url="data/images/single/S_30.jpg" width="964px" height="1578px"/>
+      </surface>
+   </facsimile>
 
    <text xml:id="S">
 
@@ -566,10 +607,8 @@
             <l n="708" xml:id="S_l_708">Do vant man si an des meres grunt,</l>
             <l n="709" xml:id="S_l_709">di quamen wider uz gesunt.</l>
          </lg>
-         <anchor xml:id="S_Tyre_revenge_end"/>
-         
-         <!-- ??????? TRADUZIONE-->
-         
+         <!-- LE PERDITE DI ALESSANDRO -->
+         <anchor xml:id="S_Alexander_losses_start"/>
          <lg n="47" xml:id="S_lg_47">
             <l n="710" xml:id="S_l_710">Do daz castel zebrochen wart,</l>
             <l n="711" xml:id="S_l_711">do hub sih da ein sturm hart.</l>
@@ -597,7 +636,9 @@
             <l n="733" xml:id="S_l_733">mit einer gewafinder schare.</l>
             <l n="734" xml:id="S_l_734">Do entwichen ime di gaste</l>
             <l n="735" xml:id="S_l_735">in di burch vaste.</l>
+            <anchor xml:id="S_Alexander_losses_end"/>
          </lg>
+         <anchor xml:id="S_Tyre_revenge_end"/>
          
          <!-- ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->
          
@@ -1056,8 +1097,7 @@
             <l n="1110" xml:id="S_l_1110">zehenzic tusint wolder bringen</l>
             <l n="1111" xml:id="S_l_1111">ubir daz wazzer Eufraten</l>
             <l n="1112" xml:id="S_l_1112">vor di mere Babylonien.</l>
-            <l n="1113" xml:id="S_l_1113">Er sprah: "Sint daz er zinsis von mir geret,</l> 
-            <!--  TRADUZIONE PER TITOLO  -->
+            <l n="1113" xml:id="S_l_1113">Er sprah: <anchor xml:id="S_Alexander_will_start"/><said who="#Alexander"/>"Sint daz er zinsis von mir geret,</l> <!--  LA VOLONTÀ DI ALESSANDRO -->
             <l n="1114" xml:id="S_l_1114">er wirt is alda gewert</l>
             <l n="1115" xml:id="S_l_1115">mit so getaner mazen,</l>
             <l n="1116" xml:id="S_l_1116">daz er mir muz lazen</l>
@@ -1069,7 +1109,7 @@
             <l n="1122" xml:id="S_l_1122">so gelobe ich, daz mir geschie</l>
             <l n="1123" xml:id="S_l_1123">dane vorder niemer mere</l>
             <l n="1124" xml:id="S_l_1124">frowede, gut noh ere.</l>
-            <l n="1125" xml:id="S_l_1125">Alsus wil ihz bestan".</l>
+            <l n="1125" xml:id="S_l_1125">Alsus wil ihz bestan".<anchor xml:id="S_Alexander_will_end"/></l>
             <anchor xml:id="S_Alexander_letter_end"/>
             <!--  LA REAZIONE DI DARIO -->
             <anchor xml:id="S_Darius_reaction_start"/>
@@ -1172,7 +1212,7 @@
             <l n="1202" xml:id="S_l_1202">unde hiz den zwein herzogen sagen,</l>
             <l n="1203" xml:id="S_l_1203">liezen si in ubir daz wazzer comen,</l>
             <l n="1204" xml:id="S_l_1204">si ne gewunnen is niemer fromen,</l>
-            <l n="1205" xml:id="S_l_1205">wen laster unde cumber,</l>
+            <l n="1205" xml:id="S_l_1205">wen laster unde cumber,</l> <!-- DA QUI DISCORSO DIRETTO IN LIENERT, capire dove mettere in span -->
             <l n="1206" xml:id="S_l_1206">daz wesset in dar under,</l>
             <l n="1207" xml:id="S_l_1207">unde scade unde scande.</l>
             <l n="1208" xml:id="S_l_1208">Ob der muliche Alexander</l>
@@ -1181,7 +1221,7 @@
             <l n="1211" xml:id="S_l_1211">vil lihte an irn libe</l>
             <l n="1212" xml:id="S_l_1212">unde an kinden unde an wibe,</l>
             <l n="1213" xml:id="S_l_1213">unde ouh an irn gute.</l>
-            <l n="1214" xml:id="S_l_1214">"Sus ist mir ze muote".</l>  <!-- TRADUZIONE PER TITOLO -->
+            <l n="1214" xml:id="S_l_1214"><anchor xml:id="S_Darius_will_start"/><said  who="#Darius" toWhom="#DariusDukes"/>"Sus ist mir ze muote".<anchor xml:id="S_Darius_will_end"/></l>  <!-- LA VOLONTÀ DI DARIO -->
          </lg>
          <anchor xml:id="S_Darius_threatens_dukes_end"/>
          

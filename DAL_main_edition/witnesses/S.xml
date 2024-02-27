@@ -669,6 +669,8 @@
             <l n="756" xml:id="S_l_756">machen uffe schiben</l>
             <l n="757" xml:id="S_l_757">und zo der stat triben,</l>
             <l n="758" xml:id="S_l_758">und hiz di muren howen</l>
+            <!-- PAGINA. 23, edizione M. -->
+            <pb n="23" xml:id="S_pag_23"/>
             <l n="759" xml:id="S_l_759">mit stehelinen gezowen.</l>
             <l n="760" xml:id="S_l_760">Do irhub sih ein sturm groz.</l>
             <l n="761" xml:id="S_l_761">Starke man warf unde scoz</l>
@@ -810,6 +812,8 @@
             <l n="876" xml:id="S_l_876">Doh brachen si Tyrere durh</l>
             <l n="877" xml:id="S_l_877">unde wichen wider in di burch.</l>
             <l n="878" xml:id="S_l_878">Alexander tet in unrecht.</l>
+            <!-- PAGINA. 24, edizione M. -->
+            <pb n="24" xml:id="S_pag_24"/>
             <l n="879" xml:id="S_l_879">Er verlos da manigen turen knecht.</l>
             <l n="880" xml:id="S_l_880">Vil zurnic wart er do.</l>
             <l n="881" xml:id="S_l_881">Mit nide ginc er der porten zo:</l>
@@ -950,6 +954,8 @@
          <lg n="58" xml:id="S_lg_58">
             <l n="986" xml:id="S_l_986">Der riche kuninc Darius,</l>
             <l n="987" xml:id="S_l_987">der antworte ime alsus:</l>
+            <!-- PAGINA. 25, edizione M. -->
+            <pb n="25" xml:id="S_pag_25"/>
             <l n="988" xml:id="S_l_988"><anchor xml:id="S_Darius_TyreSurvivor_start"/><said who="#Darius" toWhom="#TyreSurvivor"/>"Der kune Alexander,</l> <!--  DARIO INSULTA ALESSANDRO -->
             <l n="989" xml:id="S_l_989">der tuot alsein tumber</l>
             <l n="990" xml:id="S_l_990">unde alse ein kindischer man,</l>
@@ -1092,6 +1098,8 @@
             <l n="1105" xml:id="S_l_1105">Diz screib Alexander do</l>
             <l n="1106" xml:id="S_l_1106">und santiz Dario</l>
             <l n="1107" xml:id="S_l_1107">und embot ime da mite,</l>
+            <!-- PAGINA. 26, edizione M. -->
+            <pb n="26" xml:id="S_pag_26"/>
             <l n="1108" xml:id="S_l_1108">daz er noh dri manede bite.</l>
             <l n="1109" xml:id="S_l_1109">Er ne woldiz niwit lengen,</l>
             <l n="1110" xml:id="S_l_1110">zehenzic tusint wolder bringen</l>
@@ -1212,7 +1220,7 @@
             <l n="1202" xml:id="S_l_1202">unde hiz den zwein herzogen sagen,</l>
             <l n="1203" xml:id="S_l_1203">liezen si in ubir daz wazzer comen,</l>
             <l n="1204" xml:id="S_l_1204">si ne gewunnen is niemer fromen,</l>
-            <l n="1205" xml:id="S_l_1205">wen laster unde cumber,</l> <!-- DA QUI DISCORSO DIRETTO IN LIENERT, capire dove mettere in span -->
+            <l n="1205" xml:id="S_l_1205">wen laster unde cumber,</l> <!-- DA QUI DISCORSO DIRETTO IN LIENERT, KINZEL NO; CONTA COME DISCORSO DIRETTO vv. 1651-1666 -->
             <l n="1206" xml:id="S_l_1206">daz wesset in dar under,</l>
             <l n="1207" xml:id="S_l_1207">unde scade unde scande.</l>
             <l n="1208" xml:id="S_l_1208">Ob der muliche Alexander</l>
@@ -1242,6 +1250,8 @@
             <l n="1225" xml:id="S_l_1225">daz si sante algerichte</l>
             <l n="1226" xml:id="S_l_1226">uber al ir gerichte.</l>
             <l n="1227" xml:id="S_l_1227">Di si ze samene brahten,</l>
+            <!-- PAGINA. 27, edizione M. -->
+            <pb n="27" xml:id="S_pag_27"/>
             <l n="1228" xml:id="S_l_1228">di mohte man achten</l>
             <l n="1229" xml:id="S_l_1229">ane vierzich tusunt.</l>
             <anchor xml:id="S_DariusDukes_take_action_end"/>
@@ -1369,6 +1379,8 @@
             <l n="1335" xml:id="S_l_1335">Er sluc Jubale</l>
             <l n="1336" xml:id="S_l_1336">zo dem selben male</l>
             <l n="1337" xml:id="S_l_1337">obene von den zenden,</l>
+            <!-- PAGINA. 28, edizione M. -->
+            <pb n="28" xml:id="S_pag_28"/>
             <l n="1338" xml:id="S_l_1338">nidene durh di lenden</l>
             <l n="1339" xml:id="S_l_1339">und machete zwene halbe man.</l>
             <l n="1340" xml:id="S_l_1340">Vil michil lob er des gwan.</l>
@@ -1521,6 +1533,8 @@
             <l n="1455" xml:id="S_l_1455">biz zo den stunden,</l>
             <l n="1456" xml:id="S_l_1456">daz ime geheileten sine wunden.</l>
             <l n="1457" xml:id="S_l_1457">Er nahete sih Dario baz.</l>
+            <!-- PAGINA. 29, edizione M. -->
+            <pb n="29" xml:id="S_pag_29"/>
             <l n="1458" xml:id="S_l_1458">Eine burh er ime besaz,</l>
             <l n="1459" xml:id="S_l_1459">di was Sardis genant:</l>
             <l n="1460" xml:id="S_l_1460">Schire wart si verbrant.</l>
@@ -1661,6 +1675,8 @@
             <l n="1575" xml:id="S_l_1575">Dannoh quam ime ein lutzil here,</l>
             <l n="1576" xml:id="S_l_1576">daz vor von dem Roten Mere,</l>
             <l n="1577" xml:id="S_l_1577">ein tusint sneller helede,</l>
+            <!-- PAGINA. 30, edizione M. -->
+            <pb n="30" xml:id="S_pag_30"/>
             <l n="1578" xml:id="S_l_1578">ze wige wol irwelede.</l>
          </lg>
          <lg n="82" xml:id="S_lg_82">
@@ -1669,7 +1685,7 @@
             <l n="1581" xml:id="S_l_1581">so ahte man iz da zestunt</l>
             <l n="1582" xml:id="S_l_1582">an sehs hundrit unde drizich tusunt,</l>
             <l n="1583" xml:id="S_l_1583">daz alliz Dario quam.</l>
-            <gap reason="end_common_nucleus"/>
+            <gap reason="editorial" ana="end_common_nucleus"/>
          </lg>
          <anchor xml:id="S_Darius_rally_end"/>
 

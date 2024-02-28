@@ -16,7 +16,71 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-
+   
+   <facsimile xml:id="B_scans">
+      <surface corresp="#B_fol_28r" xml:id="B_surf_28r">
+         <graphic url="data/images/single/B_28r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_28v" xml:id="B_surf_28v">
+         <graphic url="data/images/single/B_28v.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_29r" xml:id="B_surf_29r">
+         <graphic url="data/images/single/B_29r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_29v" xml:id="B_surf_29v">
+         <graphic url="data/images/single/B_29v.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_30r" xml:id="B_surf_30r">
+         <graphic url="data/images/single/B_30r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_30v" xml:id="B_surf_30v">
+         <graphic url="data/images/single/B_30v.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_31r" xml:id="B_surf_31r">
+         <graphic url="data/images/single/B_31r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_31v" xml:id="B_surf_31v">
+         <graphic url="data/images/single/B_31v.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_32r" xml:id="B_surf_32r">
+         <graphic url="data/images/single/B_32r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_32v" xml:id="B_surf_32v">
+         <graphic url="data/images/single/B_32v.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_33r" xml:id="B_surf_33r">
+         <graphic url="data/images/single/B_33r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_33v" xml:id="B_surf_33v">
+         <graphic url="data/images/single/B_33v.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_34r" xml:id="B_surf_34r">
+         <graphic url="data/images/single/B_34r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_34v" xml:id="B_surf_34v">
+         <graphic url="data/images/single/B_34v.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_35r" xml:id="B_surf_35r">
+         <graphic url="data/images/single/B_35r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_35v" xml:id="B_surf_35v">
+         <graphic url="data/images/single/B_35v.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_36r" xml:id="B_surf_36r">
+         <graphic url="data/images/single/B_36r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_36v" xml:id="B_surf_36v">
+         <graphic url="data/images/single/B_36v.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_37r" xml:id="B_surf_37r">
+         <graphic url="data/images/single/B_37r.jpg" width="3931px" height="5720px"/>
+      </surface>
+      <surface corresp="#B_fol_37v" xml:id="B_surf_37v">
+         <graphic url="data/images/single/B_37v.jpg" width="3931px" height="5720px"/>
+      </surface>
+   </facsimile>
+   
+   
    <text xml:id="B">
       
       <body>
@@ -26,7 +90,6 @@
          <pb n="28r" xml:id="B_fol_28r" facs="B_28r.jpg"/>
          
          <!-- BUCEFALO -->
-         
          <anchor xml:id="B_Bucephalus_start"/>
          <lg n="5" xml:id="B_lg_5">
             <l n="531" xml:id="B_l_531">In der selben zit,</l>
@@ -83,7 +146,7 @@
             <l n="578" xml:id="B_l_578">ich enweis, ob es im lieb wer,</l>
             <l n="579" xml:id="B_l_579">oder ob es im brechtte swer.</l>
             <l n="580" xml:id="B_l_580">Alexander was us gewessen</l>
-            <l n="581" xml:id="B_l_581">und was <!-- FOL. 28v --><pb n="28v" xml:id="B_fol_28v" facs="B_28v.jpg"/> ein küng userlesen</l>
+            <l n="581" xml:id="B_l_581">und was<!-- FOL. 28v --><pb n="28v" xml:id="B_fol_28v" facs="B_28v.jpg"/>ein küng userlesen</l>
             <l n="582" xml:id="B_l_582">und an kreftten niut las.</l>
             <l n="583" xml:id="B_l_583">Uf zwenzig jor alt er was,</l>
             <l n="584" xml:id="B_l_584">do kam er wider hein</l>
@@ -132,7 +195,7 @@
             <l n="624" xml:id="B_l_624">Er hies sy alle hœcher stan,</l>
             <l n="625" xml:id="B_l_625">er wolt allein hin in gan.</l>
             <l n="626" xml:id="B_l_626">Das ros woltte gegen im varn:</l>
-            <l n="627" xml:id="B_l_627">als es in begunde an- <!-- FOL. 29r --><pb n="29r" xml:id="B_fol_29r" facs="B_29r.jpg"/>starn,</l>
+            <l n="627" xml:id="B_l_627">als es in begunde an-<!-- FOL. 29r --><pb n="29r" xml:id="B_fol_29r" facs="B_29r.jpg"/>starn,</l>
             <l n="628" xml:id="B_l_628">von siner gesicht es erschrak,</l>
             <l n="629" xml:id="B_l_629">as alle sin freidikeit gelag.</l>
             <l n="630" xml:id="B_l_630">Es erzittret an der stund</l>
@@ -189,8 +252,7 @@
             <l n="673" xml:id="B_l_673">als einen küng ertten in.</l>
             <gap/>
             <!-- ALESSANDRO DISCUTE DEL TITOLO REGALE -->
-            <l n="674" xml:id="B_l_674">Er sprach:<anchor xml:id="B_Alexander_royalTitle_start"/><said who="#Alexander" toWhom="#MacedonianSubjects"/>"Wellent
-               <!-- FOL. 29v --><pb n="29v" xml:id="B_fol_29v" facs="B_29v.jpg"/> ir ein wille
+            <l n="674" xml:id="B_l_674">Er sprach:<anchor xml:id="B_Alexander_royalTitle_start"/><said who="#Alexander" toWhom="#MacedonianSubjects"/>"Wellent<!-- FOL. 29v --><pb n="29v" xml:id="B_fol_29v" facs="B_29v.jpg"/>ir ein wille
                ruowe han,</l>
             <l n="675" xml:id="B_l_675">bis ich einen strit mœchtte began</l>
             <l n="676" xml:id="B_l_676">mit einem küng, den ich meine,</l>
@@ -251,7 +313,7 @@
             <l n="722" xml:id="B_l_722">das si geratten niemer mer</l>
             <l n="723" xml:id="B_l_723">keiner küngin an ir er".<anchor xml:id="B_Alexander_reproaches_Philip_end"/></l>
             <l n="724" xml:id="B_l_724">Das hort ein graffe, hies Lisyas,</l>
-            <l n="725" xml:id="B_l_725">der gar stolcz <!-- FOL. 30r --><pb n="30r" xml:id="B_fol_30r"/> und redhaft was.</l>
+            <l n="725" xml:id="B_l_725">der gar stolcz<!-- FOL. 30r --><pb n="30r" xml:id="B_fol_30r"/>und redhaft was.</l>
          </lg>
       </body>
    </text>

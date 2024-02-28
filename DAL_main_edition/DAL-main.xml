@@ -58,13 +58,13 @@
      
       <!-- guarda spanGrp: può stare anche dentro <span> -->
 
-      <!-- STEPS: S sotto-unità e parte mancante; fare B -->
+      <!-- STEPS: S sub-units; fare B con anche pb, poi prova allineamento per versi -->
 
 
 
       <spanGrp xml:id="episodes">
 
-         <!-- #############   V   ############## -->
+         <!-- #############   V   ############## --> <!--28/02/2024: 71 units -->
 
          <!-- BUCEFALO -->
          <span type="episode" from="#V_Bucephalus_start" to="#V_Bucephalus_end"

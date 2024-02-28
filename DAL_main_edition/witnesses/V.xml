@@ -56,7 +56,7 @@
       </surface>
    </facsimile>
 
-   <text xml:id="V">
+   <text xml:id="V"> <!--28/02/2024: 71 units -->
 
       <body>
          
@@ -187,7 +187,7 @@
             <l n="323" xml:id="V_l_323">Ûf spranc der chunich sâ</l>
             <l n="324" xml:id="V_l_324">unt zôh sînes sinnes.</l>
             <l n="325" xml:id="V_l_325">Dô frout er sich sînes chindes.</l>
-            <gap/> <!-- DISTINGUERE CASI, @ di <gap>: lasciamo evidenti i gap di sostanza? chiedere a Prof. -->
+            <gap/>
             <l n="326" xml:id="V_l_326">Unt alsô in Alexander vernam,</l>
             <l n="327" xml:id="V_l_327">er tet als im wol gezam,</l>
             <l n="328" xml:id="V_l_328">er warf sich nider<gap/></l>

@@ -81,7 +81,7 @@
   </facsimile>
 
 
-  <text xml:id="B">
+  <text xml:id="B"> <!-- LOMBARDA = INIZIO LG -->
 
      <body>
 
@@ -398,7 +398,8 @@
            <l>der warent hundert und niut me.</l>
            <gap/>
            <l>Mit listen erstürmet er die,</l>
-           <l>die heren er dar uf alle fie,</l>
+           <l>die heren er dar uf alle<!-- FOL. 30v --><pb n="30v"
+              xml:id="B_fol_30v"/> fie,</l>
            <l>und besaczte si werlich.</l>
            <gap/>
            <l>Ze lande er wider hein kam.</l>
@@ -456,7 +457,8 @@
            <l>Im widerreit Pausonias,</l>
            <l>der ein richer margroff was,</l>
            <l>und fuortte mit gewalt Ollipyas,</l>
-           <l>die Allexanders muotter was.</l>
+           <l>die Allexanders muotter<!-- FOL. 31r --><pb n="31r"
+              xml:id="B_fol_31r"/> was.</l>
            <l>Den küng hat er gewundet,</l>
            <l>das was Allexandro gekündet.</l>
            <l>Er sprach: "Er gilt mir das ungemach!"</l>
@@ -488,6 +490,9 @@
            <l>Nu begunde wachsen sin gewalt,</l>
            <l>wie er niut wer an den joren alt:</l>
            <l>nun hœrent wes er von erst began.</l>
+        </lg>
+        
+        <lg n="8" xml:id="B_lg_8">
            <l>Allexander nam sin besten man,</l>
            <l>den er getrüwet in aller not.</l>
            <gap/>
@@ -506,7 +511,8 @@
            <l>alle iuwer erbeit und not</l>
            <l>und bi iuch ligen dot".</l>
            <l>Do er das also gesagt,</l>
-           <l>ir keiner lenger do gedagt,</l>
+           <l>ir keiner<!-- FOL. 31v --><pb n="31v"
+              xml:id="B_fol_31v"/> lenger do gedagt,</l>
            <l>sy sprachen mit gemeiner zungen:</l>
            <l>"Dissen küng jungen</l>
            <l>frist uns Got zuo dem rich.</l>
@@ -561,7 +567,8 @@
            <l>Des dankte er den Rœmeren.</l>
            <l>Zehen hundert er us in nam,</l>
            <l>die fuortte er die reisse von dan:</l>
-           <l>ze Affrica er gerant,</l>
+           <l>ze Affri-<!-- FOL. 32r --><pb n="32r"
+              xml:id="B_fol_32r"/>ca er gerant,</l>
            <l>die was Dario bekant</l>
            <l>ze rechter eigenschaft.</l>
            <l>Mit grosser herskrafft,</l>
@@ -614,7 +621,8 @@
            <l>Si was wol einer mile breit.</l>
            <l>Daryo waren sy underdan.</l>
            <l>Allexander sinen botten sant</l>
-           <l>in die stat: woltte sy des gezemen,</l>
+           <l>in die stat: woltte sy des gezemen,<!-- FOL. 32v --><pb n="32v"
+              xml:id="B_fol_32v"/></l>
            <l>das sy in ze einem heren woltten nemen,</l>
            <l>des wolt er inen dank sagen</l>
            <l>und williges herzy tragen.</l>
@@ -674,7 +682,8 @@
            <gap/>
            <gap/>
            <l>grosse buom er do gewan,</l>
-           <l>die hies er ze samen machen</l>
+           <l>die hies er ze samen machen<!-- FOL. 33r --><pb n="33r"
+              xml:id="B_fol_33r"/></l>
            <gap/>
            <l>ze obnen hoch den dürnen da.</l>
            <l>Wen man es getribe so na,</l>
@@ -732,7 +741,11 @@
            <l>die andren entrunnen in die stat.</l>
            <l>Der strit sust ein ende hat.</l>
            <l>Ze der zit ouch Allexander kam,</l>
-           <l>aller erst huob sich die rechtte not.</l>
+           <l>aller erst huob sich die rechtte not.<!-- FOL. 33v --><pb n="33v"
+              xml:id="B_fol_33v"/></l>
+        </lg>
+        
+        <lg n="9" xml:id="B_lg_9">
            <l>Allexander mit grossen krefften</l>
            <l>hies die schiff ze samen hefften</l>
            <l>mit hiutten wol bedeket,</l>
@@ -790,7 +803,8 @@
            <l>die slege man mit nide mas;</l>
            <l>durch schiltte schluogen die scharfen gern,</l>
            <l>die mangem datten herczeseren,</l>
-           <l>der damit durch stochen ward:</l>
+           <l>der damit durch<!-- FOL. 34r --><pb n="34r"
+              xml:id="B_fol_34r"/>stochen ward:</l>
            <gap/>
            <l>so mengen leit er uf die wal,</l>
            <l>das ir waren anne zal.</l>
@@ -854,7 +868,8 @@
            <l>Er kam in die stat gerant,</l>
            <gap/>
            <l>die sinen wolt er rechen,</l>
-           <l>die türn hies er brechen.</l>
+           <l>die türn<!-- FOL. 34v --><pb n="34v"
+              xml:id="B_fol_34v"/>hies er brechen.</l>
            <l>Er gedach an sin swer:</l>
            <l>der besten burger</l>
            <l>hies er driu dusing vahen,</l>
@@ -871,7 +886,7 @@
            <gap/>
         </lg>
 
-        <lg>
+        <lg n="10" xml:id="B_lg_10">
            <l>Ein küng hies Apollonyus,</l>
            <l>der stiffte die stat ze Tiryus:</l>
            <l>Anttyobus in veriagte,</l>
@@ -919,7 +934,8 @@
            <l>den man nüczet alle stund,</l>
            <l>das er im deglich dienen solt</l>
            <l>mit allem sinem rich; das gold</l>
-           <l>solt im wissen lan,</l>
+           <l>solt im wissen<!-- FOL. 35r --><pb n="35r"
+              xml:id="B_fol_35r"/>lan,</l>
            <l>das er wolte sinen zins han,</l>
            <l>als lieb im wer lib und land.</l>
            <gap/>
@@ -981,11 +997,14 @@
            <l>Do Daryus den brieff vernam,</l>
            <l>der im von Allexander kam,</l>
            <l>zornenklich er do uf fuor,</l>
-           <l>bi sinem rich er do swor,</l>
+           <l>bi sinem rich er<!-- FOL. 35v --><pb n="35v"
+              xml:id="B_fol_35v"/>do swor,</l>
            <l>sid in der beschult,</l>
            <l>des vatter im den zins gult.</l>
         </lg>
-        <lg>
+        
+        
+        <lg n="11" xml:id="B_lg_11">
            <l>Daryus zwen herzogen gebot,</l>
            <gap/>
            <l>das sy Allexander</l>
@@ -1049,7 +1068,8 @@
            <l>vor dem nieman ist behuot:</l>
            <l>wa er kam gen in gevarn,</l>
            <l>ee sich jeman umb gesach,</l>
-           <l>so beschach im von im ungemach.</l>
+           <l>so beschach im von im ungemach.<!-- FOL. 36r --><pb n="36r"
+              xml:id="B_fol_36r"/></l>
            <l>Der herzog Menos genant</l>
            <gap/>
            <l>sich mit hundert rittren het behuot.</l>
@@ -1098,7 +1118,8 @@
            <l>des er gros lob gewan.</l>
            <l>Den helm zuch ein hant,</l>
            <l>sinem herren er in uf band.</l>
-           <l>Dem was sin huobt erschelt.</l>
+           <l>Dem was sin<!-- FOL. 36v --><pb n="36v"
+              xml:id="B_fol_36v"/>huobt erschelt.</l>
            <l>Da er ward gefelt,</l>
            <l>sin krafft was im en wil genomen:</l>
            <l>des was er nu wider komen.</l>
@@ -1122,6 +1143,9 @@
            <l>manig degen sin lip verlos,</l>
            <l>der da wol wart geklaget sid.</l>
            <gap/>
+        </lg>
+        
+        <lg n="12" xml:id="B_lg_12">
            <l>Sinkun was ein groff genant,</l>
            <l>der fuort das paner in der hant,</l>
            <l>das er Allexander ab brach ,</l>
@@ -1152,7 +1176,8 @@
            <l>Menos im da wider reit.</l>
            <l>Uf den treib er des paner schafft,</l>
            <l>zuo der erden er in warff.</l>
-           <l>Do greif er zuo dem swert eines<gap/></l>
+           <l>Do greif er zuo dem swert eines<!-- FOL. 37r --><pb n="37r"
+              xml:id="B_fol_37r"/><gap/></l>
            <l>den arm er im absluog,<gap/></l>
            <l>da mit gelag er dot.</l>
            <l>Die von Persen von der not</l>
@@ -1160,7 +1185,7 @@
            <l>wider heim in ir rich.</l>
         </lg>
         
-        <lg>
+        <lg n="13" xml:id="B_lg_13">
            <l>Allexander bleib da mit gewalt,</l>
            <gap/>
            <gap/>
@@ -1215,7 +1240,8 @@
            <l>Achzig tusing warent der,</l>
            <l>die von Armenye komen her.</l>
            <l>Die snellen Gassern</l>
-           <l>und die Pilisti woltten wern</l>
+           <l>und<!-- FOL. 37v --><pb n="37v"
+              xml:id="B_fol_37v"/>die Pilisti woltten wern</l>
            <l>Daryo ir helffe dar:</l>
            <l>dusing rissen was ir schar.</l>
            <l>Noch sassen sin fryen man</l>
@@ -1235,6 +1261,7 @@
            <l>dar zuo drissig dusing ouch.</l>
            <l>Ze Allexandro was im goch.</l>
         </lg>
+        <gap reason="editorial" ana="end_common_nucleus"/>
      </body>
   </text>
 </TEI>

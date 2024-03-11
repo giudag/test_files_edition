@@ -62,7 +62,7 @@
          
          <!-- FOL. 109v, fine colonna b -->
          
-         <pb n="109v" xml:id="V_fol_109v" facs="V_109v.jpg"/>
+         <pb n="109v" xml:id="V_fol_109v" facs="data/images/single/V_109v.jpg"/>
 
          <!-- BUCEFALO -->
 
@@ -71,7 +71,7 @@
             <l n="235" xml:id="V_l_235">Von Philippus stuode wil ich iu sagen:</l>
             <l n="236" xml:id="V_l_236">dar under wart ein ros getragen,</l>
             <l n="237" xml:id="V_l_237">daz was wunderlîch.</l>
-            <pb n="110r" xml:id="V_fol_110r" facs="V_110r.jpg"/>
+            <pb n="110r" xml:id="V_fol_110r" facs="data/images/single/V_110r.jpg"/>
             <!-- FOL. 110r -->
             <l n="238" xml:id="V_l_238">Iz was irre unt strîtich,</l>
             <l n="239" xml:id="V_l_239">snel unt ernisthaft</l>
@@ -218,7 +218,7 @@
             <l n="350" xml:id="V_l_350">Der chunich, er ne wolte es newiht beiten,</l>
             <l n="351" xml:id="V_l_351">er hîz daz chint bereiten.</l>
             <l n="352" xml:id="V_l_352">Waz mage ich iu sundere gesagen?</l>
-            <pb n="110v" xml:id="V_fol_110v" facs="V_110v.jpg"/>
+            <pb n="110v" xml:id="V_fol_110v" facs="data/images/single/V_110v.jpg"/>
             <!-- FOL. 110v -->
             <l n="353" xml:id="V_l_353">Er det im wâfen fur tragen,</l>
             <l n="354" xml:id="V_l_354">sô mans unter eines chuniges gesinden</l>
@@ -365,7 +365,7 @@
             <l n="460" xml:id="V_l_460">Nû vernement, waz ich iu hie zele:</l>
             <l n="461" xml:id="V_l_461">fur dem chunige in dem sale,</l>
             <l n="462" xml:id="V_l_462">dâ vant er boten Darios,</l>
-            <l n="463" xml:id="V_l_463">aines ge-<pb n="111r" xml:id="V_fol_111r" facs="V_111r.jpg"
+            <l n="463" xml:id="V_l_463">aines ge-<pb n="111r" xml:id="V_fol_111r" facs="data/images/single/V_111r.jpg"
             /><!-- FOL. 111r -->weltigen chuniges,</l>
             <l n="464" xml:id="V_l_464">der den zins von sînem fater Philippus wold enfân,</l>
             <l n="465" xml:id="V_l_465">wander Dario was undertân.</l>
@@ -503,7 +503,7 @@
             <l n="574" xml:id="V_l_574">beidû wâfen unde gewât,</l>
             <l n="575" xml:id="V_l_575">des tuon ich ime alles guoten rât</l>
             <l n="576" xml:id="V_l_576">ân alle sîne arbeit.</l>
-            <l n="577" xml:id="V_l_577">Swer noch mit<pb n="111v" xml:id="V_fol_111v"
+            <l n="577" xml:id="V_l_577">Swer noch mit<pb n="111v" xml:id="V_fol_111v" facs="data/images/single/V_111v.jpg"
             /><!-- FOL. 111v -->mir bestêt,</l>
             <l n="578" xml:id="V_l_578">deme teilich lîb unde guot</l>
             <l n="579" xml:id="V_l_579">unde trage ime imer willigen muot".<anchor xml:id="V_Alexander_gathers_his_men_end"/></l>
@@ -669,7 +669,7 @@
             <l n="695" xml:id="V_l_695">daz mere sie alle umbe flôz.</l>
             <l n="696" xml:id="V_l_696">Dâ wârn die mûre harte,</l>
             <l n="697" xml:id="V_l_697">von quâdrestein geworht,</l>
-            <pb n="112r" xml:id="V_fol_112r"
+            <pb n="112r" xml:id="V_fol_112r" facs="data/images/single/V_112r.jpg"
             /><!-- FOL. 112r -->
             <l n="698" xml:id="V_l_698">mit îserenen spangen</l>
             <l n="699" xml:id="V_l_699">was al daz werch befangin</l>
@@ -835,7 +835,7 @@
             <l n="818" xml:id="V_l_818">mit fûre gingen simme zuo</l>
             <l n="819" xml:id="V_l_819">unde sclûgen unde fiengen</l>
             <l n="820" xml:id="V_l_820">alle, die si drûffe begiengen.</l>
-            <l n="821" xml:id="V_l_821">Noch mag ich iu sagen<pb n="112v" xml:id="V_fol_112v"
+            <l n="821" xml:id="V_l_821">Noch mag ich iu sagen<pb n="112v" xml:id="V_fol_112v" facs="data/images/single/V_112v.jpg"
             /><!-- FOL. 112v -->mêre: </l>
             <l n="822" xml:id="V_l_822">si besencten sich in den sê,</l>
             <l n="823" xml:id="V_l_823">daz man si in allem tage niene sach,</l>
@@ -989,7 +989,7 @@
          <lg n="66" xml:id="V_lg_66">
             <l n="935" xml:id="V_l_935">Die umbe die burch lâgen,</l>
             <l n="936" xml:id="V_l_936">sine dorften sich des siges niemer geruomen,</l>
-            <l n="937" xml:id="V_l_937">wan-<pb n="113r" xml:id="V_fol_113r"
+            <l n="937" xml:id="V_l_937">wan-<pb n="113r" xml:id="V_fol_113r" facs="data/images/single/V_113r.jpg"
             /><!-- FOL. 113r -->de die burgêre brâchen si durch</l>
             <l n="938" xml:id="V_l_938">unde wichen aber wider in die burch.</l>
             <l n="939" xml:id="V_l_939">Dâ verlôs er manegen dûren chneht:</l>
@@ -1132,7 +1132,7 @@
          </lg>
          <lg n="72" xml:id="V_lg_72">
             <l n="1044" xml:id="V_l_1044">Daz bezeichnôt daz cholt,</l>
-            <pb n="113v" xml:id="V_fol_113v"
+            <pb n="113v" xml:id="V_fol_113v" facs="data/images/single/V_113v.jpg"
             /><!-- FOL. 113v -->
             <l n="1045" xml:id="V_l_1045">daz er rehte merchen scolte,</l>
             <l n="1046" xml:id="V_l_1046">daz daz ter zins wâre, den ime sîn vater chulte</l>
@@ -1274,7 +1274,7 @@
             <l n="1152" xml:id="V_l_1152">uber daz wazer Eufrates:</l>
             <l n="1153" xml:id="V_l_1153">daz was Marios unde Typotes.</l>
             <l n="1154" xml:id="V_l_1154">Daz si in selben sazten dernider</l>
-            <l n="1155" xml:id="V_l_1155">unde in bun-<pb n="114r" xml:id="V_fol_114r"
+            <l n="1155" xml:id="V_l_1155">unde in bun-<pb n="114r" xml:id="V_fol_114r" facs="data/images/single/V_114r.jpg"
             /><!-- FOL. 114r -->ten alsein wider,</l>
             <l n="1156" xml:id="V_l_1156">daz sir manheit gedaehten,</l>
             <l n="1157" xml:id="V_l_1157">daz sin ime lemtigen braehtin.</l>
@@ -1432,7 +1432,7 @@
             <l n="1263" xml:id="V_l_1263">der sich vil ungerne in dem sturme hal,</l>
             <l n="1264" xml:id="V_l_1264">der was dar chomen mit teme herzogen</l>
             <l n="1265" xml:id="V_l_1265">unde hiete daz swert erzogen</l>
-            <l n="1266" xml:id="V_l_1266">unde wolde Alexander<pb n="114v" xml:id="V_fol_114v"
+            <l n="1266" xml:id="V_l_1266">unde wolde Alexander<pb n="114v" xml:id="V_fol_114v" facs="data/images/single/V_114v.jpg"
             /><!-- FOL. 114v -->geben ainen slach,</l>
             <l n="1267" xml:id="V_l_1267">dâ er im den hals plôz gesach.</l>
             <l n="1268" xml:id="V_l_1268">Daclym wart der êror,</l>
@@ -1580,7 +1580,7 @@
             <l n="1380" xml:id="V_l_1380">daz si der siben purge aineu wâre,</l>
             <l n="1381" xml:id="V_l_1381">die got unser haeilêr,</l>
             <l n="1382" xml:id="V_l_1382">in sînem obristen himel nante,</l>
-            <l n="1383" xml:id="V_l_1383">dû er sante Johannes dar ze poten<pb n="115r" xml:id="V_fol_115r"
+            <l n="1383" xml:id="V_l_1383">dû er sante Johannes dar ze poten<pb n="115r" xml:id="V_fol_115r" facs="data/images/single/V_115r.jpg"
             /><!-- FOL. 115r -->sante.</l>
          </lg>
          <anchor xml:id="V_Alexander_takes_Sardis_end"/>

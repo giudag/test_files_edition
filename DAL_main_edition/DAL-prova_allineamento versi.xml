@@ -22,7 +22,7 @@
 
 
       <!-- ################# PROVO A COLLEGARE I VERSI CORRISPONDENTI NEI TRE TESTI  ################## -->
-      <!-- ################# MARINA PER SINOTTICA CRONACA ANGOSASSONE; DANTE PRUNE SHAW; MANCA RIFLESSIONE METODOLOGICA, HEIDELBERG JAKUB E MICHELA, ide ################## -->
+      <!-- ################# ESEMPI SÌ, MA MANCA RIFLESSIONE METODOLOGICA SULLE SINOTTICHE ################## -->
 
 
       <spanGrp type="episodes">
@@ -35,12 +35,8 @@
             from="#V_Alexander_strategy_start" to="#V_Alexander_strategy_end" type="episode"
             xml:id="V_Alexander_strategy"><!--  ALESSANDRO CONSULTA I SUOI PRINCIPI --><span
                corresp="#S_Alexander_consults_princes #B_Alexander_consults_princes"
-               
                from="#V_Alexander_consults_princes_start" to="#V_Alexander_consults_princes_end"
                type="direct_speech" xml:id="V_Alexander_consults_princes"/>
-            
-            
-            
             <spanGrp type="lines_alignment">
                <span corresp="#S_885_887" from="#V_l_946" to="#V_l_948" xml:id="V_946_948"/>
             </spanGrp>Alexander is advised to use Greek fire</span>
@@ -55,16 +51,11 @@
                corresp="#V_Alexander_consults_princes #B_Alexander_consults_princes"
                from="#S_Alexander_consults_princes_start" to="#S_Alexander_consults_princes_end"
                type="direct_speech" xml:id="S_Alexander_consults_princes"/>
-            
-            
             <spanGrp type="lines_alignment">
                <span corresp="#V_946_948" from="#S_l_885" to="#S_l_887" xml:id="S_885_887"/>
             </spanGrp>Alexander is advised to use Greek fire</span>
 
 
-         <!-- #############   1. COLLAZIONE AUTOMATICA CON COLLATW - SCARICA DATI + SCRIPT XML IN XSLT
-            2. EVITA STAND-OFF: rigo per rigo nei testi
-            3. SOLO CAMPIONE ############## -->
 
 
       </spanGrp>

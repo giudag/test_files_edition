@@ -17,47 +17,47 @@
       </fileDesc>
    </teiHeader>
 
-   <!--  
+   
 
-   <facsimile xml:id="V_scans">
-      <surface xml:id="V_surf_109v">
-         <graphic url="data/images/single/V_109v.jpg" width="3268px" height="4835px"/>
+   <facsimile xml:id="V_facs">
+      <surface corresp="#V_fol_109v" xml:id="V_surf_109v">
+         <graphic url="data/images/single/V_facs/V_109v.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_110r">
-         <graphic url="data/images/single/V_110r.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_110r" xml:id="V_surf_110r">
+         <graphic url="data/images/single/V_facs/V_110r.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_110v">
-         <graphic url="data/images/single/V_110v.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_110v" xml:id="V_surf_110v">
+         <graphic url="data/images/single/V_facs/V_110v.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_111r">
-         <graphic url="data/images/single/V_111r.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_111r" xml:id="V_surf_111r">
+         <graphic url="data/images/single/V_facs/V_111r.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_111v">
-         <graphic url="data/images/single/V_111v.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_111v" xml:id="V_surf_111v">
+         <graphic url="data/images/single/V_facs/V_111v.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_112r">
-         <graphic url="data/images/single/V_112r.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_112r" xml:id="V_surf_112r">
+         <graphic url="data/images/single/V_facs/V_112r.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_112v">
-         <graphic url="data/images/single/V_112v.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_112v" xml:id="V_surf_112v">
+         <graphic url="data/images/single/V_facs/V_112v.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_113r">
-         <graphic url="data/images/single/V_113r.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_113r" xml:id="V_surf_113r">
+         <graphic url="data/images/single/V_facs/V_113r.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_113v">
-         <graphic url="data/images/single/V_113v.jpg" width="3268px" height="4835px"/>
+      <surface  corresp="#V_fol_113v" xml:id="V_surf_113v">
+         <graphic url="data/images/single/V_facs/V_113v.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_114r">
-         <graphic url="data/images/single/V_114r.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_114r" xml:id="V_surf_114r">
+         <graphic url="data/images/single/V_facs/V_114r.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_114v">
-         <graphic url="data/images/single/V_114v.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_114v" xml:id="V_surf_114v">
+         <graphic url="data/images/single/V_facs/V_114v.jpg" width="3268px" height="4835px"/>
       </surface>
-      <surface xml:id="V_surf_115r">
-         <graphic url="data/images/single/V_115r.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_115r" xml:id="V_surf_115r">
+         <graphic url="data/images/single/V_facs/V_115r.jpg" width="3268px" height="4835px"/>
       </surface>
    </facsimile>
--->
+
 
    <!-- WE NEED TO DECIDE WHAT TO DO WITH THE FACSIMILE -->
 
@@ -67,17 +67,17 @@
 
       <body>
 
-         <!-- FOL. 109v, fine colonna b -->
-
 
          <!-- BUCEFALO -->
 
          <anchor xml:id="V_Bucephalus_start"/>
-         <pb n="1" xml:id="V_1"/>
+         <pb facs="data/images/single/V_facs/V_109v.jpg" n="109v" xml:id="V_fol_109v"/>
+         <!-- FOL. 109v, fine colonna b -->
          <div n="21" type="stanza" xml:id="V_div_21">
             <l n="235" xml:id="V_l_235">Von Philippus stuode wil ich iu sagen:</l>
             <l n="236" xml:id="V_l_236">dar under wart ein ros getragen,</l>
             <l n="237" xml:id="V_l_237">daz was wunderlîch.</l>
+            <pb facs="data/images/single/V_facs/V_110r.jpg" n="110r" xml:id="V_fol_110r"/>
             <!-- FOL. 110r -->
             <l n="238" xml:id="V_l_238">Iz was irre unt strîtich,</l>
             <l n="239" xml:id="V_l_239">snel unt ernisthaft</l>
@@ -239,7 +239,7 @@
             <l n="350" xml:id="V_l_350">Der chunich, er ne wolte es newiht beiten,</l>
             <l n="351" xml:id="V_l_351">er hîz daz chint bereiten.</l>
             <l n="352" xml:id="V_l_352">Waz mage ich iu sundere gesagen?</l>
-            <pb n="2" xml:id="V_2"/>
+            <pb facs="data/images/single/V_facs/V_110v.jpg" n="110v" xml:id="V_fol_110v"/>
             <!-- FOL. 110v -->
             <l n="353" xml:id="V_l_353">Er det im wâfen fur tragen,</l>
             <l n="354" xml:id="V_l_354">sô mans unter eines chuniges gesinden</l>
@@ -398,8 +398,8 @@
             <l n="461" xml:id="V_l_461">fur dem chunige in dem sale,</l>
             <l n="462" xml:id="V_l_462">dâ vant er boten Darios,</l>
             <l n="463" xml:id="V_l_463">aines geweltigen chuniges,</l>
+            <pb facs="data/images/single/V_facs/V_111r.jpg" n="111r" xml:id="V_fol_111r"/>
             <!-- FOL. 111r -->
-            <pb n="3" xml:id="V_3"/>
             <l n="464" xml:id="V_l_464">der den zins von sînem fater Philippus wold enfân,</l>
             <l n="465" xml:id="V_l_465">wander Dario was undertân.</l>
             <l n="466" xml:id="V_l_466">Diz was Darios, ter in Danigel stêt,</l>
@@ -553,8 +553,8 @@
             <l n="575" xml:id="V_l_575">des tuon ich ime alles guoten rât</l>
             <l n="576" xml:id="V_l_576">ân alle sîne arbeit.</l>
             <l n="577" xml:id="V_l_577">Swer noch mit mir bestêt,</l>
+            <pb facs="data/images/single/V_facs/V_111v.jpg" n="111v" xml:id="V_fol_111v"/>
             <!-- FOL. 111v -->
-            <pb n="4" xml:id="V_4"/>
             <l n="578" xml:id="V_l_578">deme teilich lîb unde guot</l>
             <l n="579" xml:id="V_l_579">unde trage ime imer willigen muot".<anchor
                   xml:id="V_Alexander_gathers_his_men_end"/></l>
@@ -724,7 +724,7 @@
             <l n="695" xml:id="V_l_695">daz mere sie alle umbe flôz.</l>
             <l n="696" xml:id="V_l_696">Dâ wârn die mûre harte,</l>
             <l n="697" xml:id="V_l_697">von quâdrestein geworht,</l>
-            <pb n="5" xml:id="V_5"/>
+            <pb facs="data/images/single/V_facs/V_112r.jpg" n="112r" xml:id="V_fol_112r"/>
             <!-- FOL. 112r -->
             <l n="698" xml:id="V_l_698">mit îserenen spangen</l>
             <l n="699" xml:id="V_l_699">was al daz werch befangin</l>
@@ -892,7 +892,7 @@
             <l n="819" xml:id="V_l_819">unde sclûgen unde fiengen</l>
             <l n="820" xml:id="V_l_820">alle, die si drûffe begiengen.</l>
             <l n="821" xml:id="V_l_821">Noch mag ich iu sagen mêre: </l>
-            <pb n="6" xml:id="V_6"/>
+            <pb facs="data/images/single/V_facs/V_112v.jpg" n="112v" xml:id="V_fol_112v"/>
             <!-- FOL. 112v -->
             <l n="822" xml:id="V_l_822">si besencten sich in den sê,</l>
             <l n="823" xml:id="V_l_823">daz man si in allem tage niene sach,</l>
@@ -1047,7 +1047,7 @@
             <l n="935" xml:id="V_l_935">Die umbe die burch lâgen,</l>
             <l n="936" xml:id="V_l_936">sine dorften sich des siges niemer geruomen,</l>
             <l n="937" xml:id="V_l_937">wande die burgêre brâchen si durch</l>
-            <pb n="7" xml:id="V_7"/>
+            <pb facs="data/images/single/V_facs/V_113r.jpg" n="113r" xml:id="V_fol_113r"/>
             <!-- FOL. 113r -->
             <l n="938" xml:id="V_l_938">unde wichen aber wider in die burch.</l>
             <l n="939" xml:id="V_l_939">Dâ verlôs er manegen dûren chneht:</l>
@@ -1193,7 +1193,7 @@
          </div>
          <div n="72" type="stanza" xml:id="V_div_72">
             <l n="1044" xml:id="V_l_1044">Daz bezeichnôt daz cholt,</l>
-            <pb n="8" xml:id="V_8"/>
+            <pb facs="data/images/single/V_facs/V_113v.jpg" n="113v" xml:id="V_fol_113v"/>
             <!-- FOL. 113v -->
             <l n="1045" xml:id="V_l_1045">daz er rehte merchen scolte,</l>
             <l n="1046" xml:id="V_l_1046">daz daz ter zins wâre, den ime sîn vater chulte</l>
@@ -1353,7 +1353,7 @@
             <l n="1153" xml:id="V_l_1153">daz was Marios unde Typotes.</l>
             <l n="1154" xml:id="V_l_1154">Daz si in selben sazten dernider</l>
             <l n="1155" xml:id="V_l_1155">unde in bunten alsein wider,</l>
-            <pb n="9" xml:id="V_9"/>
+            <pb facs="data/images/single/V_facs/V_114r.jpg" n="114r" xml:id="V_fol_114r"/>
             <!-- FOL. 114r -->
             <l n="1156" xml:id="V_l_1156">daz sir manheit gedaehten,</l>
             <l n="1157" xml:id="V_l_1157">daz sin ime lemtigen braehtin.</l>
@@ -1516,7 +1516,7 @@
             <l n="1264" xml:id="V_l_1264">der was dar chomen mit teme herzogen</l>
             <l n="1265" xml:id="V_l_1265">unde hiete daz swert erzogen</l>
             <l n="1266" xml:id="V_l_1266">unde wolde Alexander geben ainen slach,</l>
-            <pb n="10" xml:id="V_10"/>
+            <pb facs="data/images/single/V_facs/V_114v.jpg" n="114v" xml:id="V_fol_114v"/>
             <!-- FOL. 114v -->
             <l n="1267" xml:id="V_l_1267">dâ er im den hals plôz gesach.</l>
             <l n="1268" xml:id="V_l_1268">Daclym wart der êror,</l>
@@ -1684,10 +1684,9 @@
 
          <!-- IL GIURAMENTO DI DARIO -->
 
-
-         <!-- FOL. 115r -->
          <anchor xml:id="V_Darius_oath_start"/>
-         <pb n="11" xml:id="V_11"/>
+         <pb facs="data/images/single/V_facs/V_115r.jpg" n="115r" xml:id="V_fol_115r"/>
+         <!-- FOL. 115r -->
          <div n="90" type="stanza" xml:id="V_div_90">
             <l n="1384" xml:id="V_l_1384">Unde dô man Dario diz gesagete.</l>
             <l n="1385" xml:id="V_l_1385">niuht sêre er ne chlagete:</l>

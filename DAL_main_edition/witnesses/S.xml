@@ -17,45 +17,45 @@
       </fileDesc>
    </teiHeader>
 
-   <facsimile xml:id="S_scans">
+   <facsimile xml:id="S_facs">
       <surface corresp="#S_pag_18" xml:id="S_surf_18">
-         <graphic height="1578px" url="data/images/single/S_18.jpg" width="932px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_18.jpg" width="932px"/>
       </surface>
       <surface corresp="#S_pag_19" xml:id="S_surf_19">
-         <graphic height="1539px" url="data/images/single/S_19.jpg" width="973px"/>
+         <graphic height="1539px" url="data/images/single/S_facs/S_19.jpg" width="973px"/>
       </surface>
       <surface corresp="#S_pag_20" xml:id="S_surf_20">
-         <graphic height="1578px" url="data/images/single/S_20.jpg" width="941px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_20.jpg" width="941px"/>
       </surface>
       <surface corresp="#S_pag_21" xml:id="S_surf_21">
-         <graphic height="1578px" url="data/images/single/S_21.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_21.jpg" width="964px"/>
       </surface>
       <surface corresp="#S_pag_22" xml:id="S_surf_22">
-         <graphic height="1578px" url="data/images/single/S_22.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_22.jpg" width="964px"/>
       </surface>
       <surface corresp="#S_pag_23" xml:id="S_surf_23">
-         <graphic height="1578px" url="data/images/single/S_23.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_23.jpg" width="964px"/>
       </surface>
       <surface corresp="#S_pag_24" xml:id="S_surf_24">
-         <graphic height="1578px" url="data/images/single/S_24.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_24.jpg" width="964px"/>
       </surface>
       <surface corresp="#S_pag_25" xml:id="S_surf_25">
-         <graphic height="1578px" url="data/images/single/S_25.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_25.jpg" width="964px"/>
       </surface>
       <surface corresp="#S_pag_26" xml:id="S_surf_26">
-         <graphic height="1578px" url="data/images/single/S_26.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_26.jpg" width="964px"/>
       </surface>
       <surface corresp="#S_pag_27" xml:id="S_surf_27">
-         <graphic height="1578px" url="data/images/single/S_27.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_27.jpg" width="964px"/>
       </surface>
       <surface corresp="#S_pag_28" xml:id="S_surf_28">
-         <graphic height="1578px" url="data/images/single/S_28.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_28.jpg" width="964px"/>
       </surface>
       <surface corresp="#S_pag_29" xml:id="S_surf_29">
-         <graphic height="1578px" url="data/images/single/S_29.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_29.jpg" width="964px"/>
       </surface>
       <surface corresp="#S_pag_30" xml:id="S_surf_30">
-         <graphic height="1578px" url="data/images/single/S_30.jpg" width="964px"/>
+         <graphic height="1578px" url="data/images/single/S_facs/S_30.jpg" width="964px"/>
       </surface>
    </facsimile>
 
@@ -64,14 +64,12 @@
 
       <body>
 
-         <!-- PAGINA. 18, edizione M. -->
-
-
 
          <!-- BUCEFALO -->
 
          <anchor xml:id="S_Bucephalus_start"/>
-         <pb facs="data/images/single/S_18.jpg" n="18" xml:id="S_pag_18"/>
+         <pb facs="data/images/single/S_facs/S_18.jpg" n="18" xml:id="S_pag_18"/>
+         <!-- PAGINA. 18, edizione M. -->
          <div n="21" type="stanza" xml:id="S_div_21">
             <l n="269" xml:id="S_l_269">Von Philippis stute wil ih u nu sagen:</l>
             <l n="270" xml:id="S_l_270">Dar under was ein ros getragen.</l>
@@ -121,8 +119,8 @@
          <div n="25" type="stanza" xml:id="S_div_25">
             <l n="307" xml:id="S_l_307">Deme kuninge wart ein bote do gesant</l>
             <l n="308" xml:id="S_l_308">von deme, der daz ros het erkant,</l>
+            <pb facs="data/images/single/S_facs/S_19.jpg" n="19" xml:id="S_pag_19"/>
             <!-- PAGINA. 19, edizione M. -->
-            <pb facs="data/images/single/S_19.jpg" n="19" xml:id="S_pag_19"/>
             <l n="309" xml:id="S_l_309">und hiz iz sint baz bewarn,</l>
             <l n="310" xml:id="S_l_310">wande man solde dar an irvarn, </l>
             <l n="311" xml:id="S_l_311">weme nah sinem libe</l>
@@ -263,8 +261,8 @@
             <l n="416" xml:id="S_l_416">wil er iht derwider streben,</l>
             <l n="417" xml:id="S_l_417">der muz en dir mit scanden</l>
             <l n="418" xml:id="S_l_418">senden von sinen landen</l>
+            <pb facs="data/images/single/S_facs/S_20.jpg" n="20" xml:id="S_pag_20"/>
             <!-- PAGINA. 20, edizione M. -->
-            <pb facs="data/images/single/S_20.jpg" n="20" xml:id="S_pag_20"/>
             <l n="419" xml:id="S_l_419">und ouh lasterliche".<anchor
                   xml:id="S_Alexander_wants_weapons_end"/></l>
             <l n="420" xml:id="S_l_420">Do ne wolde der kuninc riche</l>
@@ -407,8 +405,8 @@
             <l n="521" xml:id="S_l_521">er sagetin, daz er solde</l>
             <l n="522" xml:id="S_l_522">ir lant zevoren</l>
             <l n="523" xml:id="S_l_523">und ire stat zestoren,</l>
+            <pb facs="data/images/single/S_facs/S_21.jpg" n="21" xml:id="S_pag_21"/>
             <!-- PAGINA. 21, edizione M. -->
-            <pb facs="data/images/single/S_21.jpg" n="21" xml:id="S_pag_21"/>
             <l n="524" xml:id="S_l_524">unde nemen in allen daz leben,</l>
             <l n="525" xml:id="S_l_525">ob si ime wolden widerstreben</l>
             <l n="526" xml:id="S_l_526">mit siheiner gwalt.</l>
@@ -545,8 +543,8 @@
             <l n="636" xml:id="S_l_636">dar uf zo den turmen brechte</l>
             <l n="637" xml:id="S_l_637">und lange boume dar abe rihte,</l>
             <l n="638" xml:id="S_l_638">di uf di zinnen mohten gan.</l>
+            <pb facs="data/images/single/S_facs/S_22.jpg" n="22" xml:id="S_pag_22"/>
             <!-- PAGINA. 22, edizione M. -->
-            <pb facs="data/images/single/S_22.jpg" n="22" xml:id="S_pag_22"/>
             <l n="639" xml:id="S_l_639">Mit nide wolder si bestan.</l>
          </div>
          <div n="44" type="stanza" xml:id="S_div_44">
@@ -697,8 +695,8 @@
             <l n="756" xml:id="S_l_756">machen uffe schiben</l>
             <l n="757" xml:id="S_l_757">und zo der stat triben,</l>
             <l n="758" xml:id="S_l_758">und hiz di muren howen</l>
+            <pb facs="data/images/single/S_facs/S_23.jpg" n="23" xml:id="S_pag_23"/>
             <!-- PAGINA. 23, edizione M. -->
-            <pb facs="data/images/single/S_23.jpg" n="23" xml:id="S_pag_23"/>
             <l n="759" xml:id="S_l_759">mit stehelinen gezowen.</l>
             <l n="760" xml:id="S_l_760">Do irhub sih ein sturm groz.</l>
             <l n="761" xml:id="S_l_761">Starke man warf unde scoz</l>
@@ -840,8 +838,8 @@
             <l n="876" xml:id="S_l_876">Doh brachen si Tyrere durh</l>
             <l n="877" xml:id="S_l_877">unde wichen wider in di burch.</l>
             <l n="878" xml:id="S_l_878">Alexander tet in unrecht.</l>
+            <pb facs="data/images/single/S_facs/S_24.jpg" n="24" xml:id="S_pag_24"/>
             <!-- PAGINA. 24, edizione M. -->
-            <pb facs="data/images/single/S_24.jpg" n="24" xml:id="S_pag_24"/>
             <l n="879" xml:id="S_l_879">Er verlos da manigen turen knecht.</l>
             <l n="880" xml:id="S_l_880">Vil zurnic wart er do.</l>
             <l n="881" xml:id="S_l_881">Mit nide ginc er der porten zo:</l>
@@ -986,8 +984,8 @@
          <div n="58" type="stanza" xml:id="S_div_58">
             <l n="986" xml:id="S_l_986">Der riche kuninc Darius,</l>
             <l n="987" xml:id="S_l_987">der antworte ime alsus:</l>
+            <pb facs="data/images/single/S_facs/S_25.jpg" n="25" xml:id="S_pag_25"/>
             <!-- PAGINA. 25, edizione M. -->
-            <pb facs="data/images/single/S_25.jpg" n="25" xml:id="S_pag_25"/>
             <l n="988" xml:id="S_l_988"><anchor xml:id="S_Darius_TyreSurvivor_start"/><said
                   toWhom="#TyreSurvivor" who="#Darius"/>"Der kune Alexander,</l>
             <!--  DARIO INSULTA ALESSANDRO -->
@@ -1145,8 +1143,8 @@
             <l n="1105" xml:id="S_l_1105">Diz screib Alexander do</l>
             <l n="1106" xml:id="S_l_1106">und santiz Dario</l>
             <l n="1107" xml:id="S_l_1107">und embot ime da mite,</l>
+            <pb facs="data/images/single/S_facs/S_26.jpg" n="26" xml:id="S_pag_26"/>
             <!-- PAGINA. 26, edizione M. -->
-            <pb facs="data/images/single/S_26.jpg" n="26" xml:id="S_pag_26"/>
             <l n="1108" xml:id="S_l_1108">daz er noh dri manede bite.</l>
             <l n="1109" xml:id="S_l_1109">Er ne woldiz niwit lengen,</l>
             <l n="1110" xml:id="S_l_1110">zehenzic tusint wolder bringen</l>
@@ -1310,8 +1308,8 @@
             <l n="1225" xml:id="S_l_1225">daz si sante algerichte</l>
             <l n="1226" xml:id="S_l_1226">uber al ir gerichte.</l>
             <l n="1227" xml:id="S_l_1227">Di si ze samene brahten,</l>
+            <pb facs="data/images/single/S_facs/S_27.jpg" n="27" xml:id="S_pag_27"/>
             <!-- PAGINA. 27, edizione M. -->
-            <pb facs="data/images/single/S_27.jpg" n="27" xml:id="S_pag_27"/>
             <l n="1228" xml:id="S_l_1228">di mohte man achten</l>
             <l n="1229" xml:id="S_l_1229">ane vierzich tusunt.</l>
             <anchor xml:id="S_DariusDukes_take_action_end"/>
@@ -1439,8 +1437,8 @@
             <l n="1335" xml:id="S_l_1335">Er sluc Jubale</l>
             <l n="1336" xml:id="S_l_1336">zo dem selben male</l>
             <l n="1337" xml:id="S_l_1337">obene von den zenden,</l>
+            <pb facs="data/images/single/S_facs/S_28.jpg" n="28" xml:id="S_pag_28"/>
             <!-- PAGINA. 28, edizione M. -->
-            <pb facs="data/images/single/S_28.jpg" n="28" xml:id="S_pag_28"/>
             <l n="1338" xml:id="S_l_1338">nidene durh di lenden</l>
             <l n="1339" xml:id="S_l_1339">und machete zwene halbe man.</l>
             <l n="1340" xml:id="S_l_1340">Vil michil lob er des gwan.</l>
@@ -1607,8 +1605,8 @@
             <l n="1455" xml:id="S_l_1455">biz zo den stunden,</l>
             <l n="1456" xml:id="S_l_1456">daz ime geheileten sine wunden.</l>
             <l n="1457" xml:id="S_l_1457">Er nahete sih Dario baz.</l>
+            <pb facs="data/images/single/S_facs/S_29.jpg" n="29" xml:id="S_pag_29"/>
             <!-- PAGINA. 29, edizione M. -->
-            <pb facs="data/images/single/S_29.jpg" n="29" xml:id="S_pag_29"/>
             <l n="1458" xml:id="S_l_1458">Eine burh er ime besaz,</l>
             <l n="1459" xml:id="S_l_1459">di was Sardis genant:</l>
             <l n="1460" xml:id="S_l_1460">Schire wart si verbrant.</l>
@@ -1749,8 +1747,8 @@
             <l n="1575" xml:id="S_l_1575">Dannoh quam ime ein lutzil here,</l>
             <l n="1576" xml:id="S_l_1576">daz vor von dem Roten Mere,</l>
             <l n="1577" xml:id="S_l_1577">ein tusint sneller helede,</l>
-            <!-- PAGINA. 30, edizione M. -->
             <pb n="30" xml:id="S_pag_30"/>
+            <!-- PAGINA. 30, edizione M. -->
             <l n="1578" xml:id="S_l_1578">ze wige wol irwelede.</l>
          </div>
          <div n="82" type="stanza" xml:id="S_div_82">

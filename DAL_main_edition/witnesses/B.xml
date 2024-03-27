@@ -17,79 +17,80 @@
       </fileDesc>
    </teiHeader>
 
-   <facsimile xml:id="B_scans">
+   <facsimile xml:id="B_facs">
       <surface corresp="#B_fol_28r" xml:id="B_surf_28r">
-         <graphic height="5720px" url="data/images/single/B_28r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_28r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_28v" xml:id="B_surf_28v">
-         <graphic height="5720px" url="data/images/single/B_28v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_28v.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_29r" xml:id="B_surf_29r">
-         <graphic height="5720px" url="data/images/single/B_29r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_29r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_29v" xml:id="B_surf_29v">
-         <graphic height="5720px" url="data/images/single/B_29v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_29v.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_30r" xml:id="B_surf_30r">
-         <graphic height="5720px" url="data/images/single/B_30r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_30r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_30v" xml:id="B_surf_30v">
-         <graphic height="5720px" url="data/images/single/B_30v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_30v.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_31r" xml:id="B_surf_31r">
-         <graphic height="5720px" url="data/images/single/B_31r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_31r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_31v" xml:id="B_surf_31v">
-         <graphic height="5720px" url="data/images/single/B_31v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_31v.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_32r" xml:id="B_surf_32r">
-         <graphic height="5720px" url="data/images/single/B_32r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_32r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_32v" xml:id="B_surf_32v">
-         <graphic height="5720px" url="data/images/single/B_32v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_32v.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_33r" xml:id="B_surf_33r">
-         <graphic height="5720px" url="data/images/single/B_33r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_33r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_33v" xml:id="B_surf_33v">
-         <graphic height="5720px" url="data/images/single/B_33v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_33v.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_34r" xml:id="B_surf_34r">
-         <graphic height="5720px" url="data/images/single/B_34r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_34r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_34v" xml:id="B_surf_34v">
-         <graphic height="5720px" url="data/images/single/B_34v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_34v.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_35r" xml:id="B_surf_35r">
-         <graphic height="5720px" url="data/images/single/B_35r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_35r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_35v" xml:id="B_surf_35v">
-         <graphic height="5720px" url="data/images/single/B_35v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_35v.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_36r" xml:id="B_surf_36r">
-         <graphic height="5720px" url="data/images/single/B_36r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_36r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_36v" xml:id="B_surf_36v">
-         <graphic height="5720px" url="data/images/single/B_36v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_36v.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_37r" xml:id="B_surf_37r">
-         <graphic height="5720px" url="data/images/single/B_37r.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_37r.jpg" width="3931px"/>
       </surface>
       <surface corresp="#B_fol_37v" xml:id="B_surf_37v">
-         <graphic height="5720px" url="data/images/single/B_37v.jpg" width="3931px"/>
+         <graphic height="5720px" url="data/images/single/B_facs/B_37v.jpg" width="3931px"/>
       </surface>
    </facsimile>
 
 
    <text xml:id="B">
-      <!-- LOMBARDA = INIZIO "STROFE" -->
+      <!-- LOMBARDA = INIZIO "STROFE", SISTEMA PBs -->
 
       <body>
 
+
+
+         <pb facs="data/images/single/B_facs/B_28r.jpg" n="28r" xml:id="B_fol_28r"/>
          <!-- FOL. 28r, inizio colonna a -->
-
-         <pb facs="B_28r.jpg" n="28r" xml:id="B_fol_28r"/>
-
+         
          <!-- BUCEFALO -->
          <anchor xml:id="B_Bucephalus_start"/>
          <div n="5" type="stanza" xml:id="B_div_5">
@@ -149,7 +150,7 @@
             <l n="578" xml:id="B_l_578">ich enweis, ob es im lieb wer,</l>
             <l n="579" xml:id="B_l_579">oder ob es im brechtte swer.</l>
             <l n="580" xml:id="B_l_580">Alexander was us gewessen</l>
-            <l n="581" xml:id="B_l_581">und was<!-- FOL. 28v --><pb facs="B_28v.jpg" n="28v"
+            <l n="581" xml:id="B_l_581">und was<!-- FOL. 28v --><pb facs="data/images/single/B_facs/B_28v.jpg" n="28v"
                   xml:id="B_fol_28v"/>ein küng userlesen</l>
             <l n="582" xml:id="B_l_582">und an kreftten niut las.</l>
             <l n="583" xml:id="B_l_583">Uf zwenzig jor alt er was,</l>
@@ -208,7 +209,7 @@
             <l n="624" xml:id="B_l_624">Er hies sy alle hœcher stan,</l>
             <l n="625" xml:id="B_l_625">er wolt allein hin in gan.</l>
             <l n="626" xml:id="B_l_626">Das ros woltte gegen im varn:</l>
-            <l n="627" xml:id="B_l_627">als es in begunde an-<!-- FOL. 29r --><pb facs="B_29r.jpg"
+            <l n="627" xml:id="B_l_627">als es in begunde an-<!-- FOL. 29r --><pb facs="data/images/single/B_facs/B_29r.jpg"
                   n="29r" xml:id="B_fol_29r"/>starn,</l>
             <l n="628" xml:id="B_l_628">von siner gesicht es erschrak,</l>
             <l n="629" xml:id="B_l_629">as alle sin freidikeit gelag.</l>
@@ -272,7 +273,7 @@
             <!-- ALESSANDRO DISCUTE DEL TITOLO REGALE -->
             <l n="674" xml:id="B_l_674">Er sprach:<anchor xml:id="B_Alexander_royalTitle_start"
                   /><said toWhom="#MacedonianSubjects" who="#Alexander"
-                  />"Wellent<!-- FOL. 29v --><pb facs="B_29v.jpg" n="29v" xml:id="B_fol_29v"/>ir ein
+                  />"Wellent<!-- FOL. 29v --><pb facs="data/images/single/B_facs/B_29v.jpg" n="29v" xml:id="B_fol_29v"/>ir ein
                wille ruowe han,</l>
             <l n="675" xml:id="B_l_675">bis ich einen strit mœchtte began</l>
             <l n="676" xml:id="B_l_676">mit einem küng, den ich meine,</l>

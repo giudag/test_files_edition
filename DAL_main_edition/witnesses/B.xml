@@ -86,13 +86,10 @@
 
       <body>
 
-
-
-         <pb facs="data/images/single/B_facs/B_28r.jpg" n="28r" xml:id="B_fol_28r"/>
-         <!-- FOL. 28r, inizio colonna a -->
-         
          <!-- BUCEFALO -->
          <anchor xml:id="B_Bucephalus_start"/>
+         <pb facs="data/images/single/B_facs/B_28r.jpg" n="28r" xml:id="B_fol_28r"/>
+         <!-- FOL. 28r, inizio colonna a -->
          <div n="5" type="stanza" xml:id="B_div_5">
             <l n="531" xml:id="B_l_531">In der selben zit,</l>
             <l n="532" xml:id="B_l_532">des mir die gescrift urkunde git,</l>
@@ -118,7 +115,7 @@
             <l n="552" xml:id="B_l_552">Für künig Pilipo ward es geleit:</l>
             <l n="553" xml:id="B_l_553">als er sach sin gelegenheit,</l>
             <!-- FILIPPO DÀ IL NOME A BUCEFALO -->
-            <l n="554" xml:id="B_l_554">er sprach:<anchor xml:id="B_Philip_names_Bucephalus_start"
+            <l n="554" xml:id="B_l_554">er sprach: <anchor xml:id="B_Philip_names_Bucephalus_start"
                   /><said who="#Philip"/>"Burzival es heissen sol".<anchor
                   xml:id="B_Philip_names_Bucephalus_end"/></l>
             <l n="555" xml:id="B_l_555">Der name geviel in allen wol.</l>
@@ -150,8 +147,8 @@
             <l n="578" xml:id="B_l_578">ich enweis, ob es im lieb wer,</l>
             <l n="579" xml:id="B_l_579">oder ob es im brechtte swer.</l>
             <l n="580" xml:id="B_l_580">Alexander was us gewessen</l>
-            <l n="581" xml:id="B_l_581">und was<!-- FOL. 28v --><pb facs="data/images/single/B_facs/B_28v.jpg" n="28v"
-                  xml:id="B_fol_28v"/>ein küng userlesen</l>
+            <l n="581" xml:id="B_l_581">und was<pb facs="data/images/single/B_facs/B_28v.jpg"
+                  n="28v" xml:id="B_fol_28v"/><!-- FOL. 28v -->ein küng userlesen</l>
             <l n="582" xml:id="B_l_582">und an kreftten niut las.</l>
             <l n="583" xml:id="B_l_583">Uf zwenzig jor alt er was,</l>
             <l n="584" xml:id="B_l_584">do kam er wider hein</l>
@@ -209,8 +206,9 @@
             <l n="624" xml:id="B_l_624">Er hies sy alle hœcher stan,</l>
             <l n="625" xml:id="B_l_625">er wolt allein hin in gan.</l>
             <l n="626" xml:id="B_l_626">Das ros woltte gegen im varn:</l>
-            <l n="627" xml:id="B_l_627">als es in begunde an-<!-- FOL. 29r --><pb facs="data/images/single/B_facs/B_29r.jpg"
-                  n="29r" xml:id="B_fol_29r"/>starn,</l>
+            <l n="627" xml:id="B_l_627">als es in begunde an-<pb
+                  facs="data/images/single/B_facs/B_29r.jpg" n="29r" xml:id="B_fol_29r"
+               /><!-- FOL. 29r -->starn,</l>
             <l n="628" xml:id="B_l_628">von siner gesicht es erschrak,</l>
             <l n="629" xml:id="B_l_629">as alle sin freidikeit gelag.</l>
             <l n="630" xml:id="B_l_630">Es erzittret an der stund</l>
@@ -272,9 +270,9 @@
             <gap/>
             <!-- ALESSANDRO DISCUTE DEL TITOLO REGALE -->
             <l n="674" xml:id="B_l_674">Er sprach:<anchor xml:id="B_Alexander_royalTitle_start"
-                  /><said toWhom="#MacedonianSubjects" who="#Alexander"
-                  />"Wellent<!-- FOL. 29v --><pb facs="data/images/single/B_facs/B_29v.jpg" n="29v" xml:id="B_fol_29v"/>ir ein
-               wille ruowe han,</l>
+                  /><said toWhom="#MacedonianSubjects" who="#Alexander"/>"Wellent<pb
+                  facs="data/images/single/B_facs/B_29v.jpg" n="29v" xml:id="B_fol_29v"
+               /><!-- FOL. 29v -->ir ein wille ruowe han,</l>
             <l n="675" xml:id="B_l_675">bis ich einen strit mœchtte began</l>
             <l n="676" xml:id="B_l_676">mit einem küng, den ich meine,</l>
             <l n="677" xml:id="B_l_677">und wer er hert als ein steine,</l>
@@ -337,8 +335,8 @@
             <l n="723" xml:id="B_l_723">keiner küngin an ir er".<anchor
                   xml:id="B_Alexander_reproaches_Philip_end"/></l>
             <l n="724" xml:id="B_l_724">Das hort ein graffe, hies Lisyas,</l>
-            <l n="725" xml:id="B_l_725">der gar stolcz<!-- FOL. 30r --><pb n="30r"
-                  xml:id="B_fol_30r"/>und redhaft was.</l>
+            <l n="725" xml:id="B_l_725">der gar stolcz<pb facs="data/images/single/B_facs/B_30r.jpg"
+                  n="30r" xml:id="B_fol_30r"/><!-- FOL. 30r -->und redhaft was.</l>
             <l n="726" xml:id="B_l_726">Es was im vil ungemach,</l>
             <l n="727" xml:id="B_l_727">das er alsus zornenklichen sprach:</l>
             <l n="728" xml:id="B_l_728">des antwurt er im smechlich,</l>
@@ -400,8 +398,9 @@
             <l n="778" xml:id="B_l_778">der warent hundert und niut me.</l>
             <gap/>
             <l n="779" xml:id="B_l_779">Mit listen erstürmet er die,</l>
-            <l n="780" xml:id="B_l_780">die heren er dar uf alle<!-- FOL. 30v --><pb n="30v"
-                  xml:id="B_fol_30v"/> fie,</l>
+            <l n="780" xml:id="B_l_780">die heren er dar uf alle<pb
+                  facs="data/images/single/B_facs/B_30v.jpg" n="30v" xml:id="B_fol_30v"
+               /><!-- FOL. 30v --> fie,</l>
             <l n="781" xml:id="B_l_781">und besaczte si werlich.</l>
             <gap/>
             <l n="782" xml:id="B_l_782">Ze lande er wider hein kam.</l>
@@ -459,8 +458,9 @@
             <l n="834" xml:id="B_l_834">Im widerreit Pausonias,</l>
             <l n="835" xml:id="B_l_835">der ein richer margroff was,</l>
             <l n="836" xml:id="B_l_836">und fuortte mit gewalt Ollipyas,</l>
-            <l n="837" xml:id="B_l_837">die Allexanders muotter<!-- FOL. 31r --><pb n="31r"
-                  xml:id="B_fol_31r"/> was.</l>
+            <l n="837" xml:id="B_l_837">die Allexanders muotter<pb
+                  facs="data/images/single/B_facs/B_31r.jpg" n="31r" xml:id="B_fol_31r"
+               /><!-- FOL. 31r --> was.</l>
             <l n="838" xml:id="B_l_838">Den küng hat er gewundet,</l>
             <l n="839" xml:id="B_l_839">das was Allexandro gekündet.</l>
             <l n="840" xml:id="B_l_840">Er sprach: "Er gilt mir das ungemach!"</l>
@@ -513,8 +513,8 @@
             <l n="882" xml:id="B_l_882">alle iuwer erbeit und not</l>
             <l n="883" xml:id="B_l_883">und bi iuch ligen dot".</l>
             <l n="884" xml:id="B_l_884">Do er das also gesagt,</l>
-            <l n="885" xml:id="B_l_885">ir keiner<!-- FOL. 31v --><pb n="31v" xml:id="B_fol_31v"/>
-               lenger do gedagt,</l>
+            <l n="885" xml:id="B_l_885">ir keiner<pb facs="data/images/single/B_facs/B_31v.jpg"
+                  n="31v" xml:id="B_fol_31v"/><!-- FOL. 31v --> lenger do gedagt,</l>
             <l n="886" xml:id="B_l_886">sy sprachen mit gemeiner zungen:</l>
             <l n="887" xml:id="B_l_887">"Dissen küng jungen</l>
             <l n="888" xml:id="B_l_888">frist uns Got zuo dem rich.</l>
@@ -569,8 +569,8 @@
             <l n="936" xml:id="B_l_936">Des dankte er den Rœmeren.</l>
             <l n="937" xml:id="B_l_937">Zehen hundert er us in nam,</l>
             <l n="938" xml:id="B_l_938">die fuortte er die reisse von dan:</l>
-            <l n="939" xml:id="B_l_939">ze Affri-<!-- FOL. 32r --><pb n="32r" xml:id="B_fol_32r"/>ca
-               er gerant,</l>
+            <l n="939" xml:id="B_l_939">ze Affri-<pb facs="data/images/single/B_facs/B_32r.jpg"
+                  n="32r" xml:id="B_fol_32r"/><!-- FOL. 32r -->ca er gerant,</l>
             <l n="940" xml:id="B_l_940">die was Dario bekant</l>
             <l n="941" xml:id="B_l_941">ze rechter eigenschaft.</l>
             <l n="942" xml:id="B_l_942">Mit grosser herskrafft,</l>
@@ -623,8 +623,9 @@
             <l n="987" xml:id="B_l_987">Si was wol einer mile breit.</l>
             <l n="988" xml:id="B_l_988">Daryo waren sy underdan.</l>
             <l n="989" xml:id="B_l_989">Allexander sinen botten sant</l>
-            <l n="990" xml:id="B_l_990">in die stat: woltte sy des gezemen,<!-- FOL. 32v --><pb
-                  n="32v" xml:id="B_fol_32v"/></l>
+            <l n="990" xml:id="B_l_990">in die stat: woltte sy des gezemen,<pb
+                  facs="data/images/single/B_facs/B_32v.jpg" n="32v" xml:id="B_fol_32v"
+               /><!-- FOL. 32v --></l>
             <l n="991" xml:id="B_l_991">das sy in ze einem heren woltten nemen,</l>
             <l n="992" xml:id="B_l_992">des wolt er inen dank sagen</l>
             <l n="993" xml:id="B_l_993">und williges herzy tragen.</l>
@@ -684,8 +685,9 @@
             <gap/>
             <gap/>
             <l n="1039" xml:id="B_l_1039">grosse buom er do gewan,</l>
-            <l n="1040" xml:id="B_l_1040">die hies er ze samen machen<!-- FOL. 33r --><pb n="33r"
-                  xml:id="B_fol_33r"/></l>
+            <l n="1040" xml:id="B_l_1040">die hies er ze samen machen<pb
+                  facs="data/images/single/B_facs/B_33r.jpg" n="33r" xml:id="B_fol_33r"
+               /><!-- FOL. 33r --></l>
             <gap/>
             <l n="1041" xml:id="B_l_1041">ze obnen hoch den dürnen da.</l>
             <l n="1042" xml:id="B_l_1042">Wen man es getribe so na,</l>
@@ -743,10 +745,12 @@
             <l n="1088" xml:id="B_l_1088">die andren entrunnen in die stat.</l>
             <l n="1089" xml:id="B_l_1089">Der strit sust ein ende hat.</l>
             <l n="1090" xml:id="B_l_1090">Ze der zit ouch Allexander kam,</l>
-            <l n="1091" xml:id="B_l_1091">aller erst huob sich die rechtte not.<!-- FOL. 33v --><pb
-                  n="33v" xml:id="B_fol_33v"/></l>
+            <l n="1091" xml:id="B_l_1091">aller erst huob sich die rechtte not.</l>
          </div>
 
+
+         <pb facs="data/images/single/B_facs/B_33v.jpg" n="33v" xml:id="B_fol_33v"/>
+         <!-- FOL. 33v -->
          <div n="9" type="stanza" xml:id="B_div_9">
             <l n="1092" xml:id="B_l_1092">Allexander mit grossen krefften</l>
             <l n="1093" xml:id="B_l_1093">hies die schiff ze samen hefften</l>
@@ -805,8 +809,9 @@
             <l n="1136" xml:id="B_l_1136">die slege man mit nide mas;</l>
             <l n="1137" xml:id="B_l_1137">durch schiltte schluogen die scharfen gern,</l>
             <l n="1138" xml:id="B_l_1138">die mangem datten herczeseren,</l>
-            <l n="1139" xml:id="B_l_1139">der damit durch<!-- FOL. 34r --><pb n="34r"
-                  xml:id="B_fol_34r"/>stochen ward:</l>
+            <l n="1139" xml:id="B_l_1139">der damit durch<pb
+                  facs="data/images/single/B_facs/B_34r.jpg" n="34r" xml:id="B_fol_34r"
+               /><!-- FOL. 34r -->stochen ward:</l>
             <gap/>
             <l n="1140" xml:id="B_l_1140">so mengen leit er uf die wal,</l>
             <l n="1141" xml:id="B_l_1141">das ir waren anne zal.</l>
@@ -870,8 +875,8 @@
             <l n="1193" xml:id="B_l_1193">Er kam in die stat gerant,</l>
             <gap/>
             <l n="1194" xml:id="B_l_1194">die sinen wolt er rechen,</l>
-            <l n="1195" xml:id="B_l_1195">die türn<!-- FOL. 34v --><pb n="34v" xml:id="B_fol_34v"
-               />hies er brechen.</l>
+            <l n="1195" xml:id="B_l_1195">die türn<pb facs="data/images/single/B_facs/B_34v.jpg"
+                  n="34v" xml:id="B_fol_34v"/><!-- FOL. 34v -->hies er brechen.</l>
             <l n="1196" xml:id="B_l_1196">Er gedach an sin swer:</l>
             <l n="1197" xml:id="B_l_1197">der besten burger</l>
             <l n="1198" xml:id="B_l_1198">hies er driu dusing vahen,</l>
@@ -936,8 +941,9 @@
             <l n="1248" xml:id="B_l_1248">den man nüczet alle stund,</l>
             <l n="1249" xml:id="B_l_1249">das er im deglich dienen solt</l>
             <l n="1250" xml:id="B_l_1250">mit allem sinem rich; das gold</l>
-            <l n="1251" xml:id="B_l_1251">solt im wissen<!-- FOL. 35r --><pb n="35r"
-                  xml:id="B_fol_35r"/>lan,</l>
+            <l n="1251" xml:id="B_l_1251">solt im wissen<pb
+                  facs="data/images/single/B_facs/B_35r.jpg" n="35r" xml:id="B_fol_35r"
+               /><!-- FOL. 35r -->lan,</l>
             <l n="1252" xml:id="B_l_1252">das er wolte sinen zins han,</l>
             <l n="1253" xml:id="B_l_1253">als lieb im wer lib und land.</l>
             <gap/>
@@ -999,8 +1005,9 @@
             <l n="1300" xml:id="B_l_1300">Do Daryus den brieff vernam,</l>
             <l n="1301" xml:id="B_l_1301">der im von Allexander kam,</l>
             <l n="1302" xml:id="B_l_1302">zornenklich er do uf fuor,</l>
-            <l n="1303" xml:id="B_l_1303">bi sinem rich er<!-- FOL. 35v --><pb n="35v"
-                  xml:id="B_fol_35v"/>do swor,</l>
+            <l n="1303" xml:id="B_l_1303">bi sinem rich er<pb
+                  facs="data/images/single/B_facs/B_35v.jpg" n="35v" xml:id="B_fol_35v"
+               /><!-- FOL. 35v -->do swor,</l>
             <l n="1304" xml:id="B_l_1304">sid in der beschult,</l>
             <l n="1305" xml:id="B_l_1305">des vatter im den zins gult.</l>
          </div>
@@ -1070,8 +1077,9 @@
             <l n="1352" xml:id="B_l_1352">vor dem nieman ist behuot:</l>
             <l n="1353" xml:id="B_l_1353">wa er kam gen in gevarn,</l>
             <l n="1354" xml:id="B_l_1354">ee sich jeman umb gesach,</l>
-            <l n="1355" xml:id="B_l_1355">so beschach im von im ungemach.<!-- FOL. 36r --><pb
-                  n="36r" xml:id="B_fol_36r"/></l>
+            <l n="1355" xml:id="B_l_1355">so beschach im von im ungemach.<pb
+                  facs="data/images/single/B_facs/B_36r.jpg" n="36r" xml:id="B_fol_36r"
+               /><!-- FOL. 36r --></l>
             <l n="1356" xml:id="B_l_1356">Der herzog Menos genant</l>
             <gap/>
             <l n="1357" xml:id="B_l_1357">sich mit hundert rittren het behuot.</l>
@@ -1120,8 +1128,8 @@
             <l n="1397" xml:id="B_l_1397">des er gros lob gewan.</l>
             <l n="1398" xml:id="B_l_1398">Den helm zuch ein hant,</l>
             <l n="1399" xml:id="B_l_1399">sinem herren er in uf band.</l>
-            <l n="1400" xml:id="B_l_1400">Dem was sin<!-- FOL. 36v --><pb n="36v" xml:id="B_fol_36v"
-               />huobt erschelt.</l>
+            <l n="1400" xml:id="B_l_1400">Dem was sin<pb facs="data/images/single/B_facs/B_36v.jpg"
+                  n="36v" xml:id="B_fol_36v"/><!-- FOL. 36v -->huobt erschelt.</l>
             <l n="1401" xml:id="B_l_1401">Da er ward gefelt,</l>
             <l n="1402" xml:id="B_l_1402">sin krafft was im en wil genomen:</l>
             <l n="1403" xml:id="B_l_1403">des was er nu wider komen.</l>
@@ -1178,8 +1186,9 @@
             <l n="1445" xml:id="B_l_1445">Menos im da wider reit.</l>
             <l n="1446" xml:id="B_l_1446">Uf den treib er des paner schafft,</l>
             <l n="1447" xml:id="B_l_1447">zuo der erden er in warff.</l>
-            <l n="1448" xml:id="B_l_1448">Do greif er zuo dem swert eines<!-- FOL. 37r --><pb
-                  n="37r" xml:id="B_fol_37r"/><gap/></l>
+            <l n="1448" xml:id="B_l_1448">Do greif er zuo dem swert eines<pb
+                  facs="data/images/single/B_facs/B_37r.jpg" n="37r" xml:id="B_fol_37r"
+               /><!-- FOL. 37r --><gap/></l>
             <l n="1449" xml:id="B_l_1449">den arm er im absluog,<gap/></l>
             <l n="1450" xml:id="B_l_1450">da mit gelag er dot.</l>
             <l n="1451" xml:id="B_l_1451">Die von Persen von der not</l>
@@ -1242,8 +1251,8 @@
             <l n="1500" xml:id="B_l_1500">Achzig tusing warent der,</l>
             <l n="1501" xml:id="B_l_1501">die von Armenye komen her.</l>
             <l n="1502" xml:id="B_l_1502">Die snellen Gassern</l>
-            <l n="1503" xml:id="B_l_1503">und<!-- FOL. 37v --><pb n="37v" xml:id="B_fol_37v"/>die
-               Pilisti woltten wern</l>
+            <l n="1503" xml:id="B_l_1503">und<pb facs="data/images/single/B_facs/B_37v.jpg" n="37v"
+                  xml:id="B_fol_37v"/><!-- FOL. 37v -->die Pilisti woltten wern</l>
             <l n="1504" xml:id="B_l_1504">Daryo ir helffe dar:</l>
             <l n="1505" xml:id="B_l_1505">dusing rissen was ir schar.</l>
             <l n="1506" xml:id="B_l_1506">Noch sassen sin fryen man</l>

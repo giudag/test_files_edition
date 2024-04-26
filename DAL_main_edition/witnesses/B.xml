@@ -82,7 +82,7 @@
 
 
    <text xml:id="B">
-      <!-- LOMBARDA = INIZIO "STROFE", SISTEMA PBs -->
+      <!-- LOMBARDA = INIZIO "STROFE" -->
 
       <body>
 
@@ -355,8 +355,11 @@
             <l n="741" xml:id="B_l_741">die zene viellen us dem mund,</l>
             <l n="742" xml:id="B_l_742">und das er gehortte noch ensach.</l>
             <l n="743" xml:id="B_l_743">Allexander mit zornne sprach:</l>
-            <l n="744" xml:id="B_l_744">"Sust sol man stillen affen,</l>
-            <l n="745" xml:id="B_l_745">die unnüczlich klaffen".</l>
+            <l n="744" xml:id="B_l_744"><anchor xml:id="B_Alexander_Lysia_start"/><said
+                  toWhom="#Lysia" who="#Alexander"/>"Sust sol man stillen affen,</l>
+            <l n="745" xml:id="B_l_745">die unnüczlich klaffen".<anchor
+                  xml:id="B_Alexander_Lysia_end"/></l>
+            <!-- ALESSANDRO LITIGA CON LISIA -->
             <l n="746" xml:id="B_l_746">Do der küng Pilipus ersach,</l>
             <l n="747" xml:id="B_l_747">was Lisyo beschach,</l>
             <l n="748" xml:id="B_l_748">sin zorn in dar zuo twang,</l>
@@ -380,10 +383,15 @@
             <l n="764" xml:id="B_l_764">und ze heillen sin bein,</l>
             <l n="765" xml:id="B_l_765">und brachtte wider in ein</l>
             <l n="766" xml:id="B_l_766">in und die muotter sin.</l>
+            <anchor xml:id="B_Alexander_Cleopatra_end"/>
             <gap/>
             <gap/>
+            
+            <!-- SCONTRO DI "ANTONIA" - IN B NON COMPARE IL NOME DELLA CITTÀ-->
+            
+            <anchor xml:id="B_Alexander_retakes_city_start"/>
             <l n="767" xml:id="B_l_767">Ein botte ward gesendet,</l>
-            <l n="768" xml:id="B_l_768">der seitte dem küng Pi lipo, das</l>
+            <l n="768" xml:id="B_l_768">der seitte dem küng Pilipo, das</l>
             <l n="769" xml:id="B_l_769">er soltte siner burg hüetten bas:</l>
             <l n="770" xml:id="B_l_770">die sechzig heren, die er da</l>
             <l n="771" xml:id="B_l_771">hett, wellen keren anderswa</l>
@@ -404,6 +412,9 @@
             <l n="781" xml:id="B_l_781">und besaczte si werlich.</l>
             <gap/>
             <l n="782" xml:id="B_l_782">Ze lande er wider hein kam.</l>
+            <anchor xml:id="B_Alexander_retakes_city_end"/>
+            <!-- PRIMO CONFLITTO SUI TRIBUTI CON DARIO  -->
+            <anchor xml:id="B_tribute_dispute_start"/>
             <l n="783" xml:id="B_l_783">Er vant vor sinem vatter stan</l>
             <l n="784" xml:id="B_l_784">botten von Persya dem land,</l>
             <l n="785" xml:id="B_l_785">die Daryus hat dar gesant,</l>
@@ -416,7 +427,8 @@
             <l n="792" xml:id="B_l_792">Allexander sprach gerichtte</l>
             <l n="793" xml:id="B_l_793">zuo der botten angesichte.</l>
             <l n="794" xml:id="B_l_794">Er hies die botten ritten</l>
-            <l n="795" xml:id="B_l_795">und sprach: "Bi minen zitten,</l>
+            <l n="795" xml:id="B_l_795">und sprach: <anchor xml:id="B_Alexander_denies_tribute_start"
+            /><said toWhom="#DariusMessengers" who="#Alexander"/><!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO -->"Bi minen zitten,</l>
             <l n="796" xml:id="B_l_796">wirt im der zins niut me gesant</l>
             <l n="797" xml:id="B_l_797">von uns us Kriechenlant.</l>
             <l n="798" xml:id="B_l_798">Duont iuwerem heren von mir kunt,</l>
@@ -426,11 +438,15 @@
             <l n="802" xml:id="B_l_802">den zins in sœllicher mosse:</l>
             <l n="803" xml:id="B_l_803">ich muos im das leben lassen,</l>
             <l n="804" xml:id="B_l_804">oder er git mir sin huobt.</l>
-            <l n="805" xml:id="B_l_805">Die botschaft si iuch erluobt".</l>
+            <l n="805" xml:id="B_l_805">Die botschaft si iuch erluobt".<anchor
+               xml:id="B_Alexander_denies_tribute_end"/></l>
             <l n="806" xml:id="B_l_806">Danan scheiden sy do</l>
             <l n="807" xml:id="B_l_807">trurig und unfro,</l>
             <l n="808" xml:id="B_l_808">und fro, das si komen dan</l>
             <l n="809" xml:id="B_l_809">von dem grimen man.</l>
+            <anchor xml:id="B_tribute_dispute_end"/>
+            <!-- THELEMONE -->
+            <anchor xml:id="B_Thelemone_start"/>
             <l n="810" xml:id="B_l_810">Do das ward geendet,</l>
             <l n="811" xml:id="B_l_811">ein bot da ward ges endet</l>
             <l n="812" xml:id="B_l_812">Pilipo, der im seitte die mer,</l>
@@ -452,6 +468,7 @@
             <l n="828" xml:id="B_l_828">Er nam da schacz, was er sin vant,</l>
             <l n="829" xml:id="B_l_829">er gab in sinen dieneren ze hand,</l>
             <l n="830" xml:id="B_l_830">da mit er wieder hein reit.</l>
+            <anchor xml:id="B_Thelemone_end"/>
             <l n="831" xml:id="B_l_831">Nu widerfuor im herzeleit</l>
             <l n="832" xml:id="B_l_832">uf der heinfert,</l>
             <l n="833" xml:id="B_l_833">das in vil zorns wert.</l>

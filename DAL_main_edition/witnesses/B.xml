@@ -386,9 +386,9 @@
             <anchor xml:id="B_Alexander_Cleopatra_end"/>
             <gap/>
             <gap/>
-            
+
             <!-- SCONTRO DI "ANTONIA" - IN B NON COMPARE IL NOME DELLA CITTÀ-->
-            
+
             <anchor xml:id="B_Alexander_retakes_city_start"/>
             <l n="767" xml:id="B_l_767">Ein botte ward gesendet,</l>
             <l n="768" xml:id="B_l_768">der seitte dem küng Pilipo, das</l>
@@ -427,8 +427,10 @@
             <l n="792" xml:id="B_l_792">Allexander sprach gerichtte</l>
             <l n="793" xml:id="B_l_793">zuo der botten angesichte.</l>
             <l n="794" xml:id="B_l_794">Er hies die botten ritten</l>
-            <l n="795" xml:id="B_l_795">und sprach: <anchor xml:id="B_Alexander_denies_tribute_start"
-            /><said toWhom="#DariusMessengers" who="#Alexander"/><!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO -->"Bi minen zitten,</l>
+            <l n="795" xml:id="B_l_795">und sprach: <anchor
+                  xml:id="B_Alexander_denies_tribute_start"/><said toWhom="#DariusMessengers"
+                  who="#Alexander"/><!-- ALESSANDRO SI RIFIUTA DI PAGARE IL TRIBUTO A DARIO -->"Bi
+               minen zitten,</l>
             <l n="796" xml:id="B_l_796">wirt im der zins niut me gesant</l>
             <l n="797" xml:id="B_l_797">von uns us Kriechenlant.</l>
             <l n="798" xml:id="B_l_798">Duont iuwerem heren von mir kunt,</l>
@@ -439,7 +441,7 @@
             <l n="803" xml:id="B_l_803">ich muos im das leben lassen,</l>
             <l n="804" xml:id="B_l_804">oder er git mir sin huobt.</l>
             <l n="805" xml:id="B_l_805">Die botschaft si iuch erluobt".<anchor
-               xml:id="B_Alexander_denies_tribute_end"/></l>
+                  xml:id="B_Alexander_denies_tribute_end"/></l>
             <l n="806" xml:id="B_l_806">Danan scheiden sy do</l>
             <l n="807" xml:id="B_l_807">trurig und unfro,</l>
             <l n="808" xml:id="B_l_808">und fro, das si komen dan</l>
@@ -469,6 +471,8 @@
             <l n="829" xml:id="B_l_829">er gab in sinen dieneren ze hand,</l>
             <l n="830" xml:id="B_l_830">da mit er wieder hein reit.</l>
             <anchor xml:id="B_Thelemone_end"/>
+            <!--  LA MORTE DI FILIPPO -->
+            <anchor xml:id="B_Philip_death_start"/>
             <l n="831" xml:id="B_l_831">Nu widerfuor im herzeleit</l>
             <l n="832" xml:id="B_l_832">uf der heinfert,</l>
             <l n="833" xml:id="B_l_833">das in vil zorns wert.</l>
@@ -480,30 +484,52 @@
                /><!-- FOL. 31r --> was.</l>
             <l n="838" xml:id="B_l_838">Den küng hat er gewundet,</l>
             <l n="839" xml:id="B_l_839">das was Allexandro gekündet.</l>
-            <l n="840" xml:id="B_l_840">Er sprach: "Er gilt mir das ungemach!"</l>
+            <l n="840" xml:id="B_l_840">Er sprach: <anchor
+                  xml:id="B_Alexander_furious_with_Pausonias_start"/><said who="#Alexander"/>"Er
+               gilt mir das ungemach!"<anchor xml:id="B_Alexander_furious_with_Pausonias_end"
+               /><!--  ALESSANDRO SI INFURIA CON PAUSONIA --></l>
             <l n="841" xml:id="B_l_841">Den schilt truog er für sich</l>
             <l n="842" xml:id="B_l_842">und reit uf in manlich,</l>
             <l n="843" xml:id="B_l_843">den spies er durch den groffen stach,</l>
             <l n="844" xml:id="B_l_844">ze der erden dot in warff.</l>
-            <l n="845" xml:id="B_l_845">"Keins stieffatter ich bedarf!"</l>
+            <l n="845" xml:id="B_l_845"><anchor xml:id="B_Alexander_repudiates_Pausonias_start"
+                  /><said toWhom="#Pausonias" who="#Alexander"/>"Keins stieffatter ich
+                  bedarf!"<anchor xml:id="B_Alexander_repudiates_Pausonias_end"
+               /><!--  ALESSANDRO RIPUDIA PAUSONIA --></l>
             <l n="846" xml:id="B_l_846">Ein botte für vil balde reit,</l>
             <l n="847" xml:id="B_l_847">dem küng die mer er seit,</l>
             <l n="848" xml:id="B_l_848">das Allexander widerbrecht</l>
             <l n="849" xml:id="B_l_849">die küngin ungesmecht</l>
             <l n="850" xml:id="B_l_850">und der margroff wer erslagen.</l>
-            <l n="851" xml:id="B_l_851">Der küng sprach: "Ich sol niut klagen</l>
+            <l n="851" xml:id="B_l_851">Der küng sprach: <anchor
+                  xml:id="B_Philip_asks_for_revenge_start"/><said who="#Philip"/>"Ich sol niut
+               klagen</l>
             <l n="852" xml:id="B_l_852">nun fürbas all min not,</l>
-            <l n="853" xml:id="B_l_853">sid Pausonias ist gelegen dot".</l>
+            <l n="853" xml:id="B_l_853">sid Pausonias ist gelegen dot".<anchor
+                  xml:id="B_Philip_asks_for_revenge_end"/></l>
+            <!--  FILIPPO CHIEDE DI ESSERE VENDICATO -->
             <l n="854" xml:id="B_l_854">Allexander ouch nun kam, er gieng ze hant,</l>
             <l n="855" xml:id="B_l_855">do er den küng sin vatter vant.</l>
             <l n="856" xml:id="B_l_856">Er klate in vil ser. Der küng mit züchtten sprach,</l>
             <l n="857" xml:id="B_l_857">do er sin ungehab ersach:</l>
-            <l n="858" xml:id="B_l_858">"Nun la din trunen sin,</l>
+            <l n="858" xml:id="B_l_858"><anchor xml:id="B_Philip_lastWords_start"/><said
+                  toWhom="#Alexander" who="#Philip"/>"Nun la din trunen sin,</l>
             <l n="859" xml:id="B_l_859">hastu erslagen den vigent min.</l>
             <l n="860" xml:id="B_l_860">So wil ich frœlich sterben.</l>
             <gap/>
-            <l n="861" xml:id="B_l_861">Got geruoche dir glük geben!"</l>
+            <l n="861" xml:id="B_l_861">Got geruoche dir glük geben!"<!--  LE ULTIME PAROLE DI FILIPPO --><anchor
+                  xml:id="B_Philip_lastWords_end"/></l>
             <l n="862" xml:id="B_l_862">Alsus endet er sin leben.</l>
+            <anchor xml:id="B_Philip_death_end"/>
+            
+            
+            
+            
+            
+            
+            
+            <!-- ALESSANDRO DIVENTA RE -->
+            <anchor xml:id="B_Alexander_becomes_king_start"/>
             <l n="863" xml:id="B_l_863">Er ward nach sinem recht begraben,</l>
             <l n="864" xml:id="B_l_864">Allexander ze künge erhaben.</l>
             <l n="865" xml:id="B_l_865">Nu begunde wachsen sin gewalt,</l>

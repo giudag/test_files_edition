@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <standOff>
+
+
+
+      <!-- ################# PROVO A COLLEGARE I VERSI CORRISPONDENTI NEI TRE TESTI A PARTIRE DA ASSEDIO DI TIRO  ################## -->
+      <!-- ################# ESEMPI SÌ, MA MANCA RIFLESSIONE METODOLOGICA SULLE SINOTTICHE ################## -->
+
+
+      <spanGrp type="episodes">
+
+         <!-- #############   V   ############## -->
+
+
+         <!--  LE STRATEGIE DI ALESSANDRO -->
+         <span ana="#Alexander_strategy" corresp="#S_Alexander_strategy #B_Alexander_strategy"
+            from="#V_Alexander_strategy_start" to="#V_Alexander_strategy_end" type="episode"
+            xml:id="V_Alexander_strategy"><!--  ALESSANDRO CONSULTA I SUOI PRINCIPI --><span
+               corresp="#S_Alexander_consults_princes #B_Alexander_consults_princes"
+               from="#V_Alexander_consults_princes_start" to="#V_Alexander_consults_princes_end"
+               type="direct_speech" xml:id="V_Alexander_consults_princes"/>
+            <spanGrp type="lines_alignment">
+               <span corresp="#S_885_887" from="#V_l_946" to="#V_l_948" xml:id="V_946_948"/>
+            </spanGrp>Alexander is advised to use Greek fire</span>
+
+
+         <!-- #############   S   ############## -->
+
+         <!--  LE STRATEGIE DI ALESSANDRO -->
+         <span ana="#Alexander_strategy" corresp="#V_Alexander_strategy #B_Alexander_strategy"
+            from="#S_Alexander_strategy_start" to="#S_Alexander_strategy_end" type="episode"
+            xml:id="S_Alexander_strategy"><!--  ALESSANDRO CONSULTA I SUOI PRINCIPI --><span
+               corresp="#V_Alexander_consults_princes #B_Alexander_consults_princes"
+               from="#S_Alexander_consults_princes_start" to="#S_Alexander_consults_princes_end"
+               type="direct_speech" xml:id="S_Alexander_consults_princes"/>
+            <spanGrp type="lines_alignment">
+               <span corresp="#V_946_948" from="#S_l_885" to="#S_l_887" xml:id="S_885_887"/>
+            </spanGrp>Alexander is advised to use Greek fire</span>
+
+
+
+
+      </spanGrp>
+   </standOff>
+
+</TEI>

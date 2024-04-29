@@ -522,12 +522,6 @@
             <l n="862" xml:id="B_l_862">Alsus endet er sin leben.</l>
             <anchor xml:id="B_Philip_death_end"/>
             
-            
-            
-            
-            
-            
-            
             <!-- ALESSANDRO DIVENTA RE -->
             <anchor xml:id="B_Alexander_becomes_king_start"/>
             <l n="863" xml:id="B_l_863">Er ward nach sinem recht begraben,</l>
@@ -947,6 +941,11 @@
             <gap/>
             <l n="1214" xml:id="B_l_1214">do Got der heidnin dochter lost</l>
             <l n="1215" xml:id="B_l_1215">von des bœssen geistes rost.</l>
+		  <anchor xml:id="B_Tyre_falls_end"/>
+
+         <!-- DARIO APPRENDE DELLA CADUTA DI TIRO -->
+
+         <anchor xml:id="B_Darius_learns_of_Tyre_start"/>
             <l n="1216" xml:id="B_l_1216">Nun ward in kurzer stund</l>
             <l n="1217" xml:id="B_l_1217">Daryo das mer kunt</l>
             <l n="1218" xml:id="B_l_1218">von einem der dannen endran,</l>
@@ -961,6 +960,11 @@
             <gap/>
             <l n="1227" xml:id="B_l_1227">das er in niut ze helffe kam,</l>
             <l n="1228" xml:id="B_l_1228">do er ir grossi not vernam.</l>
+		  <anchor xml:id="B_Darius_learns_of_Tyre_end"/>
+
+         <!-- I DONI DI DARIO  -->
+
+         <anchor xml:id="B_Darius_gifts_start"/>
             <l n="1229" xml:id="B_l_1229">Der riche küng Darius</l>
             <l n="1230" xml:id="B_l_1230">gedacht nach diser rede sus,</l>
             <l n="1231" xml:id="B_l_1231">wie er Allexander spotlich</l>
@@ -990,6 +994,11 @@
             <l n="1252" xml:id="B_l_1252">das er wolte sinen zins han,</l>
             <l n="1253" xml:id="B_l_1253">als lieb im wer lib und land.</l>
             <gap/>
+		  <anchor xml:id="B_Darius_gifts_end"/>
+
+         <!-- LA RISPOSTA DI ALESSANDRO  -->
+
+         <anchor xml:id="B_Alexander_reaction_start"/>
             <l n="1254" xml:id="B_l_1254">Do Allexander den brieff gelas,</l>
             <l n="1255" xml:id="B_l_1255">vil smech er im was:</l>
             <l n="1256" xml:id="B_l_1256">die botten hies er vachen</l>
@@ -1033,6 +1042,11 @@
             <gap/>
             <l n="1288" xml:id="B_l_1288">Mit dem gold duot er mir bekant,</l>
             <l n="1289" xml:id="B_l_1289">das mir zinssen sol sin hant.</l>
+		   <anchor xml:id="B_Alexander_reaction_end"/>
+
+         <!--  ALESSANDRO MANDA UNA LETTERA A DARIO  -->
+
+         <anchor xml:id="B_Alexander_letter_start"/>
             <l n="1290" xml:id="B_l_1290">Dis schreib er an den brief san,</l>
             <l n="1291" xml:id="B_l_1291">den sant er mit den botten dan:</l>
             <l n="1292" xml:id="B_l_1292">er inbot da mit,</l>
@@ -1045,6 +1059,9 @@
             <gap/>
             <l n="1298" xml:id="B_l_1298">und muost im sinen zins geben,</l>
             <l n="1299" xml:id="B_l_1299">wolt er behaben das leben.</l>
+		 <anchor xml:id="B_Alexander_letter_end"/>
+            <!--  LA REAZIONE DI DARIO -->
+            <anchor xml:id="B_Darius_reaction_start"/>
             <l n="1300" xml:id="B_l_1300">Do Daryus den brieff vernam,</l>
             <l n="1301" xml:id="B_l_1301">der im von Allexander kam,</l>
             <l n="1302" xml:id="B_l_1302">zornenklich er do uf fuor,</l>
@@ -1054,7 +1071,11 @@
             <l n="1304" xml:id="B_l_1304">sid in der beschult,</l>
             <l n="1305" xml:id="B_l_1305">des vatter im den zins gult.</l>
          </div>
+   <anchor xml:id="B_Darius_reaction_end"/>
 
+         <!-- DARIO CHIEDE AIUTO AI DUCHI -->
+
+         <anchor xml:id="B_Darius_calls_dukes_start"/>
 
          <div n="11" type="stanza" xml:id="B_div_11">
             <l n="1306" xml:id="B_l_1306">Daryus zwen herzogen gebot,</l>
@@ -1071,6 +1092,11 @@
             <l n="1312" xml:id="B_l_1312">gen im ze wer</l>
             <gap/>
             <l n="1313" xml:id="B_l_1313">und in brechtten gevangen.</l>
+		  <anchor xml:id="B_Darius_calls_dukes_end"/>
+
+         <!-- I DUCHI DI DARIO SONO SCETTICI -->
+
+         <anchor xml:id="B_DariusDukes_skeptical_start"/>
             <l n="1314" xml:id="B_l_1314">Des antwurtten im die herzogen:</l>
             <l n="1315" xml:id="B_l_1315">"Unser here ist ser bettrogen,</l>
             <l n="1316" xml:id="B_l_1316">das er heist vahen einen man,</l>
@@ -1088,6 +1114,11 @@
             <l n="1325" xml:id="B_l_1325">mit manlichen sinen,</l>
             <l n="1326" xml:id="B_l_1326">wir mœgen sin schaden gewinnen".</l>
             <gap/>
+		  <anchor xml:id="B_DariusDukes_skeptical_end"/>
+
+         <!-- DARIO INZIA L'ATTACCO -->
+
+         <anchor xml:id="B_Darius_starts_attack_start"/>
             <l n="1327" xml:id="B_l_1327">Do Daryus das vernam,</l>
             <l n="1328" xml:id="B_l_1328">ser zürnet er des:</l>
             <l n="1329" xml:id="B_l_1329">ein herzog hies Menes,</l>
@@ -1096,9 +1127,17 @@
             <l n="1331" xml:id="B_l_1331">das zwenzig dusent man</l>
             <l n="1332" xml:id="B_l_1332">in siner<gap/></l>
             <gap/>
+		  <anchor xml:id="B_Darius_starts_attack_end"/>
+            <!-- DARIO MINACCIA I SUOI DUCHI -->
+            <anchor xml:id="B_Darius_threatens_dukes_start"/>
             <l n="1333" xml:id="B_l_1333">Den zwein herzogen hies er sagen,</l>
             <l n="1334" xml:id="B_l_1334">liessen sy in überkomen,</l>
             <l n="1335" xml:id="B_l_1335">si gewunnen sin schaden und keinen fromen.</l>
+		  <anchor xml:id="B_Darius_threatens_dukes_end"/>
+
+         <!-- I DUCHI DI DARIO AGISCONO -->
+
+         <anchor xml:id="B_DariusDukes_take_action_start"/>
             <l n="1336" xml:id="B_l_1336">Die zwen herzogen besamnetten sich mit kraft</l>
             <l n="1337" xml:id="B_l_1337">drizig dusint heiden ellenhafft</l>
             <l n="1338" xml:id="B_l_1338">und leitten sich an das wasser sa:</l>
@@ -1123,6 +1162,11 @@
             <l n="1355" xml:id="B_l_1355">so beschach im von im ungemach.<pb
                   facs="data/images/single/B_facs/B_36r.jpg" n="36r" xml:id="B_fol_36r"
                /><!-- FOL. 36r --></l>
+		  <anchor xml:id="B_Alexander_attack_ford_end"/>
+
+         <!-- ALESSANDRO VS MENNES -->
+
+         <anchor xml:id="B_Alexander_vs_Mennes_start"/>
             <l n="1356" xml:id="B_l_1356">Der herzog Menos genant</l>
             <gap/>
             <l n="1357" xml:id="B_l_1357">sich mit hundert rittren het behuot.</l>
@@ -1152,6 +1196,9 @@
             <l n="1378" xml:id="B_l_1378">und sluog uf in mit nide dar.</l>
             <l n="1379" xml:id="B_l_1379">Allexander was mit flisse gewaffnet gar:</l>
             <l n="1380" xml:id="B_l_1380">das half im, das er genas.</l>
+		 <anchor xml:id="B_Alexander_vs_Mennes_end"/>
+            <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
+            <anchor xml:id="B_knight_helps_Alexander_start "/>
             <l n="1381" xml:id="B_l_1381">Nun kam ein ritter anne lant,</l>
             <l n="1382" xml:id="B_l_1382">Danklin was er genant:</l>
             <l n="1383" xml:id="B_l_1383">über Allexander ze hant</l>
@@ -1178,6 +1225,11 @@
             <l n="1403" xml:id="B_l_1403">des was er nu wider komen.</l>
             <l n="1404" xml:id="B_l_1404">"Nun wert iuch, her", sprach Danklin,</l>
             <l n="1405" xml:id="B_l_1405">"land iuwer ellend werden schin".</l>
+		   <anchor xml:id="B_knight_helps_Alexander_end"/>
+
+         <!-- ALESSANDRO SI RIPRENDE -->
+
+         <anchor xml:id="B_Alexander_recovers_start"/>
             <l n="1406" xml:id="B_l_1406">Allexander sprang von der erde,</l>
             <l n="1407" xml:id="B_l_1407">Danklin dank er vil werde.</l>
             <l n="1408" xml:id="B_l_1408">Uf Bucival er do sas,</l>
@@ -1197,7 +1249,11 @@
             <l n="1419" xml:id="B_l_1419">der da wol wart geklaget sid.</l>
             <gap/>
          </div>
+<anchor xml:id="B_Alexander_recovers_end"/>
 
+         <!-- ALESSANDRO VS PINCUN -->
+
+         <anchor xml:id="B_Alexander_vs_Pincun_start"/>
          <div n="12" type="stanza" xml:id="B_div_12">
             <l n="1420" xml:id="B_l_1420">Sinkun was ein groff genant,</l>
             <l n="1421" xml:id="B_l_1421">der fuort das paner in der hant,</l>
@@ -1225,6 +1281,11 @@
             <l n="1442" xml:id="B_l_1442">wie wol er gewafnet was,</l>
             <gap/>
             <l n="1443" xml:id="B_l_1443">das im das huobt fiel für die füesse.</l>
+<anchor xml:id="B_Alexander_vs_Pincun_end"/>
+		 
+		 <!-- ALESSANDRO UCCIDE MENNES -->
+
+         <anchor xml:id="B_Alexander_kills_Mennes_start"/>
             <l n="1444" xml:id="B_l_1444">Sin paner nam er wider.</l>
             <l n="1445" xml:id="B_l_1445">Menos im da wider reit.</l>
             <l n="1446" xml:id="B_l_1446">Uf den treib er des paner schafft,</l>
@@ -1238,7 +1299,12 @@
             <l n="1452" xml:id="B_l_1452">fluchent alle gelich,</l>
             <l n="1453" xml:id="B_l_1453">wider heim in ir rich.</l>
          </div>
+<anchor xml:id="B_Alexander_kills_Mennes_end"/> 
 
+	      
+  <!-- ALESSANDRO CONQUISTA SARDI -->
+
+         <anchor xml:id="B_Alexander_takes_Sardis_start"/>
          <div n="13" type="stanza" xml:id="B_div_13">
             <l n="1454" xml:id="B_l_1454">Allexander bleib da mit gewalt,</l>
             <gap/>
@@ -1252,6 +1318,10 @@
             <l n="1461" xml:id="B_l_1461">sin degen macht er im da hold,</l>
             <l n="1462" xml:id="B_l_1462">wan er teiltte in das guot.</l>
             <gap/>
+		 <anchor xml:id="B_Alexander_takes_Sardis_end"/>
+		  <!-- IL GIURAMENTO DI DARIO -->
+
+         <anchor xml:id="B_Darius_oath_start"/>
             <l n="1463" xml:id="B_l_1463">Do man Daryo das sagt,</l>
             <l n="1464" xml:id="B_l_1464">niut sere er es noch klagt.</l>
             <l n="1465" xml:id="B_l_1465">Doch swor er ein teill</l>
@@ -1260,6 +1330,11 @@
             <l n="1468" xml:id="B_l_1468">man müesti hœren sœliche klag,</l>
             <l n="1469" xml:id="B_l_1469">wie er das anfieng,</l>
             <l n="1470" xml:id="B_l_1470">Allexander hieng.</l>
+		 <anchor xml:id="B_Darius_oath_end"/>
+		 
+		 <!-- L'ADUNATA DI DARIO -->
+
+         <anchor xml:id="B_Darius_rally_start"/>
             <l n="1471" xml:id="B_l_1471">Botten wurden do gesant</l>
             <gap/>
             <l n="1472" xml:id="B_l_1472">über alle sine rich,</l>
@@ -1314,8 +1389,9 @@
             <l n="1517" xml:id="B_l_1517">die gern dienten Taryo,</l>
             <l n="1518" xml:id="B_l_1518">dar zuo drissig dusing ouch.</l>
             <l n="1519" xml:id="B_l_1519">Ze Allexandro was im goch.</l>
+		 <gap ana="end_common_nucleus" reason="editorial"/>
          </div>
-         <gap ana="end_common_nucleus" reason="editorial"/>
+	       <anchor xml:id="B_Darius_rally_end"/>
       </body>
    </text>
 </TEI>

@@ -517,11 +517,12 @@
             <l n="859" xml:id="B_l_859">hastu erslagen den vigent min.</l>
             <l n="860" xml:id="B_l_860">So wil ich frœlich sterben.</l>
             <gap/>
-            <l n="861" xml:id="B_l_861">Got geruoche dir glük geben!"<!--  LE ULTIME PAROLE DI FILIPPO --><anchor
+            <l n="861" xml:id="B_l_861">Got geruoche dir glük
+                  geben!"<!--  LE ULTIME PAROLE DI FILIPPO --><anchor
                   xml:id="B_Philip_lastWords_end"/></l>
             <l n="862" xml:id="B_l_862">Alsus endet er sin leben.</l>
             <anchor xml:id="B_Philip_death_end"/>
-            
+
             <!-- ALESSANDRO DIVENTA RE -->
             <anchor xml:id="B_Alexander_becomes_king_start"/>
             <l n="863" xml:id="B_l_863">Er ward nach sinem recht begraben,</l>
@@ -558,6 +559,9 @@
             <l n="889" xml:id="B_l_889">Wer im nun entwich</l>
             <l n="890" xml:id="B_l_890">und im niuht helf siner er,</l>
             <l n="891" xml:id="B_l_891">der sy verrechttet jemer mer".</l>
+            <anchor xml:id="B_Alexander_becomes_king_end"/>
+            <!-- ALESSANDRO RECLUTA ALLEATI  -->
+            <anchor xml:id="B_Alexander_recruits_allys_start"/>
             <l n="892" xml:id="B_l_892">Allexander zehant</l>
             <l n="893" xml:id="B_l_893">sant botten in di lant:</l>
             <l n="894" xml:id="B_l_894">er hies gebietten hervart.</l>
@@ -574,6 +578,11 @@
             <l n="905" xml:id="B_l_905">mit triuw und ouch mit meitten,</l>
             <l n="906" xml:id="B_l_906">das sy im ze helffe kemen:</l>
             <gap/>
+            <anchor xml:id="B_Alexander_recruits_allys_end"/>
+            
+            <!-- ALESSANDRO IN ITALIA  -->
+            
+            <anchor xml:id="B_Alexander_Italy_start"/>
             <l n="907" xml:id="B_l_907">wer das versmachtte,</l>
             <l n="908" xml:id="B_l_908">das er den von dem land achte.</l>
             <l n="909" xml:id="B_l_909">Sibenzig tusing gewan er in sin her,</l>
@@ -604,6 +613,11 @@
             <l n="934" xml:id="B_l_934">ein guldin kron:</l>
             <l n="935" xml:id="B_l_935">sus enpfiengen sy den meren.</l>
             <l n="936" xml:id="B_l_936">Des dankte er den Rœmeren.</l>
+            <anchor xml:id="B_Alexander_Italy_end"/>
+            
+            <!-- ALESSANDRO E CARTAGINE  -->
+            
+            <anchor xml:id="B_Alexander_Carthage_start"/>
             <l n="937" xml:id="B_l_937">Zehen hundert er us in nam,</l>
             <l n="938" xml:id="B_l_938">die fuortte er die reisse von dan:</l>
             <l n="939" xml:id="B_l_939">ze Affri-<pb facs="data/images/single/B_facs/B_32r.jpg"
@@ -631,12 +645,18 @@
             <l n="960" xml:id="B_l_960">Allexander sprach: "Ich ir niut nemen wil,</l>
             <l n="961" xml:id="B_l_961">mir ist lieber iuwer dienst, den iuwer guot".</l>
             <l n="962" xml:id="B_l_962">Si brochtten helden wolgemuot:</l>
+            <anchor xml:id="B_Alexander_Carthage_end"/>
+            <!-- ALESSANDRO FONDA ALESSANDRIA D'EGITTO  -->
+            <anchor xml:id="B_Alexander_Egypt_start"/>
             <l n="963" xml:id="B_l_963">zwei tusing er us inen nan,</l>
             <l n="964" xml:id="B_l_964">die fuort er mit im von dan</l>
             <l n="965" xml:id="B_l_965">gen Allexandry.</l>
             <l n="966" xml:id="B_l_966">Die betwang der fry,</l>
             <l n="967" xml:id="B_l_967">nach sinem namen er sy hies.</l>
             <gap/>
+            <anchor xml:id="B_Alexander_Egypt_end"/>
+            <!-- ALESSANDRO IN TERRA SANTA-->
+            <anchor xml:id="B_Alexander_Holy_Land_start"/>
             <l n="968" xml:id="B_l_968">Mit gewalt er dur das lant brach,</l>
             <l n="969" xml:id="B_l_969">manger stat ze ungemach:</l>
             <l n="970" xml:id="B_l_970">sines muottes was er gram.</l>
@@ -654,11 +674,21 @@
             <l n="982" xml:id="B_l_982">gen Tiryus gezogen ward,</l>
             <l n="983" xml:id="B_l_983">die er ze besiczene erkos.</l>
             <l n="984" xml:id="B_l_984">Do er mengen helt verlos.</l>
+            <anchor xml:id="B_Alexander_Holy_Land_end"/>
+            
+            <!--  DESCRIZIONE DI TIRO  -->
+            
+            <anchor xml:id="B_Tyre_description_start"/>
             <gap/>
             <l n="985" xml:id="B_l_985">Das mer einhalb dar umbflos.</l>
             <l n="986" xml:id="B_l_986">Die stat was an guotte rich.</l>
             <l n="987" xml:id="B_l_987">Si was wol einer mile breit.</l>
             <l n="988" xml:id="B_l_988">Daryo waren sy underdan.</l>
+            <anchor xml:id="B_Tyre_description_end"/>
+            
+            <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
+            
+            <anchor xml:id="B_Alexander_proposal_to_Tyre_start"/>
             <l n="989" xml:id="B_l_989">Allexander sinen botten sant</l>
             <l n="990" xml:id="B_l_990">in die stat: woltte sy des gezemen,<pb
                   facs="data/images/single/B_facs/B_32v.jpg" n="32v" xml:id="B_fol_32v"
@@ -694,6 +724,11 @@
             <l n="1016" xml:id="B_l_1016">Do die burger vernomen disse mer,</l>
             <gap/>
             <l n="1017" xml:id="B_l_1017">sy hiengen die botten all gelich.</l>
+            <anchor xml:id="B_Alexander_proposal_to_Tyre_end"/>
+            
+            <!--  ALESSANDRO ATTACCA TIRO - PRIMO ASSALTO -->
+            
+            <anchor xml:id="B_Alexander_firstAttack_Tyre_start"/>
             <l n="1018" xml:id="B_l_1018">Do Allexander das erhort,</l>
             <l n="1019" xml:id="B_l_1019">all sin frœd ward zerstort.</l>
             <l n="1020" xml:id="B_l_1020">Er umbzoch di stat ze hant,</l>
@@ -718,6 +753,11 @@
             <gap/>
             <l n="1036" xml:id="B_l_1036">des sturmes hies er abbe lan,</l>
             <l n="1037" xml:id="B_l_1037">die schiff in die hab gan.</l>
+            <anchor xml:id="B_Alexander_firstAttack_Tyre_end"/>
+            
+            <!-- LA CONTROMISURA DI ALESSANDRO -->
+            
+            <anchor xml:id="B_Alexander_countermeasure_start"/>
             <l n="1038" xml:id="B_l_1038">Der wisse bedachte,</l>
             <gap/>
             <gap/>
@@ -758,6 +798,11 @@
             <gap/>
             <l n="1068" xml:id="B_l_1068">bis das werk ward bereit.</l>
             <gap/>
+            <anchor xml:id="B_Alexander_countermeasure_end"/>
+            
+            <!--  TIRO SI VENDICA  -->
+            
+            <anchor xml:id="B_Tyre_revenge_start"/>
             <l n="1069" xml:id="B_l_1069">Von Tiryus die burger</l>
             <l n="1070" xml:id="B_l_1070">erfuorn endlich die mer,</l>
             <l n="1071" xml:id="B_l_1071">das Allexander danen was.</l>
@@ -774,6 +819,11 @@
             <l n="1081" xml:id="B_l_1081">das sy den tag nieman sach,</l>
             <l n="1082" xml:id="B_l_1082">und komen wider us gesunt.</l>
             <l n="1083" xml:id="B_l_1083">Die von Tiryus namen die widervart.</l>
+            <anchor xml:id="B_Tyre_revenge_end"/>
+            
+            <!-- I DUCHI DI ALESSANDRO RISPONDONO  -->
+            
+            <anchor xml:id="B_AlexandersDukes_against_Tyre_start"/>
             <gap/>
             <l n="1084" xml:id="B_l_1084">Allexanders fürsten verhuoben in das burg tor,</l>
             <l n="1085" xml:id="B_l_1085">da beschach ein hertter strit vor,</l>
@@ -785,7 +835,11 @@
             <l n="1091" xml:id="B_l_1091">aller erst huob sich die rechtte not.</l>
          </div>
 
-
+         <anchor xml:id="B_AlexandersDukes_against_Tyre_end"/>
+         
+         <!-- ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->
+         
+         <anchor xml:id="B_Alexander_breaches_firstWalls_start"/>
          <pb facs="data/images/single/B_facs/B_33v.jpg" n="33v" xml:id="B_fol_33v"/>
          <!-- FOL. 33v -->
          <div n="9" type="stanza" xml:id="B_div_9">
@@ -813,6 +867,11 @@
             <l n="1107" xml:id="B_l_1107">wurden in das mer gezogen:</l>
             <l n="1108" xml:id="B_l_1108">sy brachen der besten muren ein.</l>
             <gap/>
+            <anchor xml:id="B_Alexander_breaches_firstWalls_end"/>
+            
+            <!-- ALESSANDRO CONQUISTA LA SECONDA CERCHIA -->
+            
+            <anchor xml:id="B_Alexander_breaches_secondWalls_start"/>
             <l n="1109" xml:id="B_l_1109">Die bergfrid hies er spannen</l>
             <l n="1110" xml:id="B_l_1110">obnan zuo den muren dar,</l>
             <l n="1111" xml:id="B_l_1111">das sin werlich schar</l>
@@ -834,6 +893,11 @@
             <l n="1126" xml:id="B_l_1126">das er sin niemer ward gesunt.</l>
             <l n="1127" xml:id="B_l_1127">Die mur brachent sy uf die erden.</l>
             <gap/>
+            <anchor xml:id="B_Alexander_breaches_secondWalls_end"/>
+            
+            <!--  ALESSANDRO ENTRA A TIRO  -->
+            
+            <anchor xml:id="B_Alexander_enters_start"/>
             <l n="1128" xml:id="B_l_1128">Do ward es wol wit,</l>
             <l n="1129" xml:id="B_l_1129">sich huob der herste strit,</l>
             <gap/>
@@ -842,7 +906,7 @@
             <l n="1132" xml:id="B_l_1132">durch den helm verhouwen.</l>
             <l n="1133" xml:id="B_l_1133">Manig ritter an der stund</l>
             <l n="1134" xml:id="B_l_1134">ward durch sin halsberg wund,</l>
-            <l n="1135" xml:id="B_l_1135">der ouch lüczel genas: 1135</l>
+            <l n="1135" xml:id="B_l_1135">der ouch lüczel genas:</l>
             <l n="1136" xml:id="B_l_1136">die slege man mit nide mas;</l>
             <l n="1137" xml:id="B_l_1137">durch schiltte schluogen die scharfen gern,</l>
             <l n="1138" xml:id="B_l_1138">die mangem datten herczeseren,</l>
@@ -856,6 +920,9 @@
             <gap/>
             <l n="1143" xml:id="B_l_1143">das nieman</l>
             <l n="1144" xml:id="B_l_1144">mochtte wol gegan.</l>
+            <anchor xml:id="B_Alexander_enters_end"/>
+            <!-- TIRO PROVA A RESISTERE  -->
+            <anchor xml:id="B_Tyre_resistance_start"/>
             <l n="1145" xml:id="B_l_1145">Die von Tire sunder schand</l>
             <l n="1146" xml:id="B_l_1146">rachen wol ir hant,</l>
             <l n="1147" xml:id="B_l_1147">sy sluogen wunden wit.</l>
@@ -870,6 +937,9 @@
             <l n="1156" xml:id="B_l_1156">als noch die frechen tuond:</l>
             <l n="1157" xml:id="B_l_1157">die het dry dürn veste,</l>
             <l n="1158" xml:id="B_l_1158">dannen wurden getriben die geste.</l>
+            <anchor xml:id="B_Tyre_resistance_end"/>
+            <!--  LE STRATEGIE DI ALESSANDRO -->
+            <anchor xml:id="B_Alexander_strategy_start"/>
             <l n="1159" xml:id="B_l_1159">Des ward Allexander zornhafft.</l>
             <gap/>
             <l n="1160" xml:id="B_l_1160">Mit sinen fürsten er sich besprach,</l>
@@ -909,6 +979,11 @@
             <l n="1190" xml:id="B_l_1190">im beleib meng held dot:</l>
             <l n="1191" xml:id="B_l_1191">die stat wer im gewessen diur,</l>
             <l n="1192" xml:id="B_l_1192">ane das kreischy fiur.</l>
+            <anchor xml:id="B_Alexander_strategy_end"/>
+            
+            <!-- LA CADUTA DI TIRO -->
+            
+            <anchor xml:id="B_Tyre_falls_start"/>
             <l n="1193" xml:id="B_l_1193">Er kam in die stat gerant,</l>
             <gap/>
             <l n="1194" xml:id="B_l_1194">die sinen wolt er rechen,</l>
@@ -941,11 +1016,11 @@
             <gap/>
             <l n="1214" xml:id="B_l_1214">do Got der heidnin dochter lost</l>
             <l n="1215" xml:id="B_l_1215">von des bœssen geistes rost.</l>
-		  <anchor xml:id="B_Tyre_falls_end"/>
+            <anchor xml:id="B_Tyre_falls_end"/>
 
-         <!-- DARIO APPRENDE DELLA CADUTA DI TIRO -->
+            <!-- DARIO APPRENDE DELLA CADUTA DI TIRO -->
 
-         <anchor xml:id="B_Darius_learns_of_Tyre_start"/>
+            <anchor xml:id="B_Darius_learns_of_Tyre_start"/>
             <l n="1216" xml:id="B_l_1216">Nun ward in kurzer stund</l>
             <l n="1217" xml:id="B_l_1217">Daryo das mer kunt</l>
             <l n="1218" xml:id="B_l_1218">von einem der dannen endran,</l>
@@ -960,11 +1035,11 @@
             <gap/>
             <l n="1227" xml:id="B_l_1227">das er in niut ze helffe kam,</l>
             <l n="1228" xml:id="B_l_1228">do er ir grossi not vernam.</l>
-		  <anchor xml:id="B_Darius_learns_of_Tyre_end"/>
+            <anchor xml:id="B_Darius_learns_of_Tyre_end"/>
 
-         <!-- I DONI DI DARIO  -->
+            <!-- I DONI DI DARIO  -->
 
-         <anchor xml:id="B_Darius_gifts_start"/>
+            <anchor xml:id="B_Darius_gifts_start"/>
             <l n="1229" xml:id="B_l_1229">Der riche küng Darius</l>
             <l n="1230" xml:id="B_l_1230">gedacht nach diser rede sus,</l>
             <l n="1231" xml:id="B_l_1231">wie er Allexander spotlich</l>
@@ -994,11 +1069,11 @@
             <l n="1252" xml:id="B_l_1252">das er wolte sinen zins han,</l>
             <l n="1253" xml:id="B_l_1253">als lieb im wer lib und land.</l>
             <gap/>
-		  <anchor xml:id="B_Darius_gifts_end"/>
+            <anchor xml:id="B_Darius_gifts_end"/>
 
-         <!-- LA RISPOSTA DI ALESSANDRO  -->
+            <!-- LA RISPOSTA DI ALESSANDRO  -->
 
-         <anchor xml:id="B_Alexander_reaction_start"/>
+            <anchor xml:id="B_Alexander_reaction_start"/>
             <l n="1254" xml:id="B_l_1254">Do Allexander den brieff gelas,</l>
             <l n="1255" xml:id="B_l_1255">vil smech er im was:</l>
             <l n="1256" xml:id="B_l_1256">die botten hies er vachen</l>
@@ -1042,11 +1117,11 @@
             <gap/>
             <l n="1288" xml:id="B_l_1288">Mit dem gold duot er mir bekant,</l>
             <l n="1289" xml:id="B_l_1289">das mir zinssen sol sin hant.</l>
-		   <anchor xml:id="B_Alexander_reaction_end"/>
+            <anchor xml:id="B_Alexander_reaction_end"/>
 
-         <!--  ALESSANDRO MANDA UNA LETTERA A DARIO  -->
+            <!--  ALESSANDRO MANDA UNA LETTERA A DARIO  -->
 
-         <anchor xml:id="B_Alexander_letter_start"/>
+            <anchor xml:id="B_Alexander_letter_start"/>
             <l n="1290" xml:id="B_l_1290">Dis schreib er an den brief san,</l>
             <l n="1291" xml:id="B_l_1291">den sant er mit den botten dan:</l>
             <l n="1292" xml:id="B_l_1292">er inbot da mit,</l>
@@ -1059,7 +1134,7 @@
             <gap/>
             <l n="1298" xml:id="B_l_1298">und muost im sinen zins geben,</l>
             <l n="1299" xml:id="B_l_1299">wolt er behaben das leben.</l>
-		 <anchor xml:id="B_Alexander_letter_end"/>
+            <anchor xml:id="B_Alexander_letter_end"/>
             <!--  LA REAZIONE DI DARIO -->
             <anchor xml:id="B_Darius_reaction_start"/>
             <l n="1300" xml:id="B_l_1300">Do Daryus den brieff vernam,</l>
@@ -1071,7 +1146,7 @@
             <l n="1304" xml:id="B_l_1304">sid in der beschult,</l>
             <l n="1305" xml:id="B_l_1305">des vatter im den zins gult.</l>
          </div>
-   <anchor xml:id="B_Darius_reaction_end"/>
+         <anchor xml:id="B_Darius_reaction_end"/>
 
          <!-- DARIO CHIEDE AIUTO AI DUCHI -->
 
@@ -1092,11 +1167,11 @@
             <l n="1312" xml:id="B_l_1312">gen im ze wer</l>
             <gap/>
             <l n="1313" xml:id="B_l_1313">und in brechtten gevangen.</l>
-		  <anchor xml:id="B_Darius_calls_dukes_end"/>
+            <anchor xml:id="B_Darius_calls_dukes_end"/>
 
-         <!-- I DUCHI DI DARIO SONO SCETTICI -->
+            <!-- I DUCHI DI DARIO SONO SCETTICI -->
 
-         <anchor xml:id="B_DariusDukes_skeptical_start"/>
+            <anchor xml:id="B_DariusDukes_skeptical_start"/>
             <l n="1314" xml:id="B_l_1314">Des antwurtten im die herzogen:</l>
             <l n="1315" xml:id="B_l_1315">"Unser here ist ser bettrogen,</l>
             <l n="1316" xml:id="B_l_1316">das er heist vahen einen man,</l>
@@ -1114,11 +1189,11 @@
             <l n="1325" xml:id="B_l_1325">mit manlichen sinen,</l>
             <l n="1326" xml:id="B_l_1326">wir mœgen sin schaden gewinnen".</l>
             <gap/>
-		  <anchor xml:id="B_DariusDukes_skeptical_end"/>
+            <anchor xml:id="B_DariusDukes_skeptical_end"/>
 
-         <!-- DARIO INZIA L'ATTACCO -->
+            <!-- DARIO INZIA L'ATTACCO -->
 
-         <anchor xml:id="B_Darius_starts_attack_start"/>
+            <anchor xml:id="B_Darius_starts_attack_start"/>
             <l n="1327" xml:id="B_l_1327">Do Daryus das vernam,</l>
             <l n="1328" xml:id="B_l_1328">ser zürnet er des:</l>
             <l n="1329" xml:id="B_l_1329">ein herzog hies Menes,</l>
@@ -1127,22 +1202,25 @@
             <l n="1331" xml:id="B_l_1331">das zwenzig dusent man</l>
             <l n="1332" xml:id="B_l_1332">in siner<gap/></l>
             <gap/>
-		  <anchor xml:id="B_Darius_starts_attack_end"/>
+            <anchor xml:id="B_Darius_starts_attack_end"/>
             <!-- DARIO MINACCIA I SUOI DUCHI -->
             <anchor xml:id="B_Darius_threatens_dukes_start"/>
             <l n="1333" xml:id="B_l_1333">Den zwein herzogen hies er sagen,</l>
             <l n="1334" xml:id="B_l_1334">liessen sy in überkomen,</l>
             <l n="1335" xml:id="B_l_1335">si gewunnen sin schaden und keinen fromen.</l>
-		  <anchor xml:id="B_Darius_threatens_dukes_end"/>
+            <anchor xml:id="B_Darius_threatens_dukes_end"/>
 
-         <!-- I DUCHI DI DARIO AGISCONO -->
+            <!-- I DUCHI DI DARIO AGISCONO -->
 
-         <anchor xml:id="B_DariusDukes_take_action_start"/>
+            <anchor xml:id="B_DariusDukes_take_action_start"/>
             <l n="1336" xml:id="B_l_1336">Die zwen herzogen besamnetten sich mit kraft</l>
             <l n="1337" xml:id="B_l_1337">drizig dusint heiden ellenhafft</l>
             <l n="1338" xml:id="B_l_1338">und leitten sich an das wasser sa:</l>
             <l n="1339" xml:id="B_l_1339">do was Allexander ouch alda.</l>
             <gap/>
+            <anchor xml:id="B_DariusDukes_take_action_end"/>
+            <!-- ALESSANDRO ATTACCA AL GUADO -->
+            <anchor xml:id="B_Alexander_attack_ford_start"/>
             <l n="1340" xml:id="B_l_1340">Er schiffte gen in hin über die fluot,</l>
             <l n="1341" xml:id="B_l_1341">ze fordrest kam er in engegen,</l>
             <gap/>
@@ -1162,11 +1240,11 @@
             <l n="1355" xml:id="B_l_1355">so beschach im von im ungemach.<pb
                   facs="data/images/single/B_facs/B_36r.jpg" n="36r" xml:id="B_fol_36r"
                /><!-- FOL. 36r --></l>
-		  <anchor xml:id="B_Alexander_attack_ford_end"/>
+            <anchor xml:id="B_Alexander_attack_ford_end"/>
 
-         <!-- ALESSANDRO VS MENNES -->
+            <!-- ALESSANDRO VS MENNES -->
 
-         <anchor xml:id="B_Alexander_vs_Mennes_start"/>
+            <anchor xml:id="B_Alexander_vs_Mennes_start"/>
             <l n="1356" xml:id="B_l_1356">Der herzog Menos genant</l>
             <gap/>
             <l n="1357" xml:id="B_l_1357">sich mit hundert rittren het behuot.</l>
@@ -1196,7 +1274,7 @@
             <l n="1378" xml:id="B_l_1378">und sluog uf in mit nide dar.</l>
             <l n="1379" xml:id="B_l_1379">Allexander was mit flisse gewaffnet gar:</l>
             <l n="1380" xml:id="B_l_1380">das half im, das er genas.</l>
-		 <anchor xml:id="B_Alexander_vs_Mennes_end"/>
+            <anchor xml:id="B_Alexander_vs_Mennes_end"/>
             <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
             <anchor xml:id="B_knight_helps_Alexander_start "/>
             <l n="1381" xml:id="B_l_1381">Nun kam ein ritter anne lant,</l>
@@ -1225,11 +1303,11 @@
             <l n="1403" xml:id="B_l_1403">des was er nu wider komen.</l>
             <l n="1404" xml:id="B_l_1404">"Nun wert iuch, her", sprach Danklin,</l>
             <l n="1405" xml:id="B_l_1405">"land iuwer ellend werden schin".</l>
-		   <anchor xml:id="B_knight_helps_Alexander_end"/>
+            <anchor xml:id="B_knight_helps_Alexander_end"/>
 
-         <!-- ALESSANDRO SI RIPRENDE -->
+            <!-- ALESSANDRO SI RIPRENDE -->
 
-         <anchor xml:id="B_Alexander_recovers_start"/>
+            <anchor xml:id="B_Alexander_recovers_start"/>
             <l n="1406" xml:id="B_l_1406">Allexander sprang von der erde,</l>
             <l n="1407" xml:id="B_l_1407">Danklin dank er vil werde.</l>
             <l n="1408" xml:id="B_l_1408">Uf Bucival er do sas,</l>
@@ -1249,7 +1327,7 @@
             <l n="1419" xml:id="B_l_1419">der da wol wart geklaget sid.</l>
             <gap/>
          </div>
-<anchor xml:id="B_Alexander_recovers_end"/>
+         <anchor xml:id="B_Alexander_recovers_end"/>
 
          <!-- ALESSANDRO VS PINCUN -->
 
@@ -1281,11 +1359,11 @@
             <l n="1442" xml:id="B_l_1442">wie wol er gewafnet was,</l>
             <gap/>
             <l n="1443" xml:id="B_l_1443">das im das huobt fiel für die füesse.</l>
-<anchor xml:id="B_Alexander_vs_Pincun_end"/>
-		 
-		 <!-- ALESSANDRO UCCIDE MENNES -->
+            <anchor xml:id="B_Alexander_vs_Pincun_end"/>
 
-         <anchor xml:id="B_Alexander_kills_Mennes_start"/>
+            <!-- ALESSANDRO UCCIDE MENNES -->
+
+            <anchor xml:id="B_Alexander_kills_Mennes_start"/>
             <l n="1444" xml:id="B_l_1444">Sin paner nam er wider.</l>
             <l n="1445" xml:id="B_l_1445">Menos im da wider reit.</l>
             <l n="1446" xml:id="B_l_1446">Uf den treib er des paner schafft,</l>
@@ -1299,10 +1377,9 @@
             <l n="1452" xml:id="B_l_1452">fluchent alle gelich,</l>
             <l n="1453" xml:id="B_l_1453">wider heim in ir rich.</l>
          </div>
-<anchor xml:id="B_Alexander_kills_Mennes_end"/> 
+         <anchor xml:id="B_Alexander_kills_Mennes_end"/>
 
-	      
-  <!-- ALESSANDRO CONQUISTA SARDI -->
+         <!-- ALESSANDRO CONQUISTA SARDI -->
 
          <anchor xml:id="B_Alexander_takes_Sardis_start"/>
          <div n="13" type="stanza" xml:id="B_div_13">
@@ -1318,10 +1395,11 @@
             <l n="1461" xml:id="B_l_1461">sin degen macht er im da hold,</l>
             <l n="1462" xml:id="B_l_1462">wan er teiltte in das guot.</l>
             <gap/>
-		 <anchor xml:id="B_Alexander_takes_Sardis_end"/>
-		  <!-- IL GIURAMENTO DI DARIO -->
+            <anchor xml:id="B_Alexander_takes_Sardis_end"/>
+            
+            <!-- IL GIURAMENTO DI DARIO -->
 
-         <anchor xml:id="B_Darius_oath_start"/>
+            <anchor xml:id="B_Darius_oath_start"/>
             <l n="1463" xml:id="B_l_1463">Do man Daryo das sagt,</l>
             <l n="1464" xml:id="B_l_1464">niut sere er es noch klagt.</l>
             <l n="1465" xml:id="B_l_1465">Doch swor er ein teill</l>
@@ -1330,11 +1408,11 @@
             <l n="1468" xml:id="B_l_1468">man müesti hœren sœliche klag,</l>
             <l n="1469" xml:id="B_l_1469">wie er das anfieng,</l>
             <l n="1470" xml:id="B_l_1470">Allexander hieng.</l>
-		 <anchor xml:id="B_Darius_oath_end"/>
-		 
-		 <!-- L'ADUNATA DI DARIO -->
+            <anchor xml:id="B_Darius_oath_end"/>
 
-         <anchor xml:id="B_Darius_rally_start"/>
+            <!-- L'ADUNATA DI DARIO -->
+
+            <anchor xml:id="B_Darius_rally_start"/>
             <l n="1471" xml:id="B_l_1471">Botten wurden do gesant</l>
             <gap/>
             <l n="1472" xml:id="B_l_1472">über alle sine rich,</l>
@@ -1389,9 +1467,9 @@
             <l n="1517" xml:id="B_l_1517">die gern dienten Taryo,</l>
             <l n="1518" xml:id="B_l_1518">dar zuo drissig dusing ouch.</l>
             <l n="1519" xml:id="B_l_1519">Ze Allexandro was im goch.</l>
-		 <gap ana="end_common_nucleus" reason="editorial"/>
+            <gap ana="end_common_nucleus" reason="editorial"/>
          </div>
-	       <anchor xml:id="B_Darius_rally_end"/>
+         <anchor xml:id="B_Darius_rally_end"/>
       </body>
    </text>
 </TEI>

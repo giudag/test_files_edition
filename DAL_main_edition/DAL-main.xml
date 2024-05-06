@@ -148,9 +148,9 @@
                corresp="#B_AlexandersMen_bless_Alexander"/>Alexander becomes king and addresses his
             people about the tribute</span>
          <!-- ALESSANDRO RECLUTA ALLEATI  -->
-         <span type="episode" from="#V_Alexander_recruits_allys_start"
-            to="#V_Alexander_recruits_allys_end" xml:id="V_Alexander_recruits_allys"
-            corresp="#B_Alexander_recruits_allys" ana="#Alexander_recruits_allys">Alexander sends
+         <span type="episode" from="#V_Alexander_recruits_allies_start"
+            to="#V_Alexander_recruits_allies_end" xml:id="V_Alexander_recruits_allies"
+            corresp="#B_Alexander_recruits_allies" ana="#Alexander_recruits_allies">Alexander sends
             messengers to other lands to demand help against Darius</span>
          <!-- ALESSANDRO IN ITALIA  -->
          <span type="episode" from="#V_Alexander_Italy_start" to="#V_Alexander_Italy_end"
@@ -600,7 +600,7 @@
       </spanGrp>
 
 
-      <!-- #############   B   ############## --> <!-- /0/2024:  units -->
+      <!-- #############   B   ############## --> <!-- /05/2024:  units -->
 
       <!-- BUCEFALO -->
       <span type="episode" from="#B_Bucephalus_start" to="#B_Bucephalus_end"
@@ -689,9 +689,9 @@
             corresp="#V_AlexandersMen_bless_Alexander"/>Alexander becomes king and addresses his
          people about the tribute</span>
       <!-- ALESSANDRO RECLUTA ALLEATI  -->
-      <span type="episode" from="#B_Alexander_recruits_allys_start"
-         to="#B_Alexander_recruits_allys_end" xml:id="B_Alexander_recruits_allys"
-         corresp="#V_Alexander_recruits_allys" ana="#Alexander_recruits_allys">Alexander sends
+      <span type="episode" from="#B_Alexander_recruits_allies_start"
+         to="#B_Alexander_recruits_allies_end" xml:id="B_Alexander_recruits_allies"
+         corresp="#V_Alexander_recruits_allies" ana="#Alexander_recruits_allies">Alexander sends
          messengers to other lands to demand help against Darius</span>
       <!-- ALESSANDRO IN ITALIA  -->
       <span type="episode" from="#B_Alexander_Italy_start" to="#B_Alexander_Italy_end"
@@ -741,7 +741,7 @@
       <!-- I DUCHI DI ALESSANDRO RISPONDONO  -->
       <span type="episode" from="#B_AlexandersDukes_against_Tyre_start"
          to="#B_AlexandersDukes_against_Tyre_end" xml:id="B_AlexandersDukes_against_Tyre"
-         corresp="#V_AlexandersDukes_against_Tyre #S_AlexandersDukes_against_Tyre"
+         corresp="#V_AlexandersDukes_against_Tyre"
          ana="#AlexandersDukes_against_Tyre">Alexander's dukes try to attack again without
          success</span>
       <!-- ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->

@@ -17,44 +17,44 @@
       </fileDesc>
    </teiHeader>
 
-   
+
 
    <facsimile xml:id="V_facs">
       <surface corresp="#V_fol_109v" xml:id="V_surf_109v">
-         <graphic url="data/images/single/V_facs/V_109v.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_109v.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_110r" xml:id="V_surf_110r">
-         <graphic url="data/images/single/V_facs/V_110r.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_110r.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_110v" xml:id="V_surf_110v">
-         <graphic url="data/images/single/V_facs/V_110v.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_110v.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_111r" xml:id="V_surf_111r">
-         <graphic url="data/images/single/V_facs/V_111r.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_111r.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_111v" xml:id="V_surf_111v">
-         <graphic url="data/images/single/V_facs/V_111v.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_111v.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_112r" xml:id="V_surf_112r">
-         <graphic url="data/images/single/V_facs/V_112r.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_112r.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_112v" xml:id="V_surf_112v">
-         <graphic url="data/images/single/V_facs/V_112v.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_112v.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_113r" xml:id="V_surf_113r">
-         <graphic url="data/images/single/V_facs/V_113r.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_113r.jpg" width="3268px"/>
       </surface>
-      <surface  corresp="#V_fol_113v" xml:id="V_surf_113v">
-         <graphic url="data/images/single/V_facs/V_113v.jpg" width="3268px" height="4835px"/>
+      <surface corresp="#V_fol_113v" xml:id="V_surf_113v">
+         <graphic height="4835px" url="data/images/single/V_facs/V_113v.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_114r" xml:id="V_surf_114r">
-         <graphic url="data/images/single/V_facs/V_114r.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_114r.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_114v" xml:id="V_surf_114v">
-         <graphic url="data/images/single/V_facs/V_114v.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_114v.jpg" width="3268px"/>
       </surface>
       <surface corresp="#V_fol_115r" xml:id="V_surf_115r">
-         <graphic url="data/images/single/V_facs/V_115r.jpg" width="3268px" height="4835px"/>
+         <graphic height="4835px" url="data/images/single/V_facs/V_115r.jpg" width="3268px"/>
       </surface>
    </facsimile>
 

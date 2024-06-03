@@ -27,7 +27,7 @@
          <person xml:id="AlexandersMen"/>
          <person xml:id="AlexandersPrinces"/>
          <person xml:id="Carthaginians"/>
-         <person xml:id="Daclym"/>
+         <person xml:id="DaclymDanklin"/>
          <person xml:id="Darius"/>
          <person xml:id="DariusDukes"/>
          <person xml:id="DariusMessengers"/>
@@ -40,6 +40,7 @@
          <person xml:id="Philip"/>
          <person xml:id="Pincun"/>
          <person xml:id="Ptolemy"/>
+         <person xml:id="stableBoys"/>
          <person xml:id="TyreSurvivor"/>
          <person xml:id="Vestian"/>
       </listPerson>
@@ -189,7 +190,7 @@
          <span ana="#Alexander_firstAttack_Tyre"
             corresp="#S_Alexander_firstAttack_Tyre #B_Alexander_firstAttack_Tyre"
             from="#V_Alexander_firstAttack_Tyre_start" to="#V_Alexander_firstAttack_Tyre_end"
-            type="episode" xml:id="V_Alexander_firstAttack_Tyre"><!--  TIRO RESPINGE--><span
+            type="episode" xml:id="V_Alexander_firstAttack_Tyre"><!-- TIRO RESPINGE --><span
                corresp="#S_Tyre_pushes_back #B_Tyre_pushes_back" from="#V_Tyre_pushes_back_start"
                to="#V_Tyre_pushes_back_end" type="sub-unit" xml:id="V_Tyre_pushes_back"/>Alexander's
             first attack against Tyre fails because the city pushes his army back</span>
@@ -621,7 +622,7 @@
 
 
       <!-- #############   B   ############## -->
-      <!-- 12/05/2024: 63 units -->
+      <!-- 12/05/2024: 73 units -->
 
       <!-- BUCEFALO -->
       <span ana="#Bucephalus" corresp="#V_Bucephalus #S_Bucephalus" from="#B_Bucephalus_start"

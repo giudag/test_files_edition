@@ -1507,7 +1507,7 @@
             <l n="1258" xml:id="V_l_1258">wane daz sînes tôdes noch neweht solte sîn.</l>
             <anchor xml:id="V_Alexander_vs_Mennes_end"/>
             <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
-            <anchor xml:id="V_knight_helps_Alexander_start "/>
+            <anchor xml:id="V_knight_helps_Alexander_start"/>
             <l n="1259" xml:id="V_l_1259">Ein rîter, der hiez Daclym,</l>
             <l n="1260" xml:id="V_l_1260">der was mit Alexander dâ</l>
             <l n="1261" xml:id="V_l_1261">unde stunt ime des tages vil nâ.</l>
@@ -1791,7 +1791,7 @@
             <l n="1477" xml:id="V_l_1477">dâ was der hof manichfalt,</l>
             <l n="1478" xml:id="V_l_1478">unde dar zuo drîzech tûsint.</l>
             <l n="1479" xml:id="V_l_1479">Alsus hete sich Darius besant.</l>
-            <gap ana="end_common_nucleus" reason="editorial"/>
+            <gap ana="end_common_nucleus" reason="editorial" resp="#GD"/>
          </div>
          <anchor xml:id="V_Darius_rally_end"/>
 

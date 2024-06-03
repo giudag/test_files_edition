@@ -60,7 +60,7 @@
    </facsimile>
 
    <text xml:id="S">
-      <!--29/02/2024: 55 units -->
+      <!--29/02/2024: 56 units -->
 
       <body>
 
@@ -632,6 +632,7 @@
             <l n="708" xml:id="S_l_708">Do vant man si an des meres grunt,</l>
             <l n="709" xml:id="S_l_709">di quamen wider uz gesunt.</l>
          </div>
+
          <!-- LE PERDITE DI ALESSANDRO -->
 
          <div n="47" type="stanza" xml:id="S_div_47">
@@ -1428,7 +1429,7 @@
             <l n="1329" xml:id="S_l_1329">Der quam gedrungen dar zuo</l>
             <l n="1330" xml:id="S_l_1330">unde wolde Alexandro</l>
             <l n="1331" xml:id="S_l_1331">in den hals slan einen slach,</l>
-            <l n="1333" xml:id="S_l_1332">da er in bloz sach.</l>
+            <l n="1332" xml:id="S_l_1332">da er in bloz sach.</l>
             <anchor xml:id="S_Alexander_vs_Mennes_end"/>
             <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
             <anchor xml:id="S_knight_helps_Alexander_start "/>
@@ -1757,7 +1758,7 @@
             <l n="1581" xml:id="S_l_1581">so ahte man iz da zestunt</l>
             <l n="1582" xml:id="S_l_1582">an sehs hundrit unde drizich tusunt,</l>
             <l n="1583" xml:id="S_l_1583">daz alliz Dario quam.</l>
-            <gap ana="end_common_nucleus" reason="editorial"/>
+            <gap ana="end_common_nucleus" reason="editorial" resp="#GD"/>
          </div>
          <anchor xml:id="S_Darius_rally_end"/>
 

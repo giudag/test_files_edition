@@ -111,7 +111,7 @@
                   <anchor xml:id="B_Bucephalus_start"/>
                   <pb facs="data/images/single/B_facs/B_28r.jpg" n="28r" xml:id="B_fol_28r"/>
                   <!-- FOL. 28r, inizio colonna a -->
-                  <div n="5" type="stanza" xml:id="B_div_5">
+                  <div n="5" type="paragraph" xml:id="B_div_5">
                         <l n="531" xml:id="B_l_531">In der selben zit,</l>
                         <l n="532" xml:id="B_l_532">des mir die gescrift urkunde git,</l>
                         <l n="533" xml:id="B_l_533">ein fürst us Kabadocyenlant</l>
@@ -153,7 +153,7 @@
                         <l n="565" xml:id="B_l_565">des dot muost sich do nachen.</l>
                   </div>
 
-                  <div n="6" type="stanza" xml:id="B_div_6">
+                  <div n="6" type="paragraph" xml:id="B_div_6">
                         <l n="566" xml:id="B_l_566">Da nach in kurzen tagen,</l>
                         <l n="567" xml:id="B_l_567">Pilipo begonden wissagen</l>
                         <l n="568" xml:id="B_l_568">die gœtter all gemein,</l>
@@ -313,7 +313,7 @@
                                     xml:id="B_Alexander_royalTitle_end"/></l>
                   </div>
 
-                  <div n="7" type="stanza" xml:id="B_div_7">
+                  <div n="7" type="paragraph" xml:id="B_div_7">
                         <l n="684" xml:id="B_l_684">Der küng was Niklaus genant.</l>
                         <l n="685" xml:id="B_l_685">Alexander fuor in sin lant.</l>
                         <l n="686" xml:id="B_l_686">Vor Zesarya, der grossen stat,</l>
@@ -568,7 +568,7 @@
                         <l n="867" xml:id="B_l_867">nun hœrent wes er von erst began.</l>
                   </div>
 
-                  <div n="8" type="stanza" xml:id="B_div_8">
+                  <div n="8" type="paragraph" xml:id="B_div_8">
                         <l n="868" xml:id="B_l_868">Allexander nam sin besten man,</l>
                         <l n="869" xml:id="B_l_869">den er getrüwet in aller not.</l>
                         <gap/>
@@ -902,7 +902,7 @@
                   <anchor xml:id="B_Alexander_breaches_firstWalls_start"/>
                   <pb facs="data/images/single/B_facs/B_33v.jpg" n="33v" xml:id="B_fol_33v"/>
                   <!-- FOL. 33v -->
-                  <div n="9" type="stanza" xml:id="B_div_9">
+                  <div n="9" type="paragraph" xml:id="B_div_9">
                         <l n="1092" xml:id="B_l_1092">Allexander mit grossen krefften</l>
                         <l n="1093" xml:id="B_l_1093">hies die schiff ze samen hefften</l>
                         <l n="1094" xml:id="B_l_1094">mit hiutten wol bedeket,</l>
@@ -1073,7 +1073,7 @@
                   </div>
                   <!-- RINASCITA DI TIRO -->
                   <anchor xml:id="B_Tyre_rebirth_start"/>
-                  <div n="10" type="stanza" xml:id="B_div_10">
+                  <div n="10" type="paragraph" xml:id="B_div_10">
                         <l n="1207" xml:id="B_l_1207">Ein küng hies Apollonyus,</l>
                         <l n="1208" xml:id="B_l_1208">der stiffte die stat ze Tiryus:</l>
                         <l n="1209" xml:id="B_l_1209">Anttyobus in veriagte,</l>
@@ -1236,7 +1236,7 @@
 
                   <anchor xml:id="B_Darius_calls_dukes_start"/>
 
-                  <div n="11" type="stanza" xml:id="B_div_11">
+                  <div n="11" type="paragraph" xml:id="B_div_11">
                         <l n="1306" xml:id="B_l_1306">Daryus zwen herzogen gebot,</l>
                         <gap/>
                         <l n="1307" xml:id="B_l_1307">das sy Allexander</l>
@@ -1425,7 +1425,7 @@
                   <!-- ALESSANDRO VS PINCUN -->
 
                   <anchor xml:id="B_Alexander_vs_Pincun_start"/>
-                  <div n="12" type="stanza" xml:id="B_div_12">
+                  <div n="12" type="paragraph" xml:id="B_div_12">
                         <l n="1420" xml:id="B_l_1420">Sinkun was ein groff genant,</l>
                         <l n="1421" xml:id="B_l_1421">der fuort das paner in der hant,</l>
                         <l n="1422" xml:id="B_l_1422">das er Allexander ab brach,</l>
@@ -1487,7 +1487,7 @@
                   <!-- ALESSANDRO CONQUISTA SARDI -->
 
                   <anchor xml:id="B_Alexander_takes_Sardis_start"/>
-                  <div n="13" type="stanza" xml:id="B_div_13">
+                  <div n="13" type="paragraph" xml:id="B_div_13">
                         <l n="1454" xml:id="B_l_1454">Allexander bleib da mit gewalt,</l>
                         <gap/>
                         <gap/>

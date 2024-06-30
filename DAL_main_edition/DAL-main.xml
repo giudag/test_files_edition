@@ -27,11 +27,11 @@
          <person xml:id="AlexandersMen"/>
          <person xml:id="AlexandersPrinces"/>
          <person xml:id="Carthaginians"/>
-         <person xml:id="DaclymDanklin"/>
+         <person xml:id="Daclym"/> <!-- ricordarsi che il nome è Danklin in B -->
          <person xml:id="Darius"/>
          <person xml:id="DariusDukes"/>
          <person xml:id="DariusMessengers"/>
-         <person xml:id="God"/>
+         <person xml:id="God"/> <!-- meh... -->
          <person xml:id="Lysia"/>
          <person xml:id="MacedonianSubjects"/>
          <person xml:id="messengerBucephalus"/>
@@ -40,7 +40,7 @@
          <person xml:id="Philip"/>
          <person xml:id="Pincun"/>
          <person xml:id="Ptolemy"/>
-         <person xml:id="stableBoys"/>
+         <person xml:id="stableBoys"/> <!-- capire se = page boys -->
          <person xml:id="TyreSurvivor"/>
          <person xml:id="Vestian"/>
       </listPerson>

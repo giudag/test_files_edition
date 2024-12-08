@@ -40,53 +40,43 @@ The annotation model that I adopted after these trials is a stand-off markup. A 
 is kept separate from the text and in my case it is found in the file DAL-main. The encoding is 
 based on the following TEI elements and attributes: 
 
-• In the files with the texts: 
+• In the files with the texts:
 
-o <pb/> to indicate the beginning of a new manuscript folium or, in the case of 
-S, of a new page of the print edition, accompanied, in alphabetical order, by: 
+o <pb/> to indicate the beginning of a new manuscript folium or, in the case of S, of a new page of the print edition, accompanied, in alphabetical order, by: 
 ▪ @facs for linking to the facsimile of the folium/page 
 ▪ @n for the folium/page number 
 ▪ @xml:id for the unique identification of text and folium/page 
+
 o <div> for the laisses, with: 
 ▪ @n for numbering 
-▪ @type to specify that the portion of text embedded in <div> is a laisse 
-or a paragraph for B 
-▪ @xml:id for the unique identification of witness, unit of lines (i.e. a 
-<div>), and number of the laisse/paragraph 
+▪ @type to specify that the portion of text embedded in <div> is a laisse or a paragraph for B 
+▪ @xml:id for the unique identification of witness, unit of lines (i.e. a <div>), and number of the laisse/paragraph 
+
 o <l> for each verse line, with the addition of: 
 ▪ @n for numbering 
-▪ @xml:id for the unique identification of witness, unit (i.e. a <l>), and 
-line number 
+▪ @xml:id for the unique identification of witness, unit (i.e. a <l>), and line number 
+
 o <anchor/> to delimit the beginning and end of a textual unit, alongside: 
-▪ @xml:id for the unique identification of the textual unit, in which I 
-indicate the witness, a short name for the unit, and whether it is the start 
-or the end of the textual unit 
-o <gap/> for lacunae in the text, according to the editions I used, and to indicate 
-the end of the common nucleus, with: 
+▪ @xml:id for the unique identification of the textual unit, in which I indicate the witness, a short name for the unit, and whether it is the start or the end of the textual unit 
+
+o <gap/> for lacunae in the text, according to the editions I used, and to indicate the end of the common nucleus, with: 
 ▪ @ana to clarify the type of gap 
 ▪ @extent for the lacuna caused by the loss of S’s bifolium 
 ▪ @reason to explain the presence of the gap 
-▪ @resp to indicate the people responsible for the choice and/or the 
-annotation 
+▪ @resp to indicate the people responsible for the choice and/or the annotation 
 ▪ @quantity for the number of missing units in S 
 ▪ @unit for the measurement of the gap in S 
 
 • In the stand-off file: 
+
 o <spanGrp> to group together a series of <span> elements, accompanied by: 
-▪ @xml:id to specify what kind of items the group of <span> elements 
-contains 
-o <span> to define the portion of text I associated with a textual unit, specified 
-by: 
-▪ @ana to point to a sample of notes containing the critical commentary 
-on the characteristics of the textual units (4.2.3.2) 
-▪ @corresp for linking the textual unit under observation to the same 
-units, when present, in the other texts 
-▪ @from and @to to refer back to the start and end of a unit, defined by 
-the @xml:ids inside the <anchor> elements 
+▪ @xml:id to specify what kind of items the group of <span> elements contains 
+
+o <span> to define the portion of text I associated with a textual unit, specified by: 
+▪ @ana to point to a sample of notes containing the critical commentary on the characteristics of the textual units (4.2.3.2) 
+▪ @corresp for linking the textual unit under observation to the same units, when present, in the other texts 
+▪ @from and @to to refer back to the start and end of a unit, defined by the @xml:ids inside the <anchor> elements 
 ▪ @type to specify whether the unit is a main unit or a sub-unit 
-▪ @xml:id to identify the witness that contains the unit and the name of 
-the unit’s name 
-▪ Since <span> can contain itself, I used a nested hierarchy of <span> 
-elements to include sub-units inside an episode, i.e. in the main <span>. 
-The embedded <span> elements are accompanied by the same 
-attributes previously mentioned for the main ones.
+▪ @xml:id to identify the witness that contains the unit and the name of the unit’s name 
+
+Since <span> can contain itself, I used a nested hierarchy of <span> elements to include sub-units inside an episode, i.e. in the main <span>. The embedded <span> elements are accompanied by the same attributes previously mentioned for the main ones.

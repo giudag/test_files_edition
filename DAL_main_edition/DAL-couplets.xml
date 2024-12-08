@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <standOff>
+
+      <!-- This is an attempt to align corresponding poetic lines, tested on textual unit 24 -->
+
+      <spanGrp xml:id="episodes">
+
+
+         <!-- 4.3.24	Alexander’s revenge and the destruction of Tyre (V 981-1005, S 934-969, B 1193-1215)-->
+         <span ana="#Tyre_falls" corresp="#S_Tyre_falls #B_Tyre_falls" from="#V_Tyre_falls_start"
+            to="#V_Tyre_falls_end" type="episode" xml:id="V_Tyre_falls">
+            <!-- RINASCITA DI TIRO --><span corresp="#S_Tyre_rebirth #B_Tyre_rebirth"
+               from="#V_Tyre_rebirth_start" to="#V_Tyre_rebirth_end" type="sub-unit"
+               xml:id="V_Tyre_rebirth"/>
+            <spanGrp type="lines_alignment">
+               <span corresp="#S_934_946" from="#V_l_981" to="#V_l_993" xml:id="V_981_993"/>
+               <span corresp="#S_948_951" from="#V_l_994" to="#V_l_997" xml:id="V_994_997"/>
+               <span corresp="#S_953_955" from="#V_l_998" to="#V_l_997" xml:id="V_998_999"/>
+               <span corresp="#S_958_961" from="#V_l_1000" to="#V_l_1003" xml:id="V_1000_1003"/>
+               <span corresp="#S_l_963" xml:id="V_l_1004"/>
+               <span corresp="#S_l_965" xml:id="V_l_1005"/>
+            </spanGrp>Tyre finally falls</span>
+
+      </spanGrp>
+   </standOff>
+
+</TEI>

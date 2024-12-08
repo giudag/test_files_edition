@@ -36,47 +36,33 @@ applied to other textual traditions.
 
 DESCRIPTION OF THE ENCODING MODEL
 
-The annotation model that I adopted after these trials is a stand-off markup. A stand-off markup 
-is kept separate from the text and in my case it is found in the file DAL-main. The encoding is 
-based on the following TEI elements and attributes: 
-
-In the files with the texts:
-
-<pb/> to indicate the beginning of a new manuscript folium or, in the case of S, of a new page of the print edition, accompanied, in alphabetical order, by:
-@facs for linking to the facsimile of the folium/page
-@n for the folium/page number
-@xml:id for the unique identification of text and folium/page 
-
-<div> for the laisses, with:
-@n for numbering
-@type to specify that the portion of text embedded in <div> is a laisse or a paragraph for B
-@xml:id for the unique identification of witness, unit of lines (i.e. a <div>), and number of the laisse/paragraph 
-
-<l> for each verse line, with the addition of: 
-@n for numbering 
-@xml:id for the unique identification of witness, unit (i.e. a <l>), and line number 
-
-<anchor/> to delimit the beginning and end of a textual unit, alongside: 
-@xml:id for the unique identification of the textual unit, in which I indicate the witness, a short name for the unit, and whether it is the start or the end of the textual unit 
-
-<gap/> for lacunae in the text, according to the editions I used, and to indicate the end of the common nucleus, with: 
-@ana to clarify the type of gap 
-@extent for the lacuna caused by the loss of S’s bifolium 
-@reason to explain the presence of the gap 
-@resp to indicate the people responsible for the choice and/or the annotation 
-@quantity for the number of missing units in S 
-@unit for the measurement of the gap in S 
-
-In the stand-off file: 
-
-<spanGrp> to group together a series of <span> elements, accompanied by: 
-@xml:id to specify what kind of items the group of <span> elements contains 
-
-<span> to define the portion of text I associated with a textual unit, specified by: 
-@ana to point to a sample of notes containing the critical commentary on the characteristics of the textual units (4.2.3.2) 
-@corresp for linking the textual unit under observation to the same units, when present, in the other texts 
-@from and @to to refer back to the start and end of a unit, defined by the @xml:ids inside the <anchor> elements 
-@type to specify whether the unit is a main unit or a sub-unit 
-@xml:id to identify the witness that contains the unit and the name of the unit’s name 
-
-Since <span> can contain itself, I used a nested hierarchy of <span> elements to include sub-units inside an episode, i.e. in the main <span>. The embedded <span> elements are accompanied by the same attributes previously mentioned for the main ones.
+ <p>The annotation model that I adopted is a stand-off markup. A stand-off markup is kept
+               separate from the text and in my case it is found here, in the DAL-main file. Each
+               transcription is stored in its own separate file.</p>
+            <p>The laisses are embedded in "div" elements.</p>
+            <p>Textual units are delimited by "anchor" elements alongside "xml:id" for the unique
+               identification of the textual unit, in which I indicate the witness, a short name for
+               the unit, and whether it is the start or the end of the textual unit.</p>
+            <p>In the stand-off file I used "span" to define the portion of text I associated with a
+               textual unit, specified by "ana" to point to a sample of notes containing the
+               critical commentary on the characteristics of the textual units, "corresp" for
+               linking the textual unit under observation to the same units, when present, in the
+               other texts, "from" and "to" to refer back to the start and end of a unit defined by
+               the "xml:ids" inside the "anchor" elements, "type" to specify whether the unit is a
+               main unit or a sub-unit, "xml:id" to identify the witness that contains the unit and
+               the name of the unit. Since "span" can contain itself, I used a nested hierarchy of
+               "span" elements to include sub-units inside an episode, i.e., in the main "span".</p>
+            <p>The "anchor" elements can be viewed as pins that fix a specific point in the text to
+               which an identifier is assigned. It is an extremely neutral and flexible element
+               which is not limited by literary genre nor the TEI hierarchy. A drawback, however, is
+               that it is a self-closing element, which makes it hard to process it by XML parser,
+               especially if it is used to delimit the beginning and the end of a portion of the
+               text.</p>
+            <p>The stand-off file was prepared to store information related to the textual units and
+               their relationships separately, as opposed to in-line markup. The files containing
+               the normalized transcriptions from the editions are thus more manageable because they
+               contain only structural markup. Moreover, the problem of hierarchical constraints is
+               solved with this method. Additionally, it gave me the possibility to take advantage
+               of the fact that the element "span" contains a comment on the portion of text it is
+               associated with to add a brief description of the textual units without cluttering
+               the text files with information.

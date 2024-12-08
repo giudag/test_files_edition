@@ -30,6 +30,9 @@ The annotation model and the comparative research/study tool which stemmed from 
 of the Alexanderlied as a case study were in fact designed with the ambition to let them be 
 applied to other textual traditions.
 
+----------------------------------------
+
+THE EDITION IS AVAILABLE HERE: https://dh.dlls.univr.it/dse/dal/sinottica/ 
 
 ----------------------------------------
 
@@ -65,4 +68,4 @@ DESCRIPTION OF THE ENCODING MODEL
                solved with this method. Additionally, it gave me the possibility to take advantage
                of the fact that the element "span" contains a comment on the portion of text it is
                associated with to add a brief description of the textual units without cluttering
-               the text files with information.
+               the text files with information.</p>

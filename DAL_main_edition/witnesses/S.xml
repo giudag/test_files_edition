@@ -4,17 +4,99 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
+      
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>DAL Synoptic Edition</title>
+            <author>Pfaffe Lambrecht</author>
+            <principal>Maria Adele Cipolla</principal>
+            <respStmt>
+               <resp>TEI encoding</resp>
+               <name xml:id="GD">Giulia D'Agostino</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>DAL Project</authority>
+            <date>2024</date>
+            <availability>
+               <p>Please check Terms and Conditions here: <ref
+                  target="https://dh.dlls.univr.it/public/terms.pdf"/>.</p>
+            </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>For information on the manuscripts and related editions that have been used as
+               objects of these work, please check their individual project pages and digital
+               editions from the main page of the DAL project: <ref
+                  target="https://dh.dlls.univr.it/dse/dal/"/>.</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The Alexanderlied is a Middle High German poem belonging to the wider international
+               historiographical, literary and paradoxographical tradition on Alexander the Great.
+               It is handed down in three different versions, which share a common nucleus but
+               diverge from one another substantially enough that they can be considered independent
+               rewritings of a lost original. Synoptic editions, as editions that present the texts
+               of two or more witnesses close to one another, generally side-by-side, are a useful
+               resource because their purpose is to facilitate the comparison of the varia lectio
+               and the individuation of relationships inside the tradition. Due to the high textual
+               mobility of the three versions of the Alexanderlied, the considerable number of
+               sources they draw from, and the Daedalian relationships among them, a comparative
+               study by means of a synoptic edition can indeed assist in the understanding of the
+               Alexandrian lore in the German Middle Ages. Synoptic editions of poetic-narrative
+               texts from the Middle High German period do exist, but they are mostly dealing with
+               authorial works with a relatively higher stability and uniformity than the redactions
+               of the Alexanderlied, for which the comparison by metrical units, verses or couplets,
+               proved unfeasible. Moreover, in the analog paradigm of the printed page, synoptic
+               editions are often difficult to read and manage, whereas a digital environment has
+               the potential to support the collation process and analysis through various tools and
+               visualization strategies. Therefore, the focus of this PhD project is the creation of
+               a synoptic digital edition of the three recensions of the Alexanderlied. The three
+               redactions were divided into textual units, which were encoded and linked to one
+               another according to the TEI-XML conventions. The annotation model was later used as
+               the basis for the development of a web application, namely a prototype for the
+               parallel visualization and basic query of the encoded data, generated thanks to the
+               transformation of the XML data into HTML with XSLT. The ultimate wish for this work
+               is to provide new knowledge and a new product for the disciplines Germanic Philology
+               and Digital Humanities. The annotation model and the comparative research/study tool
+               which stemmed from the use of the Alexanderlied as a case study were in fact designed
+               with the ambition to let them be applied to other textual traditions.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>The annotation model that I adopted is a stand-off markup. A stand-off markup is kept
+               separate from the text and in my case it is found in the DAL-main file. Each
+               transcription is stored in its own separate file.</p>
+            <p>The laisses are embedded in "div" elements.</p>
+            <p>Textual units are delimited by "anchor" elements alongside "xml:id" for the unique
+               identification of the textual unit, in which I indicate the witness, a short name for
+               the unit, and whether it is the start or the end of the textual unit.</p>
+            <p>In the stand-off file I used "span" to define the portion of text I associated with a
+               textual unit, specified by "ana" to point to a sample of notes containing the
+               critical commentary on the characteristics of the textual units, "corresp" for
+               linking the textual unit under observation to the same units, when present, in the
+               other texts, "from" and "to" to refer back to the start and end of a unit defined by
+               the "xml:ids" inside the "anchor" elements, "type" to specify whether the unit is a
+               main unit or a sub-unit, "xml:id" to identify the witness that contains the unit and
+               the name of the unit. Since "span" can contain itself, I used a nested
+               hierarchy of "span" elements to include sub-units inside an episode, i.e., in the main
+               "span".</p>
+            <p>The "anchor" elements can be viewed as pins that fix a specific point in the text to
+               which an identifier is assigned. It is an extremely neutral and flexible element
+               which is not limited by literary genre nor the TEI hierarchy. A drawback, however, is
+               that it is a self-closing element, which makes it hard to process it by XML parser,
+               especially if it is used to delimit the beginning and the end of a portion of the
+               text.</p>
+            <p>The stand-off file was prepared to store information related to the textual units and
+               their relationships separately, as opposed to in-line markup. The files containing
+               the normalized transcriptions from the editions are thus more manageable because they
+               contain only structural markup. Moreover, the problem of hierarchical constraints is
+               solved with this method. Additionally, it gave me the possibility to take advantage
+               of the fact that the element "span" contains a comment on the portion of text it is
+               associated with to add a brief description of the textual units without cluttering
+               the text files with information.</p>
+         </editorialDecl>
+      </encodingDesc>
+      
    </teiHeader>
 
    <facsimile xml:id="S_facs">
@@ -60,18 +142,19 @@
    </facsimile>
 
    <text xml:id="S">
-      <!--29/02/2024: 56 units -->
+
 
       <body>
 
 
-         <!-- BUCEFALO -->
+
 
          <anchor xml:id="S_Bucephalus_start"/>
          <pb facs="data/images/single/S_facs/S_18.jpg" n="18" xml:id="S_pag_18"/>
          <!-- PAGINA. 18, edizione M. -->
-         <div n="21" type="stanza" xml:id="S_div_21">
-            <l n="269" xml:id="S_l_269">Von Philippis stute wil ih u nu sagen:</l>
+         <div n="21" type="laisse" xml:id="S_div_21">
+            <l n="269" xml:id="S_l_269"><anchor xml:id="S_Bucephalus_presentation_start"/>Von
+               Philippis stute wil ih u nu sagen:</l>
             <l n="270" xml:id="S_l_270">Dar under was ein ros getragen.</l>
             <l n="271" xml:id="S_l_271">Daz ros, daz was wunderlich,</l>
             <l n="272" xml:id="S_l_272">irre und vil stritich,</l>
@@ -90,7 +173,7 @@
             <l n="285" xml:id="S_l_285">Sine ougen waren ime allir vare,</l>
             <l n="286" xml:id="S_l_286">glich eineme fliegindin aren.</l>
          </div>
-         <div n="22" type="stanza" xml:id="S_div_22">
+         <div n="22" type="laisse" xml:id="S_div_22">
             <l n="287" xml:id="S_l_287">Sin hals was ime lockechte,</l>
             <l n="288" xml:id="S_l_288">ih wene, iz were lewin geslehte.</l>
             <l n="289" xml:id="S_l_289">Uf den goffen hatiz rindis har,</l>
@@ -98,7 +181,7 @@
             <l n="291" xml:id="S_l_291">So Sarrazin joh cristin man</l>
             <l n="292" xml:id="S_l_292">nie nihein bezzer ros gwan.</l>
          </div>
-         <div n="23" type="stanza" xml:id="S_div_23">
+         <div n="23" type="laisse" xml:id="S_div_23">
             <l n="293" xml:id="S_l_293">Daz ros wart mit isine gebunden,</l>
             <l n="294" xml:id="S_l_294">alse daz da tobit zallen stunden.</l>
             <l n="295" xml:id="S_l_295">Iz wart vor den kuninc Philippum geleit,</l>
@@ -106,7 +189,7 @@
             <l n="297" xml:id="S_l_297">Bucival hiz erz namen.</l>
             <l n="298" xml:id="S_l_298">Daz duhte si gut allesamen.</l>
          </div>
-         <div n="24" type="stanza" xml:id="S_div_24">
+         <div n="24" type="laisse" xml:id="S_div_24">
             <l n="299" xml:id="S_l_299">Do hiz man manigen starkin man</l>
             <l n="300" xml:id="S_l_300">daz selbe ros leiten dan</l>
             <l n="301" xml:id="S_l_301">und in einen marstal betun,</l>
@@ -114,10 +197,12 @@
             <l n="303" xml:id="S_l_303">Zo ime ne torste nieman gan,</l>
             <l n="304" xml:id="S_l_304">wan der also hete getan,</l>
             <l n="305" xml:id="S_l_305">daz ime verteilet wart daz leben,</l>
-            <l n="306" xml:id="S_l_306">den mose man deme rosse geben.</l>
+            <l n="306" xml:id="S_l_306">den mose man deme rosse geben.<anchor
+                  xml:id="S_Bucephalus_presentation_end"/></l>
          </div>
-         <div n="25" type="stanza" xml:id="S_div_25">
-            <l n="307" xml:id="S_l_307">Deme kuninge wart ein bote do gesant</l>
+         <div n="25" type="laisse" xml:id="S_div_25">
+            <l n="307" xml:id="S_l_307"><anchor xml:id="S_Bucephalus_prophecy_start"/>Deme kuninge
+               wart ein bote do gesant</l>
             <l n="308" xml:id="S_l_308">von deme, der daz ros het erkant,</l>
             <pb facs="data/images/single/S_facs/S_19.jpg" n="19" xml:id="S_pag_19"/>
             <!-- PAGINA. 19, edizione M. -->
@@ -128,10 +213,12 @@
             <l n="313" xml:id="S_l_313">und enbot ime da bi,</l>
             <l n="314" xml:id="S_l_314">iz solde rechte derre si,</l>
             <l n="315" xml:id="S_l_315">der iz allir erist beschrite,</l>
-            <l n="316" xml:id="S_l_316">wandiz noh diu nehein man ne gerite.</l>
+            <l n="316" xml:id="S_l_316">wandiz noh diu nehein man ne gerite.<anchor
+                  xml:id="S_Bucephalus_prophecy_end"/></l>
          </div>
-         <div n="26" type="stanza" xml:id="S_div_26">
-            <l n="317" xml:id="S_l_317">Unde alse Alexander heim quam,</l>
+         <div n="26" type="laisse" xml:id="S_div_26">
+            <l n="317" xml:id="S_l_317"><anchor xml:id="S_Bucephalus_tamed_start"/>Unde alse
+               Alexander heim quam,</l>
             <l n="318" xml:id="S_l_318">di scrift er harte wol vernam.</l>
             <l n="319" xml:id="S_l_319">Wis was er zummazen,</l>
             <l n="320" xml:id="S_l_320">sine meistere heter verlazen.</l>
@@ -148,11 +235,10 @@
             <l n="331" xml:id="S_l_331">mit allen sinen sinne,</l>
             <l n="332" xml:id="S_l_332">wes were di freisliche stimme.</l>
          </div>
-         <div n="27" type="stanza" xml:id="S_div_27">
+         <div n="27" type="laisse" xml:id="S_div_27">
             <l n="333" xml:id="S_l_333">Zo Vestiane er do sprah:</l>
-            <l n="334" xml:id="S_l_334"><anchor xml:id="S_Alexander_Vestian_start"/><said
-                  toWhom="#Vestian" who="#Alexander"/>"Nu sage mir, waz daz sin mach,</l>
-            <!-- ALESSANDRO SENTE BUCEFALO - PARLA CON EFESTIONE -->
+            <l n="334" xml:id="S_l_334">"Nu sage mir, waz daz sin mach,</l>
+
             <l n="335" xml:id="S_l_335">daz mir schillit in mine oren</l>
             <l n="336" xml:id="S_l_336">und ne lazit mich nith gehoren.</l>
             <l n="337" xml:id="S_l_337">Iz gebarit freisliche,</l>
@@ -161,9 +247,8 @@
                   xml:id="S_Alexander_Vestian_end"/></l>
             <l n="340" xml:id="S_l_340">Do antworte ime schiere</l>
             <l n="341" xml:id="S_l_341">Ptolomeus unde sprah:</l>
-            <l n="342" xml:id="S_l_342"><anchor xml:id="S_Ptolemy_introduces_Bucephalus_start"
-                  /><said toWhom="#Alexander" who="#Ptolemy"/>"Ih sage dir, waz daz wesen mach:</l>
-            <!-- TOLOMEO PRESENTA BUCEFALO -->
+            <l n="342" xml:id="S_l_342">"Ih sage dir, waz daz wesen mach:</l>
+
             <l n="343" xml:id="S_l_343">Iz ist ein ros freislich.</l>
             <l n="344" xml:id="S_l_344">Ime ne wart nie nehein gelich</l>
             <l n="345" xml:id="S_l_345">in alle criechische lant:</l>
@@ -180,7 +265,7 @@
             <l n="356" xml:id="S_l_356">swes iz muz gwalden".<anchor
                   xml:id="S_Ptolemy_introduces_Bucephalus_end"/></l>
          </div>
-         <div n="28" type="stanza" xml:id="S_div_28">
+         <div n="28" type="laisse" xml:id="S_div_28">
             <l n="357" xml:id="S_l_357">Do der herre diz vernam,</l>
             <l n="358" xml:id="S_l_358">schiere er zo deme rosse quam.</l>
             <l n="359" xml:id="S_l_359">Do sin daz ros wart gware</l>
@@ -192,7 +277,7 @@
             <l n="365" xml:id="S_l_365">Ime worden sine gebere,</l>
             <l n="366" xml:id="S_l_366">alsiz des kindes vil wol gewone were.</l>
          </div>
-         <div n="29" type="stanza" xml:id="S_div_29">
+         <div n="29" type="laisse" xml:id="S_div_29">
             <l n="367" xml:id="S_l_367">Er begundiz streichen,</l>
             <l n="368" xml:id="S_l_368">daz nieman geweichen</l>
             <l n="369" xml:id="S_l_369">ne mohte neheine wis,</l>
@@ -202,14 +287,15 @@
             <l n="373" xml:id="S_l_373">Ellenthaft was sin gedanc:</l>
             <l n="374" xml:id="S_l_374">Uf den rucke er ime spranc.</l>
             <l n="375" xml:id="S_l_375">Uz dem marstalle er iz reit:</l>
-            <l n="376" xml:id="S_l_376">Daz was ein michil baltheit.</l>
+            <l n="376" xml:id="S_l_376">Daz was ein michil baltheit.<anchor
+                  xml:id="S_Bucephalus_tamed_end"/></l>
          </div>
          <anchor xml:id="S_Bucephalus_end"/>
 
-         <!-- ALESSANDRO CHIEDE L'INVESTITURA - PRIMA IMPRESA DI ALESSANDRO -->
 
-         <anchor xml:id="S_Alexander_firstDeed_start"/>
-         <div n="30" type="stanza" xml:id="S_div_30">
+
+         <anchor xml:id="V_Alexander_accolade_start"/>
+         <div n="30" type="laisse" xml:id="S_div_30">
             <l n="377" xml:id="S_l_377">Do wart daz langer nit verdaget,</l>
             <l n="378" xml:id="S_l_378">dem kuninge wart do gesagit,</l>
             <l n="379" xml:id="S_l_379">waz sin sun hete getan.</l>
@@ -231,24 +317,24 @@
             <l n="395" xml:id="S_l_395">Ir rede wart vile minnesam,</l>
             <l n="396" xml:id="S_l_396">als ir hie mougit verstan.</l>
          </div>
-         <div n="31" type="stanza" xml:id="S_div_31">
-            <l n="397" xml:id="S_l_397"><anchor xml:id="S_Philip_praises_Alexander_start"/><said
-                  toWhom="#Alexander" who="#Philip"/>"Heil dir — sprah er — sune min.</l>
-            <!-- FILIPPO LODA ALESSANDRO -->
+         <div n="31" type="laisse" xml:id="S_div_31">
+            <l n="397" xml:id="S_l_397"><anchor xml:id="S_Philip_praises_Alexander_start"/>"Heil dir
+               — sprah er — sune min.</l>
+
             <l n="398" xml:id="S_l_398">Mih dunkit du salt kuninc sin.</l>
             <l n="399" xml:id="S_l_399">Diu gwalt si dir vil geret,</l>
             <l n="400" xml:id="S_l_400">also verre, so min riche get".<anchor
                   xml:id="S_Philip_praises_Alexander_end"/></l>
             <l n="401" xml:id="S_l_401">Alexander sprah zestunt:</l>
-            <l n="402" xml:id="S_l_402"><anchor xml:id="S_Alexander_wants_weapons_start"/><said
-                  toWhom="#Philip" who="#Alexander"/>"Vater, Got laze uh sin gesunt!</l>
-            <!-- ALESSANDRO CHIEDE ARMI -->
+            <l n="402" xml:id="S_l_402"><anchor xml:id="S_Alexander_asks_knighting_start"/>"Vater,
+               Got laze uh sin gesunt!</l>
+
             <l n="403" xml:id="S_l_403">Allis gutes ih u wol getruwen.</l>
             <l n="404" xml:id="S_l_404">Got laz uh lange buwen,</l>
             <l n="405" xml:id="S_l_405">mit froweden uwer riche</l>
             <l n="406" xml:id="S_l_406">und ouh selicliche.</l>
          </div>
-         <div n="32" type="stanza" xml:id="S_div_32">
+         <div n="32" type="laisse" xml:id="S_div_32">
             <l n="407" xml:id="S_l_407">Noch sult ir, vater, mich geweren</l>
             <l n="408" xml:id="S_l_408">eines dinges, des ih sere geren:</l>
             <l n="409" xml:id="S_l_409">Nu bin ih funfzehen jar alt,</l>
@@ -264,7 +350,7 @@
             <pb facs="data/images/single/S_facs/S_20.jpg" n="20" xml:id="S_pag_20"/>
             <!-- PAGINA. 20, edizione M. -->
             <l n="419" xml:id="S_l_419">und ouh lasterliche".<anchor
-                  xml:id="S_Alexander_wants_weapons_end"/></l>
+                  xml:id="S_Alexander_asks_knighting_end"/></l>
             <l n="420" xml:id="S_l_420">Do ne wolde der kuninc riche</l>
             <l n="421" xml:id="S_l_421">niwit langer beiten:</l>
             <l n="422" xml:id="S_l_422">Er hiz daz kint bereiten.</l>
@@ -275,7 +361,7 @@
             <l n="427" xml:id="S_l_427">und verkore si Alexander,</l>
             <l n="428" xml:id="S_l_428">man gewunne ime aber ander.</l>
          </div>
-         <div n="33" type="stanza" xml:id="S_div_33">
+         <div n="33" type="laisse" xml:id="S_div_33">
             <l n="429" xml:id="S_l_429">Do daz kint nah riterlichen site</l>
             <l n="430" xml:id="S_l_430">wol gewefent was und geriten,</l>
             <l n="431" xml:id="S_l_431">do was er ein scone jungelinc.</l>
@@ -285,11 +371,10 @@
             <l n="435" xml:id="S_l_435">so er kunincriches nit ne hete,</l>
             <l n="436" xml:id="S_l_436">daz er sinen vinger uf gesezte.</l>
          </div>
-         <div n="34" type="stanza" xml:id="S_div_34">
-            <l n="437" xml:id="S_l_437">Er sprah: <anchor xml:id="S_Alexander_royalTitle_start"
-                  /><said toWhom="#MacedonianSubjects" who="#Alexander"/>"Woldet ir eine wile
-               gerun,</l>
-            <!-- ALESSANDRO DISCUTE DEL TITOLO REGALE -->
+         <div n="34" type="laisse" xml:id="S_div_34">
+            <l n="437" xml:id="S_l_437">Er sprah:<anchor xml:id="S_Alexander_doubts_title_start"
+               />"Woldet ir eine wile gerun,</l>
+
             <l n="438" xml:id="S_l_438">unze ih eine tugint mohte getun!</l>
             <l n="439" xml:id="S_l_439">An einem kuninc wil ih is beginnen,</l>
             <l n="440" xml:id="S_l_440">und mach ich den verwinnen</l>
@@ -297,9 +382,12 @@
             <l n="442" xml:id="S_l_442">und uz den velde getun flihen,</l>
             <l n="443" xml:id="S_l_443">so mugit ir mir kuningis namen geben</l>
             <l n="444" xml:id="S_l_444">al di wile, di ih leben".<anchor
-                  xml:id="S_Alexander_royalTitle_end"/></l>
+                  xml:id="S_Alexander_doubts_title_end"/></l>
          </div>
-         <div n="35" type="stanza" xml:id="S_div_35">
+         <anchor xml:id="S_Alexander_accolade_end"/>
+
+         <anchor xml:id="S_Alexander_vs_Nicolaus_start"/>
+         <div n="35" type="laisse" xml:id="S_div_35">
             <l n="445" xml:id="S_l_445">Ein kuninc was Nicolaus genant.</l>
             <l n="446" xml:id="S_l_446">Alexander fur in sin lant,</l>
             <l n="447" xml:id="S_l_447">ze Cesaream vor die groze stat.</l>
@@ -307,13 +395,14 @@
             <l n="449" xml:id="S_l_449">Alexander vaht ime den sige ane</l>
             <l n="450" xml:id="S_l_450">und furte di cronen mit ime dane.</l>
          </div>
-         <anchor xml:id="S_Alexander_firstDeed_end"/>
+         <anchor xml:id="S_Alexander_vs_Nicolaus_end"/>
 
-         <!-- ALESSANDRO LITIGA COL PADRE PER IL SUO TRADIMENTO DELLA MADRE  -->
+
 
          <anchor xml:id="S_Alexander_Cleopatra_start"/>
-         <div n="36" type="stanza" xml:id="S_div_36">
-            <l n="451" xml:id="S_l_451">Do er do wider heim quam,</l>
+         <div n="36" type="laisse" xml:id="S_div_36">
+            <l n="451" xml:id="S_l_451"><anchor xml:id="S_Alexander_breaksInto_weddingFeast_start"
+               />Do er do wider heim quam,</l>
             <l n="452" xml:id="S_l_452">ein vil leit mere er vernam,</l>
             <l n="453" xml:id="S_l_453">des gewan er ungemute:</l>
             <l n="454" xml:id="S_l_454">Iz was siner muter</l>
@@ -327,9 +416,8 @@
             <l n="462" xml:id="S_l_462">di er Nicolao</l>
             <l n="463" xml:id="S_l_463">hete geroubit,</l>
             <l n="464" xml:id="S_l_464">sinem vater uf daz houbit.</l>
-            <l n="465" xml:id="S_l_465"><anchor xml:id="S_Alexander_reproaches_Philip_start"/><said
-                  toWhom="#Philip" who="#Alexander"/>"Her vater, nemet diz ze minnen,</l>
-            <!-- ALESSANDRO RIMPROVERA FILIPPO -->
+            <l n="465" xml:id="S_l_465">"Her vater, nemet diz ze minnen,</l>
+
             <l n="466" xml:id="S_l_466">daz ih mit sturme han gewunnen</l>
             <l n="467" xml:id="S_l_467">unz ih mer mac getuon,</l>
             <l n="468" xml:id="S_l_468">des habit ir ere unde ruom.</l>
@@ -345,10 +433,11 @@
             <l n="478" xml:id="S_l_478">Ih swere u daz bi mineme libe,</l>
             <l n="479" xml:id="S_l_479">swer disen rat hat gefromit,</l>
             <l n="480" xml:id="S_l_480">daz iz ime ze grozen unstaten noh comet".<anchor
-                  xml:id="S_Alexander_reproaches_Philip_end"/></l>
+                  xml:id="S_Alexander_breaksInto_weddingFeast_end"/>></l>
          </div>
-         <div n="37" type="stanza" xml:id="S_div_37">
-            <l n="481" xml:id="S_l_481">Ein riter hiz Lysias,</l>
+         <div n="37" type="laisse" xml:id="S_div_37">
+            <l n="481" xml:id="S_l_481"><anchor xml:id="S_Alexander_Lysia_start"/>Ein riter hiz
+               Lysias,</l>
             <l n="482" xml:id="S_l_482">der stolz und redehaft was,</l>
             <l n="483" xml:id="S_l_483">der was mit der brute dar comen,</l>
             <l n="484" xml:id="S_l_484">des gwan er lutzelen fromen.</l>
@@ -363,13 +452,13 @@
             <l n="493" xml:id="S_l_493">hete Alexander an di hande,</l>
             <l n="494" xml:id="S_l_494">den sluch er Lysiam vor di zande,</l>
             <l n="495" xml:id="S_l_495">daz si ime in di kele resen,</l>
-            <l n="496" xml:id="S_l_496">und sprach: <anchor xml:id="S_Alexander_Lysia_start"/><said
-                  toWhom="#Lysia" who="#Alexander"/>"La dine bose rede wesen!".<anchor
+            <l n="496" xml:id="S_l_496">und sprach:"La dine bose rede wesen!".<anchor
                   xml:id="S_Alexander_Lysia_end"/></l>
-            <!-- ALESSANDRO LITIGA CON LISIA -->
+
          </div>
-         <div n="38" type="stanza" xml:id="S_div_38">
-            <l n="497" xml:id="S_l_497">Philippus uf di tabelen spranc,</l>
+         <div n="38" type="laisse" xml:id="S_div_38">
+            <l n="497" xml:id="S_l_497">
+               <anchor xml:id="S_brawl_weddingFeast_start"/>Philippus uf di tabelen spranc,</l>
             <l n="498" xml:id="S_l_498">wande in sin groze zorn dwanc.</l>
             <l n="499" xml:id="S_l_499">Der strit ime niht wol gevil.</l>
             <l n="500" xml:id="S_l_500">Do trat er fur baz unde viel,</l>
@@ -379,17 +468,474 @@
             <l n="504" xml:id="S_l_504">Da ne wart neheiner gabe lut</l>
             <l n="505" xml:id="S_l_505">nieren nehein spileman.</l>
             <l n="506" xml:id="S_l_506">Wande do iz also quam.</l>
-            <l n="507" xml:id="S_l_507">daz der kuninc, der nider<anchor
-                  xml:id="S_Alexander_Cleopatra_end"/>
-               <gap extent="folio" reason="lost"/></l>
+            <l n="507" xml:id="S_l_507">daz der kuninc, der nider<gap reason="loss"/><anchor
+                  xml:id="S_brawl_weddingFeast_end"/></l>
          </div>
+         <anchor xml:id="S_Alexander_Cleopatra_end"/>
 
-         <!-- LA PROPOSTA DI ALESSANDRO A TIRO  -->
+         <anchor xml:id="S_lostBifolium_start"/>
+         <div type="gap" xml:id="S_div_lostBifolium">
+            <gap extent="bifolium" quantity="450" reason="loss" resp="#Kinzel" unit="lines"/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+            <gap/>
+         </div>
+         <anchor xml:id="S_lostBifolium_end"/>
 
 
-         <div n="39" type="stanza" xml:id="S_div_39">
-            <anchor xml:id="S_Alexander_proposal_to_Tyre_start"/>
-            <l n="508" xml:id="S_l_508">Nu vernemet ouh ein ander:</l>
+
+         <anchor xml:id="S_Alexander_reaches_Tyre_start"/>
+         <div n="39" type="laisse" xml:id="S_div_39">
+
+            <l n="508" xml:id="S_l_508"><anchor xml:id="S_Alexander_embassies_to_Tyre_start"/>Nu
+               vernemet ouh ein ander:</l>
             <l n="509" xml:id="S_l_509">Zo zin sante Alexander</l>
             <l n="510" xml:id="S_l_510">und hiez sinen knechte</l>
             <l n="511" xml:id="S_l_511">sagen in vil rechte,</l>
@@ -424,7 +970,7 @@
             <l n="538" xml:id="S_l_538">ob erz wolde durh minne.</l>
             <l n="539" xml:id="S_l_539">Sus sprachen si dar inne.</l>
          </div>
-         <div n="40" type="stanza" xml:id="S_div_40">
+         <div n="40" type="laisse" xml:id="S_div_40">
             <l n="540" xml:id="S_l_540">Do der bote wider quam</l>
             <l n="541" xml:id="S_l_541">und in Alexander vernam</l>
             <l n="542" xml:id="S_l_542">und er ime gesagete rechte,</l>
@@ -436,10 +982,12 @@
             <l n="548" xml:id="S_l_548">iz gienge in allen an den leben,</l>
             <l n="549" xml:id="S_l_549">daz si ime torsten widerstreben.</l>
             <l n="550" xml:id="S_l_550">Er solde sih wol gerechen</l>
-            <l n="551" xml:id="S_l_551">unde ir stat zebrechen.</l>
+            <l n="551" xml:id="S_l_551">unde ir stat zebrechen.<anchor
+                  xml:id="S_Alexander_embassies_to_Tyre_end"/></l>
          </div>
-         <div n="41" type="stanza" xml:id="S_div_41">
-            <l n="552" xml:id="S_l_552">Do nam er siner fursten dri,</l>
+         <div n="41" type="laisse" xml:id="S_div_41">
+            <l n="552" xml:id="S_l_552"><anchor xml:id="S_AlexandersEmissaries_hanged_start"/>Do nam
+               er siner fursten dri,</l>
             <l n="553" xml:id="S_l_553">ih neweiz niht, wi ir name si,</l>
             <l n="554" xml:id="S_l_554">und sante si wider in di stat</l>
             <l n="555" xml:id="S_l_555">und hiz den besten sagen daz,</l>
@@ -464,25 +1012,27 @@
             <l n="574" xml:id="S_l_574">waz di boten sageten,</l>
             <l n="575" xml:id="S_l_575">nit langer si ne dageten:</l>
             <l n="576" xml:id="S_l_576">Di boten si vingen,</l>
-            <l n="577" xml:id="S_l_577">schiere si sie verhingen.</l>
+            <l n="577" xml:id="S_l_577">schiere si sie verhingen.<anchor
+                  xml:id="S_AlexandersEmissaries_hanged_end"/></l>
          </div>
-         <anchor xml:id="S_Alexander_proposal_to_Tyre_end"/>
+         <anchor xml:id="S_Alexander_reaches_Tyre_end"/>
 
-         <!--  ALESSANDRO ATTACCA TIRO - PRIMO ASSALTO -->
 
-         <anchor xml:id="S_Alexander_firstAttack_Tyre_start"/>
-         <div n="42" type="stanza" xml:id="S_div_42">
-            <l n="578" xml:id="S_l_578">Do daz mere uz quam</l>
+
+         <anchor xml:id="S_Alexander_besieges_Tyre_start"/>
+         <div n="42" type="laisse" xml:id="S_div_42">
+            <l n="578" xml:id="S_l_578"><anchor xml:id="S_Alexander_firstAttack_start"/>Do daz mere
+               uz quam</l>
             <l n="579" xml:id="S_l_579">und iz Alexander vernam,</l>
             <l n="580" xml:id="S_l_580">do gwan der helt gut</l>
             <l n="581" xml:id="S_l_581">eines zurnigen lewen mut.</l>
             <l n="582" xml:id="S_l_582">Do hiz er sin here</l>
             <l n="583" xml:id="S_l_583">mit schiffen varen in daz mere</l>
             <l n="584" xml:id="S_l_584">und hiz di burg al umbevan:</l>
-            <l n="585" xml:id="S_l_585">Daz wart schire getan.</l>
-            <!--  TIRO RESPINGE-->
-            <anchor xml:id="S_Tyre_pushes_back_start"/>
-            <l n="586" xml:id="S_l_586">Und alse di Tyrere</l>
+            <l n="585" xml:id="S_l_585">Daz wart schire getan.<anchor
+                  xml:id="S_Alexander_firstAttack_end"/></l>
+            <l n="586" xml:id="S_l_586"><anchor xml:id="S_Tyre_counterattacks_start"/>Und alse di
+               Tyrere</l>
             <l n="587" xml:id="S_l_587">vernamen dise mere,</l>
             <l n="588" xml:id="S_l_588">do schuofen si ir were</l>
             <l n="589" xml:id="S_l_589">wider daz creftige here</l>
@@ -502,9 +1052,10 @@
             <l n="603" xml:id="S_l_603">Si irslugen so vile</l>
             <l n="604" xml:id="S_l_604">Alexandris heris,</l>
             <l n="605" xml:id="S_l_605">daz di unden des meris</l>
-            <l n="606" xml:id="S_l_606">von dem blute wurden rot.</l>
-            <anchor xml:id="S_Tyre_pushes_back_end"/>
-            <l n="607" xml:id="S_l_607">Der wint, der tet in starke not,</l>
+            <l n="606" xml:id="S_l_606">von dem blute wurden rot.<anchor
+                  xml:id="S_Tyre_counterattacks_end"/></l>
+            <l n="607" xml:id="S_l_607"><anchor xml:id="S_wind_destroys_AlexandersFleet_start"/>Der
+               wint, der tet in starke not,</l>
             <l n="608" xml:id="S_l_608">wander vil stark was,</l>
             <l n="609" xml:id="S_l_609">der selbe der da Boreas</l>
             <l n="610" xml:id="S_l_610">in den buchen heizet</l>
@@ -513,20 +1064,24 @@
             <l n="613" xml:id="S_l_613">Der schiffe sluch er ze grunde</l>
             <l n="614" xml:id="S_l_614">vile, daz si versunken</l>
             <l n="615" xml:id="S_l_615">und di lute dar in vertrunken.</l>
-            <l n="616" xml:id="S_l_616">Vil manic ouh da irslagen lach.</l>
-            <l n="617" xml:id="S_l_617">Do Alexander daz gesach,</l>
+            <l n="616" xml:id="S_l_616">Vil manic ouh da irslagen lach.<anchor
+                  xml:id="S_wind_destroys_AlexandersFleet_end"/></l>
+            <l n="617" xml:id="S_l_617"><anchor xml:id="S_Alexander_retreats_start"/>Do Alexander
+               daz gesach,</l>
             <l n="618" xml:id="S_l_618">des sturmes hiz er abe stan</l>
             <l n="619" xml:id="S_l_619">und hiz balde wider gan</l>
             <l n="620" xml:id="S_l_620">di schif in di habe,</l>
-            <l n="621" xml:id="S_l_621">ob ich rechte vernomen habe.</l>
+            <l n="621" xml:id="S_l_621">ob ich rechte vernomen habe.<anchor
+                  xml:id="S_Alexander_retreats_end"/></l>
          </div>
-         <anchor xml:id="S_Alexander_firstAttack_Tyre_end"/>
+         <anchor xml:id="S_Alexander_besieges_Tyre_end"/>
 
-         <!-- LA CONTROMISURA DI ALESSANDRO -->
+
 
          <anchor xml:id="S_Alexander_countermeasure_start"/>
-         <div n="43" type="stanza" xml:id="S_div_43">
-            <l n="622" xml:id="S_l_622">Do clagete Alexander</l>
+         <div n="43" type="laisse" xml:id="S_div_43">
+            <l n="622" xml:id="S_l_622"><anchor xml:id="S_Alexander_warMachines_start"/>Do clagete
+               Alexander</l>
             <l n="623" xml:id="S_l_623">mer dan sihein ander</l>
             <l n="624" xml:id="S_l_624">sinen scaden groze,</l>
             <l n="625" xml:id="S_l_625">sine liebe wicgenoze.</l>
@@ -545,18 +1100,22 @@
             <l n="638" xml:id="S_l_638">di uf di zinnen mohten gan.</l>
             <pb facs="data/images/single/S_facs/S_22.jpg" n="22" xml:id="S_pag_22"/>
             <!-- PAGINA. 22, edizione M. -->
-            <l n="639" xml:id="S_l_639">Mit nide wolder si bestan.</l>
+            <l n="639" xml:id="S_l_639">Mit nide wolder si bestan.<anchor
+                  xml:id="S_Alexander_warMachines_end"/></l>
          </div>
-         <div n="44" type="stanza" xml:id="S_div_44">
-            <l n="640" xml:id="S_l_640">Zwilif tusint von sinem here</l>
+         <div n="44" type="laisse" xml:id="S_div_44">
+            <l n="640" xml:id="S_l_640"><anchor xml:id="S_MountLebanon_start"/>Zwilif tusint von
+               sinem here</l>
             <l n="641" xml:id="S_l_641">santer nach boumen von den mere</l>
             <l n="642" xml:id="S_l_642">und hiz di boume vellen</l>
             <l n="643" xml:id="S_l_643">und berchfride stellen</l>
             <l n="644" xml:id="S_l_644">uf einen berch, heizet Lybanus,</l>
             <l n="645" xml:id="S_l_645">da uf stet manic cedrus.</l>
             <l n="646" xml:id="S_l_646">Lybanus in Arabien stet,</l>
-            <l n="647" xml:id="S_l_647">da der Iordanis uz get.</l>
-            <l n="648" xml:id="S_l_648">Lybanus ist ouh der selbe walt,</l>
+            <l n="647" xml:id="S_l_647">da der Iordanis uz get.<anchor xml:id="S_MountLebanon_end"
+               /></l>
+            <l n="648" xml:id="S_l_648"><anchor xml:id="S_Solomon_Hyram_start"/>Lybanus ist ouh der
+               selbe walt,</l>
             <l n="649" xml:id="S_l_649">den der kuninc Salemon galt</l>
             <l n="650" xml:id="S_l_650">wider einen kuninc, der hiz Hyram.</l>
             <l n="651" xml:id="S_l_651">Dem gab er halb Galileam,</l>
@@ -565,22 +1124,25 @@
             <l n="654" xml:id="S_l_654">ze balken und ze sulen.</l>
             <l n="655" xml:id="S_l_655">Man saget, daz holtz gefulen</l>
             <l n="656" xml:id="S_l_656">ne muge niemer me</l>
-            <l n="657" xml:id="S_l_657">durh regen noh durh sne.</l>
+            <l n="657" xml:id="S_l_657">durh regen noh durh sne.<anchor xml:id="S_Solomon_Hyram_end"
+               /></l>
          </div>
-         <!--  GLI ARABITI AIUTANO TIRO -->
 
-         <div n="45" type="stanza" xml:id="S_div_45">
-            <anchor xml:id="S_Arabs_help_Tyre_start"/>
-            <l n="658" xml:id="S_l_658">Do Arabes daz befunden,</l>
+
+         <div n="45" type="laisse" xml:id="S_div_45">
+
+            <l n="658" xml:id="S_l_658"><anchor xml:id="S_Arabs_help_Tyre_start"/>Do Arabes daz
+               befunden,</l>
             <l n="659" xml:id="S_l_659">di Tyro gutis gunden,</l>
             <l n="660" xml:id="S_l_660">nit langer si ne twalten:</l>
             <l n="661" xml:id="S_l_661">Di iren walt falten,</l>
             <l n="662" xml:id="S_l_662">unsamfte si ane quamen,</l>
             <l n="663" xml:id="S_l_663">ein phant si in namen</l>
             <l n="664" xml:id="S_l_664">und irslugen ir da zestunt</l>
-            <l n="665" xml:id="S_l_665">mer dan ein dusunt.</l>
-            <anchor xml:id="S_Arabs_help_Tyre_end"/>
-            <l n="666" xml:id="S_l_666">Do Alexander daz vernam,</l>
+            <l n="665" xml:id="S_l_665">mer dan ein dusunt.<anchor xml:id="S_Arabs_help_Tyre_end"
+               /></l>
+            <l n="666" xml:id="S_l_666"><anchor xml:id="S_Alexander_entrusts_siege_to_dukes_start"
+               />Do Alexander daz vernam,</l>
             <l n="667" xml:id="S_l_667">vier dusint er do nam</l>
             <l n="668" xml:id="S_l_668">uz von sinem here.</l>
             <l n="669" xml:id="S_l_669">Daz ander liz er bi dem mere</l>
@@ -599,14 +1161,15 @@
             <l n="682" xml:id="S_l_682">ebenho und berchfride.</l>
             <l n="683" xml:id="S_l_683">Di behutter mit fride,</l>
             <l n="684" xml:id="S_l_684">biz daz werc bereitet wart.</l>
-            <l n="685" xml:id="S_l_685">Do karter an di widervart.</l>
+            <l n="685" xml:id="S_l_685">Do karter an di widervart.<anchor
+                  xml:id="S_Alexander_entrusts_siege_to_dukes_end"/></l>
          </div>
          <anchor xml:id="S_Alexander_countermeasure_end"/>
 
-         <!--  TIRO SI VENDICA  -->
+
 
          <anchor xml:id="S_Tyre_revenge_start"/>
-         <div n="46" type="stanza" xml:id="S_div_46">
+         <div n="46" type="laisse" xml:id="S_div_46">
             <l n="686" xml:id="S_l_686">Alle di wile do Alexandris here</l>
             <l n="687" xml:id="S_l_687">nah den boumen fur von dem mere,</l>
             <l n="688" xml:id="S_l_688">do wurden di Tyrere,</l>
@@ -632,11 +1195,11 @@
             <l n="708" xml:id="S_l_708">Do vant man si an des meres grunt,</l>
             <l n="709" xml:id="S_l_709">di quamen wider uz gesunt.</l>
          </div>
+         <anchor xml:id="S_Tyre_revenge_end"/>
 
-         <!-- LE PERDITE DI ALESSANDRO -->
 
-         <div n="47" type="stanza" xml:id="S_div_47">
-            <anchor xml:id="S_Alexander_losses_start"/>
+         <div n="47" type="laisse" xml:id="S_div_47">
+            <anchor xml:id="S_AlexandersDukes_against_Tyre_start"/>
             <l n="710" xml:id="S_l_710">Do daz castel zebrochen wart,</l>
             <l n="711" xml:id="S_l_711">do hub sih da ein sturm hart.</l>
             <l n="712" xml:id="S_l_712">Da wart michel gedoz.</l>
@@ -657,20 +1220,16 @@
             <l n="727" xml:id="S_l_727">Stolzliche si triben</l>
             <l n="728" xml:id="S_l_728">di Criechen von der vesten.</l>
             <l n="729" xml:id="S_l_729">Do was da den gesten</l>
-            <l n="730" xml:id="S_l_730">gescadit vil sere.</l>
-            <l n="731" xml:id="S_l_731">Do erist quam ir herre </l>
+            <l n="730" xml:id="S_l_730">gescadit vil sere. <anchor
+                  xml:id="S_AlexandersDukes_against_Tyre_end"/></l>
+            <l n="731" xml:id="S_l_731"><anchor xml:id="S_Alexander_breaches_firstWalls_start"/>>Do
+               erist quam ir herre </l>
             <l n="732" xml:id="S_l_732">ze strite harte wol gare</l>
             <l n="733" xml:id="S_l_733">mit einer gewafinder schare.</l>
             <l n="734" xml:id="S_l_734">Do entwichen ime di gaste</l>
             <l n="735" xml:id="S_l_735">in di burch vaste.</l>
-            <anchor xml:id="S_Alexander_losses_end"/>
          </div>
-         <anchor xml:id="S_Tyre_revenge_end"/>
-
-         <!-- ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->
-
-         <anchor xml:id="S_Alexander_breaches_firstWalls_start"/>
-         <div n="48" type="stanza" xml:id="S_div_48">
+         <div n="48" type="laisse" xml:id="S_div_48">
             <l n="736" xml:id="S_l_736">Do Alexander sih bedachte,</l>
             <l n="737" xml:id="S_l_737">waz er getun machte,</l>
             <l n="738" xml:id="S_l_738">er hiz in samt heften</l>
@@ -690,7 +1249,7 @@
             <l n="752" xml:id="S_l_752">Tyrum di here stat,</l>
             <l n="753" xml:id="S_l_753">di da bi dem mere lach.</l>
          </div>
-         <div n="49" type="stanza" xml:id="S_div_49">
+         <div n="49" type="laisse" xml:id="S_div_49">
             <l n="754" xml:id="S_l_754">Diz sult ir rehte merken:</l>
             <l n="755" xml:id="S_l_755">Do hiz er starc gewerke</l>
             <l n="756" xml:id="S_l_756">machen uffe schiben</l>
@@ -720,10 +1279,10 @@
          </div>
          <anchor xml:id="S_Alexander_breaches_firstWalls_end"/>
 
-         <!-- ALESSANDRO CONQUISTA LA SECONDA CERCHIA -->
+
 
          <anchor xml:id="S_Alexander_breaches_secondWalls_start"/>
-         <div n="50" type="stanza" xml:id="S_div_50">
+         <div n="50" type="laisse" xml:id="S_div_50">
             <l n="778" xml:id="S_l_778">Do si zer anderen muren quamen,</l>
             <l n="779" xml:id="S_l_779">cedirboume si namen</l>
             <l n="780" xml:id="S_l_780">unde lange tannen:</l>
@@ -742,7 +1301,8 @@
             <l n="793" xml:id="S_l_793">vil manic man da tot lach.</l>
             <l n="794" xml:id="S_l_794">Man mohte da scowen wunder.</l>
             <l n="795" xml:id="S_l_795">Sere vacht Alexander.</l>
-            <l n="796" xml:id="S_l_796">Sin schilt der was elfinbein,</l>
+            <l n="796" xml:id="S_l_796"><anchor xml:id="S_Alexander_weapons_start"/>Sin schilt der
+               was elfinbein,</l>
             <l n="797" xml:id="S_l_797">bezzer ne wart nie nehein.</l>
             <l n="798" xml:id="S_l_798">Sin helm, der was ouh also gut,</l>
             <l n="799" xml:id="S_l_799">daz nehein swert dar durh wut.</l>
@@ -750,15 +1310,19 @@
             <l n="801" xml:id="S_l_801">ein swert von guter sniten</l>
             <l n="802" xml:id="S_l_802">und an der hant einen geren:</l>
             <l n="803" xml:id="S_l_803">Er frumte manigen seren.</l>
-            <l n="804" xml:id="S_l_804">Daz sagih u vor ungelogen.</l>
-            <l n="805" xml:id="S_l_805">Do gesah er den herzogen,</l>
+            <l n="804" xml:id="S_l_804">Daz sagih u vor ungelogen.<anchor
+                  xml:id="S_Alexander_weapons_end"/></l>
+            <l n="805" xml:id="S_l_805"><anchor xml:id="S_Alexander_kills_duke_of_Tyre_start"/>Do
+               gesah er den herzogen,</l>
             <l n="806" xml:id="S_l_806">dem Tyren was undertan,</l>
             <l n="807" xml:id="S_l_807">vor sih uf di muren stan:</l>
             <l n="808" xml:id="S_l_808">Den scoz er mit dem geren durh</l>
-            <l n="809" xml:id="S_l_809">und faltin tot in di burch.</l>
+            <l n="809" xml:id="S_l_809">und faltin tot in di burch.<anchor
+                  xml:id="S_Alexander_kills_duke_of_Tyre_end"/></l>
          </div>
-         <div n="51" type="stanza" xml:id="S_div_51">
-            <l n="810" xml:id="S_l_810">Do tete der kuninc einen sprunc</l>
+         <div n="51" type="laisse" xml:id="S_div_51">
+            <l n="810" xml:id="S_l_810"><anchor xml:id="S_Alexander_on_battlements_start"/>Do tete
+               der kuninc einen sprunc</l>
             <l n="811" xml:id="S_l_811">und mit ime manic helt junc</l>
             <l n="812" xml:id="S_l_812">nider uf di zinnen:</l>
             <l n="813" xml:id="S_l_813">Di burg wolden si winnen.</l>
@@ -777,14 +1341,15 @@
             <l n="826" xml:id="S_l_826">nider zo der erden.</l>
             <l n="827" xml:id="S_l_827">Nie ne mohte werden</l>
             <l n="828" xml:id="S_l_828">ein mure, di bezzer ware,</l>
-            <l n="829" xml:id="S_l_829">daz sagih u zware.</l>
+            <l n="829" xml:id="S_l_829">daz sagih u zware.<anchor
+                  xml:id="S_Alexander_on_battlements_end"/></l>
          </div>
          <anchor xml:id="S_Alexander_breaches_secondWalls_end"/>
 
-         <!--  ALESSANDRO ENTRA A TIRO  -->
 
-         <anchor xml:id="S_Alexander_enters_start"/>
-         <div n="52" type="stanza" xml:id="S_div_52">
+
+         <anchor xml:id="S_battle_on_walls_start"/>
+         <div n="52" type="laisse" xml:id="S_div_52">
             <l n="830" xml:id="S_l_830">Da was daz velt vil wit.</l>
             <l n="831" xml:id="S_l_831">Da was der bitteriste strit,</l>
             <l n="832" xml:id="S_l_832">von dem ih ie gehorte sagen.</l>
@@ -804,13 +1369,15 @@
             <l n="846" xml:id="S_l_846">der machete in den stunden</l>
             <l n="847" xml:id="S_l_847">freisliche wunden,</l>
             <l n="848" xml:id="S_l_848">er irsluc des lutes de menige.</l>
-            <l n="849" xml:id="S_l_849">Gebeizet was sin brunie</l>
+            <l n="849" xml:id="S_l_849"><anchor xml:id="S_Alexander_weapons2_start"/>Gebeizet was
+               sin brunie</l>
             <l n="850" xml:id="S_l_850">in eines wurmes blute,</l>
             <l n="851" xml:id="S_l_851">manigen helt guten</l>
             <l n="852" xml:id="S_l_852">irloseter des libes:</l>
             <l n="853" xml:id="S_l_853">Des sit ane zwibel.</l>
             <l n="854" xml:id="S_l_854">Sin brunie was hurnin vil vast:</l>
-            <l n="855" xml:id="S_l_855">Er hete manige groze list.</l>
+            <l n="855" xml:id="S_l_855">Er hete manige groze list.<anchor
+                  xml:id="S_Alexander_weapons2_end"/></l>
             <l n="856" xml:id="S_l_856">Ih wil u werlichen sagen:</l>
             <l n="857" xml:id="S_l_857">Vor den, di da lagen irslagen,</l>
             <l n="858" xml:id="S_l_858">so ne mohte nieman</l>
@@ -818,9 +1385,6 @@
             <l n="860" xml:id="S_l_860">So vil lach ir da tot,</l>
             <l n="861" xml:id="S_l_861">daz da ingagen wurden rot</l>
             <l n="862" xml:id="S_l_862">des tiefen meris unden.</l>
-            <anchor xml:id="S_Alexander_enters_end"/>
-            <!-- TIRO PROVA A RESISTERE  -->
-            <anchor xml:id="S_Tyre_resistance_start"/>
             <l n="863" xml:id="S_l_863">In den selbin stunden</l>
             <l n="864" xml:id="S_l_864">di helede von Tyre,</l>
             <l n="865" xml:id="S_l_865">des lebenes vil gire,</l>
@@ -833,7 +1397,7 @@
             <l n="872" xml:id="S_l_872">alse der sne unde der regen:</l>
             <l n="873" xml:id="S_l_873">Da bleib manic ture degen.</l>
          </div>
-         <div n="53" type="stanza" xml:id="S_div_53">
+         <div n="53" type="laisse" xml:id="S_div_53">
             <l n="874" xml:id="S_l_874">Da fuchten Alexandris man,</l>
             <l n="875" xml:id="S_l_875">alsiz heleden wol gezam.</l>
             <l n="876" xml:id="S_l_876">Doh brachen si Tyrere durh</l>
@@ -841,30 +1405,25 @@
             <l n="878" xml:id="S_l_878">Alexander tet in unrecht.</l>
             <pb facs="data/images/single/S_facs/S_24.jpg" n="24" xml:id="S_pag_24"/>
             <!-- PAGINA. 24, edizione M. -->
-            <l n="879" xml:id="S_l_879">Er verlos da manigen turen knecht.</l>
-            <l n="880" xml:id="S_l_880">Vil zurnic wart er do.</l>
+            <l n="879" xml:id="S_l_879">Er verlos da manigen turen knecht.<anchor
+                  xml:id="S_battle_on_walls_end"/></l>
+            <l n="880" xml:id="S_l_880"><anchor xml:id="S_Alexander_warCouncil_GreekFire_start"/>Vil
+               zurnic wart er do.</l>
             <l n="881" xml:id="S_l_881">Mit nide ginc er der porten zo:</l>
             <l n="882" xml:id="S_l_882">Di dar uffe waren,</l>
             <l n="883" xml:id="S_l_883">di taten ime scaden maren.</l>
             <l n="884" xml:id="S_l_884">Di porte hete dri turme,</l>
-            <anchor xml:id="S_Tyre_resistance_end"/>
-            <!--  LE STRATEGIE DI ALESSANDRO -->
-            <anchor xml:id="S_Alexander_strategy_start"/>
             <l n="885" xml:id="S_l_885">da geschit er abe mit zurne,</l>
             <l n="886" xml:id="S_l_886">wandime da leides vil gescach.</l>
             <l n="887" xml:id="S_l_887">Mit sinen fursten er do sprah</l>
             <l n="888" xml:id="S_l_888">und nam iren heimlichen rat,</l>
             <l n="889" xml:id="S_l_889">wi er gehandelte di tat.</l>
-            <l n="890" xml:id="S_l_890">Er sprach: <anchor
-                  xml:id="S_Alexander_consults_princes_start"/><said toWhom="#AlexandersPrinces"
-                  who="#Alexander"/>"Nu ratent mir, des ist zit,</l>
-            <!--  ALESSANDRO CONSULTA I SUOI PRINCIPI -->
+            <l n="890" xml:id="S_l_890">Er sprach:"Nu ratent mir, des ist zit,</l>
             <l n="891" xml:id="S_l_891">wandir vil wise lute sit:</l>
             <l n="892" xml:id="S_l_892">Nement nu dise di uberin hant,</l>
-            <l n="893" xml:id="S_l_893">so spottet man unser in daz lant".<anchor
-                  xml:id="S_Alexander_consults_princes_end"/></l>
+            <l n="893" xml:id="S_l_893">so spottet man unser in daz lant".</l>
          </div>
-         <div n="54" type="stanza" xml:id="S_div_54">
+         <div n="54" type="laisse" xml:id="S_div_54">
             <l n="894" xml:id="S_l_894">Ime rieten sine fursten,</l>
             <l n="895" xml:id="S_l_895">di ime raten tursten,</l>
             <l n="896" xml:id="S_l_896">daz er sante ubir se</l>
@@ -904,22 +1463,23 @@
             <l n="930" xml:id="S_l_930">wesen vil ture,</l>
             <l n="931" xml:id="S_l_931">ne heter si mit den fure</l>
             <l n="932" xml:id="S_l_932">und mit den mangen nit bestan:</l>
-            <l n="933" xml:id="S_l_933">Daz sult ir wizzen ane wan.</l>
+            <l n="933" xml:id="S_l_933">Daz sult ir wizzen ane wan.<anchor
+                  xml:id="S_Alexander_warCouncil_GreekFire_end"/></l>
          </div>
-         <anchor xml:id="S_Alexander_strategy_end"/>
 
-         <!-- LA CADUTA DI TIRO -->
 
          <anchor xml:id="S_Tyre_falls_start"/>
-         <div n="55" type="stanza" xml:id="S_div_55">
+         <div n="55" type="laisse" xml:id="S_div_55">
             <l n="934" xml:id="S_l_934">Alexander wolde sih vollen rechen:</l>
             <l n="935" xml:id="S_l_935">Er hiz di turme nider brechen,</l>
             <l n="936" xml:id="S_l_936">di daz fur hete verlazen.</l>
-            <l n="937" xml:id="S_l_937">Der richestin burgere, di dar inne sazen,</l>
+            <l n="937" xml:id="S_l_937"><anchor xml:id="S_Alexander_punishes_Tyrians_start"/>Der
+               richestin burgere, di dar inne sazen,</l>
             <l n="938" xml:id="S_l_938">hiz er dri dusint fahen</l>
             <l n="939" xml:id="S_l_939">und blinden unde haen,</l>
             <l n="940" xml:id="S_l_940">wider sinen fursten drin,</l>
-            <l n="941" xml:id="S_l_941">di er sante dar in.</l>
+            <l n="941" xml:id="S_l_941">di er sante dar in.<anchor
+                  xml:id="S_Alexander_punishes_Tyrians_end"/></l>
             <l n="942" xml:id="S_l_942">Des siges, des er dar nam,</l>
             <l n="943" xml:id="S_l_943">were er ein wol bedacht man,</l>
             <l n="944" xml:id="S_l_944">er ne wurdis niemer fro,</l>
@@ -929,11 +1489,10 @@
             <l n="948" xml:id="S_l_948">dan der in Tyro ware</l>
             <l n="949" xml:id="S_l_949">geste oder burgere.</l>
          </div>
-         <div n="56" type="stanza" xml:id="S_div_56">
+         <div n="56" type="laisse" xml:id="S_div_56">
             <l n="950" xml:id="S_l_950">Zestoret lach do Tyrus:</l>
-            <!-- RINASCITA DI TIRO -->
-            <anchor xml:id="S_Tyre_rebirth_start"/>
-            <l n="951" xml:id="S_l_951">Di stifte sint der kuninc Apollonius,</l>
+            <l n="951" xml:id="S_l_951"><anchor xml:id="S_Tyre_rebirth_start"/>Di stifte sint der
+               kuninc Apollonius,</l>
             <l n="952" xml:id="S_l_952">von dem di buoch sagent noch,</l>
             <l n="953" xml:id="S_l_953">den der kuninc Antioch</l>
             <l n="954" xml:id="S_l_954">ubir mere jagete,</l>
@@ -956,10 +1515,10 @@
          </div>
          <anchor xml:id="S_Tyre_falls_end"/>
 
-         <!-- DARIO APPRENDE DELLA CADUTA DI TIRO -->
+
 
          <anchor xml:id="S_Darius_learns_of_Tyre_start"/>
-         <div n="57" type="stanza" xml:id="S_div_57">
+         <div n="57" type="laisse" xml:id="S_div_57">
             <l n="970" xml:id="S_l_970">Do cunte Dario ein man,</l>
             <l n="971" xml:id="S_l_971">der uz von Tyren entran,</l>
             <l n="972" xml:id="S_l_972">wi der kuninc Alexander</l>
@@ -979,17 +1538,16 @@
          </div>
          <anchor xml:id="S_Darius_learns_of_Tyre_end"/>
 
-         <!-- I DONI DI DARIO  -->
 
-         <anchor xml:id="S_Darius_gifts_start"/>
-         <div n="58" type="stanza" xml:id="S_div_58">
+
+         <anchor xml:id="S_Darius_letter_gifts_start"/>
+         <div n="58" type="laisse" xml:id="S_div_58">
             <l n="986" xml:id="S_l_986">Der riche kuninc Darius,</l>
             <l n="987" xml:id="S_l_987">der antworte ime alsus:</l>
             <pb facs="data/images/single/S_facs/S_25.jpg" n="25" xml:id="S_pag_25"/>
             <!-- PAGINA. 25, edizione M. -->
-            <l n="988" xml:id="S_l_988"><anchor xml:id="S_Darius_TyreSurvivor_start"/><said
-                  toWhom="#TyreSurvivor" who="#Darius"/>"Der kune Alexander,</l>
-            <!--  DARIO INSULTA ALESSANDRO -->
+            <l n="988" xml:id="S_l_988"><anchor xml:id="S_Darius_insults_Alexander_start"/>"Der kune
+               Alexander,</l>
             <l n="989" xml:id="S_l_989">der tuot alsein tumber</l>
             <l n="990" xml:id="S_l_990">unde alse ein kindischer man,</l>
             <l n="991" xml:id="S_l_991">der sih versinnen nit ne kan.</l>
@@ -998,7 +1556,7 @@
             <l n="994" xml:id="S_l_994">sine ere verliesen</l>
             <l n="995" xml:id="S_l_995">oder den bitteren tot kiesen,</l>
             <l n="996" xml:id="S_l_996">er ne vare schiere wider heim".<anchor
-                  xml:id="S_Darius_TyreSurvivor_end"/></l>
+                  xml:id="S_Darius_insults_Alexander_end"/></l>
             <l n="997" xml:id="S_l_997">Doh wart er des inein,</l>
             <l n="998" xml:id="S_l_998">do er gienc ze rate,</l>
             <l n="999" xml:id="S_l_999">daz er ime sante drate</l>
@@ -1015,7 +1573,7 @@
             <l n="1010" xml:id="S_l_1010">der ime rechte bescheinte,</l>
             <l n="1011" xml:id="S_l_1011">waz diese gabe meinte.</l>
          </div>
-         <div n="59" type="stanza" xml:id="S_div_59">
+         <div n="59" type="laisse" xml:id="S_div_59">
             <l n="1012" xml:id="S_l_1012">Mit dem balle meinter daz,</l>
             <l n="1013" xml:id="S_l_1013">daz ime gezeme michilis baz,</l>
             <l n="1014" xml:id="S_l_1014">daz er mit anderen kinden</l>
@@ -1041,21 +1599,19 @@
             <l n="1034" xml:id="S_l_1034">oder tate wider sinen willen,</l>
             <l n="1035" xml:id="S_l_1035">er hiez in mit besemen villen.</l>
          </div>
-         <anchor xml:id="S_Darius_gifts_end"/>
+         <anchor xml:id="S_Darius_letter_gifts_end"/>
 
-         <!-- LA RISPOSTA DI ALESSANDRO  -->
+
 
          <anchor xml:id="S_Alexander_reaction_start"/>
-         <div n="60" type="stanza" xml:id="S_div_60">
-            <l n="1036" xml:id="S_l_1036">Do Alexander den brieb gelas,</l>
+         <div n="60" type="laisse" xml:id="S_div_60">
+            <l n="1036" xml:id="S_l_1036"><anchor xml:id="S_Alexander_DariusMessengers_start"/>Do
+               Alexander den brieb gelas,</l>
             <l n="1037" xml:id="S_l_1037">vil harte ummere ime was,</l>
             <l n="1038" xml:id="S_l_1038">daz er in mit besemen wolde slan.</l>
             <l n="1039" xml:id="S_l_1039">Sine boten hiezer alle han.</l>
             <l n="1040" xml:id="S_l_1040">Der boten einer zo ime sprah:</l>
-            <l n="1041" xml:id="S_l_1041"><anchor xml:id="S_DariusMessengers_beg_Alexander_start"
-                  /><said toWhom="#Alexander" who="#DariusMessengers"/>"Herre, ne tuot uns nehein
-               ungemach,</l>
-            <!-- I MESSAGGERI DI DARIO IMPLORANO PIETÀ  -->
+            <l n="1041" xml:id="S_l_1041">"Herre, ne tuot uns nehein ungemach,</l>
             <l n="1042" xml:id="S_l_1042">wande daz ne ware niwit recht,</l>
             <l n="1043" xml:id="S_l_1043">swa sihein uher knecht</l>
             <l n="1044" xml:id="S_l_1044">uher botescaft tribe,</l>
@@ -1071,19 +1627,18 @@
             <l n="1054" xml:id="S_l_1054">unde habit unsir maze.</l>
             <l n="1055" xml:id="S_l_1055">Wi torste wir lazen,</l>
             <l n="1056" xml:id="S_l_1056">daz unser herre uns gebot,</l>
-            <l n="1057" xml:id="S_l_1057">durh siheiner slahte not?".<anchor
-                  xml:id="S_DariusMessengers_beg_Alexander_end"/></l>
+            <l n="1057" xml:id="S_l_1057">durh siheiner slahte not?".</l>
          </div>
-         <div n="61" type="stanza" xml:id="S_div_61">
+         <div n="61" type="laisse" xml:id="S_div_61">
             <l n="1058" xml:id="S_l_1058">Alexander bedachte sih,</l>
             <l n="1059" xml:id="S_l_1059">den boten wart er gnedich.</l>
-            <l n="1060" xml:id="S_l_1060">Er ne weiz in niwit durh di scuolt,</l>
-            <l n="1061" xml:id="S_l_1061">er gab in wider daz selbe golt,</l>
+            <l n="1060" xml:id="S_l_1060">Er ne weiz in niwit durh di scuolt,<anchor
+                  xml:id="S_Alexander_DariusMessengers_end"/></l>
+            <l n="1061" xml:id="S_l_1061"><anchor
+                  xml:id="S_Alexander_reinterprets_DariusGifts_start"/>er gab in wider daz selbe
+               golt,</l>
             <l n="1062" xml:id="S_l_1062">daz ime von Dario quam.</l>
-            <l n="1063" xml:id="S_l_1063">Er sprah: <anchor
-                  xml:id="S_Alexander_insults_Darius_start"/><said toWhom="#DariusMessengers"
-                  who="#Alexander"/>"Vil ubile daz gezam,</l>
-            <!-- ALESSANDRO INSULTA DARIO  -->
+            <l n="1063" xml:id="S_l_1063">Er sprah:"Vil ubile daz gezam,</l>
             <l n="1064" xml:id="S_l_1064">daz mich drowete ze slan </l>
             <l n="1065" xml:id="S_l_1065">Darius, uher herre.</l>
             <l n="1066" xml:id="S_l_1066">Waz sol der rede mere?</l>
@@ -1102,14 +1657,10 @@
             <l n="1079" xml:id="S_l_1079">da er nit uz ne mac comen.</l>
             <l n="1080" xml:id="S_l_1080">Sinen brieb han ih wol vernomen.</l>
             <l n="1081" xml:id="S_l_1081">Diu gabe ein ander meinet,</l>
-            <l n="1082" xml:id="S_l_1082">dan mir der brief bescheinet.<anchor
-                  xml:id="S_Alexander_insults_Darius_end"/></l>
+            <l n="1082" xml:id="S_l_1082">dan mir der brief bescheinet.</l>
          </div>
-         <div n="62" type="stanza" xml:id="S_div_62">
-            <l n="1083" xml:id="S_l_1083"><anchor xml:id="S_Alexander_interprets_DariusGifts_start"
-                  /><said toWhom="#DariusMessengers" who="#Alexander"/>Den bal hat er mir
-               gesant,</l>
-            <!-- ALESSANDRO INTERPRETA I DONI DI DARIO  -->
+         <div n="62" type="laisse" xml:id="S_div_62">
+            <l n="1083" xml:id="S_l_1083">Den bal hat er mir gesant,</l>
             <l n="1084" xml:id="S_l_1084">da mite hat er mir bekannt,</l>
             <l n="1085" xml:id="S_l_1085">daz iz alliz an mir sol stan,</l>
             <l n="1086" xml:id="S_l_1086">daz der himel hat umbevan,</l>
@@ -1120,7 +1671,7 @@
             <l n="1091" xml:id="S_l_1091">unde ubir alle di lant,</l>
             <l n="1092" xml:id="S_l_1092">di ie wurden genant.</l>
          </div>
-         <div n="63" type="stanza" xml:id="S_div_63">
+         <div n="63" type="laisse" xml:id="S_div_63">
             <l n="1093" xml:id="S_l_1093">Er sante mir ouh zwe schubant,</l>
             <l n="1094" xml:id="S_l_1094">da mite hat er mir becant,</l>
             <l n="1095" xml:id="S_l_1095">daz er sih mir ze eigene wil geben</l>
@@ -1133,14 +1684,14 @@
             <l n="1102" xml:id="S_l_1102">daz ih den zins von ime neme</l>
             <l n="1103" xml:id="S_l_1103">und ouh alle erdische lant</l>
             <l n="1104" xml:id="S_l_1104">bedwinge zo miner hant".<anchor
-                  xml:id="S_Alexander_interprets_DariusGifts_end"/></l>
+                  xml:id="S_Alexander_reinterprets_DariusGifts_end"/>></l>
          </div>
          <anchor xml:id="S_Alexander_reaction_end"/>
 
-         <!--  ALESSANDRO MANDA UNA LETTERA A DARIO  -->
 
-         <anchor xml:id="S_Alexander_letter_start"/>
-         <div n="64" type="stanza" xml:id="S_div_64">
+
+         <anchor xml:id="S_Alexander_letter_challenge_start"/>
+         <div n="64" type="laisse" xml:id="S_div_64">
             <l n="1105" xml:id="S_l_1105">Diz screib Alexander do</l>
             <l n="1106" xml:id="S_l_1106">und santiz Dario</l>
             <l n="1107" xml:id="S_l_1107">und embot ime da mite,</l>
@@ -1151,13 +1702,12 @@
             <l n="1110" xml:id="S_l_1110">zehenzic tusint wolder bringen</l>
             <l n="1111" xml:id="S_l_1111">ubir daz wazzer Eufraten</l>
             <l n="1112" xml:id="S_l_1112">vor di mere Babylonien.</l>
-            <l n="1113" xml:id="S_l_1113">Er sprah: <anchor xml:id="S_Alexander_will_start"/><said
-                  who="#Alexander"/>"Sint daz er zinsis von mir geret,</l>
-            <!--  LA VOLONTÀ DI ALESSANDRO -->
+            <l n="1113" xml:id="S_l_1113">Er sprah: "Sint daz er zinsis von mir geret,</l>
             <l n="1114" xml:id="S_l_1114">er wirt is alda gewert</l>
             <l n="1115" xml:id="S_l_1115">mit so getaner mazen,</l>
             <l n="1116" xml:id="S_l_1116">daz er mir muz lazen</l>
-            <l n="1117" xml:id="S_l_1117">ze phande sin houbit,</l>
+            <l n="1117" xml:id="S_l_1117"><anchor xml:id="S_prolepsis_DariusBeheading_start"/>ze
+               phande sin houbit,<anchor xml:id="S_prolepsis_DariusBeheading_end"/></l>
             <l n="1118" xml:id="S_l_1118">oder ih werde beroubit</l>
             <l n="1119" xml:id="S_l_1119">mines libes unde miner manne.</l>
             <l n="1120" xml:id="S_l_1120">Und ob ih zageliche danne</l>
@@ -1165,19 +1715,17 @@
             <l n="1122" xml:id="S_l_1122">so gelobe ich, daz mir geschie</l>
             <l n="1123" xml:id="S_l_1123">dane vorder niemer mere</l>
             <l n="1124" xml:id="S_l_1124">frowede, gut noh ere.</l>
-            <l n="1125" xml:id="S_l_1125">Alsus wil ihz bestan".<anchor
-                  xml:id="S_Alexander_will_end"/></l>
-            <anchor xml:id="S_Alexander_letter_end"/>
-            <!--  LA REAZIONE DI DARIO -->
+            <l n="1125" xml:id="S_l_1125">Alsus wil ihz bestan".</l>
+            <anchor xml:id="S_Alexander_letter_challenge_end"/>
+
             <anchor xml:id="S_Darius_reaction_start"/>
-            <l n="1126" xml:id="S_l_1126">Unde alse Dario der brieb quam</l>
+            <l n="1126" xml:id="S_l_1126"><anchor xml:id="S_Darius_receives_letter_start"/>Unde alse
+               Dario der brieb quam</l>
             <l n="1127" xml:id="S_l_1127">und er in gelas,</l>
             <l n="1128" xml:id="S_l_1128">alse da gescriben was,</l>
             <l n="1129" xml:id="S_l_1129">zornliche er uf fuor.</l>
             <l n="1130" xml:id="S_l_1130">Bi sineme riche er swor:</l>
-            <l n="1131" xml:id="S_l_1131"><anchor xml:id="S_Darius_threatens_revenge_start"/><said
-                  who="#Darius"/>"Iz werde ze scanden</l>
-            <!-- DARIO MINACCIA VENDETTA -->
+            <l n="1131" xml:id="S_l_1131">"Iz werde ze scanden</l>
             <l n="1132" xml:id="S_l_1132">dem tumben Alexandren,</l>
             <l n="1133" xml:id="S_l_1133">daz er mich ie beschalt.</l>
             <l n="1134" xml:id="S_l_1134">Er ist worden ze balt.</l>
@@ -1187,15 +1735,11 @@
             <l n="1138" xml:id="S_l_1138">Des sol er werden gescant,</l>
             <l n="1139" xml:id="S_l_1139">so daz erz niemer mer ne getu,</l>
             <l n="1140" xml:id="S_l_1140">wander irhebet sih ze fruo".<anchor
-                  xml:id="S_Darius_threatens_revenge_end"/></l>
+                  xml:id="S_Darius_receives_letter_end"/></l>
          </div>
-         <anchor xml:id="S_Darius_reaction_end"/>
-
-         <!-- DARIO CHIEDE AIUTO AI DUCHI -->
-
-         <anchor xml:id="S_Darius_calls_dukes_start"/>
-         <div n="65" type="stanza" xml:id="S_div_65">
-            <l n="1141" xml:id="S_l_1141">Do sante Darius einen brieb</l>
+         <div n="65" type="laisse" xml:id="S_div_65">
+            <l n="1141" xml:id="S_l_1141"><anchor xml:id="S_Darius_calls_dukes_start"/>Do sante
+               Darius einen brieb</l>
             <l n="1142" xml:id="S_l_1142">zwein herzogen, di ime waren lieb.</l>
             <l n="1143" xml:id="S_l_1143">Der eine, der hiz Marius,</l>
             <l n="1144" xml:id="S_l_1144">der brieb nennet in alsus,</l>
@@ -1208,20 +1752,19 @@
             <l n="1151" xml:id="S_l_1151">Eufraten heim ze lande varn.</l>
             <l n="1152" xml:id="S_l_1152">Daz si daz wolden bewaren</l>
             <l n="1153" xml:id="S_l_1153">unde mit strite in bestunden</l>
-            <l n="1154" xml:id="S_l_1154">und brehten in gebunden.</l>
-            <l n="1155" xml:id="S_l_1155">Nu er dar nah strebete,</l>
+            <l n="1154" xml:id="S_l_1154">und brehten in gebunden.<anchor
+                  xml:id="S_Darius_calls_dukes_end"/></l>
+            <l n="1155" xml:id="S_l_1155"><anchor
+                  xml:id="S_Darius_threatens_to_hang_Alexander_start"/>Nu er dar nah strebete,</l>
             <l n="1156" xml:id="S_l_1156">daz er ubir alliz, daz da lebete</l>
             <l n="1157" xml:id="S_l_1157">ieren an der erden,</l>
             <l n="1158" xml:id="S_l_1158">der hoiste wolde werden,</l>
-            <l n="1159" xml:id="S_l_1159">daz solde an einen galgen wesen.</l>
-            <anchor xml:id="S_Darius_calls_dukes_end"/>
-            <!-- I DUCHI DI DARIO SONO SCETTICI -->
-            <anchor xml:id="S_DariusDukes_skeptical_start"/>
-            <l n="1160" xml:id="S_l_1160">Do der brieb wart gelesen,</l>
+            <l n="1159" xml:id="S_l_1159">daz solde an einen galgen wesen.<anchor
+                  xml:id="S_Darius_threatens_to_hang_Alexander_end"/></l>
+            <l n="1160" xml:id="S_l_1160"><anchor xml:id="S_DariusDukes_skeptical_start"/>Do der
+               brieb wart gelesen,</l>
             <l n="1161" xml:id="S_l_1161">do sprachen di herzogen:</l>
-            <l n="1162" xml:id="S_l_1162"><anchor xml:id="S_DariusDukes_discuss_start"/><said
-                  who="#DariusDukes"/>"Darius ist harte betrogen.</l>
-            <!-- I DUCHI DI DARIO DISCUTONO I PROPRI DUBBI -->
+            <l n="1162" xml:id="S_l_1162">"Darius ist harte betrogen.</l>
             <l n="1163" xml:id="S_l_1163">Er heizet uns den man van,</l>
             <l n="1164" xml:id="S_l_1164">dem alle di lant sint undirtan</l>
             <l n="1165" xml:id="S_l_1165">und der di fursten hat gevangen</l>
@@ -1250,15 +1793,16 @@
             <l n="1188" xml:id="S_l_1188">Er mah sin liechte gwinnen</l>
             <l n="1189" xml:id="S_l_1189">scaden unde scande</l>
             <l n="1190" xml:id="S_l_1190">in sines selbes lande".<anchor
-                  xml:id="S_DariusDukes_discuss_end"/></l>
+                  xml:id="S_DariusDukes_skeptical_end"/></l>
          </div>
-         <anchor xml:id="S_DariusDukes_skeptical_end"/>
+         <anchor xml:id="S_Darius_reaction_end"/>
 
-         <!-- DARIO INZIA L'ATTACCO -->
 
-         <anchor xml:id="S_Darius_starts_attack_start"/>
-         <div n="66" type="stanza" xml:id="S_div_66">
-            <l n="1191" xml:id="S_l_1191">Von den zwein herzogen do</l>
+
+         <anchor xml:id="S_Mennes_start"/>
+         <div n="66" type="laisse" xml:id="S_div_66">
+            <l n="1191" xml:id="S_l_1191"><anchor xml:id="S_Darius_threatens_dukes_start"/>Von den
+               zwein herzogen do</l>
             <l n="1192" xml:id="S_l_1192">reit ein bote ze Dario.</l>
             <l n="1193" xml:id="S_l_1193">Unde alser vor ime quam</l>
             <l n="1194" xml:id="S_l_1194">und dise botescaf vernam,</l>
@@ -1269,14 +1813,10 @@
             <l n="1199" xml:id="S_l_1199">Di santer do</l>
             <l n="1200" xml:id="S_l_1200">dem herren Alexandro</l>
             <l n="1201" xml:id="S_l_1201">wol zo strite gare ingagen</l>
-            <anchor xml:id="S_Darius_starts_attack_end"/>
-            <!-- DARIO MINACCIA I SUOI DUCHI -->
-            <anchor xml:id="S_Darius_threatens_dukes_start"/>
             <l n="1202" xml:id="S_l_1202">unde hiz den zwein herzogen sagen,</l>
             <l n="1203" xml:id="S_l_1203">liezen si in ubir daz wazzer comen,</l>
             <l n="1204" xml:id="S_l_1204">si ne gewunnen is niemer fromen,</l>
             <l n="1205" xml:id="S_l_1205">wen laster unde cumber,</l>
-            <!-- DA QUI DISCORSO DIRETTO IN LIENERT, KINZEL NO; CONTA COME DISCORSO DIRETTO vv. 1651-1666 -->
             <l n="1206" xml:id="S_l_1206">daz wesset in dar under,</l>
             <l n="1207" xml:id="S_l_1207">unde scade unde scande.</l>
             <l n="1208" xml:id="S_l_1208">Ob der muliche Alexander</l>
@@ -1285,18 +1825,12 @@
             <l n="1211" xml:id="S_l_1211">vil lihte an irn libe</l>
             <l n="1212" xml:id="S_l_1212">unde an kinden unde an wibe,</l>
             <l n="1213" xml:id="S_l_1213">unde ouh an irn gute.</l>
-            <l n="1214" xml:id="S_l_1214"><anchor xml:id="S_Darius_will_start"/><said
-                  toWhom="#DariusDukes" who="#Darius"/>"Sus ist mir ze muote".<anchor
-                  xml:id="S_Darius_will_end"/></l>
-            <!-- LA VOLONTÀ DI DARIO -->
+            <l n="1214" xml:id="S_l_1214">"Sus ist mir ze muote".<anchor
+                  xml:id="S_Darius_threatens_dukes_end"/></l>
          </div>
-         <anchor xml:id="S_Darius_threatens_dukes_end"/>
-
-         <!-- I DUCHI DI DARIO AGISCONO -->
-
-         <anchor xml:id="S_DariusDukes_take_action_start"/>
-         <div n="67" type="stanza" xml:id="S_div_67">
-            <l n="1215" xml:id="S_l_1215">Den herzogen beiden</l>
+         <div n="67" type="laisse" xml:id="S_div_67">
+            <l n="1215" xml:id="S_l_1215"><anchor xml:id="S_DariusDukes_take_action_start"/>Den
+               herzogen beiden</l>
             <l n="1216" xml:id="S_l_1216">wart vil leide,</l>
             <l n="1217" xml:id="S_l_1217">do in der bote sagete,</l>
             <l n="1218" xml:id="S_l_1218">waz er vernomen habite.</l>
@@ -1312,11 +1846,10 @@
             <pb facs="data/images/single/S_facs/S_27.jpg" n="27" xml:id="S_pag_27"/>
             <!-- PAGINA. 27, edizione M. -->
             <l n="1228" xml:id="S_l_1228">di mohte man achten</l>
-            <l n="1229" xml:id="S_l_1229">ane vierzich tusunt.</l>
-            <anchor xml:id="S_DariusDukes_take_action_end"/>
-            <!-- ALESSANDRO ATTACCA AL GUADO -->
-            <anchor xml:id="S_Alexander_attack_ford_start"/>
-            <l n="1230" xml:id="S_l_1230">Dar nah in curzer stunt</l>
+            <l n="1229" xml:id="S_l_1229">ane vierzich tusunt.<anchor
+                  xml:id="S_DariusDukes_take_action_end"/></l>
+            <l n="1230" xml:id="S_l_1230"><anchor xml:id="S_Alexander_attacks_ford_start"/>Dar nah
+               in curzer stunt</l>
             <l n="1231" xml:id="S_l_1231">genante sih Alexander</l>
             <l n="1232" xml:id="S_l_1232">unde mit ime manic ander,</l>
             <l n="1233" xml:id="S_l_1233">wande si haten staten mut.</l>
@@ -1330,7 +1863,7 @@
             <l n="1241" xml:id="S_l_1241">von criechischeme kunne,</l>
             <l n="1242" xml:id="S_l_1242">e Alexander den vort gwunne.</l>
          </div>
-         <div n="68" type="stanza" xml:id="S_div_68">
+         <div n="68" type="laisse" xml:id="S_div_68">
             <l n="1243" xml:id="S_l_1243">Alexandro muowete daz.</l>
             <l n="1244" xml:id="S_l_1244">Uf Bucifale er saz:</l>
             <l n="1245" xml:id="S_l_1245">Er ne wolde niwit biten,</l>
@@ -1341,20 +1874,19 @@
             <l n="1250" xml:id="S_l_1250">Swaz ir ime quam ze hande,</l>
             <l n="1251" xml:id="S_l_1251">der ne genas nie nehein muter barn.</l>
             <l n="1252" xml:id="S_l_1252">Sih ne mohte nieman bewarn</l>
-            <l n="1253" xml:id="S_l_1253">von den slegen, di er sluch,</l>
-            <l n="1254" xml:id="S_l_1254">wander ein ture swert truch.</l>
+            <l n="1253" xml:id="S_l_1253">von den slegen, di er sluch,<anchor
+                  xml:id="S_Alexander_attacks_ford_end"/></l>
+            <l n="1254" xml:id="S_l_1254"><anchor xml:id="S_Alexander_weapons3_start"/>wander ein
+               ture swert truch.</l>
             <l n="1255" xml:id="S_l_1255">Ouch was sin scaft stark und groz:</l>
             <l n="1256" xml:id="S_l_1256">Sweme sin wart slach oder stoz,</l>
             <l n="1257" xml:id="S_l_1257">der nembeiz niemer mer brotes,</l>
-            <l n="1258" xml:id="S_l_1258">wander was des gwissen totes.</l>
+            <l n="1258" xml:id="S_l_1258">wander was des gwissen totes.<anchor
+                  xml:id="S_Alexander_weapons3_end"/></l>
          </div>
-         <anchor xml:id="S_Alexander_attack_ford_end"/>
-
-         <!-- ALESSANDRO VS MENNES -->
-
-         <anchor xml:id="S_Alexander_vs_Mennes_start"/>
-         <div n="69" type="stanza" xml:id="S_div_69">
-            <l n="1259" xml:id="S_l_1259">Mennes der wigant,</l>
+         <div n="69" type="laisse" xml:id="S_div_69">
+            <l n="1259" xml:id="S_l_1259"><anchor xml:id="S_Mennes_bodyguards_start"/>Mennes der
+               wigant,</l>
             <l n="1260" xml:id="S_l_1260">den Darius hete gesant</l>
             <l n="1261" xml:id="S_l_1261">Alexandro ingagen,</l>
             <l n="1262" xml:id="S_l_1262">alsich daz buch horte sagen,</l>
@@ -1365,8 +1897,10 @@
             <l n="1267" xml:id="S_l_1267">ze sih zehen hundrit,</l>
             <l n="1268" xml:id="S_l_1268">uz sineme here gesundrit,</l>
             <l n="1269" xml:id="S_l_1269">di sin solden huten</l>
-            <l n="1270" xml:id="S_l_1270">mit ellenthaften muten.</l>
-            <l n="1271" xml:id="S_l_1271">Der karte Alexandro ingagen.</l>
+            <l n="1270" xml:id="S_l_1270">mit ellenthaften muten.<anchor
+                  xml:id="S_Mennes_bodyguards_end"/></l>
+            <l n="1271" xml:id="S_l_1271"><anchor xml:id="S_Alexander_Mennes_duel_start"/>Der karte
+               Alexandro ingagen.</l>
             <l n="1272" xml:id="S_l_1272">Do daz Alexander horte sagen,</l>
             <l n="1273" xml:id="S_l_1273">umbe karter sinen vanen</l>
             <l n="1274" xml:id="S_l_1274">und begunde sine helede manen.</l>
@@ -1380,14 +1914,16 @@
             <l n="1282" xml:id="S_l_1282">mit den brunen ecken,</l>
             <l n="1283" xml:id="S_l_1283">daz daz fur dar uz spranc.</l>
             <l n="1284" xml:id="S_l_1284">Ir iegweder dranc</l>
-            <l n="1285" xml:id="S_l_1285">vaste zo dem andren.</l>
-            <l n="1286" xml:id="S_l_1286">Do sluch doh Alexandren</l>
+            <l n="1285" xml:id="S_l_1285">vaste zo dem andren.<anchor
+                  xml:id="S_Alexander_Mennes_duel_end"/></l>
+            <l n="1286" xml:id="S_l_1286"><anchor xml:id="S_Alexander_knockedDown_start"/>Do sluch
+               doh Alexandren</l>
             <l n="1287" xml:id="S_l_1287">Mennes nider an daz gras:</l>
             <l n="1288" xml:id="S_l_1288">Ob di rede also was,</l>
             <l n="1289" xml:id="S_l_1289">des mach uns al besunder</l>
             <l n="1290" xml:id="S_l_1290">nemen michel wunder.</l>
          </div>
-         <div n="70" type="stanza" xml:id="S_div_70">
+         <div n="70" type="laisse" xml:id="S_div_70">
             <l n="1291" xml:id="S_l_1291">Do hubin sih ir lute dare</l>
             <l n="1292" xml:id="S_l_1292">beidenthalben mit der scare,</l>
             <l n="1293" xml:id="S_l_1293">da di helede junge</l>
@@ -1405,8 +1941,10 @@
             <l n="1305" xml:id="S_l_1305">leit er ein bittere not.</l>
             <l n="1306" xml:id="S_l_1306">Er was vil nah tot,</l>
             <l n="1307" xml:id="S_l_1307">doh half in, daz er genas,</l>
-            <l n="1308" xml:id="S_l_1308">daz er so wol gewafent was.</l>
-            <l n="1309" xml:id="S_l_1309">Vil schire ime ouch ze helfen quam</l>
+            <l n="1308" xml:id="S_l_1308">daz er so wol gewafent was.<anchor
+                  xml:id="S_Alexander_knockedDown_end"/></l>
+            <l n="1309" xml:id="S_l_1309"><anchor xml:id="S_Daclym_vs_Jubal_start"/>Vil schire ime
+               ouch ze helfen quam</l>
             <l n="1310" xml:id="S_l_1310">Daclym, ein riter lobesam,</l>
             <l n="1311" xml:id="S_l_1311">der was mit Alexandro dare comen.</l>
             <l n="1312" xml:id="S_l_1312">Der stunt ime ze grozen fromen,</l>
@@ -1430,9 +1968,6 @@
             <l n="1330" xml:id="S_l_1330">unde wolde Alexandro</l>
             <l n="1331" xml:id="S_l_1331">in den hals slan einen slach,</l>
             <l n="1332" xml:id="S_l_1332">da er in bloz sach.</l>
-            <anchor xml:id="S_Alexander_vs_Mennes_end"/>
-            <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
-            <anchor xml:id="S_knight_helps_Alexander_start "/>
             <l n="1333" xml:id="S_l_1333">Daclym wart der erre</l>
             <l n="1334" xml:id="S_l_1334">und loste sinen herren:</l>
             <l n="1335" xml:id="S_l_1335">Er sluc Jubale</l>
@@ -1442,10 +1977,12 @@
             <!-- PAGINA. 28, edizione M. -->
             <l n="1338" xml:id="S_l_1338">nidene durh di lenden</l>
             <l n="1339" xml:id="S_l_1339">und machete zwene halbe man.</l>
-            <l n="1340" xml:id="S_l_1340">Vil michil lob er des gwan.</l>
+            <l n="1340" xml:id="S_l_1340">Vil michil lob er des gwan.<anchor
+                  xml:id="S_Daclym_vs_Jubal_end"/></l>
          </div>
-         <div n="71" type="stanza" xml:id="S_div_71">
-            <l n="1341" xml:id="S_l_1341">Daclym, der ellenthafte man,</l>
+         <div n="71" type="laisse" xml:id="S_div_71">
+            <l n="1341" xml:id="S_l_1341"><anchor xml:id="S_Alexander_recovers_start"/>Daclym, der
+               ellenthafte man,</l>
             <l n="1342" xml:id="S_l_1342">vil schire er do nam</l>
             <l n="1343" xml:id="S_l_1343">den helm mit siner hant,</l>
             <l n="1344" xml:id="S_l_1344">Alexandro er in uf bant:</l>
@@ -1457,22 +1994,15 @@
             <l n="1350" xml:id="S_l_1350">ime waren zebluwen sine lide.</l>
             <l n="1351" xml:id="S_l_1351">Des wart Daclym innen</l>
             <l n="1352" xml:id="S_l_1352">unde rief mit hoer stimmen:</l>
-            <l n="1353" xml:id="S_l_1353"><anchor xml:id="S_knight_encouragement_start"/><said
-                  toWhom="#Alexander" who="#Daclym"/>"Alexander, herre kuninc,</l>
-            <!-- L'INCORAGGIAMENTO DEL CAVALIERE -->
+            <l n="1353" xml:id="S_l_1353">"Alexander, herre kuninc,</l>
+
             <l n="1354" xml:id="S_l_1354">gedenket hute an uwer tugint</l>
             <l n="1355" xml:id="S_l_1355">und manet uwer gesellen,</l>
             <l n="1356" xml:id="S_l_1356">daz si diz here irschellen,</l>
             <l n="1357" xml:id="S_l_1357">wandir ein ture knec ht sit.</l>
-            <l n="1358" xml:id="S_l_1358">Nu reget daz swert, des ist zit".<anchor
-                  xml:id="S_knight_encouragement_end"/></l>
+            <l n="1358" xml:id="S_l_1358">Nu reget daz swert, des ist zit".</l>
          </div>
-         <anchor xml:id="S_knight_helps_Alexander_end"/>
-
-         <!-- ALESSANDRO SI RIPRENDE -->
-
-         <anchor xml:id="S_Alexander_recovers_start"/>
-         <div n="72" type="stanza" xml:id="S_div_72">
+         <div n="72" type="laisse" xml:id="S_div_72">
             <l n="1359" xml:id="S_l_1359">Do Alexander wart los,</l>
             <l n="1360" xml:id="S_l_1360">do spranc er uf sin ros.</l>
             <l n="1361" xml:id="S_l_1361">Sin gebære, daz was eislich,</l>
@@ -1491,8 +2021,10 @@
             <l n="1374" xml:id="S_l_1374">umbe di da lagen irslagen,</l>
             <l n="1375" xml:id="S_l_1375">Persen unde Criechen,</l>
             <l n="1376" xml:id="S_l_1376">sunder gewunten unde siechen.</l>
-            <l n="1377" xml:id="S_l_1377">Da was weinen unde clagen.</l>
-            <l n="1378" xml:id="S_l_1378">Von einen volcwige hore wir sagen,</l>
+            <l n="1377" xml:id="S_l_1377">Da was weinen unde clagen.<anchor
+                  xml:id="S_Alexander_recovers_end"/></l>
+            <l n="1378" xml:id="S_l_1378"><anchor xml:id="S_Wulfinwerde_Troy_start"/>Von einen
+               volcwige hore wir sagen,</l>
             <l n="1379" xml:id="S_l_1379">der uf Wulpinwerde gescach,</l>
             <l n="1380" xml:id="S_l_1380">dar Hilden vater tot lach,</l>
             <l n="1381" xml:id="S_l_1381">inzwischen Hagenen unde Waten:</l>
@@ -1510,44 +2042,33 @@
             <l n="1393" xml:id="S_l_1393">di manic tusint irslugen</l>
             <l n="1394" xml:id="S_l_1394">und ouh scarfe gere trugen:</l>
             <l n="1395" xml:id="S_l_1395">Iz ne mohte undir in allen</l>
-            <l n="1396" xml:id="S_l_1396">ze Alexandro niht gevallen.</l>
+            <l n="1396" xml:id="S_l_1396">ze Alexandro niht gevallen.<anchor
+                  xml:id="S_Wulfinwerde_Troy_end"/></l>
          </div>
-         <anchor xml:id="S_Alexander_recovers_end"/>
-
-         <!-- ALESSANDRO VS PINCUN -->
-
-         <anchor xml:id="S_Alexander_vs_Pincun_start"/>
-         <div n="73" type="stanza" xml:id="S_div_73">
-            <l n="1397" xml:id="S_l_1397">Pynchun was ein grebe genant,</l>
+         <div n="73" type="laisse" xml:id="S_div_73">
+            <l n="1397" xml:id="S_l_1397"><anchor xml:id="S_Alexander_vs_Pincun_start"/>Pynchun was
+               ein grebe genant,</l>
             <l n="1398" xml:id="S_l_1398">der furte den vanen an der hant,</l>
             <l n="1399" xml:id="S_l_1399">den er Alexandro abe brach,</l>
             <l n="1400" xml:id="S_l_1400">do in Mennes der nider stach.</l>
             <l n="1401" xml:id="S_l_1401">Do in Alexander hete irkorn,</l>
             <l n="1402" xml:id="S_l_1402">er rurte das ros mit den sporn,</l>
             <l n="1403" xml:id="S_l_1403">ingagen den graben er reit.</l>
-            <l n="1404" xml:id="S_l_1404">Er sprach: <anchor
-                  xml:id="S_Alexander_outrage_banner_start"/><said toWhom="#Pincun" who="#Alexander"
-               />"Daz was michil kintheit,</l>
-            <!-- ALESSANDRO È OLTRAGGIATO DAL FURTO DELLO STENDARDO -->
+            <l n="1404" xml:id="S_l_1404">Er sprach: "Daz was michil kintheit,</l>
             <l n="1405" xml:id="S_l_1405">daz min vane ie quam an diner hant.</l>
             <l n="1406" xml:id="S_l_1406">Daz sol dir werden noch gewant</l>
             <l n="1407" xml:id="S_l_1407">ze leide und ze ruwen.</l>
-            <l n="1408" xml:id="S_l_1408">Des machtu mir getruwen!".<anchor
-                  xml:id="S_Alexander_outrage_banner_end"/></l>
+            <l n="1408" xml:id="S_l_1408">Des machtu mir getruwen!".</l>
             <l n="1409" xml:id="S_l_1409">Der grabe, do erz gehorte,</l>
             <l n="1410" xml:id="S_l_1410">Alexandro er antworte.</l>
-            <l n="1411" xml:id="S_l_1411">Er sprach: <anchor
-                  xml:id="S_Pincun_threatens_Alexander_start"/><said toWhom="#Alexander"
-                  who="#Pincun"/>"Nu varet scone,</l>
-            <!-- PINCUN MINACCIA ALESSANDRO -->
+            <l n="1411" xml:id="S_l_1411">Er sprach: "Nu varet scone,</l>
             <l n="1412" xml:id="S_l_1412">daz u min trehtin lone.</l>
             <l n="1413" xml:id="S_l_1413">Daz ih foren uweren vanen,</l>
             <l n="1414" xml:id="S_l_1414">daz sol u werden ze banen.</l>
             <l n="1415" xml:id="S_l_1415">Muzih behalden minen leben,</l>
             <l n="1416" xml:id="S_l_1416">ih wil in u so wider geben,</l>
             <l n="1417" xml:id="S_l_1417">daz man der vone reden mac</l>
-            <l n="1418" xml:id="S_l_1418">biz an den jungisten tac".<anchor
-                  xml:id="S_Pincun_threatens_Alexander_end"/></l>
+            <l n="1418" xml:id="S_l_1418">biz an den jungisten tac".</l>
             <l n="1419" xml:id="S_l_1419">Er stach nah dem worte</l>
             <l n="1420" xml:id="S_l_1420">Alexandrum mit dem orte,</l>
             <l n="1421" xml:id="S_l_1421">daz an sinem spere was:</l>
@@ -1555,28 +2076,23 @@
             <l n="1423" xml:id="S_l_1423">wander was ime getan</l>
             <l n="1424" xml:id="S_l_1424">obenwendich sinen ouchbran.</l>
          </div>
-         <div n="74" type="stanza" xml:id="S_div_74">
+         <div n="74" type="laisse" xml:id="S_div_74">
             <l n="1425" xml:id="S_l_1425">Alexander der sprah,</l>
             <l n="1426" xml:id="S_l_1426">do in Pynkun gestach:</l>
-            <l n="1427" xml:id="S_l_1427"><anchor xml:id="S_Alexander_mocks_Pincun_start"/><said
-                  toWhom="#Pincun" who="#Alexander"/>"Du salt lugenere wesen,</l>
-            <!-- ALESSANDRO SBEFFEGGIA PINCUN -->
-            <l n="1428" xml:id="S_l_1428">ih sal des stichis wol genesen".<anchor
-                  xml:id="S_Alexander_mocks_Pincun_end"/></l>
+            <l n="1427" xml:id="S_l_1427">"Du salt lugenere wesen,</l>
+            <l n="1428" xml:id="S_l_1428">ih sal des stichis wol genesen".</l>
             <l n="1429" xml:id="S_l_1429">Mit dem selben worte</l>
             <l n="1430" xml:id="S_l_1430">sluch er in mit dem swerte.</l>
             <l n="1431" xml:id="S_l_1431">Uffe sin houbit er in sluch</l>
             <l n="1432" xml:id="S_l_1432">durh den stælinen hut</l>
             <l n="1433" xml:id="S_l_1433">einen so freislichen slach,</l>
-            <l n="1434" xml:id="S_l_1434">daz er an der erden tot lach.</l>
+            <l n="1434" xml:id="S_l_1434">daz er an der erden tot lach.<anchor
+                  xml:id="S_Alexander_vs_Pincun_end"/>
+            </l>
          </div>
-         <anchor xml:id="S_Alexander_vs_Pincun_end"/>
-
-         <!-- ALESSANDRO UCCIDE MENNES -->
-
-         <anchor xml:id="S_Alexander_kills_Mennes_start"/>
-         <div n="75" type="stanza" xml:id="S_div_75">
-            <l n="1435" xml:id="S_l_1435">Do nam Alexander sinen vanen</l>
+         <div n="75" type="laisse" xml:id="S_div_75">
+            <l n="1435" xml:id="S_l_1435"><anchor xml:id="S_Alexander_kills_Mennes_start"/>Do nam
+               Alexander sinen vanen</l>
             <l n="1436" xml:id="S_l_1436">und reit riterliche danen,</l>
             <l n="1437" xml:id="S_l_1437">da er wisse sine man.</l>
             <l n="1438" xml:id="S_l_1438">Mennes ime aber zu quam,</l>
@@ -1593,14 +2109,14 @@
             <l n="1449" xml:id="S_l_1449">si fluhin von den velde</l>
             <l n="1450" xml:id="S_l_1450">und ne getruweten an sih selben</l>
             <l n="1451" xml:id="S_l_1451">neheiner manheite me</l>
-            <l n="1452" xml:id="S_l_1452">unde riefen ach unde we.</l>
+            <l n="1452" xml:id="S_l_1452">unde riefen ach unde we.<anchor
+                  xml:id="S_Alexander_kills_Mennes_end"/></l>
          </div>
-         <anchor xml:id="S_Alexander_kills_Mennes_end"/>
+         <anchor xml:id="S_Mennes_end"/>
 
-         <!-- ALESSANDRO CONQUISTA SARDI -->
 
          <anchor xml:id="S_Alexander_takes_Sardis_start"/>
-         <div n="76" type="stanza" xml:id="S_div_76">
+         <div n="76" type="laisse" xml:id="S_div_76">
             <l n="1453" xml:id="S_l_1453">Des wart Alexander vile balt.</l>
             <l n="1454" xml:id="S_l_1454">Al da bleib er mit gewalt</l>
             <l n="1455" xml:id="S_l_1455">biz zo den stunden,</l>
@@ -1615,21 +2131,23 @@
             <l n="1462" xml:id="S_l_1462">der herre dar uf nam</l>
             <l n="1463" xml:id="S_l_1463">michil silber unde golt</l>
             <l n="1464" xml:id="S_l_1464">und machete ime sine helede holt.</l>
-            <l n="1465" xml:id="S_l_1465">Di burh, di heizet Sardis,</l>
+            <l n="1465" xml:id="S_l_1465"><anchor xml:id="S_John_BookOfRevelation_start"/>Di burh,
+               di heizet Sardis,</l>
             <l n="1466" xml:id="S_l_1466">von ir saget Apocalipsis,</l>
             <l n="1467" xml:id="S_l_1467">daz si der siben burge ein were,</l>
             <l n="1468" xml:id="S_l_1468">di unser heilere</l>
             <l n="1469" xml:id="S_l_1469">in dem himelriche nante</l>
             <l n="1470" xml:id="S_l_1470">und da er ze boten sante</l>
             <l n="1471" xml:id="S_l_1471">Iohannem, den heiligen man,</l>
-            <l n="1472" xml:id="S_l_1472">apostolum et evangelistam.</l>
+            <l n="1472" xml:id="S_l_1472">apostolum et evangelistam.<anchor
+                  xml:id="S_John_BookOfRevelation_end"/></l>
          </div>
          <anchor xml:id="S_Alexander_takes_Sardis_end"/>
 
-         <!-- IL GIURAMENTO DI DARIO -->
+
 
          <anchor xml:id="S_Darius_oath_start"/>
-         <div n="77" type="stanza" xml:id="S_div_77">
+         <div n="77" type="laisse" xml:id="S_div_77">
             <l n="1473" xml:id="S_l_1473">Do man Dario diz gesagete,</l>
             <l n="1474" xml:id="S_l_1474">niwit langer er gedagete.</l>
             <l n="1475" xml:id="S_l_1475">Er tete durh sinen ubirmut,</l>
@@ -1649,11 +2167,12 @@
          </div>
          <anchor xml:id="S_Darius_oath_end"/>
 
-         <!-- L'ADUNATA DI DARIO -->
 
-         <anchor xml:id="S_Darius_rally_start"/>
-         <div n="78" type="stanza" xml:id="S_div_78">
-            <l n="1489" xml:id="S_l_1489">Darius sine boten sande</l>
+
+
+         <div n="78" type="laisse" xml:id="S_div_78">
+            <l n="1489" xml:id="S_l_1489"><anchor xml:id="S_Darius_rally_Mesopotamia_start"/>Darius
+               sine boten sande</l>
             <l n="1490" xml:id="S_l_1490">in wazzer und in lande</l>
             <l n="1491" xml:id="S_l_1491">und hiz daz sinen fursten sagen</l>
             <l n="1492" xml:id="S_l_1492">und flizlichen clagen</l>
@@ -1672,15 +2191,17 @@
             <l n="1505" xml:id="S_l_1505">wander gerne verneme,</l>
             <l n="1506" xml:id="S_l_1506">wi manich scare ime queme.</l>
          </div>
-         <div n="79" type="stanza" xml:id="S_div_79">
+         <div n="79" type="laisse" xml:id="S_div_79">
             <l n="1507" xml:id="S_l_1507">Nu wil ih u cunden ubir al,</l>
             <l n="1508" xml:id="S_l_1508">wi vil einer scare wesen sal,</l>
             <l n="1509" xml:id="S_l_1509">alsihz in den buchen han gelesen:</l>
             <l n="1510" xml:id="S_l_1510">Der sal sechs tusint wesen</l>
             <l n="1511" xml:id="S_l_1511">und sehs hundrit unde sehscich man,</l>
             <l n="1512" xml:id="S_l_1512">alsich mih versinnen kan.</l>
-            <l n="1513" xml:id="S_l_1513">Also vil sal sin in einer scaren.</l>
-            <l n="1514" xml:id="S_l_1514">Gagen Dario quamen gevaren</l>
+            <l n="1513" xml:id="S_l_1513">Also vil sal sin in einer scaren.<anchor
+                  xml:id="S_Darius_rally_Mesopotamia_end"/></l>
+            <l n="1514" xml:id="S_l_1514"><anchor xml:id="S_catalogue_peoples_countries_start"
+               />Gagen Dario quamen gevaren</l>
             <l n="1515" xml:id="S_l_1515">zwene und drizich kuninge,</l>
             <l n="1516" xml:id="S_l_1516">daz wizzit ane lugene,</l>
             <l n="1517" xml:id="S_l_1517">di sine not vernamen.</l>
@@ -1698,7 +2219,7 @@
             <l n="1529" xml:id="S_l_1529">und daz buch, da ihz ane las,</l>
             <l n="1530" xml:id="S_l_1530">daz ir alsus vil was.</l>
          </div>
-         <div n="80" type="stanza" xml:id="S_div_80">
+         <div n="80" type="laisse" xml:id="S_div_80">
             <l n="1531" xml:id="S_l_1531">Von Persien worden ime gesant</l>
             <l n="1532" xml:id="S_l_1532">helede sibinzic tusant.</l>
             <l n="1533" xml:id="S_l_1533">Ouh quamen Cenonenses dare</l>
@@ -1710,9 +2231,11 @@
             <l n="1539" xml:id="S_l_1539">Dar nah quam ime ein here groz,</l>
             <l n="1540" xml:id="S_l_1540">dem wigis lutzil verdroz,</l>
             <l n="1541" xml:id="S_l_1541">daz kuninges reisen wol gezam,</l>
-            <l n="1542" xml:id="S_l_1542">von Medintriche daz quam.</l>
+            <l n="1542" xml:id="S_l_1542"><anchor xml:id="S_Media_Tobia_start"/>von Medintriche daz
+               quam.</l>
             <l n="1543" xml:id="S_l_1543">Meden ist daz selbe lant,</l>
-            <l n="1544" xml:id="S_l_1544">da der engel wart mit Tobien gesant.</l>
+            <l n="1544" xml:id="S_l_1544">da der engel wart mit Tobien gesant.<anchor
+                  xml:id="S_Media_Tobia_end"/></l>
             <l n="1545" xml:id="S_l_1545">Funfzich tusint si brachten,</l>
             <l n="1546" xml:id="S_l_1546">alsus hortich si ahten.</l>
             <l n="1547" xml:id="S_l_1547">Von Ninive worden ime gesant</l>
@@ -1721,20 +2244,24 @@
             <l n="1550" xml:id="S_l_1550">achte tusant in einer menige</l>
             <l n="1551" xml:id="S_l_1551">vil sneller jungelinge</l>
             <l n="1552" xml:id="S_l_1552">zo sinem tagedinge.</l>
-            <l n="1553" xml:id="S_l_1553">Armenien ist daz riche,</l>
+            <l n="1553" xml:id="S_l_1553"><anchor xml:id="S_Armenia_Noah_start"/>Armenien ist daz
+               riche,</l>
             <l n="1554" xml:id="S_l_1554">daz sagich u werliche,</l>
             <l n="1555" xml:id="S_l_1555">da daz wazzer di archam treib,</l>
-            <l n="1556" xml:id="S_l_1556">da Noe lebende inne bleib.</l>
+            <l n="1556" xml:id="S_l_1556">da Noe lebende inne bleib.<anchor
+                  xml:id="S_Armenia_Noah_end"/></l>
             <l n="1557" xml:id="S_l_1557">In den bergen si da besaz,</l>
             <l n="1558" xml:id="S_l_1558">vor war soldir wizzen daz.</l>
          </div>
-         <div n="81" type="stanza" xml:id="S_div_81">
+         <div n="81" type="laisse" xml:id="S_div_81">
             <l n="1559" xml:id="S_l_1559">Ouch santen dar zo</l>
             <l n="1560" xml:id="S_l_1560">dem richeme kuninge Dario</l>
-            <l n="1561" xml:id="S_l_1561">di ubirmutige Gazen,</l>
+            <l n="1561" xml:id="S_l_1561"><anchor xml:id="S_Gaza_Philistines_start"/>di ubirmutige
+               Gazen,</l>
             <l n="1562" xml:id="S_l_1562">di ubir Philistim sazen,</l>
             <l n="1563" xml:id="S_l_1563">zehen hundrit starker risen,</l>
-            <l n="1564" xml:id="S_l_1564">di ime ze troste solden wesen.</l>
+            <l n="1564" xml:id="S_l_1564">di ime ze troste solden wesen.<anchor
+                  xml:id="S_Gaza_Philistines_end"/></l>
             <l n="1565" xml:id="S_l_1565">Ime santen sine frie man,</l>
             <l n="1566" xml:id="S_l_1566">di da sazen in Frigiam,</l>
             <l n="1567" xml:id="S_l_1567">mit vil guten willen</l>
@@ -1752,15 +2279,16 @@
             <!-- PAGINA. 30, edizione M. -->
             <l n="1578" xml:id="S_l_1578">ze wige wol irwelede.</l>
          </div>
-         <div n="82" type="stanza" xml:id="S_div_82">
+         <div n="82" type="laisse" xml:id="S_div_82">
             <l n="1579" xml:id="S_l_1579">Nu merket, wi vile dis heres was:</l>
             <l n="1580" xml:id="S_l_1580">Alsihz an den buchen las,</l>
             <l n="1581" xml:id="S_l_1581">so ahte man iz da zestunt</l>
             <l n="1582" xml:id="S_l_1582">an sehs hundrit unde drizich tusunt,</l>
-            <l n="1583" xml:id="S_l_1583">daz alliz Dario quam.</l>
+            <l n="1583" xml:id="S_l_1583">daz alliz Dario quam.<anchor
+                  xml:id="S_catalogue_peoples_countries_end"/></l>
             <gap ana="end_common_nucleus" reason="editorial" resp="#GD"/>
          </div>
-         <anchor xml:id="S_Darius_rally_end"/>
+
 
       </body>
    </text>

@@ -2,9 +2,11 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- This file is NOT used by the new web application. This file and this encoding were originally developed for the visualization with EVT. Even though it is under revision and not part of the web application, I would like to release it anyway to show how I have organized the alignment of the textual units. -->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-
       <fileDesc>
          <titleStmt>
             <title>DAL Synoptic Edition</title>
@@ -182,8 +184,8 @@
             to="#V_tribute_dispute_end" type="unit" xml:id="V_tribute_dispute"
                ><!-- PROFEZIA DANIELE --><span ana="Daniel_prophecy" from="#V_Daniel_prophecy_start"
                to="#V_Daniel_prophecy_end" type="sub_unit" xml:id="V_Daniel_prophecy"/>The dispute
-            over tributes between Philip and Alexander and Darius is introduced. Daniel's deram only
-            in V</span>
+            over tributes between Philip and Alexander and Darius is introduced. Daniel's dream only
+            in V.</span>
 
 
 
@@ -191,7 +193,7 @@
          <!-- THELEMONE -->
          <span ana="#Thelemone" corresp="#B_Thelemone" from="#V_Thelemone_start"
             to="#V_Thelemone_end" type="unit" xml:id="V_Thelemone">Alexander quells the revolt in
-            Thelemone</span>
+            Thelemone.</span>
 
 
 
@@ -209,7 +211,7 @@
                to="#V_Alexander_revenge_end" type="sub_unit" xml:id="V_Alexander_revenge"
                /><!--  FILIPPO MUORE--><span corresp="#B_Philip_dies" from="#V_Philip_dies_start"
                to="#V_Philip_dies_end" type="sub_unit" xml:id="V_Philip_dies"/>Philip dies from the
-            wounds inflicted by Pausonias</span>
+            wounds inflicted by Pausonias.</span>
 
 
 
@@ -227,7 +229,7 @@
                from="#V_AlexandersMen_bless_Alexander_start"
                to="#V_AlexandersMen_bless_Alexander_end" type="sub_unit"
                xml:id="V_AlexandersMen_bless_Alexander"/>Alexander becomes king and addresses his
-            people about the tribute</span>
+            people about the tribute.</span>
 
 
 
@@ -235,7 +237,7 @@
          <span ana="#Alexander_recruits_allies" corresp="#B_Alexander_recruits_allies"
             from="#V_Alexander_recruits_allies_start" to="#V_Alexander_recruits_allies_end"
             type="unit" xml:id="V_Alexander_recruits_allies">Alexander sends messengers to other
-            lands to demand help against Darius</span>
+            lands to demand help against Darius.</span>
 
 
          <!-- ALESSANDRO IN ITALIA  -->
@@ -245,7 +247,7 @@
                to="#V_Alexander_Sicily_end" type="sub_unit" xml:id="V_Alexander_Sicily"
                /><!--  ROMA--><span corresp="#B_Alexander_Rome" from="#V_Alexander_Rome_start"
                to="#V_Alexander_Rome_end" type="sub_unit" xml:id="V_Alexander_Rome"/>Alexander's
-            expedition in Sicily and to the Romans</span>
+            expedition in Sicily and to the Romans.</span>
 
 
 
@@ -261,7 +263,7 @@
                /><!--  SOTTOMISSIONE CARTAGINE--><span corresp="#B_Alexander_Carthage_submission"
                from="#V_Alexander_Carthage_submission_start"
                to="#V_Alexander_Carthage_submission_end" type="sub_unit"
-               xml:id="V_Alexander_Carthage_submissions"/>Alexander subdues Carthage</span>
+               xml:id="V_Alexander_Carthage_submissions"/>Alexander subdues Carthage.</span>
 
 
          <!-- ALESSANDRO IN EGITTO  -->
@@ -272,7 +274,7 @@
                xml:id="V_Alexander_Alexandria"/><!--  PRAISE OF ALEXANDRIA --><span
                from="#V_Alexandria_praised_start" to="#V_Alexandria_praised_end" type="sub_unit"
                xml:id="V_Alexandria_praised"/>Alexander goes to Egypt and founds the city of
-            Alexandria</span>
+            Alexandria.</span>
 
 
 
@@ -296,7 +298,7 @@
                /><!--  LE PERDITE DI ALESSANDRO--><span corresp="#B_Alexander_losses"
                from="#V_Alexander_losses_start" to="#V_Alexander_losses_end" type="sub_unit"
                xml:id="V_Alexander_losses"/>Alexander conquers cities and regions in the Holy
-            Land</span>
+            Land.</span>
 
 
 
@@ -314,7 +316,7 @@
                corresp="#S_AlexandersEmissaries_hanged #B_AlexandersEmissaries_hanged"
                from="#V_AlexandersEmissaries_hanged_start" to="#V_AlexandersEmissaries_hanged_end"
                type="sub_unit" xml:id="V_AlexandersEmissaries_hanged"/>Alexander arrives in Tyre and
-            sends embassies</span>
+            sends embassies.</span>
 
 
 
@@ -336,120 +338,184 @@
                corresp="#S_Alexander_retreats #B_Alexander_retreats"
                from="#V_Alexander_retreats_start" to="#V_Alexander_retreats_end" type="sub-unit"
                xml:id="V_Alexander_retreats"/>Alexander's first attack against Tyre fails because
-            the city pushes his army back and the wind sinks his fleet</span>
+            the city pushes his army back and the wind sinks his fleet.</span>
 
-<!-- !!!!!!!!!!!!!!!!!!!!!!!!! FILE UNDER REVISION FROM THIS POINT ONWARDS !!!!!!!!!!!!!!!!! -->
-         <!-- This file and this encoding were originally developed for the visualization with EVT. This file is NOT used by the new web application. Even though it is under revision and not part of the web application, I make it available to show how I have organized the alignment of the textual units. It will be ready by December 15th, 2024. -->
+
+         
 
          <!-- LA CONTROMISURA DI ALESSANDRO -->
          <span ana="#Alexander_countermeasure"
             corresp="#S_Alexander_countermeasure #B_Alexander_countermeasure"
             from="#V_Alexander_countermeasure_start" to="#V_Alexander_countermeasure_end"
-            type="unit" xml:id="V_Alexander_countermeasure"><!--  GLI ARABITI AIUTANO TIRO --><span
-               corresp="#S_Arabs_help_Tyre #B_Arabs_help_Tyre" from="#V_Arabs_help_Tyre_start"
-               to="#V_Arabs_help_Tyre_end" type="sub-unit" xml:id="V_Arabs_help_Tyre"/>Alexander
-            gets tree trunks for the siege but is hindered by the Arabs</span>
+            type="unit" xml:id="V_Alexander_countermeasure"><!--  LE MACCHINE PER L'ASSEDIO --><span
+               corresp="#S_Alexander_warMachines #B_Alexander_warMachines" from="#V_Alexander_warMachines_start"
+               to="#V_Alexander_warMachines_end" type="sub-unit" xml:id="V_Alexander_warMachines"/><!--  LIBANO --><span
+                  corresp="#S_MountLebanon #B_MountLebanon" from="#V_MountLebanon_start"
+                  to="#V_MountLebanon_end" type="sub-unit" xml:id="V_MountLebanon"/><!--  SALOMONE --><span
+                     corresp="#S_Solomon_Hyram #B_Solomon_Hyram" from="#V_Solomon_Hyram_start"
+                     to="#V_Solomon_Hyram_end" type="sub-unit" xml:id="V_Solomon_Hyram"/><!--  ARABITI --><span
+                        corresp="#S_Arabs_help_Tyre #B_Arabs_help_Tyre" from="#V_Arabs_help_Tyre_start"
+                        to="#V_Arabs_help_Tyre_end" type="sub-unit" xml:id="V__Arabs_help_Tyre"/><!--  I DUCHI DI ALESSANDRO --><span
+                           corresp="#S_Alexander_entrusts_siege_to_dukes #B_Alexander_entrusts_siege_to_dukes" from="#V_Alexander_entrusts_siege_to_dukes_start"
+                           to="#V_Alexander_entrusts_siege_to_dukes_end" type="sub-unit" xml:id="V_Alexander_entrusts_siege_to_dukes"/>Alexander
+            gets tree trunks for siege machines but is hindered by the Arabs.</span>
+         
+         
+         
          <!--  TIRO SI VENDICA  -->
          <span ana="#Tyre_revenge" corresp="#S_Tyre_revenge #B_Tyre_revenge"
             from="#V_Tyre_revenge_start" to="#V_Tyre_revenge_end" type="unit"
-            xml:id="V_Tyre_revenge">Tyre goes for revenge with a counterattack</span>
+            xml:id="V_Tyre_revenge">Tyre goes for revenge with a counterattack.</span>
+         
+         
+         
          <!-- I DUCHI DI ALESSANDRO RISPONDONO  -->
          <span ana="#AlexandersDukes_against_Tyre"
             corresp="#S_AlexandersDukes_against_Tyre #B_AlexandersDukes_against_Tyre"
             from="#V_AlexandersDukes_against_Tyre_start" to="#V_AlexandersDukes_against_Tyre_end"
-            type="unit" xml:id="V_AlexandersDukes_against_Tyre">Alexander's dukes try to attack
-            again without success</span>
+            type="unit" xml:id="V_AlexandersDukes_against_Tyre"><!-- LAMENTO PER CADUTA DI TIRO --><span
+               corresp="#S_lament_for_Tyre #B_lament_for_Tyre" from="#V_lament_for_Tyre_start"
+               to="#V_lament_for_Tyre_end" type="sub-unit" xml:id="V_lament_for_Tyre"/>Alexander's dukes try to attack
+            again without success.</span>
+         
+         
+         
          <!-- ALESSANDRO CONQUISTA LA PRIMA CERCHIA -->
          <span ana="#Alexander_breaches_firstWalls"
             corresp="#S_Alexander_breaches_firstWalls #B_Alexander_breaches_firstWalls"
             from="#V_Alexander_breaches_firstWalls_start" to="#V_Alexander_breaches_firstWalls_end"
             type="unit" xml:id="V_Alexander_breaches_firstWalls">Alexander manages to breach the
-            first walls</span>
+            first walls.</span>
+         
+         
          <!-- ALESSANDRO CONQUISTA LA SECONDA CERCHIA -->
          <span ana="#Alexander_breaches_secondWalls"
             corresp="#S_Alexander_breaches_secondWalls #B_Alexander_breaches_secondWalls"
             from="#V_Alexander_breaches_secondWalls_start"
             to="#V_Alexander_breaches_secondWalls_end" type="unit"
-            xml:id="V_Alexander_breaches_secondWalls">Alexander breaches the second walls and kills
-            the sire of the city</span>
-         <!--  ALESSANDRO ENTRA A TIRO  -->
-         <span ana="#Alexander_enters" corresp="#S_Alexander_enters #B_Alexander_enters"
-            from="#V_Alexander_enters_start" to="#V_Alexander_enters_end" type="unit"
-            xml:id="V_Alexander_enters">Alexander violently battles inside the city</span>
-         <!-- TIRO PROVA A RESISTERE  -->
-         <span ana="#Tyre_resistance" corresp="#S_Tyre_resistance #B_Tyre_resistance"
-            from="#V_Tyre_resistance_start" to="#V_Tyre_resistance_end" type="unit"
-            xml:id="V_Tyre_resistance">Tyre tries not to succumb</span>
-         <!--  LE STRATEGIE DI ALESSANDRO -->
-         <span ana="#Alexander_strategy" corresp="#S_Alexander_strategy #B_Alexander_strategy"
-            from="#V_Alexander_strategy_start" to="#V_Alexander_strategy_end" type="unit"
-            xml:id="V_Alexander_strategy"><!--  ALESSANDRO CONSULTA I SUOI PRINCIPI --><span
-               corresp="#S_Alexander_consults_princes #B_Alexander_consults_princes"
-               from="#V_Alexander_consults_princes_start" to="#V_Alexander_consults_princes_end"
-               type="sub_unit" xml:id="V_Alexander_consults_princes"/>Alexander is advised to use
-            Greek fire</span>
-         <!-- TYRE FALLS-->
+            xml:id="V_Alexander_breaches_secondWalls"><!-- LE ARMI DI ALESSANDRO - 1 --><span
+               corresp="#S_Alexander_weapons #B_Alexander_weapons" from="#V_Alexander_weapons_start"
+               to="#V_Alexander_weapons_end" type="sub-unit" xml:id="V_Alexander_weapons"/><!-- ALESSANDRO UCCIDE IL DUCA DI TIRO--><span
+                  corresp="#S_Alexander_kills_duke_of_Tyre #B_Alexander_kills_duke_of_Tyre" from="#V_Alexander_kills_duke_of_Tyre_start"
+                  to="#V_Alexander_kills_duke_of_Tyre_end" type="sub-unit" xml:id="V_Alexander_kills_duke_of_Tyre"/><!-- ALESSANDRO SUI MERLI--><span
+                     corresp="#S_Alexander_on_battlements #B_Alexander_on_battlements" from="#V_Alexander_on_battlements_start"
+                     to="#V_Alexander_on_battlements_end" type="sub-unit" xml:id="V_Alexander_on_battlements"/>Alexander breaches the second walls and kills
+            the sire of the city.</span>
+         
+         
+         
+         <!--  BATTAGLIA SULLE MURA  -->
+         <span ana="#battle_on_walls" corresp="#S_battle_on_walls #B_battle_on_walls"
+            from="#V_battle_on_walls_start" to="#V_battle_on_walls_end" type="unit"
+            xml:id="V_battle_on_walls"><!-- LE ARMI DI ALESSANDRO - 2 --><span
+               corresp="#S_Alexander_weapons2 #B_Alexander_weapons2" from="#V_Alexander_weapons2_start"
+               to="#V_Alexander_weapons2_end" type="sub-unit" xml:id="V_Alexander_weapons2"/>The battle on the walls.</span>
+         
+         
+         
+         
+         <!--  IL FUOCO GRECO -->
+         <span ana="#Alexander_warCouncil_GreekFire" corresp="#S_Alexander_warCouncil_GreekFire #B_Alexander_warCouncil_GreekFire"
+            from="#V_Alexander_warCouncil_GreekFire_start" to="#V_Alexander_warCouncil_GreekFire_end" type="unit"
+            xml:id="V_Alexander_warCouncil_GreekFire">Alexander seeks advice from his princes and they suggest using the siege machines to throw Greek fire inside the city walls.</span>
+         
+         
+         
+         
+         <!-- CADUTA DI TIRO -->
          <span ana="#Tyre_falls" corresp="#S_Tyre_falls #B_Tyre_falls" from="#V_Tyre_falls_start"
-            to="#V_Tyre_falls_end" type="unit" xml:id="V_Tyre_falls"><!-- TYRE'S REBIRTH --><span
+            to="#V_Tyre_falls_end" type="unit" xml:id="V_Tyre_falls"><!-- LA VENDETTA DI ALESSANDRO --><span
+               corresp="#S_Alexander_punishes_Tyrians #B_Alexander_punishes_Tyrians" from="#V_Alexander_punishes_Tyrians_start"
+               to="#V_Alexander_punishes_Tyrians_end" type="sub-unit" xml:id="V_Alexander_punishes_Tyrians"/><!-- TYRE'S REBIRTH --><span
                corresp="#S_Tyre_rebirth #B_Tyre_rebirth" from="#V_Tyre_rebirth_start"
                to="#V_Tyre_rebirth_end" type="sub-unit" xml:id="V_Tyre_rebirth"/>Tyre finally
             falls</span>
+         
+         
+         
+         
          <!-- DARIO APPRENDE DELLA CADUTA DI TIRO -->
          <span ana="#Darius_learns_of_Tyre"
             corresp="#S_Darius_learns_of_Tyre #B_Darius_learns_of_Tyre"
             from="#V_Darius_learns_of_Tyre_start" to="#V_Darius_learns_of_Tyre_end" type="unit"
             xml:id="V_Darius_learns_of_Tyre">A survivor from Tyre tells King Darius what happened to
             the city</span>
+         
+         
+         
          <!-- I DONI DI DARIO  -->
-         <span ana="#Darius_gifts" corresp="#S_Darius_gifts #B_Darius_gifts"
-            from="#V_Darius_gifts_start" to="#V_Darius_gifts_end" type="unit"
-            xml:id="V_Darius_gifts">Darius sends Alexander a letter and three mocking gifts</span>
+         <span ana="#Darius_letter_gifts" corresp="#S_Darius_letter_gifts #B_Darius_letter_gifts"
+            from="#V_Darius_letter_gifts_start" to="#V_Darius_letter_gifts_end" type="unit"
+            xml:id="V_Darius_letter_gifts">Darius sends Alexander a letter and three mocking gifts</span>
+         
+         
+         
+         
          <!-- LA RISPOSTA DI ALESSANDRO  -->
          <span ana="#Alexander_reaction" corresp="#S_Alexander_reaction #B_Alexander_reaction"
             from="#V_Alexander_reaction_start" to="#V_Alexander_reaction_end" type="unit"
             xml:id="V_Alexander_reaction"><!-- I MESSAGGERI DI DARIO IMPLORANO PIETÀ  --><span
-               corresp="#S_DariusMessengers_beg_Alexander #B_DariusMessengers_beg_Alexander"
-               from="#V_DariusMessengers_beg_Alexander_start"
-               to="#V_DariusMessengers_beg_Alexander_end" type="sub_unit"
-               xml:id="V_DariusMessengers_beg_Alexander"/><!-- ALESSANDRO INSULTA DARIO  --><span
-               corresp="#S_Alexander_insults_Darius #B_Alexander_insults_Darius"
-               from="#V_Alexander_insults_Darius_start" to="#V_Alexander_insults_Darius_end"
-               type="sub_unit" xml:id="V_Alexander_insults_Darius"
-               /><!-- ALESSANDRO INTERPRETA I DONI DI DARIO  --><span
-               corresp="#S_Alexander_interprets_DariusGifts #B_Alexander_interprets_DariusGifts"
-               from="#V_Alexander_interprets_DariusGifts_start"
-               to="#V_Alexander_interprets_DariusGifts_end" type="sub_unit"
-               xml:id="V_Alexander_interprets_DariusGifts"/>Alexander reacts to and interprets the
+               corresp="#S_Alexander_DariusMessengers #B_Alexander_DariusMessengers"
+               from="#V_Alexander_DariusMessengers_start"
+               to="#V_Alexander_DariusMessengers_end" type="sub_unit"
+               xml:id="V_Alexander_DariusMessengers"/><!-- ALESSANDRO INTERPRETA I DONI DI DARIO  --><span
+                  corresp="#S_Alexander_reinterprets_DariusGifts #B_Alexander_reinterprets_DariusGifts"
+                  from="#V_Alexander_reinterprets_DariusGifts_start"
+                  to="#V_Alexander_reinterprets_DariusGifts_end" type="sub_unit"
+                  xml:id="V_Alexander_reinterprets_DariusGifts"/>Alexander reacts to and reinterprets the
             gifts</span>
-         <!--  ALESSANDRO MANDA UNA LETTERA A DARIO  -->
-         <span ana="#Alexander_letter" corresp="#S_Alexander_letter #B_Alexander_letter"
-            from="#V_Alexander_letter_start" to="#V_Alexander_letter_end" type="unit"
-            xml:id="V_Alexander_letter">Alexander sends a threatening letter to Darius</span>
+         
+         
+         
+         
+         <!--  ALESSANDRO MANDA UNA LETTERA DI SFIDA A DARIO  -->
+         <span ana="#Alexander_letter_challenge" corresp="#S_Alexander_letter_challenge #B_Alexander_letter_challenge"
+            from="#V_Alexander_letter_challenge_start" to="#V_Alexander_letter_challenge_end" type="unit"
+            xml:id="V_Alexander_letter_challenge"><!-- PROLESSI: DECAPITAZIONE DI DARIO  --><span
+               corresp="#S_prolepsis_DariusBeheading #B_prolepsis_DariusBeheading"
+               from="#V_prolepsis_DariusBeheading_start"
+               to="#V_prolepsis_DariusBeheading_end" type="sub_unit"
+               xml:id="V_prolepsis_DariusBeheading"/>Alexander sends a threatening letter to Darius</span>
+         
+         
+         
          <!--  LA REAZIONE DI DARIO -->
          <span ana="#Darius_reaction" corresp="#S_Darius_reaction #B_Darius_reaction"
             from="#V_Darius_reaction_start" to="#V_Darius_reaction_end" type="unit"
-            xml:id="V_Darius_reaction"><!-- DARIO MINACCIA VENDETTA --><span
-               corresp="#S_Darius_threatens_revenge #B_Darius_threatens_revenge"
-               from="#V_Darius_threatens_revenge_start" to="#V_Darius_threatens_revenge_end"
-               type="sub_unit" xml:id="V_Darius_threatens_revenge"/>Darius furiously reacts to
+            xml:id="V_Darius_reaction"><!-- DARIO RICEVE LA LETTERA --><span
+               corresp="#S_Darius_receives_letter #B_Darius_receives_letter"
+               from="#V_Darius_receives_letter_start" to="#V_Darius_receives_letter_end"
+               type="sub_unit" xml:id="V_Darius_receives_letter"/><!-- DARIO CHIEDE AIUTO AI DUCHI -->
+            <span ana="#Darius_calls_dukes" corresp="#S_Darius_calls_dukes #B_Darius_calls_dukes"
+               from="#V_Darius_calls_dukes_start" to="#V_Darius_calls_dukes_end" type="unit"
+               xml:id="V_Darius_calls_dukes"/><!-- DARIO MINACCIA DI IMPICCARE ALESSANDRO -->
+               <span ana="#Darius_threatens_to_hang_Alexander" corresp="#S_Darius_threatens_to_hang_Alexander #B_Darius_threatens_to_hang_Alexander"
+                  from="#V_Darius_threatens_to_hang_Alexander_start" to="#V_Darius_threatens_to_hang_Alexander_end" type="unit"
+                  xml:id="V_Darius_threatens_to_hang_Alexander"/><!-- I DUCHI DI DARIO SONO SCETTICI -->
+                  <span ana="#DariusDukes_skeptical"
+                     corresp="#S_DariusDukes_skeptical #B_DariusDukes_skeptical"
+                     from="#V_DariusDukes_skeptical_start" to="#V_DariusDukes_skeptical_end" type="unit"
+                     xml:id="V_DariusDukes_skeptical"/>Darius furiously reacts to
             Alexander's provocation</span>
-         <!-- DARIO CHIEDE AIUTO AI DUCHI -->
-         <span ana="#Darius_calls_dukes" corresp="#S_Darius_calls_dukes #B_Darius_calls_dukes"
-            from="#V_Darius_calls_dukes_start" to="#V_Darius_calls_dukes_end" type="unit"
-            xml:id="V_Darius_calls_dukes">Darius asks two of his dukes to push Alexander back</span>
-         <!-- I DUCHI DI DARIO SONO SCETTICI -->
-         <span ana="#DariusDukes_skeptical"
-            corresp="#S_DariusDukes_skeptical #B_DariusDukes_skeptical"
-            from="#V_DariusDukes_skeptical_start" to="#V_DariusDukes_skeptical_end" type="unit"
-            xml:id="V_DariusDukes_skeptical"><!-- I DUCHI DI DARIO DISCUTONO I PROPRI DUBBI --><span
-               corresp="#S_DariusDukes_discuss #B_DariusDukes_discuss"
-               from="#V_DariusDukes_discuss_start" to="#V_DariusDukes_discuss_end" type="sub_unit"
-               xml:id="V_DariusDukes_discuss"/>The dukes critices Darius's approach to Alexander's
-            campaign</span>
-         <!-- DARIO INZIA L'ATTACCO -->
-         <span ana="#Darius_starts_attack" corresp="#S_Darius_starts_attack #B_Darius_starts_attack"
-            from="#V_Darius_starts_attack_start" to="#V_Darius_starts_attack_end" type="unit"
-            xml:id="V_Darius_starts_attack">Darius sends another duke against Alexander</span>
+         
+         
+         
+         <!-- CONTROLLA CORRISPONDENZE SECONDO NUOVA TABELLA  -->
+         <!-- !!!!!!!!!!!!!!!!!!!!!!!!! FILE UNDER REVISION FROM THIS POINT ONWARDS !!!!!!!!!!!!!!!!! -->
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+       
          <!-- DARIO MINACCIA I SUOI DUCHI -->
          <span ana="#Darius_threatens_dukes"
             corresp="#S_Darius_threatens_dukes #B_Darius_threatens_dukes"

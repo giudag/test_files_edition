@@ -521,81 +521,56 @@
 
 
 
-         <!-- CONTROLLA CORRISPONDENZE SECONDO NUOVA TABELLA  -->
-         <!-- !!!!!!!!!!!!!!!!!!!!!!!!! FILE UNDER REVISION FROM THIS POINT ONWARDS !!!!!!!!!!!!!!!!! -->
-
-
-
-
          <!-- MENNES -->
          <span ana="#Mennes" corresp="#S_Mennes #B_Mennes" from="#V_Mennes_start" to="#V_Mennes_end"
-            type="unit" xml:id="V_Mennes">Darius threatens the dukes into taking action</span>
-
-
-
-
-
-
-
-
-
-         <!-- DARIO MINACCIA I SUOI DUCHI -->
-         <span ana="#Darius_threatens_dukes"
-            corresp="#S_Darius_threatens_dukes #B_Darius_threatens_dukes"
-            from="#V_Darius_threatens_dukes_start" to="#V_Darius_threatens_dukes_end" type="unit"
-            xml:id="V_Darius_threatens_dukes">Darius threatens the dukes into taking action</span>
-         <!-- I DUCHI DI DARIO AGISCONO -->
-         <span ana="#DariusDukes_take_action"
-            corresp="#S_DariusDukes_take_action #B_DariusDukes_take_action"
-            from="#V_DariusDukes_take_action_start" to="#V_DariusDukes_take_action_end" type="unit"
-            xml:id="V_DariusDukes_take_action">The dukes finally resolve to gather their men</span>
-         <!-- ALESSANDRO ATTACCA AL GUADO -->
-         <span ana="#Alexander_attack_ford"
-            corresp="#S_Alexander_attack_ford #B_Alexander_attack_ford"
-            from="#V_Alexander_attack_ford_start" to="#V_Alexander_attack_ford_end" type="unit"
-            xml:id="V_Alexander_attack_ford">Alexander meets the dukes' men at the ford and
-            attacks</span>
-         <!-- ALESSANDRO VS MENNES -->
-         <span ana="#Alexander_vs_Mennes" corresp="#S_Alexander_vs_Mennes #B_Alexander_vs_Mennes"
-            from="#V_Alexander_vs_Mennes_start" to="#V_Alexander_vs_Mennes_end" type="unit"
-            xml:id="V_Alexander_vs_Mennes">Alexander fights against the duke Mennes</span>
-         <!-- ALESSANDRO VIENE AIUTATO DA UN SUO CAVALIERE -->
-         <span ana="#knight_helps_Alexander"
-            corresp="#S_knight_helps_Alexander #B_knight_helps_Alexander"
-            from="#V_knight_helps_Alexander_start" to="#V_knight_helps_Alexander_end" type="unit"
-            xml:id="V_knight_helps_Alexander"><!-- L'INCORAGGIAMENTO DEL CAVALIERE --><span
-               corresp="#S_knight_encouragement #B_knight_encouragement"
-               from="#V_knight_encouragement_start" to="#V_knight_encouragement_end" type="sub_unit"
-               xml:id="V_knight_encouragement"/>A knight called "Daclym" saves Alexander from an
-            attack</span>
-         <!-- ALESSANDRO SI RIPRENDE -->
-         <span ana="#Alexander_recovers" corresp="#S_Alexander_recovers #B_Alexander_recovers"
-            from="#V_Alexander_recovers_start" to="#V_Alexander_recovers_end" type="unit"
-            xml:id="V_Alexander_recovers">Alexander resumes his ferocious fighting</span>
-         <!-- ALESSANDRO VS PINCUN -->
-         <span ana="#Alexander_vs_Pincun" corresp="#S_Alexander_vs_Pincun #B_Alexander_vs_Pincun"
-            from="#V_Alexander_vs_Pincun_start" to="#V_Alexander_vs_Pincun_end" type="unit"
-            xml:id="V_Alexander_vs_Pincun"
-               ><!-- ALESSANDRO È OLTRAGGIATO DAL FURTO DELLO STENDARDO --><span
-               corresp="#S_Alexander_outrage_banner #B_Alexander_outrage_banner"
-               from="#V_Alexander_outrage_banner_start" to="#V_Alexander_outrage_banner_end"
-               type="sub_unit" xml:id="V_Alexander_outrage_banner"
-               /><!-- PINCUN MINACCIA ALESSANDRO --><span
-               corresp="#S_Pincun_threatens_Alexander #B_Pincun_threatens_Alexander"
-               from="#V_Pincun_threatens_Alexander_start" to="#V_Pincun_threatens_Alexander_end"
-               type="sub_unit" xml:id="V_Pincun_threatens_Alexander"
-               /><!-- ALESSANDRO SBEFFEGGIA PINCUN --><span
-               corresp="#S_Alexander_mocks_Pincun #B_Alexander_mocks_Pincun"
-               from="#V_Alexander_mocks_Pincun_start" to="#V_Alexander_mocks_Pincun_end"
-               type="sub_unit" xml:id="V_Alexander_mocks_Pincun"/>Alexander fights against the count
-            Pincun to retake his stolen banner and decapitates him</span>
-         <!-- ALESSANDRO UCCIDE MENNES -->
-         <span ana="#Alexander_kills_Mennes"
-            corresp="#S_Alexander_kills_Mennes #B_Alexander_kills_Mennes"
-            from="#V_Alexander_kills_Mennes_start" to="#V_Alexander_kills_Mennes_end" type="unit"
-            xml:id="V_Alexander_kills_Mennes">Alexander kills Mennes in battle and the Persians stop
-            fighting</span>
-
+            type="unit" xml:id="V_Mennes"><!-- DARIO MINACCIA I SUOI DUCHI -->
+            <span ana="#Darius_threatens_dukes"
+               corresp="#S_Darius_threatens_dukes #B_Darius_threatens_dukes"
+               from="#V_Darius_threatens_dukes_start" to="#V_Darius_threatens_dukes_end"
+               type="sub_unit" xml:id="V_Darius_threatens_dukes"/><!-- I DUCHI DI DARIO AGISCONO -->
+            <span ana="#DariusDukes_take_action"
+               corresp="#S_DariusDukes_take_action #B_DariusDukes_take_action"
+               from="#V_DariusDukes_take_action_start" to="#V_DariusDukes_take_action_end"
+               type="sub_unit" xml:id="V_DariusDukes_take_action"/><!-- ALESSANDRO ATTACCA AL GUADO -->
+            <span ana="#Alexander_attacks_ford"
+               corresp="#S_Alexander_attacks_ford #B_Alexander_attacks_ford"
+               from="#V_Alexander_attacks_ford_start" to="#V_Alexander_attacks_ford_end"
+               type="sub_unit" xml:id="V_Alexander_attacks_ford"
+               /><!-- LE ARMI DI ALESSANDRO - 3 --><span ana="#Alexander_weapons3"
+               corresp="#S_Alexander_weapons3" from="#V_Alexander_weapons3_start"
+               to="#V_Alexander_weapons3_end" type="sub_unit" xml:id="V_Alexander_weapons3"
+               /><!-- LE GUARDIE DEL CORPO DI MENNES --><span ana="#Mennes_bodyguards"
+               corresp="#S_Mennes_bodyguards #B_Mennes_bodyguards" from="#V_Mennes_bodyguards_start"
+               to="#V_Mennes_bodyguards_end" type="sub_unit" xml:id="V_Mennes_bodyguards"/>
+            <!-- ALESSANDRO VS MENNES -->
+            <span ana="#Alexander_Mennes_duel"
+               corresp="#S_Alexander_Mennes_duel #B_Alexander_Mennes_duel"
+               from="#V_Alexander_Mennes_duel_start" to="#V_Alexander_Mennes_duel_end"
+               type="sub_unit" xml:id="V_Alexander_Mennes_duel"/><!-- SANSONE -->
+            <span ana="#Samson" from="#V_Samson_start" to="#V_Samson_end" type="sub_unit"
+               xml:id="V_Samson"/><!-- ALESSANDRO ATTERRATO PERDE L'ELMO -->
+            <span ana="#Alexander_knockedDown"
+               corresp="#S_Alexander_knockedDown #B_Alexander_knockedDown"
+               from="#V_Alexander_knockedDown_start" to="#V_Alexander_knockedDown_end"
+               type="sub_unit" xml:id="V_Alexander_knockedDown"/><!-- DACLYM VS JUBAL -->
+            <span ana="#Daclym_vs_Jubal" corresp="#S_Daclym_vs_Jubal #B_Daclym_vs_Jubal"
+               from="#V_Daclym_vs_Jubal_start" to="#V_Daclym_vs_Jubal_end" type="sub_unit"
+               xml:id="V_Daclym_vs_Jubal"/><!-- ALESSANDRO SI RIPRENDE -->
+            <span ana="#Alexander_recovers" corresp="#S_Alexander_recovers #B_Alexander_recovers"
+               from="#V_Alexander_recovers_start" to="#V_Alexander_recovers_end" type="sub_unit"
+               xml:id="V_Alexander_recovers"/><!-- WULFINWERDE E TROIA -->
+            <span ana="#Wulfinwerde_Troy" corresp="#S_Wulfinwerde_Troy"
+               from="#V_Wulfinwerde_Troy_start" to="#V_Wulfinwerde_Troy_end" type="sub_unit"
+               xml:id="V_Wulfinwerde_Troy"/>
+            <!-- ALESSANDRO VS PINCUN -->
+            <span ana="#Alexander_vs_Pincun" corresp="#S_Alexander_vs_Pincun #B_Alexander_vs_Pincun"
+               from="#V_Alexander_vs_Pincun_start" to="#V_Alexander_vs_Pincun_end" type="sub_unit"
+               xml:id="V_Alexander_vs_Pincun"/><!-- ALESSANDRO UCCIDE MENNES -->
+            <span ana="#Alexander_kills_Mennes"
+               corresp="#S_Alexander_kills_Mennes #B_Alexander_kills_Mennes"
+               from="#V_Alexander_kills_Mennes_start" to="#V_Alexander_kills_Mennes_end"
+               type="sub_unit" xml:id="V_Alexander_kills_Mennes"/>Alexander's fight against
+            Mennes</span>
 
 
 
@@ -637,46 +612,9 @@
             of peoples and countries which respond to Darius’s call.</span>
 
 
-         <!-- EPISODI TRA FINE MENNES E S LI HO FATTI -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         <!-- !!!!!!!!!!!!!!!!!!!!!!!!! FILE UNDER REVISION FROM THIS POINT ONWARDS !!!!!!!!!!!!!!!!! -->
 
 
 
